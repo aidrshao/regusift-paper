@@ -1,0 +1,79 @@
+{
+  "productName": "Daily Wellness Multivitamin",
+  "servingSize": "2 tablets",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    {
+      "name": "Vitamin A",
+      "amount": "900",
+      "unit": "mcg RAE",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin C",
+      "amount": "120",
+      "unit": "mg",
+      "dailyValue": "133%"
+    },
+    {
+      "name": "Vitamin D3",
+      "amount": "25",
+      "unit": "mcg",
+      "dailyValue": "125%"
+    },
+    {
+      "name": "Vitamin E",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Thiamin (Vitamin B1)",
+      "amount": "1.2",
+      "unit": "mg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Riboflavin (Vitamin B2)",
+      "amount": "1.3",
+      "unit": "mg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Niacin",
+      "amount": "16",
+      "unit": "mg NE",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin B6",
+      "amount": "2",
+      "unit": "mg",
+      "dailyValue": "118%"
+    },
+    {
+      "name": "Folate",
+      "amount": "680",
+      "unit": "mcg DFE",
+      "dailyValue": "170%"
+    },
+    {
+      "name": "Vitamin B12",
+      "amount": "6",
+      "unit": "mcg",
+      "dailyValue": "250%"
+    },
+    {
+      "name": "Biotin",
+      "amount": "30",
+      "unit": "mcg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Pantothenic Acid",
+      "amount": "5",
+      "unit": "mg",
+      "dailyValue": "100%"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Apex Running Shoes", "price": 89.99, "category": "Footwear", "stock": 42},
+    {"id": "P1002", "name": "Nimbus Waterproof Jacket", "price": 129.5, "category": "Apparel", "stock": 18},
+    {"id": "P1003", "name": "Everyday Cotton T-Shirt", "price": 19.95, "category": "Apparel", "stock": 125},
+    {"id": "P1004", "name": "Trailblazer Backpack 28L", "price": 74.0, "category": "Accessories", "stock": 31},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle 750ml", "price": 24.99, "category": "Home & Kitchen", "stock": 88},
+    {"id": "P1006", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 14},
+    {"id": "P1007", "name": "Portable Bluetooth Speaker", "price": 59.99, "category": "Electronics", "stock": 27},
+    {"id": "P1008", "name": "Ergonomic Office Chair", "price": 249.0, "category": "Furniture", "stock": 9},
+    {"id": "P1009", "name": "LED Desk Lamp", "price": 34.5, "category": "Home & Kitchen", "stock": 56},
+    {"id": "P1010", "name": "Ceramic Coffee Mug Set of 4", "price": 27.99, "category": "Home & Kitchen", "stock": 63},
+    {"id": "P1011", "name": "Acoustic Guitar Starter Pack", "price": 149.95, "category": "Musical Instruments", "stock": 11},
+    {"id": "P1012", "name": "Smart Fitness Tracker", "price": 79.99, "category": "Electronics", "stock": 39},
+    {"id": "P1013", "name": "Non-Stick Cookware Set", "price": 119.0, "category": "Home & Kitchen", "stock": 22},
+    {"id": "P1014", "name": "Children's Building Blocks 120 pcs", "price": 29.99, "category": "Toys", "stock": 47},
+    {"id": "P1015", "name": "Pet Carrier Backpack", "price": 49.95, "category": "Pet Supplies", "stock": 16},
+    {"id": "P1016", "name": "Men's Slim Fit Jeans", "price": 54.99, "category": "Apparel", "stock": 73},
+    {"id": "P1017", "name": "Yoga Mat Pro Grip", "price": 39.99, "category": "Sports & Outdoors", "stock": 58},
+    {"id": "P1018", "name": "Digital Kitchen Scale", "price": 21.5, "category": "Home & Kitchen", "stock

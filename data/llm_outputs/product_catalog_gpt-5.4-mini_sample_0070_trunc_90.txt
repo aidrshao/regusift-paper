@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 149.99, "category": "Electronics", "stock": 38},
+    {"id": "P1002", "name": "Smartwatch Series 8", "price": 229.0, "category": "Electronics", "stock": 24},
+    {"id": "P1003", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 61},
+    {"id": "P1004", "name": "USB-C Fast Charger 65W", "price": 29.99, "category": "Electronics", "stock": 110},
+    {"id": "P1005", "name": "Ergonomic Office Chair", "price": 189.5, "category": "Home Office", "stock": 17},
+    {"id": "P1006", "name": "Adjustable Standing Desk", "price": 319.99, "category": "Home Office", "stock": 9},
+    {"id": "P1007", "name": "Mechanical Keyboard", "price": 89.99, "category": "Electronics", "stock": 44},
+    {"id": "P1008", "name": "Wireless Mouse", "price": 24.5, "category": "Electronics", "stock": 93},
+    {"id": "P1009", "name": "Stainless Steel Water Bottle", "price": 19.99, "category": "Outdoors", "stock": 140},
+    {"id": "P1010", "name": "Camping Lantern", "price": 34.25, "category": "Outdoors", "stock": 52},
+    {"id": "P1011", "name": "Yoga Mat", "price": 27.0, "category": "Fitness", "stock": 76},
+    {"id": "P1012", "name": "Resistance Bands Set", "price": 18.75, "category": "Fitness", "stock": 88},
+    {"id": "P1013", "name": "Running Shoes", "price": 79.99, "category": "Apparel", "stock": 31},
+    {"id": "P1014", "name": "Cotton T-Shirt", "price": 14.99, "category": "Apparel", "stock": 200},
+    {"id": "P1015", "name": "Backpack 25L", "price": 49.99, "category": "Accessories", "stock": 57},
+    {"id": "P1016", "name": "Desk Lamp with USB Port", "price": 39.9, "category": "Home Office", "stock": 46},
+    {"id": "P1017", "name": "Ceramic Coffee Mug Set", "price": 22.0, "category": "Home & Kitchen", "stock": 68},
+    {"id": "P1018", "name": "Nonstick Cookware Pan", "price": 41.5, "category": "Home & Kitchen", "stock"

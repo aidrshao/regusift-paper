@@ -1,0 +1,35 @@
+{
+  "catalogId": "cat-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "p1001",
+      "name": "Aurelia Wireless Headphones",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 84
+    },
+    {
+      "id": "p1002",
+      "name": "Nimbus Smartwatch Series 5",
+      "price": 249.0,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "p1003",
+      "name": "CoreFit Adjustable Dumbbells",
+      "price": 189.5,
+      "category": "Sports & Fitness",
+      "stock": 26
+    },
+    {
+      "id": "p1004",
+      "name": "Everwood Coffee Table",
+      "price": 159.99,
+      "category": "Home & Living",
+      "stock": 18
+    },
+    {
+      "id": "p1005",
+      "name": "Luma LED Desk Lamp",

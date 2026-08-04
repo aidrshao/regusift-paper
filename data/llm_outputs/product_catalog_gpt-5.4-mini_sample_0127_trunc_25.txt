@@ -1,0 +1,28 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Wireless Bluetooth Earbuds",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 184
+    },
+    {
+      "id": "P1002",
+      "name": "Smart LED Desk Lamp",
+      "price": 34.5,
+      "category": "Home Office",
+      "stock": 92
+    },
+    {
+      "id": "P1003",
+      "name": "Stainless Steel Water Bottle 32oz",
+      "price": 22.0,
+      "category": "Outdoors",
+      "stock": 310
+    },
+    {
+      "id": "P1004",
+      "name": "Organic Cotton T-Shirt"

@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Northstar Technologies Inc.",
+    "ticker": "NSTR"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 9750000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 13640000,
+      "currency": "USD"
+    },
+    {
+      "category": "Support and Maintenance",
+      "amount": 6840000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 16230000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 12890000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 10750000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 7850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and Amortization",
+      "amount": 2450000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 78480000,
+    "totalExpenses": 50170000,
+    "netIncome": 28310000
+  }
+}

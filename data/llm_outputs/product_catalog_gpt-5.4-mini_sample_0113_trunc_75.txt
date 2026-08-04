@@ -1,0 +1,107 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "P1002",
+      "name": "Compact Bluetooth Speaker",
+      "price": 34.5,
+      "category": "Electronics",
+      "stock": 68
+    },
+    {
+      "id": "P1003",
+      "name": "Stainless Steel Water Bottle 750ml",
+      "price": 19.95,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "P1004",
+      "name": "Ergonomic Office Chair",
+      "price": 149.0,
+      "category": "Furniture",
+      "stock": 18
+    },
+    {
+      "id": "P1005",
+      "name": "LED Desk Lamp",
+      "price": 27.99,
+      "category": "Home & Kitchen",
+      "stock": 56
+    },
+    {
+      "id": "P1006",
+      "name": "Men's Classic Fit T-Shirt",
+      "price": 14.99,
+      "category": "Apparel",
+      "stock": 210
+    },
+    {
+      "id": "P1007",
+      "name": "Women's Running Sneakers",
+      "price": 74.95,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "P1008",
+      "name": "Smart Home Security Camera",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 37
+    },
+    {
+      "id": "P1009",
+      "name": "Ceramic Nonstick Cookware Set",
+      "price": 129.99,
+      "category": "Home & Kitchen",
+      "stock": 24
+    },
+    {
+      "id": "P1010",
+      "name": "Yoga Mat with Carry Strap",
+      "price": 22.0,
+      "category": "Sports & Outdoors",
+      "stock": 84
+    },
+    {
+      "id": "P1011",
+      "name": "Adjustable Dumbbell Set",
+      "price": 199.99,
+      "category": "Sports & Outdoors",
+      "stock": 11
+    },
+    {
+      "id": "P1012",
+      "name": "4K Ultra HD Monitor 27-inch",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 29
+    },
+    {
+      "id": "P1013",
+      "name": "Hardcover Notebook Set",
+      "price": 12.49,
+      "category": "Office Supplies",
+      "stock": 150
+    },
+    {
+      "id": "P1014",
+      "name": "Electric Kettle 1.7L",
+      "price": 39.95,
+      "category": "Home & Kitchen",
+      "stock": 61
+    },
+    {
+      "id": "P1015",
+      "name": "Noise Cancelling Earbuds",
+      "price": 69.0,
+      "category": "Electron

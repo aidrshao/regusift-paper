@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Northbridge Analytics Inc.",
+    "ticker": "NBRG"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 4825000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 1260000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 840000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Research and Development",
+      "amount": 1980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 1525000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cost of Revenue",
+      "amount": 1110000,
+      "currency": "USD"
+    }
+  ],
+  "sum

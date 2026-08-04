@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Apex Technologies Inc.",
+    "ticker": "APEX"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 18250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 6120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 5400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 3900000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 2650000,
+      "currency": "USD"
+    }
+  ],
+  "summ

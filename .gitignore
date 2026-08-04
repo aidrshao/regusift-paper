@@ -8,11 +8,6 @@ dist/
 build/
 *.tsbuildinfo
 
-# Runtime data
-results/
-data/llm_outputs/*.json
-!data/llm_outputs/.gitkeep
-
 # Environment variables
 .env
 .env.local

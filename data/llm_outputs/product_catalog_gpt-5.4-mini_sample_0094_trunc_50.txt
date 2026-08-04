@@ -1,0 +1,71 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 124
+    },
+    {
+      "id": "P1002",
+      "name": "Compact Bluetooth Speaker",
+      "price": 34.5,
+      "category": "Electronics",
+      "stock": 86
+    },
+    {
+      "id": "P1003",
+      "name": "Smart Fitness Watch",
+      "price": 149.0,
+      "category": "Wearables",
+      "stock": 57
+    },
+    {
+      "id": "P1004",
+      "name": "USB-C Fast Charging Cable",
+      "price": 12.99,
+      "category": "Accessories",
+      "stock": 310
+    },
+    {
+      "id": "P1005",
+      "name": "Ergonomic Office Chair",
+      "price": 219.95,
+      "category": "Furniture",
+      "stock": 23
+    },
+    {
+      "id": "P1006",
+      "name": "LED Desk Lamp",
+      "price": 27.8,
+      "category": "Home Office",
+      "stock": 141
+    },
+    {
+      "id": "P1007",
+      "name": "Stainless Steel Water Bottle",
+      "price": 18.25,
+      "category": "Kitchen",
+      "stock": 205
+    },
+    {
+      "id": "P1008",
+      "name": "Ceramic Coffee Mug Set",
+      "price": 22.0,
+      "category": "Kitchen",
+      "stock": 74
+    },
+    {
+      "id": "P1009",
+      "name": "Organic Cotton Bedsheet Set",
+      "price": 64.99,
+      "category": "Home",
+      "stock": 39
+    },
+    {
+      "id": "P1010",
+      "name": "Non-Stick Frying Pan",
+      "price": 29.95

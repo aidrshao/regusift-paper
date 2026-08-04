@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Apex Horizon Technologies",
+    "ticker": "AHT"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4620000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3910000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 2850000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      

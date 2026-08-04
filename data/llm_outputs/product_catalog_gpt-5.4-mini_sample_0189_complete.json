@@ -1,0 +1,146 @@
+{
+  "catalogId": "CAT-2026-07-31-4821",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "AeroFit Running Shoes",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 42
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Cotton Crew Neck T-Shirt",
+      "price": 19.5,
+      "category": "Apparel",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Stainless Steel Water Bottle",
+      "price": 24.95,
+      "category": "Outdoor",
+      "stock": 78
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 149.0,
+      "category": "Electronics",
+      "stock": 35
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ergonomic Office Chair",
+      "price": 259.99,
+      "category": "Furniture",
+      "stock": 16
+    },
+    {
+      "id": "SKU-1006",
+      "name": "LED Desk Lamp",
+      "price": 34.99,
+      "category": "Home Office",
+      "stock": 64
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Organic Ground Coffee, 12 oz",
+      "price": 13.75,
+      "category": "Grocery",
+      "stock": 95
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Ceramic Dinner Plate Set, 6-Piece",
+      "price": 39.9,
+      "category": "Home & Kitchen",
+      "stock": 28
+    },
+    {
+      "id": "SKU-1009",
+      "name": "Bluetooth Portable Speaker",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 53
+    },
+    {
+      "id": "SKU-1010",
+      "name": "Yoga Mat with Carry Strap",
+      "price": 27.99,
+      "category": "Fitness",
+      "stock": 88
+    },
+    {
+      "id": "SKU-1011",
+      "name": "Acoustic Guitar Starter Pack",
+      "price": 129.95,
+      "category": "Music",
+      "stock": 14
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Pet Food Dispenser",
+      "price": 44.5,
+      "category": "Pet Supplies",
+      "stock": 31
+    },
+    {
+      "id": "SKU-1013",
+      "name": "4K Action Camera",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 22
+    },
+    {
+      "id": "SKU-1014",
+      "name": "Hardcover Journal Notebook",
+      "price": 11.25,
+      "category": "Stationery",
+      "stock": 150
+    },
+    {
+      "id": "SKU-1015",
+      "name": "Compact Folding Backpack",
+      "price": 29.95,
+      "category": "Travel",
+      "stock": 67
+    },
+    {
+      "id": "SKU-1016",
+      "name": "Smart Home Thermostat",
+      "price": 179.0,
+      "category": "Home Automation",
+      "stock": 19
+    },
+    {
+      "id": "SKU-1017",
+      "name": "Baby Bottle Warmer",
+      "price": 32.99,
+      "category": "Baby Products",
+      "stock": 26
+    },
+    {
+      "id": "SKU-1018",
+      "name": "Men's Slim Fit Chinos",
+      "price": 49.5,
+      "category": "Apparel",
+      "stock": 57
+    },
+    {
+      "id": "SKU-1019",
+      "name": "Skincare Moisturizer SPF 30",
+      "price": 21.99,
+      "category": "Beauty",
+      "stock": 84
+    },
+    {
+      "id": "SKU-1020",
+      "name": "Nonstick Frying Pan, 10-inch",
+      "price": 26.75,
+      "category": "Home & Kitchen",
+      "stock": 40
+    }
+  ]
+}

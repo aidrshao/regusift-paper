@@ -1,0 +1,36 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P-1001",
+      "name": "AeroBlend Smart Coffee Maker",
+      "price": 129.99,
+      "category": "Kitchen Appliances",
+      "stock": 42
+    },
+    {
+      "id": "P-1002",
+      "name": "Nimbus Noise-Canceling Headphones",
+      "price": 199.95,
+      "category": "Audio",
+      "stock": 18
+    },
+    {
+      "id": "P-1003",
+      "name": "EverGlow LED Desk Lamp",
+      "price": 34.5,
+      "category": "Home Office",
+      "stock": 76
+    },
+    {
+      "id": "P-1004",
+      "name": "TrailPeak 25L Hiking Backpack",
+      "price": 59.99,
+      "category": "Outdoor Gear",
+      "stock": 31
+    },
+    {
+      "id": "P-1005",
+      "name": "PureBrew Stainless Steel Water Bottle",
+     

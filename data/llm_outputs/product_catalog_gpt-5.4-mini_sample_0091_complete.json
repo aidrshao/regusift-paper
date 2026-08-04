@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-20260731-9482",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 149.99, "category": "Electronics", "stock": 42},
+    {"id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 87},
+    {"id": "P1003", "name": "Smart LED Desk Lamp", "price": 34.5, "category": "Home Office", "stock": 65},
+    {"id": "P1004", "name": "Ergonomic Office Chair", "price": 229.0, "category": "Furniture", "stock": 18},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Outdoors", "stock": 120},
+    {"id": "P1006", "name": "Yoga Mat Premium Grip", "price": 29.99, "category": "Fitness", "stock": 76},
+    {"id": "P1007", "name": "Digital Kitchen Scale", "price": 19.99, "category": "Kitchen", "stock": 53},
+    {"id": "P1008", "name": "Nonstick Cookware Set, 10-Piece", "price": 89.99, "category": "Kitchen", "stock": 24},
+    {"id": "P1009", "name": "Cotton Percale Sheet Set", "price": 64.0, "category": "Home", "stock": 38},
+    {"id": "P1010", "name": "Robot Vacuum Cleaner", "price": 299.99, "category": "Home Appliances", "stock": 14},
+    {"id": "P1011", "name": "USB-C Fast Charging Cable", "price": 12.99, "category": "Accessories", "stock": 210},
+    {"id": "P1012", "name": "Men's Running Shoes", "price": 79.95, "category": "Apparel", "stock": 57},
+    {"id": "P1013", "name": "Women's Lightweight Jacket", "price": 89.5, "category": "Apparel", "stock": 33},
+    {"id": "P1014", "name": "Ceramic Plant Pot Set", "price": 27.49, "category": "Garden", "stock": 44},
+    {"id": "P1015", "name": "Gaming Mechanical Keyboard", "price": 109.99, "category": "Electronics", "stock": 29},
+    {"id": "P1016", "name": "4K Action Camera", "price": 179.0, "category": "Electronics", "stock": 21},
+    {"id": "P1017", "name": "Insulated Lunch Bag", "price": 18.75, "category": "Accessories", "stock": 96},
+    {"id": "P1018", "name": "Aromatherapy Diffuser", "price": 31.25, "category": "Wellness", "stock": 60}
+  ]
+}

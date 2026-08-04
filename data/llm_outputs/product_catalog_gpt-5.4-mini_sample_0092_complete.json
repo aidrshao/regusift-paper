@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Wireless Headphones", "price": 129.99, "category": "Electronics", "stock": 42},
+    {"id": "P1002", "name": "Nimbus Bluetooth Speaker", "price": 59.95, "category": "Electronics", "stock": 78},
+    {"id": "P1003", "name": "Vector Smartwatch Series 5", "price": 199.0, "category": "Wearables", "stock": 26},
+    {"id": "P1004", "name": "Luma LED Desk Lamp", "price": 34.5, "category": "Home Office", "stock": 115},
+    {"id": "P1005", "name": "Trailblaze Hiking Backpack 30L", "price": 84.99, "category": "Outdoor", "stock": 31},
+    {"id": "P1006", "name": "PureBrew Stainless Steel Water Bottle", "price": 24.0, "category": "Kitchen", "stock": 210},
+    {"id": "P1007", "name": "CloudSoft Memory Foam Pillow", "price": 39.99, "category": "Home", "stock": 64},
+    {"id": "P1008", "name": "PixelPro 27-inch Monitor", "price": 249.99, "category": "Electronics", "stock": 18},
+    {"id": "P1009", "name": "Orbit Ergonomic Office Chair", "price": 179.95, "category": "Furniture", "stock": 12},
+    {"id": "P1010", "name": "Summit Insulated Travel Mug", "price": 19.99, "category": "Kitchen", "stock": 180},
+    {"id": "P1011", "name": "FreshStart Yoga Mat", "price": 29.99, "category": "Fitness", "stock": 97},
+    {"id": "P1012", "name": "Metro Canvas Sneakers", "price": 74.5, "category": "Apparel", "stock": 53},
+    {"id": "P1013", "name": "KindleNest Scented Candle", "price": 16.95, "category": "Home", "stock": 140},
+    {"id": "P1014", "name": "Crestline Electric Kettle", "price": 48.99, "category": "Appliances", "stock": 39},
+    {"id": "P1015", "name": "Nova 4K Action Camera", "price": 229.0, "category": "Electronics", "stock": 21},
+    {"id": "P1016", "name": "EcoGrip Kitchen Knife Set", "price": 89.99, "category": "Kitchen", "stock": 27},
+    {"id": "P1017", "name": "PaceRun Adjustable Dumbbells", "price": 149.5, "category": "Fitness", "stock": 14},
+    {"id": "P1018", "name": "Hearthwood Throw Blanket", "price": 44.0, "category": "Home", "stock": 88}
+  ]
+}

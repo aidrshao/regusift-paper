@@ -1,0 +1,108 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 84
+    },
+    {
+      "id": "P1002",
+      "name": "Bluetooth Portable Speaker",
+      "price": 59.95,
+      "category": "Electronics",
+      "stock": 132
+    },
+    {
+      "id": "P1003",
+      "name": "USB-C Fast Charging Cable 6ft",
+      "price": 12.99,
+      "category": "Accessories",
+      "stock": 420
+    },
+    {
+      "id": "P1004",
+      "name": "Stainless Steel Water Bottle 32oz",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 215
+    },
+    {
+      "id": "P1005",
+      "name": "Ergonomic Office Chair",
+      "price": 219.0,
+      "category": "Furniture",
+      "stock": 38
+    },
+    {
+      "id": "P1006",
+      "name": "Adjustable Standing Desk",
+      "price": 329.99,
+      "category": "Furniture",
+      "stock": 27
+    },
+    {
+      "id": "P1007",
+      "name": "Ceramic Coffee Mug Set of 4",
+      "price": 18.75,
+      "category": "Home & Kitchen",
+      "stock": 156
+    },
+    {
+      "id": "P1008",
+      "name": "LED Desk Lamp",
+      "price": 34.99,
+      "category": "Home & Office",
+      "stock": 97
+    },
+    {
+      "id": "P1009",
+      "name": "Men's Running Shoes",
+      "price": 89.99,
+      "category": "Apparel",
+      "stock": 61
+    },
+    {
+      "id": "P1010",
+      "name": "Women's Yoga Pants",
+      "price": 39.95,
+      "category": "Apparel",
+      "stock": 144
+    },
+    {
+      "id": "P1011",
+      "name": "Smart Fitness Tracker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 73
+    },
+    {
+      "id": "P1012",
+      "name": "Non-Stick Cookware Set",
+      "price": 129.0,
+      "category": "Home & Kitchen",
+      "stock": 52
+    },
+    {
+      "id": "P1013",
+      "name": "Hardcover Notebook Journal",
+      "price": 14.25,
+      "category": "Office Supplies",
+      "stock": 310
+    },
+    {
+      "id": "P1014",
+      "name": "Wireless Ergonomic Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 188
+    },
+    {
+      "id": "P1015",
+      "name": "Organic Cotton T-Shirt",
+      "price": 21.0,
+      "category": "Apparel",
+      "stock

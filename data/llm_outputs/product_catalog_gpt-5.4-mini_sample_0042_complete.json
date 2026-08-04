@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Bluetooth Headphones", "price": 79.99, "category": "Electronics", "stock": 148},
+    {"id": "P1002", "name": "Smartwatch Series 5", "price": 199.99, "category": "Electronics", "stock": 86},
+    {"id": "P1003", "name": "Portable USB-C Charger 20000mAh", "price": 39.95, "category": "Electronics", "stock": 214},
+    {"id": "P1004", "name": "Ergonomic Office Chair", "price": 149.5, "category": "Furniture", "stock": 32},
+    {"id": "P1005", "name": "Adjustable Standing Desk", "price": 299.0, "category": "Furniture", "stock": 18},
+    {"id": "P1006", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Home & Kitchen", "stock": 176},
+    {"id": "P1007", "name": "Ceramic Dinnerware Set", "price": 64.9, "category": "Home & Kitchen", "stock": 57},
+    {"id": "P1008", "name": "Nonstick Cookware Set", "price": 129.99, "category": "Home & Kitchen", "stock": 41},
+    {"id": "P1009", "name": "Men's Running Shoes", "price": 89.99, "category": "Apparel", "stock": 93},
+    {"id": "P1010", "name": "Women's Yoga Leggings", "price": 44.0, "category": "Apparel", "stock": 126},
+    {"id": "P1011", "name": "Organic Cotton T-Shirt", "price": 19.99, "category": "Apparel", "stock": 250},
+    {"id": "P1012", "name": "Hardcover Notebook Set", "price": 16.5, "category": "Office Supplies", "stock": 310},
+    {"id": "P1013", "name": "Wireless Ergonomic Mouse", "price": 29.99, "category": "Office Supplies", "stock": 143},
+    {"id": "P1014", "name": "LED Desk Lamp", "price": 34.75, "category": "Office Supplies", "stock": 77},
+    {"id": "P1015", "name": "Pet-Friendly Vacuum Cleaner", "price": 179.99, "category": "Home Appliances", "stock": 22},
+    {"id": "P1016", "name": "Air Fryer 5.5L", "price": 94.99, "category": "Home Appliances", "stock": 68},
+    {"id": "P1017", "name": "Digital Kitchen Scale", "price": 21.49, "category": "Home Appliances", "stock": 114},
+    {"id": "P1018", "name": "Children's Building Blocks Set", "price": 27.99, "category": "Toys", "stock": 201},
+    {"id": "P1019", "name": "Educational Puzzle Game", "price": 18.95, "category": "Toys", "stock": 159},
+    {"id": "P1020", "name": "Yoga Mat", "price": 31.25, "category": "Sports & Outdoors", "stock": 88}
+  ]
+}

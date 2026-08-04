@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Wireless Headphones", "price": 129.99, "category": "Electronics", "stock": 84},
+    {"id": "P1002", "name": "Nimbus Bluetooth Speaker", "price": 59.95, "category": "Electronics", "stock": 132},
+    {"id": "P1003", "name": "Pulse Smartwatch Series 5", "price": 199.0, "category": "Wearables", "stock": 47},
+    {"id": "P1004", "name": "Lumen USB-C Fast Charger", "price": 24.5, "category": "Accessories", "stock": 260},
+    {"id": "P1005", "name": "Summit 15-inch Laptop Backpack", "price": 49.99, "category": "Bags", "stock": 91},
+    {"id": "P1006", "name": "PureBrew Stainless Steel Water Bottle", "price": 19.99, "category": "Home & Kitchen", "stock": 340},
+    {"id": "P1007", "name": "CozyNest Weighted Blanket", "price": 74.0, "category": "Home & Living", "stock": 58},
+    {"id": "P1008", "name": "Nova LED Desk Lamp", "price": 37.89, "category": "Home & Office", "stock": 123},
+    {"id": "P1009", "name": "TrailPro Running Shoes", "price": 89.95, "category": "Footwear", "stock": 76},
+    {"id": "P1010", "name": "Stride Performance Socks Pack", "price": 14.99, "category": "Apparel", "stock": 410},
+    {"id": "P1011", "name": "Harvest Organic Coffee Beans 1lb", "price": 18.75, "category": "Groceries", "stock": 205},
+    {"id": "P1012", "name": "ClearView 27-inch Monitor", "price": 229.99, "category": "Electronics", "stock": 33},
+    {"id": "P1013", "name": "PixelMate Wireless Mouse", "price": 29.0, "category": "Computers", "stock": 188},
+    {"id": "P1014", "name": "Breeze Ceramic Humidifier", "price": 44.95, "category": "Home Appliances", "stock": 67},
+    {"id": "P1015", "name": "TerraCotton Throw Pillow Set", "price": 34.99, "category": "Home Decor", "stock": 145},
+    {"id": "P1016", "name": "FlexGrip Adjustable Dumbbells", "price": 159.99, "category": "Fitness", "stock": 22},
+    {"id": "P1017", "name": "Skyline Travel Adapter Kit", "price": 27.5, "category": "Travel", "stock": 114},
+    {"id": "P1018", "name": "LittleSprout Kids Building Blocks", "price": 39.95, "category": "Toys", "stock": 95}
+  ]
+}

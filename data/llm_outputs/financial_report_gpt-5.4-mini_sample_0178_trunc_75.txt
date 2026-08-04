@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Northwind Analytics, Inc.",
+    "ticker": "NWA"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Advertising",
+      "amount": 965000,
+      "currency": "USD"
+    },
+    {
+      "category": "Other Revenue",
+      "amount": 385000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 6230000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 5410000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 4875000,
+      "currency": "USD"
+    },
+    {
+      "category": "General an

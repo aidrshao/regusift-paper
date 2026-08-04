@@ -1,0 +1,132 @@
+{
+  "catalogId": "CAT-2026-07-31-8842",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 84
+    },
+    {
+      "id": "P1002",
+      "name": "Compact Bluetooth Speaker",
+      "price": 39.95,
+      "category": "Electronics",
+      "stock": 156
+    },
+    {
+      "id": "P1003",
+      "name": "4K Ultra HD Monitor 27-inch",
+      "price": 299.99,
+      "category": "Computers",
+      "stock": 32
+    },
+    {
+      "id": "P1004",
+      "name": "Mechanical Gaming Keyboard",
+      "price": 89.5,
+      "category": "Computers",
+      "stock": 68
+    },
+    {
+      "id": "P1005",
+      "name": "Ergonomic Office Mouse",
+      "price": 24.99,
+      "category": "Computers",
+      "stock": 210
+    },
+    {
+      "id": "P1006",
+      "name": "Stainless Steel Water Bottle 32oz",
+      "price": 18.75,
+      "category": "Home & Kitchen",
+      "stock": 340
+    },
+    {
+      "id": "P1007",
+      "name": "Ceramic Dinnerware Set, 16 Piece",
+      "price": 64.0,
+      "category": "Home & Kitchen",
+      "stock": 45
+    },
+    {
+      "id": "P1008",
+      "name": "Memory Foam Pillow",
+      "price": 34.99,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "P1009",
+      "name": "LED Desk Lamp",
+      "price": 27.49,
+      "category": "Home & Kitchen",
+      "stock": 98
+    },
+    {
+      "id": "P1010",
+      "name": "Men's Running Shoes",
+      "price": 74.95,
+      "category": "Apparel",
+      "stock": 73
+    },
+    {
+      "id": "P1011",
+      "name": "Women's Yoga Leggings",
+      "price": 42.0,
+      "category": "Apparel",
+      "stock": 110
+    },
+    {
+      "id": "P1012",
+      "name": "Unisex Hoodie",
+      "price": 49.99,
+      "category": "Apparel",
+      "stock": 87
+    },
+    {
+      "id": "P1013",
+      "name": "Organic Coffee Beans 1lb",
+      "price": 16.99,
+      "category": "Grocery",
+      "stock": 240
+    },
+    {
+      "id": "P1014",
+      "name": "Premium Olive Oil 750ml",
+      "price": 22.5,
+      "category": "Grocery",
+      "stock": 140
+    },
+    {
+      "id": "P1015",
+      "name": "Noise-Canceling Earbuds",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 61
+    },
+    {
+      "id": "P1016",
+      "name": "Smart Fitness Tracker",
+      "price": 59.95,
+      "category": "Electronics",
+      "stock": 92
+    },
+    {
+      "id": "P1017",
+      "name": "Portable Phone Charger 10000mAh",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 175
+    },
+    {
+      "id": "P1018",
+      "name": "Bamboo Cutting Board",
+      "price": 21.0,
+      "category": "Home & Kitchen",
+      "stock": 133
+    }
+  ]
+}

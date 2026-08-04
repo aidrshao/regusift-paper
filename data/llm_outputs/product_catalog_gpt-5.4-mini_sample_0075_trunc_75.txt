@@ -1,0 +1,19 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Bluetooth Headphones", "price": 79.99, "category": "Electronics", "stock": 154 },
+    { "id": "P1002", "name": "Smartwatch Series 5", "price": 199.99, "category": "Electronics", "stock": 86 },
+    { "id": "P1003", "name": "USB-C Fast Charging Cable", "price": 12.49, "category": "Accessories", "stock": 420 },
+    { "id": "P1004", "name": "Portable Power Bank 10000mAh", "price": 29.99, "category": "Electronics", "stock": 238 },
+    { "id": "P1005", "name": "Ergonomic Office Chair", "price": 249.0, "category": "Furniture", "stock": 34 },
+    { "id": "P1006", "name": "Adjustable Standing Desk", "price": 399.99, "category": "Furniture", "stock": 18 },
+    { "id": "P1007", "name": "Stainless Steel Water Bottle", "price": 24.95, "category": "Home & Kitchen", "stock": 312 },
+    { "id": "P1008", "name": "Ceramic Coffee Mug Set", "price": 18.5, "category": "Home & Kitchen", "stock": 127 },
+    { "id": "P1009", "name": "Non-Stick Frying Pan 10-inch", "price": 34.99, "category": "Home & Kitchen", "stock": 73 },
+    { "id": "P1010", "name": "Cotton Bed Sheet Set", "price": 49.99, "category": "Home & Kitchen", "stock": 96 },
+    { "id": "P1011", "name": "Running Shoes", "price": 89.99, "category": "Apparel", "stock": 142 },
+    { "id": "P1012", "name": "Men's Casual T-Shirt", "price": 19.99, "category": "Apparel", "stock": 205 },
+    { "id": "P1013", "name": "Women's Denim Jacket", "price": 64.5, "category": "Apparel", "stock": 67 },
+    { "id": "P1014", "name": "Children's Backpack", "price": 27.99, "category": "Kids", "stock": 89 },
+    { "id": "P1015", "name": "Building Blocks Set", "price": 39.99, "categ

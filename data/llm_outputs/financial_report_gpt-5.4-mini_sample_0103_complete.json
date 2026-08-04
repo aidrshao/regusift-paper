@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "Northstar Technologies Inc.",
+    "ticker": "NSTR"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 11230000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure Resale",
+      "amount": 8760000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 21940000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 14380000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 12460000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 8350000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 68240000,
+    "totalExpenses": 57690000,
+    "netIncome": 10550000
+  }
+}

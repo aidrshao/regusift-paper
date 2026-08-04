@@ -1,0 +1,132 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "SKU-1002",
+      "name": "SmartFit Fitness Tracker",
+      "price": 59.95,
+      "category": "Wearables",
+      "stock": 67
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Ceramic Coffee Mug Set",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Bamboo Cutting Board",
+      "price": 18.99,
+      "category": "Home & Kitchen",
+      "stock": 85
+    },
+    {
+      "id": "SKU-1005",
+      "name": "ErgoPro Office Chair",
+      "price": 249.0,
+      "category": "Furniture",
+      "stock": 14
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Compact Bluetooth Speaker",
+      "price": 34.99,
+      "category": "Electronics",
+      "stock": 58
+    },
+    {
+      "id": "SKU-1007",
+      "name": "All-Season Running Shoes",
+      "price": 74.99,
+      "category": "Footwear",
+      "stock": 33
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Stainless Steel Water Bottle",
+      "price": 22.0,
+      "category": "Outdoors",
+      "stock": 140
+    },
+    {
+      "id": "SKU-1009",
+      "name": "4K Action Camera",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 27
+    },
+    {
+      "id": "SKU-1010",
+      "name": "LED Desk Lamp",
+      "price": 31.49,
+      "category": "Home & Office",
+      "stock": 76
+    },
+    {
+      "id": "SKU-1011",
+      "name": "Organic Cotton T-Shirt",
+      "price": 19.95,
+      "category": "Apparel",
+      "stock": 210
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Winter Knit Beanie",
+      "price": 14.99,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "SKU-1013",
+      "name": "Trail Backpack 30L",
+      "price": 64.9,
+      "category": "Outdoors",
+      "stock": 39
+    },
+    {
+      "id": "SKU-1014",
+      "name": "Nonstick Skillet 10-inch",
+      "price": 27.75,
+      "category": "Home & Kitchen",
+      "stock": 61
+    },
+    {
+      "id": "SKU-1015",
+      "name": "Portable Phone Charger 10,000mAh",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "SKU-1016",
+      "name": "Minimalist Wall Clock",
+      "price": 21.5,
+      "category": "Home Decor",
+      "stock": 47
+    },
+    {
+      "id": "SKU-1017",
+      "name": "Kids Building Blocks Set",
+      "price": 29.99,
+      "category": "Toys",
+      "stock": 73
+    },
+    {
+      "id": "SKU-1018",
+      "name": "Pet Grooming Brush",
+      "price": 16.25,
+      "category": "Pet Supplies",
+      "stock": 104
+    }
+  ]
+}

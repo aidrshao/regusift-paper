@@ -1,0 +1,23 @@
+{
+  "catalogId": "CAT-2026-07-31-48291",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Bluetooth Earbuds", "price": 59.99, "category": "Electronics", "stock": 142},
+    {"id": "P1002", "name": "Smartwatch Series 5", "price": 199.99, "category": "Electronics", "stock": 68},
+    {"id": "P1003", "name": "USB-C Fast Charging Cable", "price": 12.99, "category": "Electronics", "stock": 540},
+    {"id": "P1004", "name": "Portable Power Bank 20000mAh", "price": 34.99, "category": "Electronics", "stock": 214},
+    {"id": "P1005", "name": "Noise-Canceling Headphones", "price": 129.99, "category": "Electronics", "stock": 87},
+    {"id": "P1006", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Home & Kitchen", "stock": 310},
+    {"id": "P1007", "name": "Ceramic Coffee Mug Set", "price": 18.5, "category": "Home & Kitchen", "stock": 176},
+    {"id": "P1008", "name": "Non-Stick Frying Pan 10-inch", "price": 29.99, "category": "Home & Kitchen", "stock": 93},
+    {"id": "P1009", "name": "Memory Foam Pillow", "price": 39.95, "category": "Home & Kitchen", "stock": 125},
+    {"id": "P1010", "name": "LED Desk Lamp", "price": 27.49, "category": "Home & Kitchen", "stock": 198},
+    {"id": "P1011", "name": "Men's Cotton T-Shirt", "price": 14.99, "category": "Clothing", "stock": 420},
+    {"id": "P1012", "name": "Women's Running Leggings", "price": 32.99, "category": "Clothing", "stock": 156},
+    {"id": "P1013", "name": "Unisex Hooded Sweatshirt", "price": 44.99, "category": "Clothing", "stock": 104},
+    {"id": "P1014", "name": "Children's Rain Jacket", "price": 29.5, "category": "Clothing", "stock": 73},
+    {"id": "P1015", "name": "Classic Leather Belt", "price": 21.99, "category": "Clothing", "stock": 189},
+    {"id": "P1016", "name": "Acoustic Guitar Starter Pack", "price": 149.99, "category": "Sports & Outdoors", "stock": 46},
+    {"id": "P1017", "name": "Yoga Mat Premium", "price": 25.99, "category": "Sports & Outdoors", "stock": 238},
+    {"id": "P1018", "name": "Camping Lantern Rechargeable", "price": 19.99, "category": "Sports & Outdoors", "stock": 132},
+  

@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Northbridge Technologies Inc.",
+    "ticker": "NBRG"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Cloud Software Subscriptions",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 11340000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 7850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance and Support",
+      "amount": 9240000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 18370000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 14750000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 12980000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 8160000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and Amortization",
+      "amount": 2740000,
+      "currency": "U

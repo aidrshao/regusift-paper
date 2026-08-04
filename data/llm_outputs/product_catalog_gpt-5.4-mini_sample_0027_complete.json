@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Wireless Mouse", "price": 29.99, "category": "Electronics", "stock": 184},
+    {"id": "P1002", "name": "Nimbus Mechanical Keyboard", "price": 89.5, "category": "Electronics", "stock": 76},
+    {"id": "P1003", "name": "Trailblazer Laptop Sleeve 13-inch", "price": 24.95, "category": "Accessories", "stock": 132},
+    {"id": "P1004", "name": "Bamboo Desk Organizer", "price": 34.0, "category": "Home Office", "stock": 58},
+    {"id": "P1005", "name": "Pulse Noise-Canceling Headphones", "price": 129.99, "category": "Electronics", "stock": 41},
+    {"id": "P1006", "name": "Evergreen Ceramic Mug Set", "price": 22.49, "category": "Home & Kitchen", "stock": 220},
+    {"id": "P1007", "name": "Summit Insulated Water Bottle", "price": 27.0, "category": "Outdoors", "stock": 97},
+    {"id": "P1008", "name": "Comet LED Desk Lamp", "price": 39.99, "category": "Home Office", "stock": 63},
+    {"id": "P1009", "name": "Vista Bluetooth Speaker", "price": 49.95, "category": "Electronics", "stock": 88},
+    {"id": "P1010", "name": "Harbor Throw Blanket", "price": 44.5, "category": "Home & Kitchen", "stock": 54},
+    {"id": "P1011", "name": "Terra Running Shoes", "price": 74.99, "category": "Apparel", "stock": 109},
+    {"id": "P1012", "name": "Lumen Smart Plug", "price": 18.99, "category": "Smart Home", "stock": 310},
+    {"id": "P1013", "name": "Atlas Fitness Tracker", "price": 59.0, "category": "Wearables", "stock": 47},
+    {"id": "P1014", "name": "Cedar Cutting Board", "price": 31.25, "category": "Home & Kitchen", "stock": 83},
+    {"id": "P1015", "name": "Orbit Reusable Notebook", "price": 16.5, "category": "Office Supplies", "stock": 145},
+    {"id": "P1016", "name": "Zen Garden Candle", "price": 14.99, "category": "Home Fragrance", "stock": 201},
+    {"id": "P1017", "name": "Northstar Travel Backpack", "price": 68.0, "category": "Travel", "stock": 66},
+    {"id": "P1018", "name": "Bluebird Stacking Storage Bins", "price": 21.75, "category": "Home Organization", "stock": 176}
+  ]
+}

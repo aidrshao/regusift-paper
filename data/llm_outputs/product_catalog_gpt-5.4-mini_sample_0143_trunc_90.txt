@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 48},
+    {"id": "P1002", "name": "Smart Fitness Watch", "price": 149.99, "category": "Electronics", "stock": 72},
+    {"id": "P1003", "name": "USB-C Fast Charging Cable 2m", "price": 14.99, "category": "Electronics", "stock": 215},
+    {"id": "P1004", "name": "Bluetooth Portable Speaker", "price": 89.99, "category": "Electronics", "stock": 36},
+    {"id": "P1005", "name": "Ergonomic Office Chair", "price": 249.99, "category": "Furniture", "stock": 19},
+    {"id": "P1006", "name": "Adjustable Standing Desk", "price": 329.99, "category": "Furniture", "stock": 12},
+    {"id": "P1007", "name": "Ceramic Dinnerware Set, 16-Piece", "price": 59.99, "category": "Home & Kitchen", "stock": 58},
+    {"id": "P1008", "name": "Stainless Steel Cookware Set, 10-Piece", "price": 129.99, "category": "Home & Kitchen", "stock": 27},
+    {"id": "P1009", "name": "Cotton Bath Towel Set", "price": 34.99, "category": "Home & Kitchen", "stock": 143},
+    {"id": "P1010", "name": "Memory Foam Pillow", "price": 29.99, "category": "Home & Kitchen", "stock": 96},
+    {"id": "P1011", "name": "Men's Running Shoes", "price": 79.99, "category": "Apparel", "stock": 64},
+    {"id": "P1012", "name": "Women's Waterproof Jacket", "price": 119.99, "category": "Apparel", "stock": 41},
+    {"id": "P1013", "name": "Unisex Basic T-Shirt 3-Pack", "price": 24.99, "category": "Apparel", "stock": 188},
+    {"id": "P1014", "name": "Stainless Steel Water Bottle", "price": 19.99, "category": "Outdoors", "stock": 132},
+    {"id": "P1015", "name": "Camping Lantern", "price": 39.99, "category": "Outdoors", "stock": 53},
+    {"id": "P1016", "name": "Hardcover Notebook Set", "price": 16.99, "category": "Office Supplies", "stock": 240},
+    {"id": "P1017", "name": "Wireless Ergonomic Mouse", "price": 44.99, "category": "Office Supplies", "stock": 85},
+    {"id": "P1018", "name": "Assorted Succulent Plant Set", "price": 27.99, "category": "Garden", "stock": 

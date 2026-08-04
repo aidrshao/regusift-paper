@@ -1,0 +1,107 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "AeroFit Running Shoes",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 42
+    },
+    {
+      "id": "P1002",
+      "name": "Nimbus Cotton T-Shirt",
+      "price": 24.5,
+      "category": "Apparel",
+      "stock": 118
+    },
+    {
+      "id": "P1003",
+      "name": "TerraLite Hiking Backpack",
+      "price": 64.95,
+      "category": "Outdoor",
+      "stock": 31
+    },
+    {
+      "id": "P1004",
+      "name": "VoltMax Wireless Earbuds",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 76
+    },
+    {
+      "id": "P1005",
+      "name": "PureBlend Smoothie Blender",
+      "price": 44.0,
+      "category": "Home Appliances",
+      "stock": 24
+    },
+    {
+      "id": "P1006",
+      "name": "Lumina Desk Lamp",
+      "price": 38.75,
+      "category": "Home & Office",
+      "stock": 53
+    },
+    {
+      "id": "P1007",
+      "name": "Urban Classic Denim Jacket",
+      "price": 79.0,
+      "category": "Apparel",
+      "stock": 19
+    },
+    {
+      "id": "P1008",
+      "name": "HydraFlow Stainless Water Bottle",
+      "price": 19.99,
+      "category": "Accessories",
+      "stock": 145
+    },
+    {
+      "id": "P1009",
+      "name": "ZenSpace Memory Foam Pillow",
+      "price": 34.99,
+      "category": "Home Goods",
+      "stock": 67
+    },
+    {
+      "id": "P1010",
+      "name": "Orbit Bluetooth Speaker",
+      "price": 49.95,
+      "category": "Electronics",
+      "stock": 38
+    },
+    {
+      "id": "P1011",
+      "name": "CedarGlow Scented Candle Set",
+      "price": 29.5,
+      "category": "Home Goods",
+      "stock": 88
+    },
+    {
+      "id": "P1012",
+      "name": "PeakForm Yoga Mat",
+      "price": 27.25,
+      "category": "Sports",
+      "stock": 60
+    },
+    {
+      "id": "P1013",
+      "name": "SwiftCharge Power Bank",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 91
+    },
+    {
+      "id": "P1014",
+      "name": "Harvest Ceramic Dinner Set",
+      "price": 72.0,
+      "category": "Kitchen",
+      "stock": 14
+    },
+    {
+      "id": "P1015",
+      "name": "StridePro Training Socks",
+      "price": 14.99,
+      "category": "App

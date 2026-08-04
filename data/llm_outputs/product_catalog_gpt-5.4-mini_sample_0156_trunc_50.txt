@@ -1,0 +1,14 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Bluetooth Speaker", "price": 49.99, "category": "Electronics", "stock": 124},
+    {"id": "P1002", "name": "Nimbus Wireless Headphones", "price": 89.95, "category": "Electronics", "stock": 78},
+    {"id": "P1003", "name": "Orbit Smartwatch", "price": 159.0, "category": "Electronics", "stock": 42},
+    {"id": "P1004", "name": "Pixel Pro USB-C Hub", "price": 34.5, "category": "Electronics", "stock": 210},
+    {"id": "P1005", "name": "Summit 27oz Water Bottle", "price": 18.99, "category": "Outdoors", "stock": 305},
+    {"id": "P1006", "name": "TrailLite Hiking Backpack", "price": 74.25, "category": "Outdoors", "stock": 56},
+    {"id": "P1007", "name": "Evergreen Camping Lantern", "price": 29.99, "category": "Outdoors", "stock": 89},
+    {"id": "P1008", "name": "Cedarwood Cutting Board", "price": 24.0, "category": "Home & Kitchen", "stock": 137},
+    {"id": "P1009", "name": "Vela Ceramic Mug Set", "price": 21.5, "category": "Home & Kitchen", "stock": 63},
+    {"id": "P1010", "name": "Bistro Stainless Pan",

@@ -1,0 +1,65 @@
+{
+  "patient": {
+    "id": "PT-584203",
+    "age": 67,
+    "gender": "Female"
+  },
+  "visitDate": "2026-07-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "mild"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily with meals"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "once nightly"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.2",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Fasting glucose",
+      "value": "138",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "LDL cholesterol",
+      "value": "112",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "Creatinine",
+      "value": "0.9",
+      "unit": "mg/dL",
+      

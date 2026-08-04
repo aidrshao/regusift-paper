@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "Northbridge Technologies Inc.",
+    "ticker": "NBRG"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 11340000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Hosting",
+      "amount": 7260000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 5140000,
+      "currency": "USD"
+    }
+  ],
+  "ex

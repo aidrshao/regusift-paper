@@ -1,0 +1,92 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Nimbus Wireless Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 184
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Apex Mechanical Keyboard",
+      "price": 89.5,
+      "category": "Electronics",
+      "stock": 76
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Orbit 27-inch Monitor",
+      "price": 219.99,
+      "category": "Electronics",
+      "stock": 34
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Pulse Bluetooth Headphones",
+      "price": 59.95,
+      "category": "Electronics",
+      "stock": 142
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Everlight LED Desk Lamp",
+      "price": 34.0,
+      "category": "Home Office",
+      "stock": 98
+    },
+    {
+      "id": "SKU-1006",
+      "name": "CedarWood Storage Shelf",
+      "price": 74.99,
+      "category": "Home & Living",
+      "stock": 41
+    },
+    {
+      "id": "SKU-1007",
+      "name": "CloudWeave Throw Blanket",
+      "price": 42.25,
+      "category": "Home & Living",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1008",
+      "name": "BrewMaster French Press",
+      "price": 24.5,
+      "category": "Kitchen",
+      "stock": 63
+    },
+    {
+      "id": "SKU-1009",
+      "name": "ChefPro Nonstick Skillet",
+      "price": 38.99,
+      "category": "Kitchen",
+      "stock": 87
+    },
+    {
+      "id": "SKU-1010",
+      "name": "FreshFlow Water Bottle",
+      "price": 18.75,
+      "category": "Outdoors",
+      "stock": 256
+    },
+    {
+      "id": "SKU-1011",
+      "name": "TrailMax Hiking Backpack",
+      "price": 64.99,
+      "category": "Outdoors",
+      "stock": 52
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Stride Running Shoes",
+      "price": 79.95,
+      "category": "Apparel",
+      "stock": 110
+    },
+    {
+      "id": "SKU-1013",
+      "name": "Summit Performance T-Shirt",
+      "price": 21

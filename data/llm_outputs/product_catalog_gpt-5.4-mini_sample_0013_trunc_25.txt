@@ -1,0 +1,36 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "AeroFit Running Shoes",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 42
+    },
+    {
+      "id": "P1002",
+      "name": "Nimbus Cotton T-Shirt",
+      "price": 24.5,
+      "category": "Apparel",
+      "stock": 118
+    },
+    {
+      "id": "P1003",
+      "name": "TerraLite Hiking Backpack",
+      "price": 64.95,
+      "category": "Outdoor",
+      "stock": 31
+    },
+    {
+      "id": "P1004",
+      "name": "VoltMax Wireless Earbuds",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 76
+    },
+    {
+      "id": "P1005",
+      "name": "PureBlend Smoothie Blender",
+      "pr

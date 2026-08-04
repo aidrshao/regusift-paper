@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Bluetooth Headphones", "price": 79.99, "category": "Electronics", "stock": 124},
+    {"id": "P1002", "name": "Compact Wireless Mouse", "price": 24.5, "category": "Electronics", "stock": 340},
+    {"id": "P1003", "name": "USB-C Fast Charger 65W", "price": 39.99, "category": "Electronics", "stock": 215},
+    {"id": "P1004", "name": "Mechanical Keyboard Pro", "price": 109.0, "category": "Electronics", "stock": 87},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle 1L", "price": 19.95, "category": "Home & Kitchen", "stock": 560},
+    {"id": "P1006", "name": "Ceramic Coffee Mug Set of 4", "price": 27.5, "category": "Home & Kitchen", "stock": 142},
+    {"id": "P1007", "name": "Memory Foam Pillow", "price": 34.99, "category": "Home & Kitchen", "stock": 98},
+    {"id": "P1008", "name": "LED Desk Lamp", "price": 29.99, "category": "Home & Kitchen", "stock": 176},
+    {"id": "P1009", "name": "Running Shoes Model X", "price": 89.95, "category": "Sports & Outdoors", "stock": 63},
+    {"id": "P1010", "name": "Yoga Mat Premium", "price": 41.0, "category": "Sports & Outdoors", "stock": 201},
+    {"id": "P1011", "name": "Adjustable Dumbbells 20lb Set", "price": 149.99, "category": "Sports & Outdoors", "stock": 41},
+    {"id": "P1012", "name": "Camping Lantern Rechargeable", "price": 22.25, "category": "Sports & Outdoors", "stock": 154},
+    {"id": "P1013", "name": "Cotton T-Shirt Classic Fit", "price": 14.99, "category": "Apparel", "stock": 430},
+    {"id": "P1014", "name": "Denim Jeans Slim Fit", "price": 54.0, "category": "Apparel", "stock": 118},
+    {"id": "P1015", "name": "Waterproof Backpack 25L", "price": 68.75, "category": "Apparel", "stock": 92},
+    {"id": "P1016", "name": "Organic Green Tea 100ct", "price": 12.49, "category": "Grocery", "stock": 275},
+    {"id": "P1017", "name": "Cold Brew Coffee Concentrate", "price": 15.99, "category": "Grocery", "stock": 188},
+    {"id": "P1018", "name": "Dark Chocolate Variety Pack", "price": 18.99, "category": "Grocery", "st

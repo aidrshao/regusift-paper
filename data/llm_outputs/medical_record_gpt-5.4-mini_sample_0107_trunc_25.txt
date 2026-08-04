@@ -1,0 +1,17 @@
+{
+  "patient": {
+    "id": "P-482913",
+    "age": 67,
+    "gender": "Female"
+  },
+  "visitDate": "2026-07-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "mild"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "mode

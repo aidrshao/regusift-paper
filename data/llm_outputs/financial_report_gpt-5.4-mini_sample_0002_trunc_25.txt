@@ -1,0 +1,15 @@
+{
+  "company": {
+    "name": "Northwind Technologies",
+    "ticker": "NWT"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 11800000,

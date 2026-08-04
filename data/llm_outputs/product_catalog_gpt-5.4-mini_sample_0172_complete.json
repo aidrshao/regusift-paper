@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 42 },
+    { "id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 118 },
+    { "id": "P1003", "name": "4K Action Camera", "price": 149.5, "category": "Electronics", "stock": 27 },
+    { "id": "P1004", "name": "Mechanical Gaming Keyboard", "price": 89.99, "category": "Electronics", "stock": 64 },
+    { "id": "P1005", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Home & Kitchen", "stock": 203 },
+    { "id": "P1006", "name": "Ceramic Coffee Mug Set", "price": 32.0, "category": "Home & Kitchen", "stock": 76 },
+    { "id": "P1007", "name": "Non-Stick Cookware Pan", "price": 45.75, "category": "Home & Kitchen", "stock": 58 },
+    { "id": "P1008", "name": "Cotton Bed Sheet Set", "price": 69.99, "category": "Home & Kitchen", "stock": 34 },
+    { "id": "P1009", "name": "Men's Running Shoes", "price": 84.5, "category": "Apparel", "stock": 91 },
+    { "id": "P1010", "name": "Women's Hooded Sweatshirt", "price": 54.99, "category": "Apparel", "stock": 67 },
+    { "id": "P1011", "name": "Classic Denim Jacket", "price": 79.95, "category": "Apparel", "stock": 29 },
+    { "id": "P1012", "name": "Kids Graphic T-Shirt", "price": 18.5, "category": "Apparel", "stock": 145 },
+    { "id": "P1013", "name": "Acoustic Guitar Starter Pack", "price": 129.99, "category": "Music", "stock": 21 },
+    { "id": "P1014", "name": "Digital Piano Keyboard", "price": 299.0, "category": "Music", "stock": 13 },
+    { "id": "P1015", "name": "Yoga Mat with Carry Strap", "price": 27.99, "category": "Sports & Outdoors", "stock": 156 },
+    { "id": "P1016", "name": "Adjustable Dumbbell Set", "price": 179.0, "category": "Sports & Outdoors", "stock": 18 },
+    { "id": "P1017", "name": "Insulated Hiking Backpack", "price": 74.25, "category": "Sports & Outdoors", "stock": 49 },
+    { "id": "P1018", "name": "LED Desk Lamp", "price": 39.99, "category": "Office Supplies", "stock": 87 },
+    { "id": "P1019", "name": "A5 Hardcover Notebook Pack", "price": 16.95, "category": "Office Supplies", "stock": 240 },
+    { "id": "P1020", "name": "Ergonomic Office Chair", "price": 249.99, "category": "Office Supplies", "stock": 12 }
+  ]
+}

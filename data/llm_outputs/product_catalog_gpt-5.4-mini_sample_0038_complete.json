@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-20260731-9842",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Wireless Headphones", "price": 129.99, "category": "Audio", "stock": 48},
+    {"id": "P1002", "name": "Compact Bluetooth Speaker", "price": 39.95, "category": "Audio", "stock": 112},
+    {"id": "P1003", "name": "4K Ultra HD Webcam", "price": 89.5, "category": "Accessories", "stock": 76},
+    {"id": "P1004", "name": "Ergonomic Office Chair", "price": 249.0, "category": "Furniture", "stock": 21},
+    {"id": "P1005", "name": "Standing Desk Converter", "price": 159.99, "category": "Furniture", "stock": 34},
+    {"id": "P1006", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Home & Kitchen", "stock": 185},
+    {"id": "P1007", "name": "Ceramic Coffee Mug Set", "price": 31.5, "category": "Home & Kitchen", "stock": 64},
+    {"id": "P1008", "name": "Smart LED Desk Lamp", "price": 54.99, "category": "Home & Kitchen", "stock": 58},
+    {"id": "P1009", "name": "Portable Power Bank 20000mAh", "price": 46.0, "category": "Electronics", "stock": 97},
+    {"id": "P1010", "name": "USB-C Fast Charger", "price": 22.49, "category": "Electronics", "stock": 143},
+    {"id": "P1011", "name": "Mechanical Keyboard", "price": 118.75, "category": "Electronics", "stock": 39},
+    {"id": "P1012", "name": "Gaming Mouse", "price": 59.99, "category": "Electronics", "stock": 88},
+    {"id": "P1013", "name": "Men's Running Shoes", "price": 84.95, "category": "Apparel", "stock": 73},
+    {"id": "P1014", "name": "Women's Yoga Leggings", "price": 49.99, "category": "Apparel", "stock": 91},
+    {"id": "P1015", "name": "Kids' Insulated Lunch Bag", "price": 18.25, "category": "Apparel", "stock": 126},
+    {"id": "P1016", "name": "Noise-Canceling Earbuds", "price": 99.0, "category": "Audio", "stock": 52},
+    {"id": "P1017", "name": "Smart Home Security Camera", "price": 74.99, "category": "Electronics", "stock": 67},
+    {"id": "P1018", "name": "Nonstick Cookware Set", "price": 139.0, "category": "Home & Kitchen", "stock": 28}
+  ]
+}

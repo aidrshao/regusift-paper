@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "Northstar Dynamics Inc.",
+    "ticker": "NSDI"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 2675000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 6920000,
+      "currency": "USD"
+    },

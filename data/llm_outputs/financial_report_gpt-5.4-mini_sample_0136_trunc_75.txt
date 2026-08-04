@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Northbridge Technologies Inc.",
+    "ticker": "NBTX"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4720000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure Usage",
+      "amount": 3180000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance and Support",
+      "amount": 2560000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 6840000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 5980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 4210000,
+      "currency": "USD"
+    },
+    {
+      "category": "Ge

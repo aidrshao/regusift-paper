@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Bluetooth Earbuds", "price": 59.99, "category": "Electronics", "stock": 184},
+    {"id": "P1002", "name": "Smartwatch Series 5", "price": 199.99, "category": "Electronics", "stock": 76},
+    {"id": "P1003", "name": "Portable Power Bank 10000mAh", "price": 24.95, "category": "Electronics", "stock": 312},
+    {"id": "P1004", "name": "USB-C Fast Charging Cable", "price": 12.5, "category": "Electronics", "stock": 540},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle", "price": 18.99, "category": "Home & Kitchen", "stock": 228},
+    {"id": "P1006", "name": "Ceramic Coffee Mug Set", "price": 27.0, "category": "Home & Kitchen", "stock": 96},
+    {"id": "P1007", "name": "Memory Foam Pillow", "price": 34.99, "category": "Home & Kitchen", "stock": 143},
+    {"id": "P1008", "name": "LED Desk Lamp", "price": 41.75, "category": "Home & Kitchen", "stock": 67},
+    {"id": "P1009", "name": "Running Shoes", "price": 89.95, "category": "Sportswear", "stock": 121},
+    {"id": "P1010", "name": "Yoga Mat", "price": 22.49, "category": "Sportswear", "stock": 205},
+    {"id": "P1011", "name": "Dumbbell Set 20lb", "price": 49.99, "category": "Sportswear", "stock": 58},
+    {"id": "P1012", "name": "Men's Casual Jacket", "price": 74.5, "category": "Apparel", "stock": 84},
+    {"id": "P1013", "name": "Women's Cotton T-Shirt", "price": 16.99, "category": "Apparel", "stock": 330},
+    {"id": "P1014", "name": "Slim Fit Jeans", "price": 53.25, "category": "Apparel", "stock": 149},
+    {"id": "P1015", "name": "Children's Building Blocks Set", "price": 29.99, "category": "Toys", "stock": 112},
+    {"id": "P1016", "name": "Interactive Puzzle Game", "price": 19.95, "category": "Toys", "stock": 257},
+    {"id": "P1017", "name": "Noise Cancelling Headphones", "price": 129.0, "category": "Electronics", "stock": 43},
+    {"id": "P1018", "name": "Organic Cotton Bed Sheets", "price": 64.99, "category": "Home & Kitchen", "stock": 91}
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 124
+    },
+    {
+      "id": "P1002",
+      "name": "Nimbus Smart Speaker",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 86
+    },
+    {
+      "id": "P1003",
+      "name": "Volt USB-C Fast Charger",
+      "price": 24.95,
+      "category": "Accessories",
+      "stock": 340
+    },
+    {
+      "id": "P1004",
+      "name": "Atlas 13-inch Laptop Sleeve",
+      "price": 19.5,
+      "category": "Accessories",
+      "stock": 205
+    },
+    {
+      "id": "P1005",
+      "name": "Cedar Desk Lamp",
+      "price": 42.0,
+      "category": "Home Office",
+      "stock": 67
+    },
+    {
+      "id": "P1006",
+      "name": "Breeze Ceramic Mug Set",
+      "price": 29.99,
+      "category": "Home",
+      "stock": 152
+    },
+    {
+      "id": "P1007",
+      "name": "Summit Stainless Water Bottle",
+      "price": 27.5,
+      "category": "Outdoors",
+      "stock": 191
+    },
+    {
+      "id": "P1008",
+      "name": "Pulse Fitness Tracker",
+      "price": 79.0,
+      "category": "Wearables",
+      "stock": 58
+    },
+    {
+      "id": "P1009",
+      "name": "Evergreen Indoor Plant Kit",
+      "price": 34.75,
+      "category": "Garden",
+      "stock": 93
+    },
+    {
+      "id": "P1010",
+      "name": "Luna Cotton Throw Blanket",
+      "price": 48.25,
+      "category": "Home",
+      "stock": 74
+    },
+    {
+      "id": "P1011",
+      "name": "Ridge Trail Backpack",
+      "price": 64.9,
+      "category": "Outdoors",
+      "stock": 112
+    },
+    {
+      "id": "P1012",
+      "name": "Pixel Bluetooth Keyboard",
+      "price": 69.99,
+      "category": "Electronics",
+      "stock": 81
+    },
+    {
+      "id": "P1013",
+      "name": "Harbor Noise-Canceling Earbuds",
+      "price": 99.0,
+      "category": "Electronics",
+      "stock": 143
+    },
+    {
+      "id": "P1014",
+      "name": "Terra Reusable Grocery Bags",
+      "price": 14.99,
+      "category": "Household",
+      "stock": 410
+    },
+    {
+      "id": "P1015",
+      "name": "Orbit Kitchen Knife Set",
+      "price": 119.95,
+      "category": "Kitchen",
+      "stock": 39
+    },
+    {
+      "id": "P1016",
+      "name": "Nova Yoga Mat",
+      "price": 36.0,
+      "category": "Fitness",
+      "stock": 128
+    },
+    {
+      "id": "P1017",
+      "name": "Harbor Travel Organizer",
+      "price": 22.5,
+      "category": "Travel",
+      "stock": 176
+    },
+    {
+      "id": "P1018",
+      "name": "Echo LED Monitor Stand",
+      "price": 45.99,
+      "category": "Home Office",
+      "stock": 54
+    },
+    {
+      "id": "P1019",
+      "name": "Solstice Portable Power Bank",
+      "price": 39.95,
+      "category": "Electronics",
+      "stock": 215
+    },
+    {
+      "id": "P1020",
+      "name": "Meadow Scented Candle Trio",
+      "price": 31.2,
+      "category": "Home",
+      "stock": 98
+    }
+  ]
+}

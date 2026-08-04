@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Audio", "stock": 42 },
+    { "id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Audio", "stock": 87 },
+    { "id": "P1003", "name": "USB-C Fast Charging Cable 2m", "price": 12.99, "category": "Accessories", "stock": 250 },
+    { "id": "P1004", "name": "4K Ultra HD Smart TV 55-inch", "price": 549.0, "category": "Electronics", "stock": 18 },
+    { "id": "P1005", "name": "Mechanical Keyboard RGB", "price": 89.5, "category": "Computing", "stock": 65 },
+    { "id": "P1006", "name": "Ergonomic Wireless Mouse", "price": 34.99, "category": "Computing", "stock": 120 },
+    { "id": "P1007", "name": "Stainless Steel Water Bottle 1L", "price": 24.0, "category": "Home & Kitchen", "stock": 140 },
+    { "id": "P1008", "name": "Air Fryer 5.5 Qt", "price": 109.99, "category": "Home Appliances", "stock": 33 },
+    { "id": "P1009", "name": "Yoga Mat Non-Slip", "price": 27.49, "category": "Fitness", "stock": 96 },
+    { "id": "P1010", "name": "Running Shoes", "price": 74.99, "category": "Apparel", "stock": 58 },
+    { "id": "P1011", "name": "Smartwatch Series 8", "price": 249.99, "category": "Wearables", "stock": 29 },
+    { "id": "P1012", "name": "Laptop Stand Adjustable", "price": 39.95, "category": "Office", "stock": 74 },
+    { "id": "P1013", "name": "Ceramic Coffee Mug Set of 4", "price": 18.75, "category": "Home & Kitchen", "stock": 110 },
+    { "id": "P1014", "name": "LED Desk Lamp with USB Port", "price": 29.99, "category": "Office", "stock": 81 },
+    { "id": "P1015", "name": "Instant Camera Bundle", "price": 129.0, "category": "Photography", "stock": 22 },
+    { "id": "P1016", "name": "Action Camera 4K", "price": 159.99, "category": "Photography", "stock": 19 },
+    { "id": "P1017", "name": "Backpack Travel Daypack", "price": 49.99, "category": "Accessories", "stock": 68 },
+    { "id": "P1018", "name": "Electric Toothbrush", "price": 44.5, "category": "Personal Care", "stock": 53 },
+    { "id": "P1019", "name": "Robot Vacuum Cleaner", "price": 279.0, "category": "Home Appliances", "stock": 14 },
+    { "id": "P1020", "name": "Gaming Monitor 27-inch", "price": 229.99, "category": "Computing", "stock": 26 }
+  ]
+}

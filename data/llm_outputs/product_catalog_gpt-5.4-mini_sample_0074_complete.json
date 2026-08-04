@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 48 },
+    { "id": "P1002", "name": "Smartwatch Series 7", "price": 249.0, "category": "Electronics", "stock": 32 },
+    { "id": "P1003", "name": "4K Ultra HD Monitor 27-inch", "price": 329.95, "category": "Electronics", "stock": 19 },
+    { "id": "P1004", "name": "Portable Bluetooth Speaker", "price": 59.99, "category": "Electronics", "stock": 85 },
+    { "id": "P1005", "name": "USB-C Fast Charging Cable Pack", "price": 14.99, "category": "Electronics", "stock": 210 },
+    { "id": "P1006", "name": "Ergonomic Office Chair", "price": 179.5, "category": "Furniture", "stock": 23 },
+    { "id": "P1007", "name": "Solid Wood Coffee Table", "price": 149.0, "category": "Furniture", "stock": 12 },
+    { "id": "P1008", "name": "Queen Memory Foam Mattress", "price": 499.99, "category": "Home", "stock": 8 },
+    { "id": "P1009", "name": "Stainless Steel Cookware Set", "price": 129.99, "category": "Home", "stock": 41 },
+    { "id": "P1010", "name": "Cotton Bedding Sheet Set", "price": 39.95, "category": "Home", "stock": 96 },
+    { "id": "P1011", "name": "Men's Waterproof Hiking Boots", "price": 119.99, "category": "Apparel", "stock": 27 },
+    { "id": "P1012", "name": "Women's Running Jacket", "price": 89.0, "category": "Apparel", "stock": 54 },
+    { "id": "P1013", "name": "Kids' Insulated Lunch Bag", "price": 24.5, "category": "Accessories", "stock": 73 },
+    { "id": "P1014", "name": "Leather Laptop Backpack", "price": 84.99, "category": "Accessories", "stock": 38 },
+    { "id": "P1015", "name": "Stainless Steel Water Bottle 1L", "price": 18.0, "category": "Accessories", "stock": 140 },
+    { "id": "P1016", "name": "Digital Kitchen Scale", "price": 22.99, "category": "Home", "stock": 67 },
+    { "id": "P1017", "name": "Professional Hair Dryer", "price": 76.25, "category": "Beauty", "stock": 29 },
+    { "id": "P1018", "name": "Vitamin C Facial Serum", "price": 31.99, "category": "Beauty", "stock": 58 },
+    { "id": "P1019", "name": "Ceramic Plant Pot Set", "price": 27.5, "category": "Home", "stock": 44 },
+    { "id": "P1020", "name": "Yoga Mat with Carry Strap", "price": 34.99, "category": "Sports", "stock": 61 }
+  ]
+}

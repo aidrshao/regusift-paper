@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Bluetooth Earbuds", "price": 49.99, "category": "Electronics", "stock": 184},
+    {"id": "P1002", "name": "4K Ultra HD Smart TV 55-inch", "price": 529.0, "category": "Electronics", "stock": 27},
+    {"id": "P1003", "name": "Stainless Steel Water Bottle 32oz", "price": 24.95, "category": "Home & Kitchen", "stock": 312},
+    {"id": "P1004", "name": "Ergonomic Office Chair", "price": 159.99, "category": "Furniture", "stock": 41},
+    {"id": "P1005", "name": "Cotton Crew Neck T-Shirt", "price": 18.5, "category": "Apparel", "stock": 560},
+    {"id": "P1006", "name": "Running Shoes", "price": 89.99, "category": "Footwear", "stock": 98},
+    {"id": "P1007", "name": "Smartphone Fast Charger 30W", "price": 19.99, "category": "Electronics", "stock": 240},
+    {"id": "P1008", "name": "Nonstick Frying Pan 12-inch", "price": 34.75, "category": "Home & Kitchen", "stock": 146},
+    {"id": "P1009", "name": "Yoga Mat", "price": 27.0, "category": "Sports & Outdoors", "stock": 205},
+    {"id": "P1010", "name": "Noise-Cancelling Headphones", "price": 129.99, "category": "Electronics", "stock": 63},
+    {"id": "P1011", "name": "LED Desk Lamp", "price": 22.49, "category": "Home & Kitchen", "stock": 117},
+    {"id": "P1012", "name": "Men's Denim Jacket", "price": 64.95, "category": "Apparel", "stock": 74},
+    {"id": "P1013", "name": "Ceramic Coffee Mug Set of 4", "price": 29.99, "category": "Home & Kitchen", "stock": 151},
+    {"id": "P1014", "name": "Backpack with Laptop Compartment", "price": 54.0, "category": "Accessories", "stock": 88},
+    {"id": "P1015", "name": "Gaming Mechanical Keyboard", "price": 79.99, "category": "Electronics", "stock": 52},
+    {"id": "P1016", "name": "Pet Dog Bed Medium", "price": 39.5, "category": "Pet Supplies", "stock": 96},
+    {"id": "P1017", "name": "Electric Toothbrush", "price": 44.99, "category": "Health & Beauty", "stock": 133},
+    {"id": "P1018", "name": "Children's Building Blocks Set", "price": 31.25, "category": "Toys", "stock": 220}
+  ]
+}

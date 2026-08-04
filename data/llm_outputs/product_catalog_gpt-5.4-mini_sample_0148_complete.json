@@ -1,0 +1,146 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "P1002",
+      "name": "Bluetooth Portable Speaker",
+      "price": 49.95,
+      "category": "Electronics",
+      "stock": 87
+    },
+    {
+      "id": "P1003",
+      "name": "4K Ultra HD Smart TV 55-inch",
+      "price": 499.0,
+      "category": "Electronics",
+      "stock": 16
+    },
+    {
+      "id": "P1004",
+      "name": "Stainless Steel Water Bottle 24oz",
+      "price": 19.99,
+      "category": "Home & Kitchen",
+      "stock": 230
+    },
+    {
+      "id": "P1005",
+      "name": "Ceramic Coffee Mug Set of 4",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 64
+    },
+    {
+      "id": "P1006",
+      "name": "Memory Foam Pillow",
+      "price": 39.99,
+      "category": "Home & Kitchen",
+      "stock": 51
+    },
+    {
+      "id": "P1007",
+      "name": "Men's Running Shoes",
+      "price": 74.99,
+      "category": "Apparel",
+      "stock": 33
+    },
+    {
+      "id": "P1008",
+      "name": "Women's Yoga Leggings",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 78
+    },
+    {
+      "id": "P1009",
+      "name": "Classic Fit Cotton T-Shirt",
+      "price": 14.99,
+      "category": "Apparel",
+      "stock": 120
+    },
+    {
+      "id": "P1010",
+      "name": "Electric Kettle 1.7L",
+      "price": 34.95,
+      "category": "Appliances",
+      "stock": 28
+    },
+    {
+      "id": "P1011",
+      "name": "Air Fryer 5.8 Quart",
+      "price": 89.99,
+      "category": "Appliances",
+      "stock": 22
+    },
+    {
+      "id": "P1012",
+      "name": "Robot Vacuum Cleaner",
+      "price": 219.99,
+      "category": "Appliances",
+      "stock": 14
+    },
+    {
+      "id": "P1013",
+      "name": "Yoga Mat",
+      "price": 21.0,
+      "category": "Sports & Outdoors",
+      "stock": 95
+    },
+    {
+      "id": "P1014",
+      "name": "Dumbbell Set 25lb Pair",
+      "price": 59.99,
+      "category": "Sports & Outdoors",
+      "stock": 18
+    },
+    {
+      "id": "P1015",
+      "name": "Insulated Backpack Cooler",
+      "price": 44.99,
+      "category": "Sports & Outdoors",
+      "stock": 37
+    },
+    {
+      "id": "P1016",
+      "name": "Hardcover Notebook Pack",
+      "price": 17.49,
+      "category": "Office Supplies",
+      "stock": 140
+    },
+    {
+      "id": "P1017",
+      "name": "Ergonomic Office Chair",
+      "price": 159.99,
+      "category": "Office Supplies",
+      "stock": 12
+    },
+    {
+      "id": "P1018",
+      "name": "Wireless Mouse",
+      "price": 26.99,
+      "category": "Electronics",
+      "stock": 104
+    },
+    {
+      "id": "P1019",
+      "name": "LED Desk Lamp",
+      "price": 31.5,
+      "category": "Office Supplies",
+      "stock": 58
+    },
+    {
+      "id": "P1020",
+      "name": "Scented Candle Set",
+      "price": 22.99,
+      "category": "Home & Kitchen",
+      "stock": 73
+    }
+  ]
+}

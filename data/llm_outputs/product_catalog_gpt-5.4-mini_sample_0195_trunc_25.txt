@@ -1,0 +1,31 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "SKU-1002",
+      "name": "SmartFit Fitness Tracker",
+      "price": 59.95,
+      "category": "Wearables",
+      "stock": 67
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Ceramic Coffee Mug Set",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Bamboo Cutting Board",
+      "price": 18.99,
+      "category": "Home & Kitchen",
+      "stock": 8

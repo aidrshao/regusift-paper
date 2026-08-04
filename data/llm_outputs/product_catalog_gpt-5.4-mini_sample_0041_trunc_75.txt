@@ -1,0 +1,19 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 48},
+    {"id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 132},
+    {"id": "P1003", "name": "USB-C Fast Charger 65W", "price": 34.5, "category": "Electronics", "stock": 210},
+    {"id": "P1004", "name": "Smartwatch Series 5", "price": 249.0, "category": "Wearables", "stock": 76},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle 24oz", "price": 22.99, "category": "Home & Kitchen", "stock": 340},
+    {"id": "P1006", "name": "Non-Stick Cookware Set, 10-Piece", "price": 129.99, "category": "Home & Kitchen", "stock": 29},
+    {"id": "P1007", "name": "Memory Foam Pillow", "price": 39.99, "category": "Home & Kitchen", "stock": 118},
+    {"id": "P1008", "name": "LED Desk Lamp with USB Port", "price": 27.5, "category": "Home Office", "stock": 89},
+    {"id": "P1009", "name": "Ergonomic Office Chair", "price": 189.0, "category": "Home Office", "stock": 24},
+    {"id": "P1010", "name": "Wireless Ergonomic Mouse", "price": 29.99, "category": "Computers", "stock": 155},
+    {"id": "P1011", "name": "Mechanical Keyboard", "price": 89.95, "category": "Computers", "stock": 63},
+    {"id": "P1012", "name": "4K 27-inch Monitor", "price": 329.99, "category": "Computers", "stock": 18},
+    {"id": "P1013", "name": "Yoga Mat", "price": 24.99, "category": "Sports & Fitness", "stock": 275},
+    {"id": "P1014", "name": "Adjustable Dumbbells Set", "price": 299.99, "category": "Sports & Fitness", "stock": 12},
+    {"id": "P1015", "name": "Running Shoes", "price": 7

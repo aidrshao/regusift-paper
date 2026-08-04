@@ -1,0 +1,14 @@
+{
+  "catalogId": "catalog_20260731_01",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "prod_1001", "name": "Aurora Wireless Headphones", "price": 129.99, "category": "Electronics", "stock": 48},
+    {"id": "prod_1002", "name": "Nimbus Smartwatch Series 5", "price": 199.0, "category": "Electronics", "stock": 32},
+    {"id": "prod_1003", "name": "Cedar Desk Lamp", "price": 39.95, "category": "Home & Living", "stock": 74},
+    {"id": "prod_1004", "name": "Evergreen Ceramic Coffee Mug", "price": 14.5, "category": "Kitchen", "stock": 210},
+    {"id": "prod_1005", "name": "Trailblaze Insulated Water Bottle", "price": 24.99, "category": "Outdoors", "stock": 156},
+    {"id": "prod_1006", "name": "Luna Cotton Throw Blanket", "price": 54.0, "category": "Home & Living", "stock": 41},
+    {"id": "prod_1007", "name": "Vertex Mechanical Keyboard", "price": 89.99, "category": "Computers", "stock": 27},
+    {"id": "prod_1008", "name": "Halo USB-C Hub", "price": 34.99, "category": "Computers", "stock": 88},
+    {"id": "prod_1009", "name": "Summit Hiking Backpack 30L", "price": 79.95, "category": "Outdoors", "stock": 53},
+    {"id": "prod_1010", "name": "Bloom Essential Oil Diffuser",

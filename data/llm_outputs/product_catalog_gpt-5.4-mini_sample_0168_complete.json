@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 42},
+    {"id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 87},
+    {"id": "P1003", "name": "USB-C Fast Charging Cable", "price": 12.49, "category": "Accessories", "stock": 310},
+    {"id": "P1004", "name": "Smart Watch Series 8", "price": 249.0, "category": "Wearables", "stock": 28},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Home & Kitchen", "stock": 156},
+    {"id": "P1006", "name": "Ergonomic Office Chair", "price": 329.99, "category": "Furniture", "stock": 14},
+    {"id": "P1007", "name": "Adjustable Laptop Stand", "price": 39.99, "category": "Office Supplies", "stock": 73},
+    {"id": "P1008", "name": "Mechanical Gaming Keyboard", "price": 89.99, "category": "Electronics", "stock": 51},
+    {"id": "P1009", "name": "LED Desk Lamp", "price": 29.5, "category": "Home & Kitchen", "stock": 98},
+    {"id": "P1010", "name": "Running Shoes", "price": 74.99, "category": "Apparel", "stock": 64},
+    {"id": "P1011", "name": "Men's Cotton T-Shirt", "price": 18.0, "category": "Apparel", "stock": 220},
+    {"id": "P1012", "name": "Ceramic Dinner Plate Set", "price": 44.95, "category": "Home & Kitchen", "stock": 39},
+    {"id": "P1013", "name": "Digital Alarm Clock", "price": 21.99, "category": "Electronics", "stock": 115},
+    {"id": "P1014", "name": "Yoga Mat", "price": 27.99, "category": "Fitness", "stock": 141},
+    {"id": "P1015", "name": "Protein Shaker Bottle", "price": 14.99, "category": "Fitness", "stock": 205},
+    {"id": "P1016", "name": "Nonstick Skillet Pan", "price": 34.99, "category": "Home & Kitchen", "stock": 58},
+    {"id": "P1017", "name": "Hardcover Notebook Set", "price": 16.75, "category": "Office Supplies", "stock": 180},
+    {"id": "P1018", "name": "Aromatherapy Diffuser", "price": 32.5, "category": "Home & Kitchen", "stock": 47}
+  ]
+}

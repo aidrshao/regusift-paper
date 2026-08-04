@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-20260731-4821",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "SKU-1001", "name": "Aurora Wireless Headphones", "price": 89.99, "category": "Audio", "stock": 124},
+    {"id": "SKU-1002", "name": "Nimbus Bluetooth Speaker", "price": 59.95, "category": "Audio", "stock": 87},
+    {"id": "SKU-1003", "name": "Lumen Smart LED Bulb 4-Pack", "price": 24.5, "category": "Home Lighting", "stock": 230},
+    {"id": "SKU-1004", "name": "Northstar Mechanical Keyboard", "price": 119.0, "category": "Computer Accessories", "stock": 43},
+    {"id": "SKU-1005", "name": "Pulse Ergonomic Mouse", "price": 34.99, "category": "Computer Accessories", "stock": 156},
+    {"id": "SKU-1006", "name": "Terra Insulated Water Bottle", "price": 29.0, "category": "Outdoors", "stock": 190},
+    {"id": "SKU-1007", "name": "Cedar Scented Candle Set", "price": 18.75, "category": "Home & Decor", "stock": 98},
+    {"id": "SKU-1008", "name": "Vertex Smartwatch Series 3", "price": 199.99, "category": "Wearables", "stock": 61},
+    {"id": "SKU-1009", "name": "Studio Microfiber Sheet Set", "price": 49.95, "category": "Bedding", "stock": 72},
+    {"id": "SKU-1010", "name": "Harbor Ceramic Dinner Plate Set", "price": 41.25, "category": "Kitchen", "stock": 135},
+    {"id": "SKU-1011", "name": "Evergreen Indoor Plant Pot", "price": 15.99, "category": "Home & Decor", "stock": 204},
+    {"id": "SKU-1012", "name": "Atlas Laptop Stand", "price": 39.5, "category": "Office", "stock": 88},
+    {"id": "SKU-1013", "name": "Quasar USB-C Hub", "price": 27.99, "category": "Computer Accessories", "stock": 142},
+    {"id": "SKU-1014", "name": "Breeze Air Purifier Filter", "price": 22.0, "category": "Home Appliances", "stock": 310},
+    {"id": "SKU-1015", "name": "Summit Trail Running Shoes", "price": 94.0, "category": "Footwear", "stock": 57},
+    {"id": "SKU-1016", "name": "Halo Fitness Resistance Bands", "price": 14.99, "category": "Fitness", "stock": 275},
+    {"id": "SKU-1017", "name": "Orbit Portable Charger 10000mAh", "price": 36.49, "category": "Mobile Accessories", "stock": 109},
+    {"id": "SKU-1018", "name": "Indigo Cotton Bath Towels 6-Pack", "price": 32.95, "category": "Bath", "stock": 83},
+    {"id": "SKU-1019", "name": "Mosaic Desk Organizer", "price": 21.5, "category": "Office", "stock": 147},
+    {"id": "SKU-1020", "name": "Pioneer Travel Backpack", "price": 74.99, "category": "Travel", "stock": 66}
+  ]
+}

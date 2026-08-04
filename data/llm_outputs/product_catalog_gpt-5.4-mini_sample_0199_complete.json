@@ -1,0 +1,132 @@
+{
+  "catalogId": "CAT-20260731-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Wireless Bluetooth Headphones",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "P1002",
+      "name": "Stainless Steel Water Bottle",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 128
+    },
+    {
+      "id": "P1003",
+      "name": "Ergonomic Office Chair",
+      "price": 189.0,
+      "category": "Furniture",
+      "stock": 16
+    },
+    {
+      "id": "P1004",
+      "name": "Cotton T-Shirt",
+      "price": 18.99,
+      "category": "Apparel",
+      "stock": 250
+    },
+    {
+      "id": "P1005",
+      "name": "Mechanical Keyboard",
+      "price": 119.95,
+      "category": "Electronics",
+      "stock": 37
+    },
+    {
+      "id": "P1006",
+      "name": "Ceramic Dinner Set",
+      "price": 54.75,
+      "category": "Home & Kitchen",
+      "stock": 64
+    },
+    {
+      "id": "P1007",
+      "name": "Running Shoes",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 73
+    },
+    {
+      "id": "P1008",
+      "name": "Smart LED Desk Lamp",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 58
+    },
+    {
+      "id": "P1009",
+      "name": "Yoga Mat",
+      "price": 29.99,
+      "category": "Sports & Fitness",
+      "stock": 104
+    },
+    {
+      "id": "P1010",
+      "name": "Acoustic Guitar",
+      "price": 149.5,
+      "category": "Musical Instruments",
+      "stock": 12
+    },
+    {
+      "id": "P1011",
+      "name": "Portable Charger 10000mAh",
+      "price": 34.99,
+      "category": "Electronics",
+      "stock": 91
+    },
+    {
+      "id": "P1012",
+      "name": "Bookshelf",
+      "price": 129.0,
+      "category": "Furniture",
+      "stock": 22
+    },
+    {
+      "id": "P1013",
+      "name": "Noise-Canceling Earbuds",
+      "price": 99.0,
+      "category": "Electronics",
+      "stock": 46
+    },
+    {
+      "id": "P1014",
+      "name": "Espresso Machine",
+      "price": 249.99,
+      "category": "Appliances",
+      "stock": 9
+    },
+    {
+      "id": "P1015",
+      "name": "Leather Wallet",
+      "price": 44.0,
+      "category": "Accessories",
+      "stock": 85
+    },
+    {
+      "id": "P1016",
+      "name": "Nonstick Frying Pan",
+      "price": 27.95,
+      "category": "Home & Kitchen",
+      "stock": 140
+    },
+    {
+      "id": "P1017",
+      "name": "Smartwatch",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 31
+    },
+    {
+      "id": "P1018",
+      "name": "Desk Organizer Set",
+      "price": 22.49,
+      "category": "Office Supplies",
+      "stock": 76
+    }
+  ]
+}

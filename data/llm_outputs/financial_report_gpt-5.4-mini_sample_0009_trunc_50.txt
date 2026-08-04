@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Northstar Analytics Inc.",
+    "ticker": "NSTR"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Software",
+      "amount": 42850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 8120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Advertising",
+      "amount": 3640000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",

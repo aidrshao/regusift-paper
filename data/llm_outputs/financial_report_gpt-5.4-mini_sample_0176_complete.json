@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "Northstar Analytics Inc.",
+    "ticker": "NSA"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 3275000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 1120000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 6420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 4980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 3860000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 2410000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 22845000,
+    "totalExpenses": 17670000,
+    "netIncome": 5175000
+  }
+}

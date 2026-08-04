@@ -1,0 +1,42 @@
+{
+  "company": {
+    "name": "Northstar Analytics Inc.",
+    "ticker": "NSTA"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 3260000,
+      "currency": "USD"
+    },
+    {
+      "category": "Advertising and Partnerships",
+      "amount": 1190000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 6120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 4875000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 3980000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+ 

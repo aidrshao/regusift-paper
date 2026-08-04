@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "Northstar Analytics Inc.",
+    "ticker": "NSAI"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 3920000,
+      "currency": "USD"
+    },
+    {
+      "category": "Advertising and Partnerships",
+      "amount": 2150000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 7680000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 5420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 4310000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 2980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and Amortization",
+      "amount": 640000,
+      "currency": "USD"
+    }

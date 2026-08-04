@@ -1,0 +1,23 @@
+{
+  "catalogId": "CAT-20260731-8472",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "AeroFit Running Shoes", "price": 89.99, "category": "Footwear", "stock": 42 },
+    { "id": "P1002", "name": "Nimbus Trail Backpack", "price": 64.5, "category": "Accessories", "stock": 28 },
+    { "id": "P1003", "name": "PureBlend Blender 700W", "price": 49.95, "category": "Home Appliances", "stock": 16 },
+    { "id": "P1004", "name": "EverGlow LED Desk Lamp", "price": 27.99, "category": "Home & Living", "stock": 55 },
+    { "id": "P1005", "name": "UrbanMotion Smartwatch", "price": 129.0, "category": "Electronics", "stock": 31 },
+    { "id": "P1006", "name": "CottonCloud Bath Towels Set", "price": 34.99, "category": "Home & Living", "stock": 73 },
+    { "id": "P1007", "name": "PeakForm Yoga Mat", "price": 22.5, "category": "Fitness", "stock": 48 },
+    { "id": "P1008", "name": "CedarLane Coffee Table", "price": 149.99, "category": "Furniture", "stock": 9 },
+    { "id": "P1009", "name": "SonicWave Bluetooth Speaker", "price": 58.75, "category": "Electronics", "stock": 24 },
+    { "id": "P1010", "name": "FreshSip Insulated Water Bottle", "price": 19.99, "category": "Outdoors", "stock": 88 },
+    { "id": "P1011", "name": "StudioPro Wireless Mouse", "price": 24.99, "category": "Computers", "stock": 67 },
+    { "id": "P1012", "name": "ClearView Monitor Stand", "price": 39.95, "category": "Office Supplies", "stock": 21 },
+    { "id": "P1013", "name": "CozyNest Throw Blanket", "price": 29.5, "category": "Home & Living", "stock": 40 },
+    { "id": "P1014", "name": "GreenSprout Herb Planter Kit", "price": 18.0, "category": "Garden", "stock": 36 },
+    { "id": "P1015", "name": "FusionChef Nonstick Pan", "price": 44.25, "category": "Kitchen", "stock": 14 },
+    { "id": "P1016", "name": "NovaKids Building Blocks Set", "price": 31.99, "category": "Toys", "stock": 52 },
+    { "id": "P1017", "name": "TrailMaster Hiking Jacket", "price": 99.5, "category": "Apparel", "stock": 18 },
+    { "id": "P1018", "name": "ByteTech USB-C Hub", "price": 27.49, "category": "Computers", "stock": 61 },
+    

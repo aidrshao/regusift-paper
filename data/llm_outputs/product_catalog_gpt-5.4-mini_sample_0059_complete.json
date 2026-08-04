@@ -1,0 +1,132 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 48
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Bluetooth Portable Speaker",
+      "price": 59.95,
+      "category": "Electronics",
+      "stock": 112
+    },
+    {
+      "id": "SKU-1003",
+      "name": "USB-C Fast Charger 65W",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 210
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Smartwatch Series 8",
+      "price": 249.0,
+      "category": "Wearables",
+      "stock": 37
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ergonomic Office Chair",
+      "price": 179.5,
+      "category": "Furniture",
+      "stock": 26
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Adjustable Standing Desk",
+      "price": 329.99,
+      "category": "Furniture",
+      "stock": 14
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Mechanical Gaming Keyboard",
+      "price": 89.99,
+      "category": "Computers",
+      "stock": 74
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Wireless Optical Mouse",
+      "price": 24.5,
+      "category": "Computers",
+      "stock": 156
+    },
+    {
+      "id": "SKU-1009",
+      "name": "4K Ultra HD Monitor 27-inch",
+      "price": 299.99,
+      "category": "Computers",
+      "stock": 21
+    },
+    {
+      "id": "SKU-1010",
+      "name": "Stainless Steel Water Bottle",
+      "price": 18.0,
+      "category": "Home & Kitchen",
+      "stock": 180
+    },
+    {
+      "id": "SKU-1011",
+      "name": "Air Fryer 5.8 Quart",
+      "price": 109.99,
+      "category": "Home Appliances",
+      "stock": 33
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Cotton Bedding Set Queen",
+      "price": 74.99,
+      "category": "Home & Kitchen",
+      "stock": 58
+    },
+    {
+      "id": "SKU-1013",
+      "name": "Non-Stick Cookware Set",
+      "price": 129.99,
+      "category": "Home & Kitchen",
+      "stock": 19
+    },
+    {
+      "id": "SKU-1014",
+      "name": "Yoga Mat Premium",
+      "price": 25.99,
+      "category": "Sports & Outdoors",
+      "stock": 143
+    },
+    {
+      "id": "SKU-1015",
+      "name": "Adjustable Dumbbells 50lb Pair",
+      "price": 399.99,
+      "category": "Sports & Outdoors",
+      "stock": 12
+    },
+    {
+      "id": "SKU-1016",
+      "name": "LED Desk Lamp",
+      "price": 34.99,
+      "category": "Home & Kitchen",
+      "stock": 97
+    },
+    {
+      "id": "SKU-1017",
+      "name": "Action Camera 4K",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 29
+    },
+    {
+      "id": "SKU-1018",
+      "name": "Protein Powder Chocolate 5lb",
+      "price": 54.99,
+      "category": "Health & Nutrition",
+      "stock": 64
+    }
+  ]
+}

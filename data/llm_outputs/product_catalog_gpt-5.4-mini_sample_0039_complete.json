@@ -1,0 +1,132 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Aurora Ceramic Coffee Mug",
+      "price": 14.99,
+      "category": "Kitchen",
+      "stock": 128
+    },
+    {
+      "id": "P1002",
+      "name": "Nimbus Stainless Steel Water Bottle",
+      "price": 24.5,
+      "category": "Outdoors",
+      "stock": 86
+    },
+    {
+      "id": "P1003",
+      "name": "Vertex Wireless Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 214
+    },
+    {
+      "id": "P1004",
+      "name": "Summit Mechanical Keyboard",
+      "price": 89.0,
+      "category": "Electronics",
+      "stock": 47
+    },
+    {
+      "id": "P1005",
+      "name": "Luma LED Desk Lamp",
+      "price": 39.95,
+      "category": "Home",
+      "stock": 73
+    },
+    {
+      "id": "P1006",
+      "name": "Breeze Memory Foam Pillow",
+      "price": 34.99,
+      "category": "Home",
+      "stock": 59
+    },
+    {
+      "id": "P1007",
+      "name": "Trailblaze Hiking Backpack 28L",
+      "price": 59.5,
+      "category": "Outdoors",
+      "stock": 41
+    },
+    {
+      "id": "P1008",
+      "name": "PureBlend Personal Blender",
+      "price": 49.99,
+      "category": "Kitchen",
+      "stock": 64
+    },
+    {
+      "id": "P1009",
+      "name": "CloudNine Cotton Bath Towel Set",
+      "price": 27.99,
+      "category": "Home",
+      "stock": 102
+    },
+    {
+      "id": "P1010",
+      "name": "Pulse Smart Fitness Tracker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 38
+    },
+    {
+      "id": "P1011",
+      "name": "Evergreen Indoor Plant Pot",
+      "price": 18.75,
+      "category": "Garden",
+      "stock": 155
+    },
+    {
+      "id": "P1012",
+      "name": "Stratus Nonstick Frying Pan 10in",
+      "price": 26.0,
+      "category": "Kitchen",
+      "stock": 91
+    },
+    {
+      "id": "P1013",
+      "name": "Orbit Bluetooth Speaker",
+      "price": 44.99,
+      "category": "Electronics",
+      "stock": 67
+    },
+    {
+      "id": "P1014",
+      "name": "CozyNest Throw Blanket",
+      "price": 31.5,
+      "category": "Home",
+      "stock": 88
+    },
+    {
+      "id": "P1015",
+      "name": "Ridge Trail Running Shoes",
+      "price": 74.95,
+      "category": "Sportswear",
+      "stock": 52
+    },
+    {
+      "id": "P1016",
+      "name": "Nova USB-C Charging Cable 2m",
+      "price": 12.99,
+      "category": "Electronics",
+      "stock": 240
+    },
+    {
+      "id": "P1017",
+      "name": "Harvest Garden Hand Trowel",
+      "price": 15.49,
+      "category": "Garden",
+      "stock": 121
+    },
+    {
+      "id": "P1018",
+      "name": "Metro Hardcover Notebook Set",
+      "price": 19.99,
+      "category": "Office",
+      "stock": 176
+    }
+  ]
+}

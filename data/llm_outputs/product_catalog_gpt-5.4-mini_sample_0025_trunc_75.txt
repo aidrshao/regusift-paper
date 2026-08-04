@@ -1,0 +1,19 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "SKU-1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 42 },
+    { "id": "SKU-1002", "name": "Portable Bluetooth Speaker", "price": 59.95, "category": "Electronics", "stock": 118 },
+    { "id": "SKU-1003", "name": "4K Ultra HD Smart TV 55-inch", "price": 599.0, "category": "Electronics", "stock": 16 },
+    { "id": "SKU-1004", "name": "Mechanical Gaming Keyboard", "price": 89.5, "category": "Computers", "stock": 67 },
+    { "id": "SKU-1005", "name": "Ergonomic Office Chair", "price": 149.99, "category": "Furniture", "stock": 24 },
+    { "id": "SKU-1006", "name": "Standing Desk Converter", "price": 129.0, "category": "Furniture", "stock": 31 },
+    { "id": "SKU-1007", "name": "Stainless Steel Water Bottle", "price": 24.99, "category": "Home & Kitchen", "stock": 205 },
+    { "id": "SKU-1008", "name": "Air Fryer 6 Quart", "price": 89.99, "category": "Home & Kitchen", "stock": 54 },
+    { "id": "SKU-1009", "name": "Cotton Bath Towel Set", "price": 39.95, "category": "Home & Kitchen", "stock": 88 },
+    { "id": "SKU-1010", "name": "Men's Running Shoes", "price": 74.5, "category": "Apparel", "stock": 73 },
+    { "id": "SKU-1011", "name": "Women's Yoga Leggings", "price": 49.0, "category": "Apparel", "stock": 96 },
+    { "id": "SKU-1012", "name": "Kids' Insulated Lunch Box", "price": 19.99, "category": "Kids", "stock": 140 },
+    { "id": "SKU-1013", "name": "Educational Building Blocks Set", "price": 34.99, "category": "Toys", "stock": 61 },
+    { "id": "SKU-1014", "name": "Organic Arabica Coffee Beans 1 lb", "price": 17.5, "category": "Grocery", "stock": 180 },
+    { "id": "SKU-1015", "name": "Pet Dog Chew Toys 3-Pack", "price": 14.99, "category": "Pet Supplies", "stock": 12

@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Smartwatch Series 5", "price": 249.99, "category": "Wearables", "stock": 128},
+    {"id": "P1002", "name": "Nimbus Wireless Earbuds", "price": 79.95, "category": "Audio", "stock": 342},
+    {"id": "P1003", "name": "Everlight LED Desk Lamp", "price": 39.5, "category": "Home Office", "stock": 215},
+    {"id": "P1004", "name": "TrailPro Insulated Water Bottle", "price": 24.99, "category": "Outdoors", "stock": 560},
+    {"id": "P1005", "name": "Vertex Mechanical Keyboard", "price": 129.0, "category": "Computer Accessories", "stock": 96},
+    {"id": "P1006", "name": "PulseFit Resistance Bands Set", "price": 18.75, "category": "Fitness", "stock": 410},
+    {"id": "P1007", "name": "Casa Linen Throw Pillow", "price": 22.0, "category": "Home Decor", "stock": 188},
+    {"id": "P1008", "name": "MetroBrew French Press 34oz", "price": 31.25, "category": "Kitchen", "stock": 143},
+    {"id": "P1009", "name": "LumaGlow Vanity Mirror", "price": 54.99, "category": "Beauty", "stock": 74},
+    {"id": "P1010", "name": "Orbit USB-C Fast Charger 65W", "price": 44.95, "category": "Mobile Accessories", "stock": 267},
+    {"id": "P1011", "name": "Summit Hiking Daypack 28L", "price": 89.99, "category": "Outdoors", "stock": 121},
+    {"id": "P1012", "name": "TinyTales Wooden Block Set", "price": 27.49, "category": "Toys", "stock": 305},
+    {"id": "P1013", "name": "PureBrew Cold Brew Maker", "price": 36.0, "category": "Kitchen", "stock": 156},
+    {"id": "P1014", "name": "HomeGuard Indoor Security Camera", "price": 99.99, "category": "Smart Home", "stock": 83},
+    {"id": "P1015", "name": "CloudNest Memory Foam Pillow", "price": 41.5, "category": "Bedding", "stock": 214},
+    {"id": "P1016", "name": "Rivet Compact Tool Kit", "price": 58.0, "category": "Hardware", "stock": 67},
+    {"id": "P1017", "name": "SparkPlay Bluetooth Speaker", "price": 59.99, "category": "Audio", "stock": 193},
+    {"id": "P1018", "name": "GreenSprout Indoor Herb Planter", "price": 29.95, "category": "Gardening", "stock": 142},
+    {"id": "P1019", "name": "PeakMotion Yoga Mat", "price": 34.99, "category": "Fitness", "stock": 280},
+    {"id": "P1020", "name": "LiteRide Rolling Suitcase 20in", "price": 119.5, "category": "Travel", "stock": 58}
+  ]
+}

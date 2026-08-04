@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-20260731-9f3a2b",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Wireless Headphones", "price": 129.99, "category": "Electronics", "stock": 84},
+    {"id": "P1002", "name": "Nimbus Smartwatch", "price": 199.0, "category": "Electronics", "stock": 52},
+    {"id": "P1003", "name": "Echo Bluetooth Speaker", "price": 59.95, "category": "Electronics", "stock": 146},
+    {"id": "P1004", "name": "Lumen USB-C Charging Hub", "price": 34.5, "category": "Electronics", "stock": 230},
+    {"id": "P1005", "name": "Metro Everyday Backpack", "price": 74.99, "category": "Accessories", "stock": 67},
+    {"id": "P1006", "name": "Canvas Weekender Duffel", "price": 89.0, "category": "Accessories", "stock": 41},
+    {"id": "P1007", "name": "Signature Leather Wallet", "price": 49.99, "category": "Accessories", "stock": 118},
+    {"id": "P1008", "name": "SoftTouch Cotton T-Shirt", "price": 19.95, "category": "Apparel", "stock": 310},
+    {"id": "P1009", "name": "Atlas Slim Fit Jeans", "price": 64.0, "category": "Apparel", "stock": 96},
+    {"id": "P1010", "name": "All-Weather Running Jacket", "price": 109.5, "category": "Apparel", "stock": 58},
+    {"id": "P1011", "name": "BrewMaster French Press", "price": 27.99, "category": "Home & Kitchen", "stock": 125},
+    {"id": "P1012", "name": "Terra Ceramic Mug Set", "price": 22.5, "category": "Home & Kitchen", "stock": 190},
+    {"id": "P1013", "name": "Olive Wood Cutting Board", "price": 39.95, "category": "Home & Kitchen", "stock": 73},
+    {"id": "P1014", "name": "PureFlow Water Bottle", "price": 24.99, "category": "Outdoors", "stock": 204},
+    {"id": "P1015", "name": "TrailLite Camping Lantern", "price": 31.0, "category": "Outdoors", "stock": 88},
+    {"id": "P1016", "name": "Nordic Yoga Mat", "price": 44.0, "category": "Fitness", "stock": 101},
+    {"id": "P1017", "name": "CoreGuard Resistance Bands Set", "price": 29.99, "category": "Fitness", "stock": 162},
+    {"id": "P1018", "name": "PetPaws Orthopedic Dog Bed", "price": 79.99, "category": "Pet Supplies", "stock": 36},
+    {"id": "P1019", "name": "WhiskerDelight Cat Tree", "price": 119.0, "category": "Pet Supplies", "stock": 22},
+    {"id": "P1020", "name": "BrightStart Desk Lamp", "price": 41.75, "category": "Home & Office", "stock": 147}
+  ]
+}

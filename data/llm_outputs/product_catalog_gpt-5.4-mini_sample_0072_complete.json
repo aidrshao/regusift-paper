@@ -1,0 +1,22 @@
+{
+  "catalogId": "catalog-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "prod-1001", "name": "Aurora Smartwatch Series 5", "price": 249.99, "category": "Wearables", "stock": 42},
+    {"id": "prod-1002", "name": "Nimbus Wireless Earbuds", "price": 89.95, "category": "Audio", "stock": 118},
+    {"id": "prod-1003", "name": "Vertex Bluetooth Speaker", "price": 129.0, "category": "Audio", "stock": 67},
+    {"id": "prod-1004", "name": "Luma LED Desk Lamp", "price": 39.5, "category": "Home Office", "stock": 203},
+    {"id": "prod-1005", "name": "Cedar Wood Monitor Stand", "price": 54.99, "category": "Home Office", "stock": 86},
+    {"id": "prod-1006", "name": "Terra Ceramic Coffee Mug Set", "price": 24.0, "category": "Kitchen", "stock": 154},
+    {"id": "prod-1007", "name": "Orbit Stainless Steel Water Bottle", "price": 31.25, "category": "Outdoors", "stock": 190},
+    {"id": "prod-1008", "name": "Pioneer 14-inch Laptop Backpack", "price": 74.9, "category": "Travel", "stock": 73},
+    {"id": "prod-1009", "name": "Halo Wireless Charging Pad", "price": 27.99, "category": "Accessories", "stock": 261},
+    {"id": "prod-1010", "name": "Summit Noise-Canceling Headphones", "price": 199.0, "category": "Audio", "stock": 39},
+    {"id": "prod-1011", "name": "Nova Mechanical Keyboard", "price": 109.99, "category": "Computer Accessories", "stock": 58},
+    {"id": "prod-1012", "name": "Breeze USB-C Hub", "price": 44.95, "category": "Computer Accessories", "stock": 144},
+    {"id": "prod-1013", "name": "Cascade Air Purifier", "price": 159.99, "category": "Home Appliances", "stock": 34},
+    {"id": "prod-1014", "name": "Atlas Fitness Resistance Bands", "price": 18.75, "category": "Fitness", "stock": 320},
+    {"id": "prod-1015", "name": "Solstice Smart Light Bulb Pack", "price": 49.99, "category": "Smart Home", "stock": 97},
+    {"id": "prod-1016", "name": "Peak Running Socks 3-Pack", "price": 15.5, "category": "Apparel", "stock": 412}
+  ]
+}

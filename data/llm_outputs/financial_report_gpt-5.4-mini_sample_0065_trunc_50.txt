@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Northstar Cloud Systems Inc.",
+    "ticker": "NCSI"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription services",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional services",
+      "amount": 3720000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 1260000,
+      "currency": "USD"
+    },
+    {
+      "category": "Support and maintenance",
+      "amount": 2140000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of revenue",

@@ -1,0 +1,35 @@
+{
+  "catalogId": "CAT-20260731-1842",
+  "lastUpdated": "2026-07-31T18:42:00Z",
+  "products": [
+    {
+      "id": "PROD-1001",
+      "name": "Aurora Wireless Earbuds",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 124
+    },
+    {
+      "id": "PROD-1002",
+      "name": "Nimbus Smart Watch",
+      "price": 149.95,
+      "category": "Electronics",
+      "stock": 68
+    },
+    {
+      "id": "PROD-1003",
+      "name": "Vertex Mechanical Keyboard",
+      "price": 109.5,
+      "category": "Computers",
+      "stock": 42
+    },
+    {
+      "id": "PROD-1004",
+      "name": "Lumen LED Desk Lamp",
+      "price": 34.99,
+      "category": "Home Office",
+      "stock": 210
+    },
+    {
+      "id": "PROD-1005",
+      "name": "Solace Noise-Canceling Headphones"

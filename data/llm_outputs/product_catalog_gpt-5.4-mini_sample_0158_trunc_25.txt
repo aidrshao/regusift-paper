@@ -1,0 +1,36 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Smart Fitness Watch",
+      "price": 149.95,
+      "category": "Wearables",
+      "stock": 58
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Bluetooth Portable Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 67
+    },
+    {
+      "id": "SKU-1004",
+      "name": "4K Action Camera",
+      "price": 129.5,
+      "category": "Photography",
+      "stock": 24
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ergonomic Office Chair",
+ 

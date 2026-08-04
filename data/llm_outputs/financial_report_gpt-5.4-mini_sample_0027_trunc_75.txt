@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Northstar Systems Inc.",
+    "ticker": "NSYS"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 4825000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 1260000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 890000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance and Support",
+      "amount": 735000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 2140000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 1685000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 1420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Gener

@@ -1,0 +1,79 @@
+{
+  "productName": "Daily Wellness Multi-Ingredient Support",
+  "servingSize": "2 capsules",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    {
+      "name": "Vitamin A (as beta-carotene)",
+      "amount": "900",
+      "unit": "mcg RAE",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin C (as ascorbic acid)",
+      "amount": "180",
+      "unit": "mg",
+      "dailyValue": "200%"
+    },
+    {
+      "name": "Vitamin D3 (as cholecalciferol)",
+      "amount": "25",
+      "unit": "mcg",
+      "dailyValue": "125%"
+    },
+    {
+      "name": "Vitamin E (as d-alpha tocopheryl succinate)",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin B6 (as pyridoxine hydrochloride)",
+      "amount": "2",
+      "unit": "mg",
+      "dailyValue": "118%"
+    },
+    {
+      "name": "Folate (as 5-MTHF)",
+      "amount": "400",
+      "unit": "mcg DFE",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin B12 (as methylcobalamin)",
+      "amount": "100",
+      "unit": "mcg",
+      "dailyValue": "4167%"
+    },
+    {
+      "name": "Biotin",
+      "amount": "300",
+      "unit": "mcg",
+      "dailyValue": "1000%"
+    },
+    {
+      "name": "Zinc (as zinc citrate)",
+      "amount": "11",
+      "unit": "mg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Selenium (as selenomethionine)",
+      "amount": "55",
+      "unit": "mcg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Chromium (as chromium picolinate)",
+      "amount": "35",
+      "unit": "mcg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Magnesium (as magnesium glycinate)",
+      "amount": "50",
+      "unit": "mg",
+      "dailyValue": "12%"
+    }
+  ]
+}

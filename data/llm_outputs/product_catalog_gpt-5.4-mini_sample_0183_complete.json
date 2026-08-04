@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Bluetooth Headphones", "price": 79.99, "category": "Electronics", "stock": 42 },
+    { "id": "P1002", "name": "USB-C Fast Charging Cable", "price": 12.49, "category": "Electronics", "stock": 185 },
+    { "id": "P1003", "name": "Smartwatch Series 5", "price": 199.95, "category": "Electronics", "stock": 28 },
+    { "id": "P1004", "name": "Portable Power Bank 20000mAh", "price": 34.99, "category": "Electronics", "stock": 67 },
+    { "id": "P1005", "name": "Ergonomic Office Chair", "price": 149.0, "category": "Home Office", "stock": 16 },
+    { "id": "P1006", "name": "Adjustable Standing Desk Converter", "price": 89.5, "category": "Home Office", "stock": 24 },
+    { "id": "P1007", "name": "LED Desk Lamp", "price": 27.99, "category": "Home Office", "stock": 58 },
+    { "id": "P1008", "name": "Stainless Steel Water Bottle", "price": 18.75, "category": "Outdoors", "stock": 96 },
+    { "id": "P1009", "name": "Camping Sleeping Bag", "price": 64.9, "category": "Outdoors", "stock": 33 },
+    { "id": "P1010", "name": "Hiking Backpack 35L", "price": 59.99, "category": "Outdoors", "stock": 41 },
+    { "id": "P1011", "name": "Non-Stick Cookware Set", "price": 129.99, "category": "Kitchen", "stock": 22 },
+    { "id": "P1012", "name": "Electric Kettle", "price": 39.95, "category": "Kitchen", "stock": 74 },
+    { "id": "P1013", "name": "Blender with Glass Jar", "price": 54.99, "category": "Kitchen", "stock": 37 },
+    { "id": "P1014", "name": "Cotton Bath Towels Set", "price": 24.5, "category": "Home", "stock": 88 },
+    { "id": "P1015", "name": "Memory Foam Pillow", "price": 31.99, "category": "Home", "stock": 53 },
+    { "id": "P1016", "name": "Running Shoes", "price": 84.99, "category": "Sportswear", "stock": 61 },
+    { "id": "P1017", "name": "Yoga Mat", "price": 22.0, "category": "Sportswear", "stock": 109 },
+    { "id": "P1018", "name": "Resistance Band Set", "price": 16.99, "category": "Sportswear", "stock": 142 }
+  ]
+}

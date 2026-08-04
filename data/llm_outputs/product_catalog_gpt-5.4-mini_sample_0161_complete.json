@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Bluetooth Headphones", "price": 79.99, "category": "Electronics", "stock": 142},
+    {"id": "P1002", "name": "USB-C Fast Charging Cable 1m", "price": 9.99, "category": "Electronics", "stock": 520},
+    {"id": "P1003", "name": "Smart Home Wi-Fi Plug", "price": 24.5, "category": "Electronics", "stock": 210},
+    {"id": "P1004", "name": "Stainless Steel Water Bottle 750ml", "price": 18.75, "category": "Home & Kitchen", "stock": 305},
+    {"id": "P1005", "name": "Ceramic Coffee Mug Set of 4", "price": 27.0, "category": "Home & Kitchen", "stock": 96},
+    {"id": "P1006", "name": "Memory Foam Pillow", "price": 39.99, "category": "Home & Kitchen", "stock": 88},
+    {"id": "P1007", "name": "Ergonomic Office Chair", "price": 189.95, "category": "Furniture", "stock": 34},
+    {"id": "P1008", "name": "Standing Desk Converter", "price": 129.0, "category": "Furniture", "stock": 46},
+    {"id": "P1009", "name": "LED Desk Lamp", "price": 32.49, "category": "Furniture", "stock": 173},
+    {"id": "P1010", "name": "Men's Running Shoes", "price": 84.0, "category": "Apparel", "stock": 67},
+    {"id": "P1011", "name": "Women's Athletic Leggings", "price": 42.99, "category": "Apparel", "stock": 118},
+    {"id": "P1012", "name": "Cotton T-Shirt Pack of 3", "price": 29.95, "category": "Apparel", "stock": 240},
+    {"id": "P1013", "name": "Noise Cancelling Earbuds", "price": 59.99, "category": "Electronics", "stock": 154},
+    {"id": "P1014", "name": "4K Action Camera", "price": 149.99, "category": "Electronics", "stock": 39},
+    {"id": "P1015", "name": "Nonstick Frying Pan 10-inch", "price": 21.49, "category": "Home & Kitchen", "stock": 201},
+    {"id": "P1016", "name": "Desk Organizer Set", "price": 16.99, "category": "Office Supplies", "stock": 267},
+    {"id": "P1017", "name": "Ballpoint Pen Set of 12", "price": 11.5, "category": "Office Supplies", "stock": 410},
+    {"id": "P1018", "name": "A5 Lined Notebook", "price": 8.25, "category": "Office Supplies", "stock": 355},
+    {"id": "P1019", "name": "Yoga Mat with Carry Strap", "price": 25.0, "category": "Sports & Outdoors", "stock": 129},
+    {"id": "P1020", "name": "Adjustable Dumbbell Set", "price": 219.99, "category": "Sports & Outdoors", "stock": 22}
+  ]
+}

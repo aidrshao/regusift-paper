@@ -1,0 +1,108 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P-1001",
+      "name": "AeroBlend Smart Coffee Maker",
+      "price": 129.99,
+      "category": "Kitchen Appliances",
+      "stock": 42
+    },
+    {
+      "id": "P-1002",
+      "name": "Nimbus Noise-Canceling Headphones",
+      "price": 199.95,
+      "category": "Audio",
+      "stock": 18
+    },
+    {
+      "id": "P-1003",
+      "name": "EverGlow LED Desk Lamp",
+      "price": 34.5,
+      "category": "Home Office",
+      "stock": 76
+    },
+    {
+      "id": "P-1004",
+      "name": "TrailPeak 25L Hiking Backpack",
+      "price": 59.99,
+      "category": "Outdoor Gear",
+      "stock": 31
+    },
+    {
+      "id": "P-1005",
+      "name": "PureBrew Stainless Steel Water Bottle",
+      "price": 24.0,
+      "category": "Lifestyle",
+      "stock": 120
+    },
+    {
+      "id": "P-1006",
+      "name": "VoltCharge 10,000mAh Power Bank",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 65
+    },
+    {
+      "id": "P-1007",
+      "name": "CloudRest Memory Foam Pillow",
+      "price": 49.95,
+      "category": "Home Goods",
+      "stock": 54
+    },
+    {
+      "id": "P-1008",
+      "name": "SonicWave Portable Bluetooth Speaker",
+      "price": 89.99,
+      "category": "Audio",
+      "stock": 27
+    },
+    {
+      "id": "P-1009",
+      "name": "FlexFit Adjustable Dumbbells Set",
+      "price": 249.0,
+      "category": "Fitness",
+      "stock": 12
+    },
+    {
+      "id": "P-1010",
+      "name": "FreshPress Electric Citrus Juicer",
+      "price": 44.99,
+      "category": "Kitchen Appliances",
+      "stock": 38
+    },
+    {
+      "id": "P-1011",
+      "name": "PixelPro Wireless Mouse",
+      "price": 29.99,
+      "category": "Computer Accessories",
+      "stock": 83
+    },
+    {
+      "id": "P-1012",
+      "name": "BreezeFlow Tower Fan",
+      "price": 74.5,
+      "category": "Home Appliances",
+      "stock": 21
+    },
+    {
+      "id": "P-1013",
+      "name": "UrbanRide Commuter Helmet",
+      "price": 69.95,
+      "category": "Sports",
+      "stock": 26
+    },
+    {
+      "id": "P-1014",
+      "name": "LumaSkin Facial Cleansing Brush",
+      "price": 55.0,
+      "category": "Beauty",
+      "stock": 44
+    },
+    {
+      "id": "P-1015",
+      "name": "HarvestPro Ceramic Knife Set",
+      "price": 79.99,
+      "category": "Kitchen",
+      "stock": 33

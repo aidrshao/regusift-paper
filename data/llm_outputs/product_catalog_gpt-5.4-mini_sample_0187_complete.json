@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 48},
+    {"id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 126},
+    {"id": "P1003", "name": "Smart Fitness Watch", "price": 149.0, "category": "Wearables", "stock": 72},
+    {"id": "P1004", "name": "4K Ultra HD Action Camera", "price": 129.99, "category": "Electronics", "stock": 31},
+    {"id": "P1005", "name": "Stainless Steel Water Bottle", "price": 24.5, "category": "Home & Kitchen", "stock": 210},
+    {"id": "P1006", "name": "Ergonomic Office Chair", "price": 249.99, "category": "Furniture", "stock": 18},
+    {"id": "P1007", "name": "Adjustable Laptop Stand", "price": 39.99, "category": "Office Supplies", "stock": 94},
+    {"id": "P1008", "name": "Organic Cotton Bed Sheet Set", "price": 79.9, "category": "Home & Kitchen", "stock": 57},
+    {"id": "P1009", "name": "Robot Vacuum Cleaner", "price": 329.99, "category": "Appliances", "stock": 22},
+    {"id": "P1010", "name": "Electric Toothbrush", "price": 44.99, "category": "Personal Care", "stock": 143},
+    {"id": "P1011", "name": "Men's Running Shoes", "price": 89.95, "category": "Apparel", "stock": 85},
+    {"id": "P1012", "name": "Women's Yoga Leggings", "price": 54.0, "category": "Apparel", "stock": 101},
+    {"id": "P1013", "name": "Kitchen Knife Set", "price": 119.0, "category": "Home & Kitchen", "stock": 39},
+    {"id": "P1014", "name": "LED Desk Lamp", "price": 27.99, "category": "Home & Kitchen", "stock": 168},
+    {"id": "P1015", "name": "Children's Building Blocks Set", "price": 34.95, "category": "Toys", "stock": 76},
+    {"id": "P1016", "name": "Gaming Mouse", "price": 49.99, "category": "Electronics", "stock": 117},
+    {"id": "P1017", "name": "Ceramic Coffee Mug Set", "price": 22.5, "category": "Home & Kitchen", "stock": 204},
+    {"id": "P1018", "name": "Portable Power Bank 20000mAh", "price": 39.49, "category": "Electronics", "stock": 88}
+  ]
+}

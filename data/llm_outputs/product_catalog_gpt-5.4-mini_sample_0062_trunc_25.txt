@@ -1,0 +1,32 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Aurora Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 124
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Nimbus Bluetooth Speaker",
+      "price": 49.95,
+      "category": "Electronics",
+      "stock": 86
+    },
+    {
+      "id": "SKU-1003",
+      "name": "CoreFit Smartwatch",
+      "price": 129.0,
+      "category": "Wearables",
+      "stock": 57
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Peak Performance Yoga Mat",
+      "price": 24.5,
+      "category": "Fitness",
+      "stock": 210
+ 

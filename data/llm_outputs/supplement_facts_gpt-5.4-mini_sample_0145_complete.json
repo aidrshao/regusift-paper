@@ -1,0 +1,79 @@
+{
+  "productName": "Daily Wellness Multi + Immune Support",
+  "servingSize": "2 capsules",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    {
+      "name": "Vitamin C (as ascorbic acid)",
+      "amount": "250",
+      "unit": "mg",
+      "dailyValue": "278%"
+    },
+    {
+      "name": "Vitamin D3 (as cholecalciferol)",
+      "amount": "50",
+      "unit": "mcg",
+      "dailyValue": "250%"
+    },
+    {
+      "name": "Vitamin B6 (as pyridoxine HCl)",
+      "amount": "2",
+      "unit": "mg",
+      "dailyValue": "118%"
+    },
+    {
+      "name": "Folate",
+      "amount": "400",
+      "unit": "mcg DFE",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin B12 (as methylcobalamin)",
+      "amount": "100",
+      "unit": "mcg",
+      "dailyValue": "4167%"
+    },
+    {
+      "name": "Zinc (as zinc citrate)",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "136%"
+    },
+    {
+      "name": "Selenium (as selenomethionine)",
+      "amount": "55",
+      "unit": "mcg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Magnesium (as magnesium glycinate)",
+      "amount": "100",
+      "unit": "mg",
+      "dailyValue": "24%"
+    },
+    {
+      "name": "Elderberry Fruit Extract (Sambucus nigra)",
+      "amount": "150",
+      "unit": "mg",
+      "dailyValue": "†"
+    },
+    {
+      "name": "Echinacea Purpurea Extract (aerial parts)",
+      "amount": "100",
+      "unit": "mg",
+      "dailyValue": "†"
+    },
+    {
+      "name": "Green Tea Extract (Camellia sinensis)",
+      "amount": "75",
+      "unit": "mg",
+      "dailyValue": "†"
+    },
+    {
+      "name": "Probiotic Blend (Lactobacillus acidophilus, Bifidobacterium lactis)",
+      "amount": "10",
+      "unit": "Billion CFU",
+      "dailyValue": "†"
+    }
+  ]
+}

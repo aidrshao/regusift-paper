@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "AsterCore Technologies",
+    "ticker": "ACT"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software subscriptions",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional services",
+      "amount": 12675000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware sales",
+      "amount": 8950000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance and support",
+      "amount": 7140000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of revenue",
+      "amount": 21640000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and development",
+      "amount": 18350000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and marketing",
+      "amount": 14780000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and administrative",
+      "amount": 8620000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and amortization",
+      "amount": 2940000,
+      "currency": "US

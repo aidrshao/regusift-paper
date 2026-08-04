@@ -1,0 +1,3342 @@
+[
+  {
+    "timestamp": 2.230168104171753,
+    "cumulative_len": 2,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.232257127761841,
+    "cumulative_len": 3,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.2323100566864014,
+    "cumulative_len": 5,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.2323572635650635,
+    "cumulative_len": 12,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 2.2323920726776123,
+    "cumulative_len": 16,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.259643077850342,
+    "cumulative_len": 18,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.262083053588867,
+    "cumulative_len": 20,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.2643799781799316,
+    "cumulative_len": 25,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.264443874359131,
+    "cumulative_len": 31,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.303753137588501,
+    "cumulative_len": 33,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.303852081298828,
+    "cumulative_len": 42,
+    "delta_len": 9
+  },
+  {
+    "timestamp": 2.3039190769195557,
+    "cumulative_len": 50,
+    "delta_len": 8
+  },
+  {
+    "timestamp": 2.3059511184692383,
+    "cumulative_len": 59,
+    "delta_len": 9
+  },
+  {
+    "timestamp": 2.3060312271118164,
+    "cumulative_len": 62,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3061001300811768,
+    "cumulative_len": 63,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.306166172027588,
+    "cumulative_len": 65,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3062310218811035,
+    "cumulative_len": 69,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.30629825592041,
+    "cumulative_len": 72,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.306361198425293,
+    "cumulative_len": 76,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3064231872558594,
+    "cumulative_len": 78,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.306485176086426,
+    "cumulative_len": 80,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3065459728240967,
+    "cumulative_len": 81,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.3066141605377197,
+    "cumulative_len": 90,
+    "delta_len": 9
+  },
+  {
+    "timestamp": 2.3066749572753906,
+    "cumulative_len": 93,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.334458112716675,
+    "cumulative_len": 94,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.3345751762390137,
+    "cumulative_len": 96,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3347132205963135,
+    "cumulative_len": 100,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3348941802978516,
+    "cumulative_len": 104,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.335016965866089,
+    "cumulative_len": 107,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3351292610168457,
+    "cumulative_len": 116,
+    "delta_len": 9
+  },
+  {
+    "timestamp": 2.335207939147949,
+    "cumulative_len": 118,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3510332107543945,
+    "cumulative_len": 119,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.3511130809783936,
+    "cumulative_len": 121,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.351170063018799,
+    "cumulative_len": 123,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.351222038269043,
+    "cumulative_len": 124,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.351270914077759,
+    "cumulative_len": 126,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.351321220397949,
+    "cumulative_len": 137,
+    "delta_len": 11
+  },
+  {
+    "timestamp": 2.3513691425323486,
+    "cumulative_len": 139,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3514182567596436,
+    "cumulative_len": 142,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3514649868011475,
+    "cumulative_len": 145,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.351513147354126,
+    "cumulative_len": 148,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.351562023162842,
+    "cumulative_len": 153,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3516101837158203,
+    "cumulative_len": 155,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.351655960083008,
+    "cumulative_len": 159,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3517041206359863,
+    "cumulative_len": 161,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3517510890960693,
+    "cumulative_len": 163,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3518290519714355,
+    "cumulative_len": 170,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 2.351917028427124,
+    "cumulative_len": 172,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.351963996887207,
+    "cumulative_len": 174,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.352013111114502,
+    "cumulative_len": 176,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3520588874816895,
+    "cumulative_len": 181,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.352107048034668,
+    "cumulative_len": 185,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3521549701690674,
+    "cumulative_len": 187,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3522021770477295,
+    "cumulative_len": 190,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3522491455078125,
+    "cumulative_len": 194,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.352294921875,
+    "cumulative_len": 199,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3523430824279785,
+    "cumulative_len": 201,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.352389097213745,
+    "cumulative_len": 207,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.352436065673828,
+    "cumulative_len": 209,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3524820804595947,
+    "cumulative_len": 211,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.352527141571045,
+    "cumulative_len": 214,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.352571964263916,
+    "cumulative_len": 217,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3526201248168945,
+    "cumulative_len": 222,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3527071475982666,
+    "cumulative_len": 224,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3527960777282715,
+    "cumulative_len": 228,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.352886199951172,
+    "cumulative_len": 230,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.352964162826538,
+    "cumulative_len": 232,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.353025197982788,
+    "cumulative_len": 234,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.353084087371826,
+    "cumulative_len": 235,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.3531463146209717,
+    "cumulative_len": 237,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3531999588012695,
+    "cumulative_len": 239,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3532521724700928,
+    "cumulative_len": 242,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3533031940460205,
+    "cumulative_len": 247,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3533551692962646,
+    "cumulative_len": 249,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3534059524536133,
+    "cumulative_len": 254,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3534579277038574,
+    "cumulative_len": 259,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3535139560699463,
+    "cumulative_len": 261,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.353567123413086,
+    "cumulative_len": 263,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.35361909866333,
+    "cumulative_len": 266,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3536698818206787,
+    "cumulative_len": 269,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.353731155395508,
+    "cumulative_len": 272,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3537862300872803,
+    "cumulative_len": 276,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3538451194763184,
+    "cumulative_len": 279,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.353896141052246,
+    "cumulative_len": 282,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3539469242095947,
+    "cumulative_len": 287,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.365417957305908,
+    "cumulative_len": 289,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3655121326446533,
+    "cumulative_len": 293,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3655810356140137,
+    "cumulative_len": 295,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3656461238861084,
+    "cumulative_len": 297,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3676931858062744,
+    "cumulative_len": 304,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 2.3678300380706787,
+    "cumulative_len": 306,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3679230213165283,
+    "cumulative_len": 308,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3680052757263184,
+    "cumulative_len": 310,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.36808705329895,
+    "cumulative_len": 313,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.368166923522949,
+    "cumulative_len": 316,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3682429790496826,
+    "cumulative_len": 319,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3683180809020996,
+    "cumulative_len": 324,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.368396043777466,
+    "cumulative_len": 328,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3684842586517334,
+    "cumulative_len": 333,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3685741424560547,
+    "cumulative_len": 335,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.368664264678955,
+    "cumulative_len": 341,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.3687570095062256,
+    "cumulative_len": 343,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.368849039077759,
+    "cumulative_len": 345,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3689379692077637,
+    "cumulative_len": 347,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3690130710601807,
+    "cumulative_len": 350,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3690881729125977,
+    "cumulative_len": 355,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3691630363464355,
+    "cumulative_len": 357,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3692359924316406,
+    "cumulative_len": 361,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.3693180084228516,
+    "cumulative_len": 363,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.369394063949585,
+    "cumulative_len": 365,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.36946702003479,
+    "cumulative_len": 367,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.369539260864258,
+    "cumulative_len": 370,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.3707871437072754,
+    "cumulative_len": 375,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3709311485290527,
+    "cumulative_len": 377,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.371042251586914,
+    "cumulative_len": 382,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3711419105529785,
+    "cumulative_len": 387,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.3987231254577637,
+    "cumulative_len": 389,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.398872137069702,
+    "cumulative_len": 391,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.3989791870117188,
+    "cumulative_len": 394,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.399077892303467,
+    "cumulative_len": 397,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.406280040740967,
+    "cumulative_len": 400,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.406412124633789,
+    "cumulative_len": 404,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.4065139293670654,
+    "cumulative_len": 407,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4066121578216553,
+    "cumulative_len": 410,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.408474922180176,
+    "cumulative_len": 415,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4085912704467773,
+    "cumulative_len": 417,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4086899757385254,
+    "cumulative_len": 421,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.408784866333008,
+    "cumulative_len": 423,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.408879280090332,
+    "cumulative_len": 425,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.408980131149292,
+    "cumulative_len": 432,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 2.4090750217437744,
+    "cumulative_len": 434,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4110732078552246,
+    "cumulative_len": 435,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.4110898971557617,
+    "cumulative_len": 437,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.411099910736084,
+    "cumulative_len": 439,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4112560749053955,
+    "cumulative_len": 442,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4113752841949463,
+    "cumulative_len": 445,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4137790203094482,
+    "cumulative_len": 449,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.4138991832733154,
+    "cumulative_len": 453,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.413991928100586,
+    "cumulative_len": 455,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.416015148162842,
+    "cumulative_len": 459,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.4161102771759033,
+    "cumulative_len": 464,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4161770343780518,
+    "cumulative_len": 466,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4168951511383057,
+    "cumulative_len": 472,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.4204330444335938,
+    "cumulative_len": 474,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4205262660980225,
+    "cumulative_len": 476,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.420598030090332,
+    "cumulative_len": 478,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.420667886734009,
+    "cumulative_len": 481,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.422801971435547,
+    "cumulative_len": 486,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4229509830474854,
+    "cumulative_len": 488,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.425523042678833,
+    "cumulative_len": 492,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.427325963973999,
+    "cumulative_len": 494,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.427412986755371,
+    "cumulative_len": 496,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4298110008239746,
+    "cumulative_len": 498,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.429887056350708,
+    "cumulative_len": 499,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.4299509525299072,
+    "cumulative_len": 502,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4300081729888916,
+    "cumulative_len": 507,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4783971309661865,
+    "cumulative_len": 509,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4784982204437256,
+    "cumulative_len": 514,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4785361289978027,
+    "cumulative_len": 519,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4785680770874023,
+    "cumulative_len": 521,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.478689193725586,
+    "cumulative_len": 523,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.47869610786438,
+    "cumulative_len": 526,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.478703260421753,
+    "cumulative_len": 529,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4787089824676514,
+    "cumulative_len": 532,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4787158966064453,
+    "cumulative_len": 536,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.478722095489502,
+    "cumulative_len": 539,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4787280559539795,
+    "cumulative_len": 542,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.478734254837036,
+    "cumulative_len": 547,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4787399768829346,
+    "cumulative_len": 549,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4787468910217285,
+    "cumulative_len": 553,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.478843927383423,
+    "cumulative_len": 555,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.478851079940796,
+    "cumulative_len": 557,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.47886323928833,
+    "cumulative_len": 564,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 2.4788711071014404,
+    "cumulative_len": 566,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.478877067565918,
+    "cumulative_len": 568,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4788832664489746,
+    "cumulative_len": 570,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.478888988494873,
+    "cumulative_len": 572,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4789609909057617,
+    "cumulative_len": 578,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.479030132293701,
+    "cumulative_len": 582,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.4790961742401123,
+    "cumulative_len": 585,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4807722568511963,
+    "cumulative_len": 589,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.4808599948883057,
+    "cumulative_len": 597,
+    "delta_len": 8
+  },
+  {
+    "timestamp": 2.4876391887664795,
+    "cumulative_len": 601,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.487795114517212,
+    "cumulative_len": 606,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.4930970668792725,
+    "cumulative_len": 608,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4932470321655273,
+    "cumulative_len": 614,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.493360996246338,
+    "cumulative_len": 616,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4934651851654053,
+    "cumulative_len": 618,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4935731887817383,
+    "cumulative_len": 620,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.49367618560791,
+    "cumulative_len": 623,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.4953200817108154,
+    "cumulative_len": 628,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.495450973510742,
+    "cumulative_len": 630,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4955599308013916,
+    "cumulative_len": 634,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.4956600666046143,
+    "cumulative_len": 636,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4957571029663086,
+    "cumulative_len": 638,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.495854139328003,
+    "cumulative_len": 640,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.495946168899536,
+    "cumulative_len": 643,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.496040105819702,
+    "cumulative_len": 648,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.496201992034912,
+    "cumulative_len": 650,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.496314287185669,
+    "cumulative_len": 655,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.496415138244629,
+    "cumulative_len": 660,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.496514081954956,
+    "cumulative_len": 662,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.4966111183166504,
+    "cumulative_len": 664,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.5046563148498535,
+    "cumulative_len": 667,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.5047528743743896,
+    "cumulative_len": 670,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.5048270225524902,
+    "cumulative_len": 673,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.5048930644989014,
+    "cumulative_len": 677,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.504956007003784,
+    "cumulative_len": 680,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.505018949508667,
+    "cumulative_len": 683,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.6466410160064697,
+    "cumulative_len": 688,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.65315318107605,
+    "cumulative_len": 690,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.655351161956787,
+    "cumulative_len": 694,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.6553990840911865,
+    "cumulative_len": 696,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.6554341316223145,
+    "cumulative_len": 698,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.6554670333862305,
+    "cumulative_len": 700,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.6555001735687256,
+    "cumulative_len": 703,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.6555330753326416,
+    "cumulative_len": 705,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.655564069747925,
+    "cumulative_len": 707,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.655595064163208,
+    "cumulative_len": 714,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 2.655626058578491,
+    "cumulative_len": 716,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.6556601524353027,
+    "cumulative_len": 717,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.6602120399475098,
+    "cumulative_len": 718,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.6624391078948975,
+    "cumulative_len": 720,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.662480115890503,
+    "cumulative_len": 722,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.6625170707702637,
+    "cumulative_len": 725,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.662551164627075,
+    "cumulative_len": 728,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.66556715965271,
+    "cumulative_len": 730,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.66560697555542,
+    "cumulative_len": 734,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.665642023086548,
+    "cumulative_len": 736,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.8637261390686035,
+    "cumulative_len": 742,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.8684589862823486,
+    "cumulative_len": 746,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.8685591220855713,
+    "cumulative_len": 751,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.8686270713806152,
+    "cumulative_len": 753,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.8686890602111816,
+    "cumulative_len": 759,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 2.868746042251587,
+    "cumulative_len": 761,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.868800163269043,
+    "cumulative_len": 763,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.868856191635132,
+    "cumulative_len": 764,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.8689119815826416,
+    "cumulative_len": 765,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.8689658641815186,
+    "cumulative_len": 766,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 2.869020938873291,
+    "cumulative_len": 769,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.903548002243042,
+    "cumulative_len": 774,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.9036550521850586,
+    "cumulative_len": 776,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.9037530422210693,
+    "cumulative_len": 780,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.9038631916046143,
+    "cumulative_len": 782,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.90397310256958,
+    "cumulative_len": 784,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.904006004333496,
+    "cumulative_len": 786,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.904036283493042,
+    "cumulative_len": 789,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.9040651321411133,
+    "cumulative_len": 794,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.9040939807891846,
+    "cumulative_len": 796,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.9041221141815186,
+    "cumulative_len": 801,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.904151201248169,
+    "cumulative_len": 806,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.904179096221924,
+    "cumulative_len": 808,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.9079999923706055,
+    "cumulative_len": 810,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.9080660343170166,
+    "cumulative_len": 813,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.908100128173828,
+    "cumulative_len": 816,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.9081459045410156,
+    "cumulative_len": 819,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.9082419872283936,
+    "cumulative_len": 823,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.908339023590088,
+    "cumulative_len": 826,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.9084200859069824,
+    "cumulative_len": 829,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 2.908499002456665,
+    "cumulative_len": 834,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 2.908576011657715,
+    "cumulative_len": 836,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.9086532592773438,
+    "cumulative_len": 840,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 2.908729076385498,
+    "cumulative_len": 842,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 2.9088051319122314,
+    "cumulative_len": 844,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.119173288345337,
+    "cumulative_len": 845,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.1192331314086914,
+    "cumulative_len": 847,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1192870140075684,
+    "cumulative_len": 849,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1193370819091797,
+    "cumulative_len": 852,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.119386911392212,
+    "cumulative_len": 854,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1336519718170166,
+    "cumulative_len": 856,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1337180137634277,
+    "cumulative_len": 863,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 3.133758068084717,
+    "cumulative_len": 865,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.133803129196167,
+    "cumulative_len": 866,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.1338071823120117,
+    "cumulative_len": 870,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.1338109970092773,
+    "cumulative_len": 875,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1338140964508057,
+    "cumulative_len": 877,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1338491439819336,
+    "cumulative_len": 883,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.133882999420166,
+    "cumulative_len": 885,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1341631412506104,
+    "cumulative_len": 887,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1342039108276367,
+    "cumulative_len": 888,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.1342451572418213,
+    "cumulative_len": 889,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.134248971939087,
+    "cumulative_len": 890,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.1342520713806152,
+    "cumulative_len": 893,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.134255886077881,
+    "cumulative_len": 898,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.134289026260376,
+    "cumulative_len": 900,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.134321928024292,
+    "cumulative_len": 904,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.1343541145324707,
+    "cumulative_len": 906,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.134384870529175,
+    "cumulative_len": 908,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.134416103363037,
+    "cumulative_len": 910,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1344470977783203,
+    "cumulative_len": 913,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1344780921936035,
+    "cumulative_len": 918,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1345090866088867,
+    "cumulative_len": 920,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1345391273498535,
+    "cumulative_len": 925,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1345701217651367,
+    "cumulative_len": 930,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1345999240875244,
+    "cumulative_len": 932,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1346352100372314,
+    "cumulative_len": 934,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.134667158126831,
+    "cumulative_len": 937,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1346981525421143,
+    "cumulative_len": 940,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1347291469573975,
+    "cumulative_len": 943,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1347601413726807,
+    "cumulative_len": 947,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.1347899436950684,
+    "cumulative_len": 950,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1348202228546143,
+    "cumulative_len": 953,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.134850025177002,
+    "cumulative_len": 958,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1348800659179688,
+    "cumulative_len": 960,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1349101066589355,
+    "cumulative_len": 964,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.1349399089813232,
+    "cumulative_len": 966,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.143322229385376,
+    "cumulative_len": 968,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.143372058868408,
+    "cumulative_len": 970,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1434152126312256,
+    "cumulative_len": 974,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.143460273742676,
+    "cumulative_len": 976,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1435022354125977,
+    "cumulative_len": 978,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.143541097640991,
+    "cumulative_len": 981,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1435799598693848,
+    "cumulative_len": 985,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.143620252609253,
+    "cumulative_len": 990,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1436612606048584,
+    "cumulative_len": 994,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.143700122833252,
+    "cumulative_len": 999,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.143738269805908,
+    "cumulative_len": 1001,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1437761783599854,
+    "cumulative_len": 1007,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.1466891765594482,
+    "cumulative_len": 1009,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1467301845550537,
+    "cumulative_len": 1011,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1467652320861816,
+    "cumulative_len": 1013,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1468019485473633,
+    "cumulative_len": 1016,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.146833896636963,
+    "cumulative_len": 1021,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1565492153167725,
+    "cumulative_len": 1023,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1565990447998047,
+    "cumulative_len": 1027,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.156636953353882,
+    "cumulative_len": 1029,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1566720008850098,
+    "cumulative_len": 1031,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1567111015319824,
+    "cumulative_len": 1033,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.156715154647827,
+    "cumulative_len": 1036,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1567182540893555,
+    "cumulative_len": 1039,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1567611694335938,
+    "cumulative_len": 1044,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1567649841308594,
+    "cumulative_len": 1046,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1567680835723877,
+    "cumulative_len": 1051,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.156771183013916,
+    "cumulative_len": 1056,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1568052768707275,
+    "cumulative_len": 1058,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.156838893890381,
+    "cumulative_len": 1060,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.156869888305664,
+    "cumulative_len": 1063,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1569020748138428,
+    "cumulative_len": 1066,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1569321155548096,
+    "cumulative_len": 1069,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1569643020629883,
+    "cumulative_len": 1073,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.156994104385376,
+    "cumulative_len": 1076,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.157025098800659,
+    "cumulative_len": 1079,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.157055139541626,
+    "cumulative_len": 1084,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1570849418640137,
+    "cumulative_len": 1086,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1571149826049805,
+    "cumulative_len": 1090,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.157144069671631,
+    "cumulative_len": 1092,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1571741104125977,
+    "cumulative_len": 1094,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.157202959060669,
+    "cumulative_len": 1101,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 3.157233953475952,
+    "cumulative_len": 1103,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1572649478912354,
+    "cumulative_len": 1104,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.157294273376465,
+    "cumulative_len": 1106,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.157337188720703,
+    "cumulative_len": 1108,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1573410034179688,
+    "cumulative_len": 1112,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.1573450565338135,
+    "cumulative_len": 1114,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.157348155975342,
+    "cumulative_len": 1116,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.157379150390625,
+    "cumulative_len": 1119,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1574079990386963,
+    "cumulative_len": 1130,
+    "delta_len": 11
+  },
+  {
+    "timestamp": 3.1574370861053467,
+    "cumulative_len": 1133,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.1574668884277344,
+    "cumulative_len": 1137,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.1579010486602783,
+    "cumulative_len": 1142,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.1588470935821533,
+    "cumulative_len": 1144,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1588869094848633,
+    "cumulative_len": 1150,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.1589231491088867,
+    "cumulative_len": 1152,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.162853240966797,
+    "cumulative_len": 1154,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1652228832244873,
+    "cumulative_len": 1155,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.1652748584747314,
+    "cumulative_len": 1156,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.1655139923095703,
+    "cumulative_len": 1157,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.168015241622925,
+    "cumulative_len": 1160,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.171036958694458,
+    "cumulative_len": 1165,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.173197031021118,
+    "cumulative_len": 1167,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.1732490062713623,
+    "cumulative_len": 1171,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.173285961151123,
+    "cumulative_len": 1173,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.2614920139312744,
+    "cumulative_len": 1175,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.2635929584503174,
+    "cumulative_len": 1177,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.2636640071868896,
+    "cumulative_len": 1180,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.263706922531128,
+    "cumulative_len": 1185,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.2739531993865967,
+    "cumulative_len": 1187,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.2740039825439453,
+    "cumulative_len": 1192,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.274041175842285,
+    "cumulative_len": 1197,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.2740743160247803,
+    "cumulative_len": 1199,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.27410626411438,
+    "cumulative_len": 1201,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.2741472721099854,
+    "cumulative_len": 1204,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.274151086807251,
+    "cumulative_len": 1207,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.2741541862487793,
+    "cumulative_len": 1210,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.2741570472717285,
+    "cumulative_len": 1214,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.2741901874542236,
+    "cumulative_len": 1217,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.2742221355438232,
+    "cumulative_len": 1220,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.27425217628479,
+    "cumulative_len": 1225,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.2742831707000732,
+    "cumulative_len": 1227,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.315758228302002,
+    "cumulative_len": 1231,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.3158211708068848,
+    "cumulative_len": 1233,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.3158600330352783,
+    "cumulative_len": 1235,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.3158950805664062,
+    "cumulative_len": 1236,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.322761058807373,
+    "cumulative_len": 1241,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.3228211402893066,
+    "cumulative_len": 1243,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.3228659629821777,
+    "cumulative_len": 1245,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.322902202606201,
+    "cumulative_len": 1249,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.322934150695801,
+    "cumulative_len": 1251,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.3229682445526123,
+    "cumulative_len": 1256,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.323000192642212,
+    "cumulative_len": 1260,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.323031187057495,
+    "cumulative_len": 1265,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.3230631351470947,
+    "cumulative_len": 1267,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.323094129562378,
+    "cumulative_len": 1273,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.3231241703033447,
+    "cumulative_len": 1275,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.3231539726257324,
+    "cumulative_len": 1277,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.323184013366699,
+    "cumulative_len": 1280,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.3232131004333496,
+    "cumulative_len": 1283,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.325080156326294,
+    "cumulative_len": 1288,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.325119972229004,
+    "cumulative_len": 1290,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5632011890411377,
+    "cumulative_len": 1294,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.565277099609375,
+    "cumulative_len": 1296,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5675690174102783,
+    "cumulative_len": 1298,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.567621946334839,
+    "cumulative_len": 1300,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.567660093307495,
+    "cumulative_len": 1301,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.5697059631347656,
+    "cumulative_len": 1303,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5697600841522217,
+    "cumulative_len": 1305,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.569797992706299,
+    "cumulative_len": 1308,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.5698320865631104,
+    "cumulative_len": 1313,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.569866180419922,
+    "cumulative_len": 1315,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.569899082183838,
+    "cumulative_len": 1320,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.569930076599121,
+    "cumulative_len": 1325,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.5699641704559326,
+    "cumulative_len": 1327,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5699961185455322,
+    "cumulative_len": 1329,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5700292587280273,
+    "cumulative_len": 1332,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.5700600147247314,
+    "cumulative_len": 1335,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.5700910091400146,
+    "cumulative_len": 1338,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.570122003555298,
+    "cumulative_len": 1342,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.5701520442962646,
+    "cumulative_len": 1345,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.570183038711548,
+    "cumulative_len": 1348,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.5702149868011475,
+    "cumulative_len": 1353,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.570244073867798,
+    "cumulative_len": 1355,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.570275068283081,
+    "cumulative_len": 1359,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.570305109024048,
+    "cumulative_len": 1361,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5703351497650146,
+    "cumulative_len": 1363,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.570373296737671,
+    "cumulative_len": 1370,
+    "delta_len": 7
+  },
+  {
+    "timestamp": 3.570404291152954,
+    "cumulative_len": 1372,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.577381134033203,
+    "cumulative_len": 1374,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5773849487304688,
+    "cumulative_len": 1376,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5773892402648926,
+    "cumulative_len": 1378,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5773918628692627,
+    "cumulative_len": 1383,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.577394962310791,
+    "cumulative_len": 1385,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5773980617523193,
+    "cumulative_len": 1389,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.5774011611938477,
+    "cumulative_len": 1393,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.577404022216797,
+    "cumulative_len": 1397,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.577407121658325,
+    "cumulative_len": 1402,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.5774102210998535,
+    "cumulative_len": 1404,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5873310565948486,
+    "cumulative_len": 1410,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.5873401165008545,
+    "cumulative_len": 1412,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587346076965332,
+    "cumulative_len": 1414,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587351083755493,
+    "cumulative_len": 1415,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.587354898452759,
+    "cumulative_len": 1416,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.587360143661499,
+    "cumulative_len": 1417,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.58736515045166,
+    "cumulative_len": 1420,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.587368965148926,
+    "cumulative_len": 1425,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.587374210357666,
+    "cumulative_len": 1427,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587378978729248,
+    "cumulative_len": 1431,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.5873830318450928,
+    "cumulative_len": 1433,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5873889923095703,
+    "cumulative_len": 1435,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5873942375183105,
+    "cumulative_len": 1437,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587398052215576,
+    "cumulative_len": 1438,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.587402105331421,
+    "cumulative_len": 1441,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.587407112121582,
+    "cumulative_len": 1446,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.587412118911743,
+    "cumulative_len": 1448,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587416172027588,
+    "cumulative_len": 1453,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.58742094039917,
+    "cumulative_len": 1458,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.5874249935150146,
+    "cumulative_len": 1460,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587430000305176,
+    "cumulative_len": 1462,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587435007095337,
+    "cumulative_len": 1465,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.587440013885498,
+    "cumulative_len": 1468,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.587445020675659,
+    "cumulative_len": 1471,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.5874502658843994,
+    "cumulative_len": 1475,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.587454080581665,
+    "cumulative_len": 1478,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.5874581336975098,
+    "cumulative_len": 1481,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.587462902069092,
+    "cumulative_len": 1486,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.587468147277832,
+    "cumulative_len": 1488,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5874722003936768,
+    "cumulative_len": 1492,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.587476968765259,
+    "cumulative_len": 1494,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5874812602996826,
+    "cumulative_len": 1496,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.5874860286712646,
+    "cumulative_len": 1498,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587491273880005,
+    "cumulative_len": 1502,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.587496042251587,
+    "cumulative_len": 1505,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.587501049041748,
+    "cumulative_len": 1510,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.5875070095062256,
+    "cumulative_len": 1512,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.587512254714966,
+    "cumulative_len": 1518,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.587517023086548,
+    "cumulative_len": 1520,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.676687240600586,
+    "cumulative_len": 1522,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.678831100463867,
+    "cumulative_len": 1524,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6789121627807617,
+    "cumulative_len": 1527,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6789700984954834,
+    "cumulative_len": 1532,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6790239810943604,
+    "cumulative_len": 1534,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6790761947631836,
+    "cumulative_len": 1538,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.6791481971740723,
+    "cumulative_len": 1540,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6792221069335938,
+    "cumulative_len": 1542,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.679280996322632,
+    "cumulative_len": 1544,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6793322563171387,
+    "cumulative_len": 1545,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.6793811321258545,
+    "cumulative_len": 1548,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.679429292678833,
+    "cumulative_len": 1553,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6794769763946533,
+    "cumulative_len": 1555,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6797492504119873,
+    "cumulative_len": 1560,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.682072162628174,
+    "cumulative_len": 1565,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.682138204574585,
+    "cumulative_len": 1567,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.682197093963623,
+    "cumulative_len": 1569,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.682255268096924,
+    "cumulative_len": 1572,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.686404228210449,
+    "cumulative_len": 1575,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6864981651306152,
+    "cumulative_len": 1578,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6865642070770264,
+    "cumulative_len": 1582,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.686624050140381,
+    "cumulative_len": 1585,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6866812705993652,
+    "cumulative_len": 1588,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6867470741271973,
+    "cumulative_len": 1593,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6868040561676025,
+    "cumulative_len": 1595,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6868581771850586,
+    "cumulative_len": 1599,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.686911106109619,
+    "cumulative_len": 1601,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.686967134475708,
+    "cumulative_len": 1603,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.687019109725952,
+    "cumulative_len": 1607,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.6870720386505127,
+    "cumulative_len": 1610,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.687130928039551,
+    "cumulative_len": 1614,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.6886091232299805,
+    "cumulative_len": 1619,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6886820793151855,
+    "cumulative_len": 1621,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6887402534484863,
+    "cumulative_len": 1623,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6888041496276855,
+    "cumulative_len": 1631,
+    "delta_len": 8
+  },
+  {
+    "timestamp": 3.688861131668091,
+    "cumulative_len": 1636,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6889190673828125,
+    "cumulative_len": 1639,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.688977003097534,
+    "cumulative_len": 1641,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.689030885696411,
+    "cumulative_len": 1644,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.689087152481079,
+    "cumulative_len": 1648,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.6891419887542725,
+    "cumulative_len": 1653,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6891961097717285,
+    "cumulative_len": 1655,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6892502307891846,
+    "cumulative_len": 1661,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.6893041133880615,
+    "cumulative_len": 1663,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.689357042312622,
+    "cumulative_len": 1665,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.689411163330078,
+    "cumulative_len": 1666,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 3.689465284347534,
+    "cumulative_len": 1669,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6895229816436768,
+    "cumulative_len": 1674,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6913890838623047,
+    "cumulative_len": 1676,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.691567897796631,
+    "cumulative_len": 1680,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.6935250759124756,
+    "cumulative_len": 1682,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6969432830810547,
+    "cumulative_len": 1684,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.697021007537842,
+    "cumulative_len": 1686,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.6971001625061035,
+    "cumulative_len": 1689,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.6971070766448975,
+    "cumulative_len": 1694,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.6971142292022705,
+    "cumulative_len": 1696,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8023550510406494,
+    "cumulative_len": 1701,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.8052732944488525,
+    "cumulative_len": 1706,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.8075010776519775,
+    "cumulative_len": 1708,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8095860481262207,
+    "cumulative_len": 1710,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8119029998779297,
+    "cumulative_len": 1713,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.8119590282440186,
+    "cumulative_len": 1716,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.8141300678253174,
+    "cumulative_len": 1719,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.8141860961914062,
+    "cumulative_len": 1723,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.8142242431640625,
+    "cumulative_len": 1726,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.81746506690979,
+    "cumulative_len": 1729,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.819772958755493,
+    "cumulative_len": 1734,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.8198342323303223,
+    "cumulative_len": 1736,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8280160427093506,
+    "cumulative_len": 1740,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.83034610748291,
+    "cumulative_len": 1742,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8304121494293213,
+    "cumulative_len": 1744,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8304531574249268,
+    "cumulative_len": 1747,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.8313751220703125,
+    "cumulative_len": 1751,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.841893196105957,
+    "cumulative_len": 1753,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8619279861450195,
+    "cumulative_len": 1755,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.864108085632324,
+    "cumulative_len": 1763,
+    "delta_len": 8
+  },
+  {
+    "timestamp": 3.8641610145568848,
+    "cumulative_len": 1771,
+    "delta_len": 8
+  },
+  {
+    "timestamp": 3.864198923110962,
+    "cumulative_len": 1775,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.8642330169677734,
+    "cumulative_len": 1780,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.8642661571502686,
+    "cumulative_len": 1782,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8642990589141846,
+    "cumulative_len": 1788,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 3.864331007003784,
+    "cumulative_len": 1790,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.864363193511963,
+    "cumulative_len": 1792,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.864394187927246,
+    "cumulative_len": 1795,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.86442494392395,
+    "cumulative_len": 1798,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.8644559383392334,
+    "cumulative_len": 1803,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.864488124847412,
+    "cumulative_len": 1805,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8645191192626953,
+    "cumulative_len": 1809,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 3.864549160003662,
+    "cumulative_len": 1811,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8645801544189453,
+    "cumulative_len": 1813,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8646111488342285,
+    "cumulative_len": 1815,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 3.8646411895751953,
+    "cumulative_len": 1818,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 3.8646721839904785,
+    "cumulative_len": 1823,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 3.864701986312866,
+    "cumulative_len": 1825,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.033465147018433,
+    "cumulative_len": 1830,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.035472869873047,
+    "cumulative_len": 1835,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.035535097122192,
+    "cumulative_len": 1837,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.035582065582275,
+    "cumulative_len": 1839,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.035624027252197,
+    "cumulative_len": 1841,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.039757251739502,
+    "cumulative_len": 1844,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.045459032058716,
+    "cumulative_len": 1847,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.045500993728638,
+    "cumulative_len": 1851,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.047749996185303,
+    "cumulative_len": 1854,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.050440073013306,
+    "cumulative_len": 1857,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.050495147705078,
+    "cumulative_len": 1862,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.050534009933472,
+    "cumulative_len": 1864,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.0505690574646,
+    "cumulative_len": 1868,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.050601959228516,
+    "cumulative_len": 1870,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.050636053085327,
+    "cumulative_len": 1872,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.050668001174927,
+    "cumulative_len": 1875,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.05069899559021,
+    "cumulative_len": 1881,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 4.050729990005493,
+    "cumulative_len": 1883,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.050760984420776,
+    "cumulative_len": 1885,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.050796031951904,
+    "cumulative_len": 1895,
+    "delta_len": 10
+  },
+  {
+    "timestamp": 4.058140993118286,
+    "cumulative_len": 1901,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 4.060163259506226,
+    "cumulative_len": 1905,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.060206174850464,
+    "cumulative_len": 1910,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.060240983963013,
+    "cumulative_len": 1912,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.060275077819824,
+    "cumulative_len": 1918,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 4.064320087432861,
+    "cumulative_len": 1920,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064379930496216,
+    "cumulative_len": 1922,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064423084259033,
+    "cumulative_len": 1924,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064463138580322,
+    "cumulative_len": 1927,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.06450629234314,
+    "cumulative_len": 1932,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.064545154571533,
+    "cumulative_len": 1934,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.06458306312561,
+    "cumulative_len": 1938,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.064621210098267,
+    "cumulative_len": 1940,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064661026000977,
+    "cumulative_len": 1942,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064698934555054,
+    "cumulative_len": 1944,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064733028411865,
+    "cumulative_len": 1947,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.064762115478516,
+    "cumulative_len": 1952,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.064792156219482,
+    "cumulative_len": 1954,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.064821004867554,
+    "cumulative_len": 1959,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.06714129447937,
+    "cumulative_len": 1964,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.067174911499023,
+    "cumulative_len": 1966,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.0672080516815186,
+    "cumulative_len": 1968,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.067239046096802,
+    "cumulative_len": 1970,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.067270040512085,
+    "cumulative_len": 1973,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.067301273345947,
+    "cumulative_len": 1976,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.067331075668335,
+    "cumulative_len": 1980,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.067361116409302,
+    "cumulative_len": 1983,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.0673911571502686,
+    "cumulative_len": 1986,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.067422151565552,
+    "cumulative_len": 1991,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.0674519538879395,
+    "cumulative_len": 1993,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.079848051071167,
+    "cumulative_len": 1997,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.107273101806641,
+    "cumulative_len": 1999,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.109363079071045,
+    "cumulative_len": 2001,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.109461069107056,
+    "cumulative_len": 2002,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 4.109537124633789,
+    "cumulative_len": 2005,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.1096131801605225,
+    "cumulative_len": 2007,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.109679222106934,
+    "cumulative_len": 2009,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.110342025756836,
+    "cumulative_len": 2014,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.110350131988525,
+    "cumulative_len": 2018,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.110419034957886,
+    "cumulative_len": 2021,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.1104841232299805,
+    "cumulative_len": 2024,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.110551118850708,
+    "cumulative_len": 2028,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.110615015029907,
+    "cumulative_len": 2033,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.110678195953369,
+    "cumulative_len": 2035,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.1107399463653564,
+    "cumulative_len": 2041,
+    "delta_len": 6
+  },
+  {
+    "timestamp": 4.115664958953857,
+    "cumulative_len": 2043,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.115938186645508,
+    "cumulative_len": 2045,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.116074085235596,
+    "cumulative_len": 2047,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.116181135177612,
+    "cumulative_len": 2050,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.116279125213623,
+    "cumulative_len": 2055,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.116645097732544,
+    "cumulative_len": 2057,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.117010116577148,
+    "cumulative_len": 2061,
+    "delta_len": 4
+  },
+  {
+    "timestamp": 4.117133140563965,
+    "cumulative_len": 2063,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.117236137390137,
+    "cumulative_len": 2065,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.117335081100464,
+    "cumulative_len": 2067,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.117432117462158,
+    "cumulative_len": 2070,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.117592096328735,
+    "cumulative_len": 2075,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.117779970169067,
+    "cumulative_len": 2077,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.117906093597412,
+    "cumulative_len": 2082,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.118113040924072,
+    "cumulative_len": 2087,
+    "delta_len": 5
+  },
+  {
+    "timestamp": 4.1182541847229,
+    "cumulative_len": 2089,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.118362903594971,
+    "cumulative_len": 2091,
+    "delta_len": 2
+  },
+  {
+    "timestamp": 4.1184611320495605,
+    "cumulative_len": 2094,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.118556976318359,
+    "cumulative_len": 2097,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.118650913238525,
+    "cumulative_len": 2100,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.11874794960022,
+    "cumulative_len": 2103,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.118847131729126,
+    "cumulative_len": 2104,
+    "delta_len": 1
+  },
+  {
+    "timestamp": 4.118942022323608,
+    "cumulative_len": 2107,
+    "delta_len": 3
+  },
+  {
+    "timestamp": 4.119042158126831,
+    "cumulative_len": 2108,
+    "delta_len": 1
+  }
+]

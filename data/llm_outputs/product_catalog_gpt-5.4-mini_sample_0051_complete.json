@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Audio", "stock": 42 },
+    { "id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Audio", "stock": 88 },
+    { "id": "P1003", "name": "USB-C Fast Charging Cable 2m", "price": 12.5, "category": "Accessories", "stock": 310 },
+    { "id": "P1004", "name": "Ergonomic Office Chair", "price": 249.0, "category": "Furniture", "stock": 17 },
+    { "id": "P1005", "name": "Adjustable Standing Desk Converter", "price": 139.99, "category": "Furniture", "stock": 24 },
+    { "id": "P1006", "name": "Stainless Steel Water Bottle 750ml", "price": 21.99, "category": "Home", "stock": 140 },
+    { "id": "P1007", "name": "Air Fryer 5.5 Quart", "price": 89.99, "category": "Kitchen", "stock": 31 },
+    { "id": "P1008", "name": "Ceramic Nonstick Cookware Set", "price": 129.95, "category": "Kitchen", "stock": 18 },
+    { "id": "P1009", "name": "Smart LED Light Bulb Pack of 4", "price": 34.99, "category": "Home", "stock": 76 },
+    { "id": "P1010", "name": "Robot Vacuum Cleaner", "price": 279.0, "category": "Home Appliances", "stock": 12 },
+    { "id": "P1011", "name": "Men's Running Shoes", "price": 74.99, "category": "Apparel", "stock": 53 },
+    { "id": "P1012", "name": "Women's Yoga Leggings", "price": 39.5, "category": "Apparel", "stock": 97 },
+    { "id": "P1013", "name": "Digital Alarm Clock", "price": 24.99, "category": "Electronics", "stock": 64 },
+    { "id": "P1014", "name": "1080p Webcam with Microphone", "price": 49.99, "category": "Electronics", "stock": 58 },
+    { "id": "P1015", "name": "Portable Power Bank 20000mAh", "price": 44.95, "category": "Electronics", "stock": 101 },
+    { "id": "P1016", "name": "Desk Plant Set", "price": 18.75, "category": "Home Decor", "stock": 66 },
+    { "id": "P1017", "name": "Memory Foam Pillow", "price": 36.99, "category": "Home", "stock": 49 },
+    { "id": "P1018", "name": "Electric Kettle 1.7L", "price": 29.99, "category": "Kitchen", "stock": 37 },
+    { "id": "P1019", "name": "Gaming Mouse", "price": 54.99, "category": "Computers", "stock": 73 },
+    { "id": "P1020", "name": "Laptop Stand Aluminum", "price": 27.99, "category": "Computers", "stock": 85 }
+  ]
+}

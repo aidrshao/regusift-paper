@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "Northwind Technologies, Inc.",
+    "ticker": "NWT"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software subscriptions",
+      "amount": 28450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional services",
+      "amount": 6420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Support and maintenance",
+      "amount": 3180000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of revenue",
+      "amount": 9120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and development",
+      "amount": 10850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and marketing",
+      "amount": 7820000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and administrative",
+      "amount": 4360000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and amortization",
+      "amount": 910000,
+      "currency": "USD"
+    }

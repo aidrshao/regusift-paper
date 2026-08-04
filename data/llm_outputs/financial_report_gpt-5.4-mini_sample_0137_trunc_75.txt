@@ -1,0 +1,50 @@
+{
+  "company": {
+    "name": "Northstar Logistics Group",
+    "ticker": "NSLG"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Freight and Transportation Services",
+      "amount": 42850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Warehousing and Fulfillment",
+      "amount": 16800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Last-Mile Delivery",
+      "amount": 11250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Supply Chain Consulting",
+      "amount": 3750000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Services",
+      "amount": 38620000,
+      "currency": "USD"
+    },
+    {
+      "category": "Salaries and Benefits",
+      "amount": 12450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Facilities and Rent",
+      "amount": 4100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 2350000,
+      "currency": "USD"
+    },
+ 

@@ -1,0 +1,72 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Smart Fitness Watch",
+      "price": 149.95,
+      "category": "Wearables",
+      "stock": 58
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Bluetooth Portable Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 67
+    },
+    {
+      "id": "SKU-1004",
+      "name": "4K Action Camera",
+      "price": 129.5,
+      "category": "Photography",
+      "stock": 24
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ergonomic Office Chair",
+      "price": 249.0,
+      "category": "Furniture",
+      "stock": 18
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Adjustable Standing Desk",
+      "price": 399.99,
+      "category": "Furniture",
+      "stock": 11
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "category": "Computers",
+      "stock": 76
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Wireless Gaming Mouse",
+      "price": 59.99,
+      "category": "Computers",
+      "stock": 93
+    },
+    {
+      "id": "SKU-1009",
+      "name": "USB-C Laptop Charger",
+      "price": 39.99,
+      "category": "Accessories",
+      "stock": 140
+    },
+    {
+      "id": "SKU-1010",
+      "name": "Stainless Steel Water Bottle",
+      "price": 24.95,
+      "c

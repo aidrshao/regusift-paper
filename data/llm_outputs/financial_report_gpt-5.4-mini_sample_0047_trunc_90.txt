@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Northstar Systems Inc.",
+    "ticker": "NSSI"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 42850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 9650000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 13750000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance and Support",
+      "amount": 8240000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 18950000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 11230000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 9850000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 6140000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and Amortization",
+      "amount": 1720000,
+      "currency": "US

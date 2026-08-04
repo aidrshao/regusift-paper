@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-20260731-1048",
+  "lastUpdated": "2026-07-31T10:48:00Z",
+  "products": [
+    {"id": "P1001", "name": "Aurora Wireless Headphones", "price": 129.99, "category": "Electronics", "stock": 42},
+    {"id": "P1002", "name": "Nimbus Smartwatch Series 5", "price": 199.0, "category": "Electronics", "stock": 27},
+    {"id": "P1003", "name": "Vertex Mechanical Keyboard", "price": 89.5, "category": "Computers", "stock": 18},
+    {"id": "P1004", "name": "Pulse Ergonomic Mouse", "price": 34.99, "category": "Computers", "stock": 63},
+    {"id": "P1005", "name": "Cedar Standing Desk Mat", "price": 24.95, "category": "Home Office", "stock": 51},
+    {"id": "P1006", "name": "Luna Desk Lamp", "price": 39.99, "category": "Home Office", "stock": 36},
+    {"id": "P1007", "name": "Evergreen Ceramic Mug Set", "price": 22.0, "category": "Home & Kitchen", "stock": 88},
+    {"id": "P1008", "name": "Summit Blender Pro", "price": 149.99, "category": "Home & Kitchen", "stock": 15},
+    {"id": "P1009", "name": "Trailblazer Hiking Backpack", "price": 74.5, "category": "Outdoors", "stock": 29},
+    {"id": "P1010", "name": "Riverstone Camping Lantern", "price": 18.99, "category": "Outdoors", "stock": 94},
+    {"id": "P1011", "name": "Studio Yoga Mat", "price": 27.5, "category": "Fitness", "stock": 47},
+    {"id": "P1012", "name": "Core Adjustable Dumbbells", "price": 249.99, "category": "Fitness", "stock": 12},
+    {"id": "P1013", "name": "Olive Linen Throw Blanket", "price": 56.0, "category": "Home Decor", "stock": 33},
+    {"id": "P1014", "name": "Harbor Wall Clock", "price": 41.25, "category": "Home Decor", "stock": 21},
+    {"id": "P1015", "name": "Canopy Pet Bed", "price": 48.75, "category": "Pet Supplies", "stock": 39},
+    {"id": "P1016", "name": "Breeze Cat Scratcher Tower", "price": 63.99, "category": "Pet Supplies", "stock": 19}
+  ]
+}

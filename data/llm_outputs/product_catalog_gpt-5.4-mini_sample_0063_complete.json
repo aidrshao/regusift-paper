@@ -1,0 +1,146 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Astra Wireless Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 124
+    },
+    {
+      "id": "P1002",
+      "name": "Nimbus Bluetooth Speaker",
+      "price": 49.95,
+      "category": "Electronics",
+      "stock": 87
+    },
+    {
+      "id": "P1003",
+      "name": "Nova Smartwatch Series 5",
+      "price": 199.0,
+      "category": "Electronics",
+      "stock": 42
+    },
+    {
+      "id": "P1004",
+      "name": "PureGlass Water Bottle",
+      "price": 18.5,
+      "category": "Home & Kitchen",
+      "stock": 210
+    },
+    {
+      "id": "P1005",
+      "name": "EverSoft Bath Towel Set",
+      "price": 34.99,
+      "category": "Home & Kitchen",
+      "stock": 76
+    },
+    {
+      "id": "P1006",
+      "name": "Oakridge Desk Lamp",
+      "price": 27.25,
+      "category": "Home & Kitchen",
+      "stock": 58
+    },
+    {
+      "id": "P1007",
+      "name": "TrailPro Hiking Backpack",
+      "price": 74.9,
+      "category": "Outdoors",
+      "stock": 63
+    },
+    {
+      "id": "P1008",
+      "name": "Summit Insulated Travel Mug",
+      "price": 22.0,
+      "category": "Outdoors",
+      "stock": 145
+    },
+    {
+      "id": "P1009",
+      "name": "Pulse Yoga Mat",
+      "price": 29.99,
+      "category": "Fitness",
+      "stock": 98
+    },
+    {
+      "id": "P1010",
+      "name": "CoreFlex Adjustable Dumbbells",
+      "price": 249.99,
+      "category": "Fitness",
+      "stock": 18
+    },
+    {
+      "id": "P1011",
+      "name": "Basil & Bloom Candle Set",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 132
+    },
+    {
+      "id": "P1012",
+      "name": "Luna Ceramic Dinnerware Set",
+      "price": 59.99,
+      "category": "Home & Kitchen",
+      "stock": 31
+    },
+    {
+      "id": "P1013",
+      "name": "Vertex Mechanical Keyboard",
+      "price": 119.95,
+      "category": "Electronics",
+      "stock": 54
+    },
+    {
+      "id": "P1014",
+      "name": "Petal Running Shoes",
+      "price": 79.5,
+      "category": "Apparel",
+      "stock": 67
+    },
+    {
+      "id": "P1015",
+      "name": "Metro Cotton Hoodie",
+      "price": 44.0,
+      "category": "Apparel",
+      "stock": 90
+    },
+    {
+      "id": "P1016",
+      "name": "Cedar Kids Backpack",
+      "price": 39.99,
+      "category": "Kids",
+      "stock": 115
+    },
+    {
+      "id": "P1017",
+      "name": "Orbit Building Blocks Set",
+      "price": 31.5,
+      "category": "Kids",
+      "stock": 160
+    },
+    {
+      "id": "P1018",
+      "name": "Harbor Pour-Over Coffee Maker",
+      "price": 36.75,
+      "category": "Home & Kitchen",
+      "stock": 71
+    },
+    {
+      "id": "P1019",
+      "name": "Peak Portable Charger",
+      "price": 39.95,
+      "category": "Electronics",
+      "stock": 138
+    },
+    {
+      "id": "P1020",
+      "name": "Zen Aromatherapy Diffuser",
+      "price": 45.0,
+      "category": "Home & Kitchen",
+      "stock": 46
+    }
+  ]
+}

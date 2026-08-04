@@ -1,0 +1,37 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Nimbus Cotton T-Shirt",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 184
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Trailblazer Running Shoes",
+      "price": 89.95,
+      "category": "Footwear",
+      "stock": 62
+    },
+    {
+      "id": "SKU-1003",
+      "name": "AeroLite Waterproof Jacket",
+      "price": 129.0,
+      "category": "Apparel",
+      "stock": 41
+    },
+    {
+      "id": "SKU-1004",
+      "name": "UrbanEdge Denim Jeans",
+      "price": 54.5,
+      "category": "Apparel",
+      "stock": 97
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Pulse Bluetooth Headphones",
+      "price": 74.99,
+      "cat

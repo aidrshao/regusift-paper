@@ -1,0 +1,58 @@
+{
+  "company": {
+    "name": "Apex Dynamics Inc.",
+    "ticker": "APDX"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 48250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 12340000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 18780000,
+      "currency": "USD"
+    },
+    {
+      "category": "Other Revenue",
+      "amount": 2450000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 21400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 15850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 13670000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 9200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and Amortization",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Interest Expense",
+      "amount": 780000,
+      "curre

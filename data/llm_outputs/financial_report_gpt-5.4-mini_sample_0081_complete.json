@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Apex Dynamics Inc.",
+    "ticker": "APEX"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4720000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3380000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance and Support",
+      "amount": 2650000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 6120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 4980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales and Marketing",
+      "amount": 3610000,
+      "currency": "USD"
+    },
+    {
+      "category": "General and Administrative",
+      "amount": 2890000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation and Amortization",
+      "amount": 740000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 29200000,
+    "totalExpenses": 18340000,
+    "netIncome": 10860000
+  }
+}

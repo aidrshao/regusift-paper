@@ -1,0 +1,33 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 48
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Bluetooth Portable Speaker",
+      "price": 59.95,
+      "category": "Electronics",
+      "stock": 112
+    },
+    {
+      "id": "SKU-1003",
+      "name": "USB-C Fast Charger 65W",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 210
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Smartwatch Series 8",
+      "price": 249.0,
+      "category": "Wearables",
+      "stock": 37
+    },
+   

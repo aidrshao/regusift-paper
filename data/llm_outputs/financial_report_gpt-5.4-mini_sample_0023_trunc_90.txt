@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Northstar Dynamics Inc.",
+    "ticker": "NSDY"
+  },
+  "quarter": "Q2 2026",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 4825000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 1264000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 918000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 734000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 1712000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 1425000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 1098000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 865000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 214000,
+      "currency": "U

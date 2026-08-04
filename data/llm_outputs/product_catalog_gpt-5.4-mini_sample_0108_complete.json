@@ -1,0 +1,26 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 48},
+    {"id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 123},
+    {"id": "P1003", "name": "Smart Fitness Watch", "price": 149.0, "category": "Wearables", "stock": 72},
+    {"id": "P1004", "name": "USB-C Fast Charging Cable 2m", "price": 12.99, "category": "Accessories", "stock": 340},
+    {"id": "P1005", "name": "Ergonomic Office Chair", "price": 289.5, "category": "Furniture", "stock": 18},
+    {"id": "P1006", "name": "Adjustable Laptop Stand", "price": 34.99, "category": "Office", "stock": 95},
+    {"id": "P1007", "name": "Stainless Steel Water Bottle", "price": 24.5, "category": "Home & Kitchen", "stock": 210},
+    {"id": "P1008", "name": "Ceramic Nonstick Frying Pan", "price": 39.99, "category": "Home & Kitchen", "stock": 67},
+    {"id": "P1009", "name": "Cotton Bath Towels Set of 4", "price": 44.0, "category": "Home Textiles", "stock": 84},
+    {"id": "P1010", "name": "LED Desk Lamp with USB Port", "price": 27.99, "category": "Home & Office", "stock": 156},
+    {"id": "P1011", "name": "Men's Running Shoes", "price": 79.95, "category": "Apparel", "stock": 58},
+    {"id": "P1012", "name": "Women's Yoga Leggings", "price": 49.99, "category": "Apparel", "stock": 103},
+    {"id": "P1013", "name": "Acoustic Guitar Starter Kit", "price": 129.0, "category": "Musical Instruments", "stock": 22},
+    {"id": "P1014", "name": "Organic Arabica Coffee Beans 1kg", "price": 18.75, "category": "Grocery", "stock": 190},
+    {"id": "P1015", "name": "Stainless Steel Chef Knife", "price": 36.5, "category": "Kitchen Tools", "stock": 77},
+    {"id": "P1016", "name": "Pet Grooming Brush", "price": 15.99, "category": "Pet Supplies", "stock": 131},
+    {"id": "P1017", "name": "Classic Board Game Set", "price": 29.99, "category": "Toys & Games", "stock": 64},
+    {"id": "P1018", "name": "Indoor Herb Garden Kit", "price": 41.25, "category": "Garden", "stock": 39},
+    {"id": "P1019", "name": "4K Action Camera", "price": 179.99, "category": "Electronics", "stock": 26},
+    {"id": "P1020", "name": "Memory Foam Pillow", "price": 32.0, "category": "Home & Bedroom", "stock": 145}
+  ]
+}

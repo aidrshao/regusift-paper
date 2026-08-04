@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-20260731-8492",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 42 },
+    { "id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 88 },
+    { "id": "P1003", "name": "4K Ultra HD Smart TV 55-inch", "price": 499.99, "category": "Electronics", "stock": 17 },
+    { "id": "P1004", "name": "Stainless Steel Electric Kettle", "price": 34.5, "category": "Home Appliances", "stock": 63 },
+    { "id": "P1005", "name": "Ceramic Dinnerware Set, 16-Piece", "price": 79.0, "category": "Home & Kitchen", "stock": 24 },
+    { "id": "P1006", "name": "Memory Foam Pillow", "price": 29.99, "category": "Home & Kitchen", "stock": 150 },
+    { "id": "P1007", "name": "Ergonomic Office Chair", "price": 189.0, "category": "Furniture", "stock": 11 },
+    { "id": "P1008", "name": "Adjustable Standing Desk", "price": 329.99, "category": "Furniture", "stock": 9 },
+    { "id": "P1009", "name": "Cotton Bed Sheet Set", "price": 49.99, "category": "Home & Kitchen", "stock": 76 },
+    { "id": "P1010", "name": "Men's Running Shoes", "price": 89.95, "category": "Apparel", "stock": 55 },
+    { "id": "P1011", "name": "Women's Waterproof Jacket", "price": 119.0, "category": "Apparel", "stock": 38 },
+    { "id": "P1012", "name": "Smart Fitness Watch", "price": 149.99, "category": "Wearables", "stock": 29 },
+    { "id": "P1013", "name": "Yoga Mat", "price": 24.99, "category": "Sports & Outdoors", "stock": 104 },
+    { "id": "P1014", "name": "Stainless Steel Water Bottle", "price": 19.99, "category": "Sports & Outdoors", "stock": 210 },
+    { "id": "P1015", "name": "Electric Toothbrush", "price": 39.99, "category": "Personal Care", "stock": 67 },
+    { "id": "P1016", "name": "Robot Vacuum Cleaner", "price": 249.99, "category": "Home Appliances", "stock": 14 },
+    { "id": "P1017", "name": "Gaming Mouse", "price": 44.99, "category": "Electronics", "stock": 95 },
+    { "id": "P1018", "name": "Mechanical Keyboard", "price": 109.99, "category": "Electronics"

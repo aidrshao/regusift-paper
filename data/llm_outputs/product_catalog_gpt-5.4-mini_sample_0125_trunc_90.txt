@@ -1,0 +1,22 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Bluetooth Headphones", "price": 79.99, "category": "Electronics", "stock": 42 },
+    { "id": "P1002", "name": "USB-C Fast Charging Cable", "price": 12.99, "category": "Electronics", "stock": 185 },
+    { "id": "P1003", "name": "Smart LED Desk Lamp", "price": 34.5, "category": "Home Office", "stock": 68 },
+    { "id": "P1004", "name": "Ergonomic Office Chair", "price": 219.0, "category": "Furniture", "stock": 14 },
+    { "id": "P1005", "name": "Stainless Steel Water Bottle", "price": 24.95, "category": "Outdoors", "stock": 97 },
+    { "id": "P1006", "name": "Cotton Crew Neck T-Shirt", "price": 18.0, "category": "Apparel", "stock": 160 },
+    { "id": "P1007", "name": "Men's Running Shoes", "price": 89.99, "category": "Footwear", "stock": 53 },
+    { "id": "P1008", "name": "Ceramic Dinner Plate Set", "price": 39.99, "category": "Home & Kitchen", "stock": 31 },
+    { "id": "P1009", "name": "Non-Stick Frying Pan", "price": 29.95, "category": "Home & Kitchen", "stock": 76 },
+    { "id": "P1010", "name": "Hardcover Notebook Set", "price": 16.49, "category": "Stationery", "stock": 240 },
+    { "id": "P1011", "name": "Portable Power Bank 10000mAh", "price": 27.99, "category": "Electronics", "stock": 88 },
+    { "id": "P1012", "name": "Yoga Exercise Mat", "price": 22.5, "category": "Fitness", "stock": 64 },
+    { "id": "P1013", "name": "Automatic Pet Feeder", "price": 64.99, "category": "Pet Supplies", "stock": 27 },
+    { "id": "P1014", "name": "Noise-Canceling Earbuds", "price": 119.95, "category": "Electronics", "stock": 39 },
+    { "id": "P1015", "name": "Kitchen Blender 700W", "price": 54.99, "category": "Home Appliances", "stock": 22 },
+    { "id": "P1016", "name": "Travel Backpack 30L", "price": 48.0, "category": "Travel", "stock": 58 },
+    { "id": "P1017", "name": "Insulated Lunch Box", "price": 19.99, "category": "Home & Kitchen", "stock": 105 },
+    { "id": "P1018", "name": "Digital Bathroom Scale", "price": 26.0, "category": "Health", "stock

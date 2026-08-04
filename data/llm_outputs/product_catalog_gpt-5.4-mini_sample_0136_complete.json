@@ -1,0 +1,146 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Nimbus Cotton T-Shirt",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 184
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Trailblazer Running Shoes",
+      "price": 89.95,
+      "category": "Footwear",
+      "stock": 62
+    },
+    {
+      "id": "SKU-1003",
+      "name": "AeroLite Waterproof Jacket",
+      "price": 129.0,
+      "category": "Apparel",
+      "stock": 41
+    },
+    {
+      "id": "SKU-1004",
+      "name": "UrbanEdge Denim Jeans",
+      "price": 54.5,
+      "category": "Apparel",
+      "stock": 97
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Pulse Bluetooth Headphones",
+      "price": 74.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "SKU-1006",
+      "name": "SmartView 24-inch Monitor",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 27
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Compact Wireless Keyboard",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 113
+    },
+    {
+      "id": "SKU-1008",
+      "name": "EverSip Insulated Water Bottle",
+      "price": 24.0,
+      "category": "Home & Kitchen",
+      "stock": 205
+    },
+    {
+      "id": "SKU-1009",
+      "name": "Cedarwood Desk Lamp",
+      "price": 34.95,
+      "category": "Home & Kitchen",
+      "stock": 58
+    },
+    {
+      "id": "SKU-1010",
+      "name": "PureBrew Pour-Over Coffee Maker",
+      "price": 42.5,
+      "category": "Home & Kitchen",
+      "stock": 76
+    },
+    {
+      "id": "SKU-1011",
+      "name": "FitCore Yoga Mat",
+      "price": 29.99,
+      "category": "Sports & Outdoors",
+      "stock": 134
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Summit Hiking Backpack 30L",
+      "price": 68.0,
+      "category": "Sports & Outdoors",
+      "stock": 53
+    },
+    {
+      "id": "SKU-1013",
+      "name": "GlowSkin Daily Moisturizer",
+      "price": 17.49,
+      "category": "Beauty",
+      "stock": 146
+    },
+    {
+      "id": "SKU-1014",
+      "name": "Breeze Scented Candle Set",
+      "price": 21.99,
+      "category": "Home & Kitchen",
+      "stock": 92
+    },
+    {
+      "id": "SKU-1015",
+      "name": "LeapStart Building Blocks Set",
+      "price": 49.95,
+      "category": "Toys",
+      "stock": 37
+    },
+    {
+      "id": "SKU-1016",
+      "name": "Orbit Stainless Steel Watch",
+      "price": 159.0,
+      "category": "Accessories",
+      "stock": 23
+    },
+    {
+      "id": "SKU-1017",
+      "name": "FreshNest Bed Sheet Set",
+      "price": 44.99,
+      "category": "Home & Kitchen",
+      "stock": 66
+    },
+    {
+      "id": "SKU-1018",
+      "name": "PocketCharge 10,000mAh Power Bank",
+      "price": 31.5,
+      "category": "Electronics",
+      "stock": 121
+    },
+    {
+      "id": "SKU-1019",
+      "name": "WhiskCraft Nonstick Skillet",
+      "price": 28.75,
+      "category": "Home & Kitchen",
+      "stock": 84
+    },
+    {
+      "id": "SKU-1020",
+      "name": "RoadMate Car Phone Mount",
+      "price": 16.99,
+      "category": "Automotive",
+      "stock": 159
+    }
+  ]
+}

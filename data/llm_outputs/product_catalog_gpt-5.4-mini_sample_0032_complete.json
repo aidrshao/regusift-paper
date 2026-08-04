@@ -1,0 +1,111 @@
+{
+  "catalogId": "CAT-2026-07-31-001",
+  "lastUpdated": "2026-07-31T12:00:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Aurora Noise-Cancelling Headphones",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 84
+    },
+    {
+      "id": "P1002",
+      "name": "Nimbus Smartwatch Series 5",
+      "price": 199.0,
+      "category": "Electronics",
+      "stock": 46
+    },
+    {
+      "id": "P1003",
+      "name": "BrewMaster Stainless Steel Travel Mug",
+      "price": 24.95,
+      "category": "Home & Kitchen",
+      "stock": 210
+    },
+    {
+      "id": "P1004",
+      "name": "Luna Cotton Percale Sheet Set",
+      "price": 59.99,
+      "category": "Home & Kitchen",
+      "stock": 67
+    },
+    {
+      "id": "P1005",
+      "name": "TrailFox Insulated Hiking Backpack",
+      "price": 89.5,
+      "category": "Outdoors",
+      "stock": 33
+    },
+    {
+      "id": "P1006",
+      "name": "PureFlow 10-Cup Water Filter Pitcher",
+      "price": 34.99,
+      "category": "Home & Kitchen",
+      "stock": 121
+    },
+    {
+      "id": "P1007",
+      "name": "Vertex Adjustable Desk Lamp",
+      "price": 42.0,
+      "category": "Office",
+      "stock": 58
+    },
+    {
+      "id": "P1008",
+      "name": "StrideMax Running Shoes",
+      "price": 74.99,
+      "category": "Apparel",
+      "stock": 97
+    },
+    {
+      "id": "P1009",
+      "name": "CanvasPro Everyday Tote Bag",
+      "price": 19.99,
+      "category": "Accessories",
+      "stock": 155
+    },
+    {
+      "id": "P1010",
+      "name": "LittleSprout Wooden Puzzle Set",
+      "price": 22.5,
+      "category": "Toys",
+      "stock": 142
+    },
+    {
+      "id": "P1011",
+      "name": "CoreFlex Resistance Band Kit",
+      "price": 29.99,
+      "category": "Fitness",
+      "stock": 178
+    },
+    {
+      "id": "P1012",
+      "name": "HarvestBlend Organic Coffee Beans 1 lb",
+      "price": 16.49,
+      "category": "Grocery",
+      "stock": 240
+    },
+    {
+      "id": "P1013",
+      "name": "Evergreen Ceramic Dinner Plate Set",
+      "price": 48.75,
+      "category": "Home & Kitchen",
+      "stock": 39
+    },
+    {
+      "id": "P1014",
+      "name": "PeakLite Portable Power Bank 20,000mAh",
+      "price": 39.95,
+      "category": "Electronics",
+      "stock": 105
+    },
+    {
+      "id": "P1015",
+      "name": "MeadowPet Orthopedic Dog Bed",
+      "price": 64.99,
+      "category": "Pet Supplies",
+      "stock": 28
+    }
+  ]
+}

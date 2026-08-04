@@ -1,0 +1,24 @@
+{
+  "catalogId": "CAT-20260731-48291",
+  "lastUpdated": "2026-07-31T00:00:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Noise-Canceling Headphones", "price": 199.99, "category": "Electronics", "stock": 42},
+    {"id": "P1002", "name": "Bluetooth Portable Speaker", "price": 59.95, "category": "Electronics", "stock": 88},
+    {"id": "P1003", "name": "Smart Fitness Watch", "price": 149.0, "category": "Wearables", "stock": 35},
+    {"id": "P1004", "name": "4K Ultra HD Streaming Stick", "price": 49.99, "category": "Electronics", "stock": 120},
+    {"id": "P1005", "name": "Ergonomic Office Chair", "price": 229.5, "category": "Furniture", "stock": 18},
+    {"id": "P1006", "name": "Standing Desk Converter", "price": 139.99, "category": "Furniture", "stock": 27},
+    {"id": "P1007", "name": "Stainless Steel Water Bottle", "price": 24.5, "category": "Home & Kitchen", "stock": 210},
+    {"id": "P1008", "name": "Ceramic Coffee Mug Set", "price": 32.0, "category": "Home & Kitchen", "stock": 96},
+    {"id": "P1009", "name": "Organic Cotton Bed Sheet Set", "price": 79.99, "category": "Home & Kitchen", "stock": 54},
+    {"id": "P1010", "name": "Men's Running Shoes", "price": 89.95, "category": "Apparel", "stock": 67},
+    {"id": "P1011", "name": "Women's Lightweight Jacket", "price": 119.0, "category": "Apparel", "stock": 41},
+    {"id": "P1012", "name": "Kids Building Blocks Set", "price": 39.99, "category": "Toys", "stock": 73},
+    {"id": "P1013", "name": "Remote Control Racing Car", "price": 44.95, "category": "Toys", "stock": 58},
+    {"id": "P1014", "name": "Hardcover Notebook Pack", "price": 18.75, "category": "Office Supplies", "stock": 145},
+    {"id": "P1015", "name": "Wireless Mouse", "price": 26.99, "category": "Office Supplies", "stock": 101},
+    {"id": "P1016", "name": "Mechanical Keyboard", "price": 84.99, "category": "Electronics", "stock": 39},
+    {"id": "P1017", "name": "LED Desk Lamp", "price": 34.5, "category": "Home & Kitchen", "stock": 76},
+    {"id": "P1018", "name": "Nonstick Frying Pan", "price": 28.0, "category": "Home & Kitchen", "stock": 64}
+  ]
+}
