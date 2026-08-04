@@ -39,6 +39,14 @@ cd regusift-paper
 npm install
 ```
 
+### ⚡ Quick Reproduction (Zero API / Offline)
+
+Replicate **Table 5 & Table 6** directly using the included 7,000 pre-collected LLM outputs (no API key required):
+
+```bash
+python3 baselines/run_evaluation.py
+```
+
 ### Run Evaluation (§5 Experiment Reproduction)
 
 The evaluation script runs all 4 methods (B1/B2/B3/Ours) on pre-collected LLM outputs and outputs recovery rate, field F1, and value accuracy.
@@ -129,8 +137,8 @@ regusift-paper/
 │   ├── measure_ttft.ts          # TTFT measurement (§5.7)
 │   └── collect_llm_outputs.py   # Data collection (§5.1)
 ├── data/
-│   └── llm_outputs/             # Pre-collected LLM outputs (gitignored)
-├── results/                     # Evaluation results (gitignored)
+│   └── llm_outputs/             # Pre-collected 7,000 LLM outputs (included for offline reproduction)
+├── results/                     # Pre-computed evaluation logs (included)
 ├── package.json
 ├── tsconfig.json
 ├── .gitignore
