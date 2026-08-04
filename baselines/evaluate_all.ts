@@ -29,8 +29,8 @@ import { parsePartialJson } from '../src/partial-json-parser'
 // ★ 基线 B2: partial-json npm 包
 import { parse as parsePartialJsonLib } from 'partial-json'
 
-// ★ 基线 B3: jsonrepair npm 包 — 在 main() 中通过 require 同步加载
-let repairJSON: ((text: string) => string) | null = null
+// ★ 基线 B3: jsonrepair npm 包 (ESM 静态导入, 避免 require 在 ESM 下不可用)
+import { jsonrepair as repairJSON } from 'jsonrepair'
 
 // ── 方法定义 ──
 
@@ -64,7 +64,6 @@ function method_partial_json(buffer: string): { parsed: unknown; latency_ms: num
 
 /** B3: json-repair npm 库 */
 function method_json_repair(buffer: string): { parsed: unknown; latency_ms: number } {
-  if (!repairJSON) return { parsed: null, latency_ms: 0 }
   const t0 = performance.now()
   let parsed: unknown = null
   try {
@@ -130,30 +129,6 @@ async function main() {
   }
   const inputText = Buffer.concat(chunks).toString('utf-8')
   const samples: Sample[] = JSON.parse(inputText)
-
-  // 初始化 jsonrepair (同步 require, 避免 top-level await)
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const jsonRepairModule: unknown = require('jsonrepair')
-    const mod = jsonRepairModule as {
-      jsonrepair?: (text: string) => string
-      default?: unknown
-    }
-    if (typeof mod.jsonrepair === 'function') {
-      repairJSON = mod.jsonrepair
-    } else if (mod.default) {
-      const def = mod.default as {
-        jsonrepair?: (text: string) => string
-      } | ((text: string) => string)
-      if (typeof def === 'function') {
-        repairJSON = def
-      } else if (def && typeof def.jsonrepair === 'function') {
-        repairJSON = def.jsonrepair
-      }
-    }
-  } catch {
-    console.error('[WARN] jsonrepair not installed. Run: npm install jsonrepair')
-  }
 
   const allResults: MethodResult[] = []
 
