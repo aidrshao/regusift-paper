@@ -1,0 +1,130 @@
+{
+  "catalogId": "ECOMM-SPRING2024-V2",
+  "lastUpdated": "2024-05-20T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "AP005",
+      "name": "Smart Coffee Maker with Grinder",
+      "price": 129.99,
+      "category": "Home Appliances",
+      "stock": 22
+    },
+    {
+      "id": "CL012",
+      "name": "Organic Cotton Crewneck T-Shirt (Blue)",
+      "price": 24.50,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "CL025",
+      "name": "Slim-Fit Chinos (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "BK003",
+      "name": "The Midnight Library Novel",
+      "price": 14.99,
+      "category": "Books",
+      "stock": 310
+    },
+    {
+      "id": "SK008",
+      "name": "Essential Yoga Mat (6mm)",
+      "price": 35.00,
+      "category": "Sports & Outdoors",
+      "stock": 90
+    },
+    {
+      "id": "CO015",
+      "name": "Stainless Steel Water Bottle (1L)",
+      "price": 19.95,
+      "category": "Home Goods",
+      "stock": 210
+    },
+    {
+      "id": "EL007",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 68
+    },
+    {
+      "id": "CL033",
+      "name": "Lightweight Rain Jacket (Men's)",
+      "price": 89.99,
+      "category": "Apparel",
+      "stock": 40
+    },
+    {
+      "id": "SK011",
+      "name": "Adjustable Dumbbell Set (Pair)",
+      "price": 149.99,
+      "category": "Sports & Outdoors",
+      "stock": 15
+    },
+    {
+      "id": "BK010",
+      "name": "Science Fiction Anthology Vol. 3",
+      "price": 22.50,
+      "category": "Books",
+      "stock": 120
+    },
+    {
+      "id": "AP002",
+      "name": "Automatic Pour-Over Coffee System",
+      "price": 89.00,
+      "category": "Home Appliances",
+      "stock": 35
+    },
+    {
+      "id": "CL019",
+      "name": "Athletic Running Shorts (Black)",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 180
+    },
+    {
+      "id": "CO003",
+      "name": "Aromatherapy Essential Oil Diffuser",
+      "price": 45.00,
+      "category": "Home Goods",
+      "stock": 75
+    },
+    {
+      "id": "EL015",
+      "name": "27-inch 4K Monitor",
+      "price": 349.99,
+      "category": "Electronics",
+      "stock": 28
+    },
+    {
+      "id": "SK004",
+      "name": "Resistance Band Set (Full Body)",
+      "price": 25.99,
+      "category": "Sports & Outdoors",
+      "stock": 250
+    },
+    {
+      "id": "CL040",
+      "name": "Wool Blend Sweater (Navy)",
+      "price": 75.00,
+      "category": "Apparel",
+      "stock": 55
+    },
+    {
+      "id": "BK008",
+      "name": "History of Civilization Textbook",
+      "price": 49.99,
+      "category": "Books",
+      "stock": 70
+  

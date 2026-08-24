@@ -1,0 +1,66 @@
+{
+  "company": {
+    "name": "Acme Technologies Inc.",
+    "ticker": "ATI"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Service Revenue",
+      "amount": 7800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Revenue",
+      "amount": 12300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing Revenue",
+      "amount": 3500000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 9800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 5200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 4600000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 1200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Interest Expense",
+      "amount": 300000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 48100000,
+    "totalExpenses": 24200000,
+    "netIncome": 23900000
+  }
+}

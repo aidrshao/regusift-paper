@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions",
+    "ticker": "ITES"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Subscription Fees (SaaS)",
+      "amount": 85000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Support",
+      "amount": 5000000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries & Wages",
+      "amount": 35000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing & Advertising",
+      "amount": 12000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development (R&D)",
+      "amount": 8500000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative (G&A)",
+      "amount": 4500000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 105000000,
+    "totalExpenses": 60000000,
+    "netIncome": 45000000
+  }
+}

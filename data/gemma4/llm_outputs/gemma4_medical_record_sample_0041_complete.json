@@ -1,0 +1,18 @@
+{
+  "patient": {"id": "P98765", "age": 62, "gender": "Female"},
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Chronic"},
+    {"code": "E78.5", "name": "Hyperlipidemia, unspecified", "severity": "Moderate"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dosage": "10 mg", "frequency": "Daily"},
+    {"name": "Atorvastatin", "dosage": "20 mg", "frequency": "Nightly"}
+  ],
+  "labResults": [
+    {"test": "Total Cholesterol", "value": "215", "unit": "mg/dL", "flag": "High"},
+    {"test": "LDL Cholesterol", "value": "135", "unit": "mg/dL", "flag": "High"},
+    {"test": "Creatinine", "value": "1.0", "unit": "mg/dL", "flag": "Normal"},
+    {"test": "Potassium", "value": "4.2", "unit": "mmol/L", "flag": "Normal"}
+  ]
+}

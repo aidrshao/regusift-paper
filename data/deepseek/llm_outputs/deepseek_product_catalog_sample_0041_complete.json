@@ -1,0 +1,30 @@
+{
+  "catalogId": "cat_2025_001",
+  "lastUpdated": "2025-04-08",
+  "products": [
+    {"id": "p1001", "name": "Wireless Bluetooth Earbuds Pro", "price": 79.99, "category": "Electronics", "stock": 150},
+    {"id": "p1002", "name": "Stainless Steel Water Bottle 32oz", "price": 24.50, "category": "Kitchen & Dining", "stock": 200},
+    {"id": "p1003", "name": "Organic Cotton T-Shirt (Unisex)", "price": 19.99, "category": "Apparel", "stock": 80},
+    {"id": "p1004", "name": "Mechanical Keyboard RGB (87-key)", "price": 89.99, "category": "Electronics", "stock": 45},
+    {"id": "p1005", "name": "Cast Iron Skillet 12-inch", "price": 34.99, "category": "Kitchen & Dining", "stock": 60},
+    {"id": "p1006", "name": "Yoga Mat (Non-Slip, 6mm)", "price": 29.99, "category": "Sports & Fitness", "stock": 120},
+    {"id": "p1007", "name": "Espresso Machine (15-bar)", "price": 199.00, "category": "Kitchen & Dining", "stock": 25},
+    {"id": "p1008", "name": "Running Shoes (Men's Size 10)", "price": 74.50, "category": "Apparel", "stock": 35},
+    {"id": "p1009", "name": "Smart LED Light Bulb (4-pack)", "price": 39.99, "category": "Home Improvement", "stock": 90},
+    {"id": "p1010", "name": "Backpack with USB Charging Port", "price": 49.99, "category": "Accessories", "stock": 75},
+    {"id": "p1011", "name": "Ceramic Coffee Mug 15oz (Set of 2)", "price": 18.75, "category": "Kitchen & Dining", "stock": 110},
+    {"id": "p1012", "name": "Digital Bathroom Scale (High Precision)", "price": 22.99, "category": "Home & Garden", "stock": 65},
+    {"id": "p1013", "name": "Noise-Cancelling Headphones (Over-Ear)", "price": 149.99, "category": "Electronics", "stock": 40},
+    {"id": "p1014", "name": "Dumbbell Set (Adjustable, 25 lbs)", "price": 129.00, "category": "Sports & Fitness", "stock": 15},
+    {"id": "p1015", "name": "Non-Stick Frying Pan 10-inch", "price": 27.50, "category": "Kitchen & Dining", "stock": 95},
+    {"id": "p1016", "name": "Men's Leather Wallet (RFID Blocking)", "price": 35.00, "category": "Accessories", "stock": 130},
+    {"id": "p1017", "name": "Electric Kettle (1.7L, Stainless)", "price": 42.99, "category": "Kitchen & Dining", "stock": 55},
+    {"id": "p1018", "name": "Waterproof Hiking Jacket", "price": 89.95, "category": "Apparel", "stock": 30},
+    {"id": "p1019", "name": "Bluetooth Portable Speaker (Waterproof)", "price": 59.99, "category": "Electronics", "stock": 70},
+    {"id": "p1020", "name": "Resistance Bands Set (5 Levels)", "price": 21.99, "category": "Sports & Fitness", "stock": 140},
+    {"id": "p1021", "name": "Desk Organizer (Bamboo, 3-Tier)", "price": 32.50, "category": "Home Office", "stock": 85},
+    {"id": "p1022", "name": "LED Desk Lamp (Dimmable, USB Port)", "price": 38.75, "category": "Home Office", "stock": 50},
+    {"id": "p1023", "name": "Cotton Throw Blanket (50x60)", "price": 45.00, "category": "Home & Garden", "stock": 20},
+    {"id": "p1024", "name": "Smart Watch (Heart Rate, GPS)", "price": 129.99, "category": "Electronics", "stock": 60}
+  ]
+}

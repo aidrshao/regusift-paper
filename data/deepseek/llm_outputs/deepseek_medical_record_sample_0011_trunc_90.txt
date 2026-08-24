@@ -1,0 +1,75 @@
+{
+  "patient": {
+    "id": "MRN-884213",
+    "age": 67,
+    "gender": "male"
+  },
+  "visitDate": "2025-03-04",
+  "diagnoses": [
+    {
+      "code": "J45.51",
+      "name": "Severe persistent asthma with (acute) exacerbation",
+      "severity": "severe"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "controlled"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Prednisone",
+      "dosage": "40 mg",
+      "frequency": "Once daily, 5-day taper"
+    },
+    {
+      "name": "Albuterol HFA",
+      "dosage": "90 mcg",
+      "frequency": "2 puffs every 4-6 hours as needed"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "Twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "WBC",
+      "value": "14.2",
+      "unit": "10^3/uL",
+      "flag": "high"
+    },
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.1",
+      "unit": "%",
+      "flag": "normal"
+    },
+    {
+      "test": "Potassium",
+      "value": "4.1",
+      "unit": "mmol/L",
+      "flag": "normal"
+    },
+    {
+      "test": "CRP",
+      "value": "3.8",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "Creatinine",
+      "value": "1.1",
+      "u

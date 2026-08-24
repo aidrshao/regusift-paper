@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions",
+    "ticker": "ITSC"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 14500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 8200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries a

@@ -1,0 +1,30 @@
+{
+  "catalogId": "cat_home_living_2024_001",
+  "lastUpdated": "2024-08-15T10:30:00Z",
+  "products": [
+    {"id": "P1001", "name": "Ergonomic Office Chair", "price": 249.99, "category": "Furniture", "stock": 34},
+    {"id": "P1002", "name": "Standing Desk (60x30)", "price": 399.00, "category": "Furniture", "stock": 12},
+    {"id": "P1003", "name": "Ceramic Coffee Mug Set (4 pcs)", "price": 29.50, "category": "Kitchen", "stock": 120},
+    {"id": "P1004", "name": "Stainless Steel Water Bottle 1L", "price": 19.99, "category": "Kitchen", "stock": 85},
+    {"id": "P1005", "name": "Non-Stick Frying Pan 10-inch", "price": 34.95, "category": "Kitchen", "stock": 60},
+    {"id": "P1006", "name": "Memory Foam Pillow (Queen)", "price": 45.00, "category": "Bedding", "stock": 45},
+    {"id": "P1007", "name": "Cotton Sheet Set (Queen, White)", "price": 79.99, "category": "Bedding", "stock": 28},
+    {"id": "P1008", "name": "Weighted Blanket 15 lbs", "price": 89.50, "category": "Bedding", "stock": 18},
+    {"id": "P1009", "name": "LED Desk Lamp with USB Port", "price": 27.75, "category": "Lighting", "stock": 73},
+    {"id": "P1010", "name": "Smart Bulb (Color Changing, 2-pack)", "price": 24.99, "category": "Lighting", "stock": 150},
+    {"id": "P1011", "name": "Floor Lamp (Brushed Nickel)", "price": 119.00, "category": "Lighting", "stock": 20},
+    {"id": "P1012", "name": "Bamboo Cutting Board (3-piece set)", "price": 39.99, "category": "Kitchen", "stock": 42},
+    {"id": "P1013", "name": "Espresso Machine (15-bar)", "price": 299.00, "category": "Appliances", "stock": 8},
+    {"id": "P1014", "name": "Robot Vacuum (Wi-Fi, Self-Charging)", "price": 459.99, "category": "Appliances", "stock": 5},
+    {"id": "P1015", "name": "Air Purifier (HEPA, Medium Room)", "price": 189.95, "category": "Appliances", "stock": 14},
+    {"id": "P1016", "name": "Tea Kettle (Electric, Stainless Steel)", "price": 49.99, "category": "Appliances", "stock": 30},
+    {"id": "P1017", "name": "Yoga Mat (Non-Slip, 6mm)", "price": 32.00, "category": "Fitness", "stock": 95},
+    {"id": "P1018", "name": "Dumbbell Set (Adjustable, 5-25 lbs)", "price": 149.99, "category": "Fitness", "stock": 11},
+    {"id": "P1019", "name": "Resistance Bands (5-pack)", "price": 22.50, "category": "Fitness", "stock": 200},
+    {"id": "P1020", "name": "Fitness Tracker (Heart Rate, GPS)", "price": 129.00, "category": "Fitness", "stock": 25},
+    {"id": "P1021", "name": "Wall Art Canvas (Abstract, 24x36)", "price": 64.99, "category": "Decor", "stock": 17},
+    {"id": "P1022", "name": "Scented Candle (Lavender, 12 oz)", "price": 18.75, "category": "Decor", "stock": 140},
+    {"id": "P1023", "name": "Throw Pillow Cover (18x18, Set of 2)", "price": 26.00, "category": "Decor", "stock": 55},
+    {"id": "P1024", "name": "Bookshelf (5-Tier, Wood)", "price": 89.99, "category": "Furniture", "stock": 9}
+  ]
+}

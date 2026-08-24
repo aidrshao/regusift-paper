@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions",
+    "ticker": "ITechS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 15450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 8200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 5850000,
+      "currency": "USD"
+    }
+  ],
+  "expen

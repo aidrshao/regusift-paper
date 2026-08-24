@@ -1,0 +1,74 @@
+{
+  "patient": {
+    "id": "PT-82913",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "severe"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease, stage 3",
+      "severity": "moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "8.2",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Serum creatinine",
+      "value": "1.4",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "eGFR",
+      "value": "48",
+      "unit": "mL/min/1.73m²",
+      "flag": "low"
+    },
+    {
+      "test": "Blood pressure (systolic)",
+      "value": "152",
+      "unit": "mmHg",
+      "flag": "high"
+    },
+    {
+      "test": "Blood pressure (diastolic)",
+      "value": "94",
+      "unit": "mmHg",
+      "flag": "high"
+    }
+  ]
+}

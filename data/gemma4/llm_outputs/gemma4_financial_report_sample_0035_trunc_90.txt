@@ -1,0 +1,50 @@
+{
+  "company": {
+    "name": "AuraTech Solutions Inc.",
+    "ticker": "AURA"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 21500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Support & Maintenance Contracts",
+      "amount": 12300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Development",
+      "amount": 8900000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 35000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 15500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 12100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Operating Overhead",
+      "amount": 7200000,
+      "currency": "USD"
+    }
+ 

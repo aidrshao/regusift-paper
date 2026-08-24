@@ -1,0 +1,70 @@
+{
+  "catalogId": "ACC-2024-Q3",
+  "lastUpdated": "2024-07-15T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Over-Ear Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 78
+    },
+    {
+      "id": "EL002",
+      "name": "Ultra HD 4K Smart TV (55 inch)",
+      "price": 799.00,
+      "category": "Electronics",
+      "stock": 35
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.95,
+      "category": "Electronics",
+      "stock": 152
+    },
+    {
+      "id": "EL004",
+      "name": "Ergonomic Wireless Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "CL001",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 24.50,
+      "category": "Apparel",
+      "stock": 300
+    },
+    {
+      "id": "CL002",
+      "name": "Slim-Fit Denim Jeans",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 185
+    },
+    {
+      "id": "CL003",
+      "name": "Waterproof Hiking Jacket",
+      "price": 119.99,
+      "category": "Apparel",
+      "stock": 92
+    },
+    {
+      "id": "CL004",
+      "name": "Casual Knit Sweater",
+      "price": 45.00,
+      "category": "Apparel",
+      "stock": 250
+    },
+    {
+      "id": "HO001",
+      "name": "Bamboo Fiber Bath Towel Set (4 pcs)",
+      "price": 39.99,
+      "category": "Home Goods",
+      "stock": 120
+    },
+    {
+      "id": "HO002",
+      "name": "Aroma Diffuser wi

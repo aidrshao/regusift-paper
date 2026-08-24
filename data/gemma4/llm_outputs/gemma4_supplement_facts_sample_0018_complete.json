@@ -1,0 +1,67 @@
+{
+  "productName": "VitaMax Daily Multivitamin Complex",
+  "servingSize": "2 tablets",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    {
+      "name": "Vitamin C",
+      "amount": "500",
+      "unit": "mg",
+      "dailyValue": "22%"
+    },
+    {
+      "name": "Vitamin D3",
+      "amount": "1000",
+      "unit": "IU",
+      "dailyValue": "56%"
+    },
+    {
+      "name": "Vitamin B12",
+      "amount": "100",
+      "unit": "%DV",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin B6",
+      "amount": "2.0",
+      "unit": "mg",
+      "dailyValue": "133%"
+    },
+    {
+      "name": "Calcium Carbonate",
+      "amount": "200",
+      "unit": "mg",
+      "dailyValue": "20%"
+    },
+    {
+      "name": "Magnesium Oxide",
+      "amount": "150",
+      "unit": "mg",
+      "dailyValue": "38%"
+    },
+    {
+      "name": "Zinc Oxide",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "136%"
+    },
+    {
+      "name": "Folic Acid",
+      "amount": "400",
+      "unit": "mcg",
+      "dailyValue": "100%"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": "500",
+      "unit": "IU",
+      "dailyValue": "25%"
+    },
+    {
+      "name": "Vitamin E",
+      "amount": "20",
+      "unit": "mg",
+      "dailyValue": "17%"
+    }
+  ]
+}

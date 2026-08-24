@@ -1,0 +1,35 @@
+{
+  "patient": {
+    "id": "PT-78421",
+    "age": 67,
+    "gender": "Male"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Stage 2"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Uncontrolled"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease, stage 3",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "Twice daily"
+ 

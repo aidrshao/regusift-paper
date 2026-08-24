@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Nimbus Technologies",
+    "ticker": "NMBT"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 780000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 340000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 210000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 520000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 350000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 290000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 180000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 95000,
+      "currency": "USD

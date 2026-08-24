@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NBT"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Cloud Services",
+      "amount": 18400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Software Licenses",
+      "amount": 9200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Implementation",
+      "amount": 4100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 5300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 6200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 4800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 3900000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 1400000,
+      "currency": "USD

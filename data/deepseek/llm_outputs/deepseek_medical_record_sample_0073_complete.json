@@ -1,0 +1,68 @@
+{
+  "patient": {
+    "id": "PT-83921",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2023-10-15",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "severe"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease, stage 3",
+      "severity": "moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "8.2",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": "1.4",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "eGFR",
+      "value": "45",
+      "unit": "mL/min/1.73m2",
+      "flag": "low"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "130",
+      "unit": "mg/dL",
+      "flag": "high"
+    }
+  ]
+}

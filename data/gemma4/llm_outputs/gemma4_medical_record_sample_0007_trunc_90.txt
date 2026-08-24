@@ -1,0 +1,59 @@
+{
+  "patient": {
+    "id": "P78392A",
+    "age": 54,
+    "gender": "Female"
+  },
+  "visitDate": "2024-06-21",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "Controlled"
+    },
+    {
+      "code": "J45.909",
+      "name": "Unspecified asthma, uncomplicated",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily at bedtime"
+    },
+    {
+      "name": "Fluticasone",
+      "dosage": "110 mcg/puff",
+      "frequency": "Twice daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Total Cholesterol",
+      "value": "195",
+      "unit": "mg/dL",
+      "flag": "WNL"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "112",
+      "unit": "mg/dL",
+      "flag": "Acceptable"
+    },
+    {
+      "test": "HDL Cholesterol",
+      "value": "55",
+      "unit": "mg/dL",
+      "flag"

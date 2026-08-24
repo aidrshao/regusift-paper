@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions Inc.",
+    "ticker": "ITSCI"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 12500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 8900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 4500000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and

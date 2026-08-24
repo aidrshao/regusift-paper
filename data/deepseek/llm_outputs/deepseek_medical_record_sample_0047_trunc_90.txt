@@ -1,0 +1,75 @@
+{
+  "patient": {
+    "id": "P-10293847",
+    "age": 67,
+    "gender": "Female"
+  },
+  "visitDate": "2025-03-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Stage 2, poorly controlled"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Moderate, uncontrolled"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease stage 3",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "Twice daily"
+    },
+    {
+      "name": "Amlodipine",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "Once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "8.9",
+      "unit": "%",
+      "flag": "High"
+    },
+    {
+      "test": "Serum creatinine",
+      "value": "1.8",
+      "unit": "mg/dL",
+      "flag": "High"
+    },
+    {
+      "test": "eGFR",
+      "value": "38",
+      "unit": "mL/min/1.73m2",
+      "flag": "Low"
+    },
+    {
+      "test": "Potassium",
+      "value": "5.4",
+      "unit": "mmol/L",
+      "flag": "High"
+    },
+    {
+      "test": "LDL cholesterol",
+      "value": "112",
+      "unit": "mg/dL

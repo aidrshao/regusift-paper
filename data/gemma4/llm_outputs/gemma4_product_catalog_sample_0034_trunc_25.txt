@@ -1,0 +1,41 @@
+{
+  "catalogId": "ECOMM-FALL2024-A",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "P002",
+      "name": "Slim Fit Dark Wash Denim Jeans",
+      "price": 79.50,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "P003",
+      "name": "Merino Wool Knit Scarf",
+      "price": 45.00,
+      "category": "Accessories",
+      "stock": 210
+    },
+    {
+      "id": "P004",
+      "name": "Leather Belt - Classic Brown",
+      "price": 39.99,
+      "category": "Accessories",
+      "stock": 120
+    },
+    {
+      "id": "P005",
+      "name": "Noise-Canceling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 65
+    },
+    {
+      "id": 

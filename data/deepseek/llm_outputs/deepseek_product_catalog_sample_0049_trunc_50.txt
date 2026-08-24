@@ -1,0 +1,86 @@
+{
+  "catalogId": "cat-2025-001",
+  "lastUpdated": "2025-04-08T10:30:00Z",
+  "products": [
+    {
+      "id": "ELEC-001",
+      "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "price": 399.99,
+      "category": "Electronics",
+      "stock": 25
+    },
+    {
+      "id": "ELEC-002",
+      "name": "Samsung 32-inch M8 Smart Monitor (2024)",
+      "price": 549.99,
+      "category": "Electronics",
+      "stock": 12
+    },
+    {
+      "id": "ELEC-003",
+      "name": "Apple Watch Series 9 GPS 45mm",
+      "price": 429.0,
+      "category": "Electronics",
+      "stock": 40
+    },
+    {
+      "id": "ELEC-004",
+      "name": "Anker 737 Power Bank (PowerCore 24K)",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 60
+    },
+    {
+      "id": "HOME-001",
+      "name": "Dyson V15 Detect Cordless Vacuum",
+      "price": 699.99,
+      "category": "Home & Kitchen",
+      "stock": 8
+    },
+    {
+      "id": "HOME-002",
+      "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 6 Qt",
+      "price": 99.95,
+      "category": "Home & Kitchen",
+      "stock": 35
+    },
+    {
+      "id": "HOME-003",
+      "name": "Cuisinart 14-Cup Food Processor",
+      "price": 199.0,
+      "category": "Home & Kitchen",
+      "stock": 18
+    },
+    {
+      "id": "HOME-004",
+      "name": "Le Creuset Enameled Cast Iron Dutch Oven, 5.5 Qt",
+      "price": 389.95,
+      "category": "Home & Kitchen",
+      "stock": 6
+    },
+    {
+      "id": "FASH-001",
+      "name": "Levi's 501 Original Fit Jeans - Men's",
+      "price": 79.5,
+      "category": "Apparel & Accessories",
+      "stock": 120
+    },
+    {
+      "id": "FASH-002",
+      "name": "Nike Air Max 270 Running Shoes",
+      "price": 160.0,
+      "category": "Apparel & Accessories",
+      "stock": 45
+    },
+    {
+      "id": "FASH-003",
+      "name": "Patagonia Better Sweater Fleece Jacket",
+      "price": 139.0,
+      "category": "Apparel & Accessories",
+      "stock": 22
+    },
+    {
+      "id": "FASH-004",
+      "name": "Ray-Ban Aviator Classic Sunglasses",
+      "price": 154.99,
+      "category":

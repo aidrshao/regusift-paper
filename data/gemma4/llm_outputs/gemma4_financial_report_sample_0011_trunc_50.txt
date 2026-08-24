@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Global Tech Solutions Inc.",
+    "ticker": "GTS"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 15500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 8200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Licensing",
+      "amount": 1300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries & P

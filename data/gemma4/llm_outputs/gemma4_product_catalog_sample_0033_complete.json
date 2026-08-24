@@ -1,0 +1,132 @@
+{
+  "catalogId": "HOME_GOODS_FURNITURE_WINTER2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "F001",
+      "name": "Mid-Century Walnut Coffee Table",
+      "price": 499.99,
+      "category": "Furniture",
+      "stock": 12
+    },
+    {
+      "id": "F002",
+      "name": "Velvet Accent Armchair (Forest Green)",
+      "price": 349.50,
+      "category": "Furniture",
+      "stock": 25
+    },
+    {
+      "id": "F003",
+      "name": "Scandinavian Bookshelf (3 Tier)",
+      "price": 199.00,
+      "category": "Furniture",
+      "stock": 40
+    },
+    {
+      "id": "F004",
+      "name": "Adjustable Standing Desk",
+      "price": 799.99,
+      "category": "Office Furniture",
+      "stock": 8
+    },
+    {
+      "id": "F005",
+      "name": "Ergonomic Office Chair Mesh",
+      "price": 289.99,
+      "category": "Office Furniture",
+      "stock": 55
+    },
+    {
+      "id": "L001",
+      "name": "Egyptian Cotton Bath Towel Set (6 Pcs)",
+      "price": 65.00,
+      "category": "Linens & Bath",
+      "stock": 120
+    },
+    {
+      "id": "L002",
+      "name": "Flannel Throw Blanket (Grey)",
+      "price": 39.99,
+      "category": "Linens & Bath",
+      "stock": 85
+    },
+    {
+      "id": "L003",
+      "name": "Luxury Sheet Set (King, Charcoal)",
+      "price": 189.99,
+      "category": "Linens & Bath",
+      "stock": 30
+    },
+    {
+      "id": "D001",
+      "name": "Bamboo Aroma Diffuser",
+      "price": 45.99,
+      "category": "Decor & Ambiance",
+      "stock": 150
+    },
+    {
+      "id": "D002",
+      "name": "Geometric Throw Pillow Covers (Set of 2)",
+      "price": 59.99,
+      "category": "Decor & Ambiance",
+      "stock": 90
+    },
+    {
+      "id": "D003",
+      "name": "Hand-Woven Jute Area Rug (5x7 ft)",
+      "price": 129.00,
+      "category": "Decor & Ambiance",
+      "stock": 22
+    },
+    {
+      "id": "K001",
+      "name": "Premium Espresso Machine",
+      "price": 599.99,
+      "category": "Kitchen Appliances",
+      "stock": 15
+    },
+    {
+      "id": "K002",
+      "name": "Air Fryer XL Digital",
+      "price": 149.99,
+      "category": "Kitchen Appliances",
+      "stock": 60
+    },
+    {
+      "id": "K003",
+      "name": "Stainless Steel Knife Block Set",
+      "price": 89.95,
+      "category": "Kitchen Appliances",
+      "stock": 75
+    },
+    {
+      "id": "G001",
+      "name": "Smart Robot Vacuum Cleaner",
+      "price": 399.99,
+      "category": "Home Tech",
+      "stock": 18
+    },
+    {
+      "id": "G002",
+      "name": "Smart LED Light Strip (Color Changing)",
+      "price": 79.99,
+      "category": "Home Tech",
+      "stock": 110
+    },
+    {
+      "id": "H001",
+      "name": "Heavy Duty Storage Ottoman",
+      "price": 99.99,
+      "category": "Storage",
+      "stock": 35
+    },
+    {
+      "id": "H002",
+      "name": "Decorative Storage Baskets (Set of 3)",
+      "price": 49.99,
+      "category": "Storage",
+      "stock": 70
+    }
+  ]
+}

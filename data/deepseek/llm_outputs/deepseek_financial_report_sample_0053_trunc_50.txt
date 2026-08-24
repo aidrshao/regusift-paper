@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "NovaTech Solutions Inc.",
+    "ticker": "NTS"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 4250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 950000,
+      "currency": "USD"
+    },
+    {
+      "category": "Other Income",
+      "amount": 120000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amoun

@@ -1,0 +1,16 @@
+{
+  "patient": {
+    "id": "P-0048291",
+    "age": 67,
+    "gender": "male"
+  },
+  "visitDate": "2025-03-17",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complic

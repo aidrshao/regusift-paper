@@ -1,0 +1,19 @@
+{
+  "patient": {"id": "P987654", "age": 52, "gender": "Female"},
+  "visitDate": "2024-05-20",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Controlled"},
+    {"code": "E11.9", "name": "Type 2 diabetes mellitus without complications", "severity": "Stable"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dosage": "10 mg", "frequency": "Once daily"},
+    {"name": "Metformin", "dosage": "500 mg", "frequency": "Twice daily"},
+    {"name": "Atorvastatin", "dosage": "20 mg", "frequency": "Once daily"}
+  ],
+  "labResults": [
+    {"test": "HbA1c", "value": "6.8", "unit": "%", "flag": "Normal"},
+    {"test": "Total Cholesterol", "value": "185", "unit": "mg/dL", "flag": "Normal"},
+    {"test": "LDL Cholesterol", "value": "95", "unit": "mg/dL", "flag": "Normal"},
+    {"test": "Creatinine", "value": "0.88", "unit": "mg/dL", "flag": "Normal"}
+  ]
+}

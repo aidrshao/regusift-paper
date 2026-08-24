@@ -1,0 +1,72 @@
+{
+  "catalogId": "EC-20240729-A",
+  "lastUpdated": "2024-07-29T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker X9",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Smart Fitness Tracker Watch",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "AP001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Home & Office",
+      "stock": 30
+    },
+    {
+      "id": "AP002",
+      "name": "Bamboo Fiber Desk Organizer Set",
+      "price": 34.99,
+      "category": "Home & Office",
+      "stock": 210
+    },
+    {
+      "id": "AP003",
+      "name": "Minimalist Desk Lamp (USB)",
+      "price": 45.00,
+      "category": "Home & Office",
+      "stock": 65
+    },
+    {
+      "id": "BK010",
+      "name": "The Midnight Library Novel",
+      "price": 15.99,
+      "category": "Books",
+      "stock": 300
+    },
+    {
+      "id": "BK011",
+      "name": "Advanced Python Programming Guide",
+      "price": 49.95,
+      "category": "Books",
+      "stock": 95
+    },
+    {
+      "id": "BK012",
+      "name": "History of Civilization Textbook",
+      "price": 79.99,
+      "category": "Books",
+      "stock": 40
+    },
+    {
+      "id": "CL001",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 25.00,
+      "catego

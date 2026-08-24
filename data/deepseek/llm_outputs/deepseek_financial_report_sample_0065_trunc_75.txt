@@ -1,0 +1,38 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "ticker": "NVTS"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 350000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 520000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 430000,
+      "curr

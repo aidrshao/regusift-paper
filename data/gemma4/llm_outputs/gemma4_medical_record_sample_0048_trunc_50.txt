@@ -1,0 +1,28 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 45,
+    "gender": "Female"
+  },
+  "visitDate": "2023-10-27",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.0",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage":

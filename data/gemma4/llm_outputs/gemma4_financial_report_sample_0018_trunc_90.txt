@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions",
+    "ticker": "INVT"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 9200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 4500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Support & Maintenance",
+      "amount": 1300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 11200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure & Hosting",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 2500000,
+      "currency": "USD"
+    },
+    {
+      "category": "R&D Investment",
+      "amount": 1850000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 750000,
+      "currency": "USD

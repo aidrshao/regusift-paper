@@ -1,0 +1,31 @@
+{
+  "catalogId": "cat_2025_spring_001",
+  "lastUpdated": "2025-05-12T09:30:00Z",
+  "products": [
+    { "id": "P1001", "name": "Wireless Bluetooth Over-Ear Headphones", "price": 89.99, "category": "Electronics", "stock": 45 },
+    { "id": "P1002", "name": "Stainless Steel Insulated Water Bottle 32oz", "price": 24.95, "category": "Home & Kitchen", "stock": 120 },
+    { "id": "P1003", "name": "Organic Cotton T-Shirt (Unisex)", "price": 19.50, "category": "Apparel", "stock": 200 },
+    { "id": "P1004", "name": "Mechanical Gaming Keyboard RGB", "price": 129.99, "category": "Electronics", "stock": 30 },
+    { "id": "P1005", "name": "Natural Soy Wax Candle - Lavender", "price": 16.25, "category": "Home & Kitchen", "stock": 75 },
+    { "id": "P1006", "name": "Running Shoes - Lightweight Mesh", "price": 74.99, "category": "Footwear", "stock": 60 },
+    { "id": "P1007", "name": "Smart 4K Action Camera", "price": 199.00, "category": "Electronics", "stock": 18 },
+    { "id": "P1008", "name": "Ceramic Non-Stick Cookware Set (10 pcs)", "price": 149.50, "category": "Home & Kitchen", "stock": 12 },
+    { "id": "P1009", "name": "Leather Crossbody Bag", "price": 58.00, "category": "Accessories", "stock": 40 },
+    { "id": "P1010", "name": "Yoga Mat with Alignment Lines", "price": 32.99, "category": "Sports & Outdoors", "stock": 85 },
+    { "id": "P1011", "name": "Portable Bluetooth Speaker - Waterproof", "price": 42.75, "category": "Electronics", "stock": 55 },
+    { "id": "P1012", "name": "Reusable Beeswax Food Wraps (3 pack)", "price": 14.99, "category": "Home & Kitchen", "stock": 150 },
+    { "id": "P1013", "name": "Men's Slim Fit Denim Jeans", "price": 49.99, "category": "Apparel", "stock": 95 },
+    { "id": "P1014", "name": "Electric Kettle with Temperature Control", "price": 64.50, "category": "Home & Kitchen", "stock": 22 },
+    { "id": "P1015", "name": "Resistance Bands Set (5 levels)", "price": 22.30, "category": "Sports & Outdoors", "stock": 110 },
+    { "id": "P1016", "name": "Classic Aviator Sunglasses", "price": 35.00, "category": "Accessories", "stock": 68 },
+    { "id": "P1017", "name": "USB-C Fast Charging Cable (6ft, braided)", "price": 12.99, "category": "Electronics", "stock": 300 },
+    { "id": "P1018", "name": "Bamboo Cutting Board with Juice Groove", "price": 27.40, "category": "Home & Kitchen", "stock": 48 },
+    { "id": "P1019", "name": "Women's Fleece Pullover Hoodie", "price": 39.95, "category": "Apparel", "stock": 75 },
+    { "id": "P1020", "name": "Camping Tent - 4 Person, Waterproof", "price": 189.99, "category": "Sports & Outdoors", "stock": 9 },
+    { "id": "P1021", "name": "Desk Organizer with Drawer", "price": 29.99, "category": "Office Products", "stock": 65 },
+    { "id": "P1022", "name": "Wireless Mouse - Ergonomic Design", "price": 27.50, "category": "Electronics", "stock": 90 },
+    { "id": "P1023", "name": "Cast Iron Skillet 12 inch", "price": 38.00, "category": "Home & Kitchen", "stock": 33 },
+    { "id": "P1024", "name": "Hiking Backpack 40L with Rain Cover", "price": 79.99, "category": "Sports & Outdoors", "stock": 20 },
+    { "id": "P1025", "name": "Silk Pillowcase for Hair and Skin", "price": 23.75, "category": "Bedding", "stock": 140 }
+  ]
+}

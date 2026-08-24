@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "NovaTech Solutions Inc.",
+    "ticker": "NTS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 6800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 2300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 1100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "a

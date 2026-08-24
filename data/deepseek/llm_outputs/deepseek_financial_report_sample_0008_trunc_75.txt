@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "Atlas Manufacturing Co.",
+    "ticker": "ATLM"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Industrial Equipment",
+      "amount": 42500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consumer Appliances",
+      "amount": 18200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Aftermarket Parts & Service",
+      "amount": 9400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Royalties",
+      "amount": 2100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 28900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 6800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 5200000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 4100000,
+      "currency": "USD"
+ 

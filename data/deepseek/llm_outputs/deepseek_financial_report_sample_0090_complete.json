@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q2 FY2024",
+  "revenue": [
+    {"category": "Software Licenses", "amount": 12500000, "currency": "USD"},
+    {"category": "Cloud Subscriptions", "amount": 8750000, "currency": "USD"},
+    {"category": "Professional Services", "amount": 3200000, "currency": "USD"},
+    {"category": "Hardware Sales", "amount": 1450000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Cost of Revenue", "amount": 4100000, "currency": "USD"},
+    {"category": "Research & Development", "amount": 3500000, "currency": "USD"},
+    {"category": "Sales & Marketing", "amount": 2900000, "currency": "USD"},
+    {"category": "General & Administrative", "amount": 1800000, "currency": "USD"},
+    {"category": "Depreciation & Amortization", "amount": 700000, "currency": "USD"}
+  ],
+  "summary": {
+    "totalRevenue": 25900000,
+    "totalExpenses": 13000000,
+    "netIncome": 12900000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions",
+    "ticker": "ITSOL"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 12300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 35000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure (AWS/Azure)",
+      "amount": 7800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 4500000,
+      "currency": "USD"
+    },
+    {
+      "category": "R&D Costs",
+      "amount": 6200000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 75000000,
+    "totalExpenses": 53500000,
+    "netIncome": 21500000
+  }
+}

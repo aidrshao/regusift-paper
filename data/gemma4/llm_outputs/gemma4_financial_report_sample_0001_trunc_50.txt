@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "TechNova Solutions",
+    "ticker": "TNVS"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 15500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 8200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries & Wages",

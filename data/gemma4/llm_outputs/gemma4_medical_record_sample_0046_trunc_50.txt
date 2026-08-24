@@ -1,0 +1,10 @@
+{
+  "patient": {"id": "P90125", "age": 68, "gender": "Female"},
+  "visitDate": "2024-05-15",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Moderate"},
+    {"code": "E78.5", "name": "Hyperlipidemia, unspecified", "severity": "Controlled"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dosage": "10 mg", "frequency": "Once daily"},
+    {"name": "Atorvasta

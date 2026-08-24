@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NBDY"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Cloud Services",
+      "amount": 1840000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 960000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 520000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Subscriptions",
+      "amount": 740000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 1120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 430000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 380000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 290000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 150000,
+      "currency": "USD

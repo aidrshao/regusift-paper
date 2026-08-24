@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "ticker": "NVTS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 4850000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 2300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 950000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance Contracts",
+      "amount": 720000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 1150000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 540000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 310000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 8820000,
+    "totalExpenses": 5080000,
+    "netIncome": 3740000
+  }
+}

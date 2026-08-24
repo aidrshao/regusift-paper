@@ -1,0 +1,39 @@
+{
+  "patient": {
+    "id": "PT-78412",
+    "age": 58,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-14",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "mild"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+    

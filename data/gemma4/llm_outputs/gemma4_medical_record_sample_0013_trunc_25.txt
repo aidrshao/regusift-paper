@@ -1,0 +1,16 @@
+{
+  "patient": {
+    "id": "P901234",
+    "age": 67,
+    "gender": "Male"
+  },
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hy

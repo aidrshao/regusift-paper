@@ -1,0 +1,37 @@
+{
+  "patient": {
+    "id": "P10045",
+    "age": 55,
+    "gender": "Female"
+  },
+  "visitDate": "2023-10-25",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Moderate"
+    },
+    {
+      "code": "J02.9",
+      "name": "Acute pharyngitis, unspecified",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Daily"
+    },
+    {
+      "name": "Acetaminophen",
+      "dosage": "500 mg",
+      "frequency": "Every 6 hours PRN pain"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Complete Blood Count (WBC)",
+      "value": "8.5",
+      "unit": "K/uL",
+      "flag": "Norma

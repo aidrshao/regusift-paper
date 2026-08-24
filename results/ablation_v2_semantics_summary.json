@@ -1,0 +1,20 @@
+{
+  "icover": {
+    "n": 999,
+    "field_f1": 1.0,
+    "value_accuracy": 1.0,
+    "converged_rate": 1.0
+  },
+  "deltaR": {
+    "n": 999,
+    "field_f1": 1.0,
+    "value_accuracy": 1.0,
+    "converged_rate": 1.0
+  },
+  "deltaF": {
+    "n": 999,
+    "field_f1": 0.0,
+    "value_accuracy": 0.0,
+    "converged_rate": 0.0
+  }
+}

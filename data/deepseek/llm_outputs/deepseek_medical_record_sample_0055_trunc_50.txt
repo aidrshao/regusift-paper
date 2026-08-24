@@ -1,0 +1,33 @@
+{
+  "patient": {
+    "id": "PT-78432",
+    "age": 67,
+    "gender": "Female"
+  },
+  "visitDate": "2025-03-14",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Mild"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease stage 3",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily with meals"
+    },
+    {
+      "name": "Lisinopril",
+  

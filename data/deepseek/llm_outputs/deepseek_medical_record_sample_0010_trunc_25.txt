@@ -1,0 +1,17 @@
+{
+  "patient": {
+    "id": "PT-82914",
+    "age": 54,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-12",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "

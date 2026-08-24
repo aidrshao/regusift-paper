@@ -1,0 +1,50 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 52,
+    "gender": "Female"
+  },
+  "visitDate": "2024-07-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "J20.9",
+      "name": "Acute upper respiratory infection, unspecified",
+      "severity": "Mild"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "Chronic"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Pseudoephedrine",
+      "dosage": "120 mg",
+      "frequency": "As needed (PRN)"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin",
+      "value": "12.1",
+      "unit": "g/dL",
+      "flag": "Normal"
+    },
+    {
+      "test": 

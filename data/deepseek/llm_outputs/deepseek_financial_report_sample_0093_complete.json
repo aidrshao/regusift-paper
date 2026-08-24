@@ -1,0 +1,56 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Cloud Services",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "SaaS Subscriptions",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 350000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 120000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 310000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 275000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 185000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 2700000,
+    "totalExpenses": 1190000,
+    "netIncome": 1510000
+  }
+}

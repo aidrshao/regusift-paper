@@ -1,0 +1,129 @@
+{
+  "catalogId": "EC-20240729-A",
+  "lastUpdated": "2024-07-29T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker X9",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Smart Fitness Tracker Watch",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "AP001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Home & Office",
+      "stock": 30
+    },
+    {
+      "id": "AP002",
+      "name": "Bamboo Fiber Desk Organizer Set",
+      "price": 34.99,
+      "category": "Home & Office",
+      "stock": 210
+    },
+    {
+      "id": "AP003",
+      "name": "Minimalist Desk Lamp (USB)",
+      "price": 45.00,
+      "category": "Home & Office",
+      "stock": 65
+    },
+    {
+      "id": "BK010",
+      "name": "The Midnight Library Novel",
+      "price": 15.99,
+      "category": "Books",
+      "stock": 300
+    },
+    {
+      "id": "BK011",
+      "name": "Advanced Python Programming Guide",
+      "price": 49.95,
+      "category": "Books",
+      "stock": 95
+    },
+    {
+      "id": "BK012",
+      "name": "History of Civilization Textbook",
+      "price": 79.99,
+      "category": "Books",
+      "stock": 40
+    },
+    {
+      "id": "CL001",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 25.00,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "CL002",
+      "name": "Waterproof Hiking Jacket (Men's)",
+      "price": 99.99,
+      "category": "Apparel",
+      "stock": 75
+    },
+    {
+      "id": "CL003",
+      "name": "Athletic Yoga Pants (Women's)",
+      "price": 45.00,
+      "category": "Apparel",
+      "stock": 180
+    },
+    {
+      "id": "BH001",
+      "name": "Premium Stainless Steel Water Bottle",
+      "price": 19.99,
+      "category": "Beauty & Health",
+      "stock": 500
+    },
+    {
+      "id": "BH002",
+      "name": "Vitamin C Immunity Booster Gummies",
+      "price": 14.50,
+      "category": "Beauty & Health",
+      "stock": 420
+    },
+    {
+      "id": "BH003",
+      "name": "Essential Oil Diffuser Set",
+      "price": 39.99,
+      "category": "Beauty & Health",
+      "stock": 110
+    },
+    {
+      "id": "HO001",
+      "name": "Weighted Knit Throw Blanket",
+      "price": 59.99,
+      "category": "Home Decor",
+      "stock": 60
+    },
+    {
+      "id": "HO002",
+      "name": "Aroma Soy Candles (Lavender)",
+      "price": 18.00,
+      "category": "Home Decor",
+      "stock": 250
+    },
+    {
+      "id": "HO003",
+      "name": "Memory Foam Pillow Set",
+      "price": 69.99,
+      "category": "Home Decor",
+      "stoc

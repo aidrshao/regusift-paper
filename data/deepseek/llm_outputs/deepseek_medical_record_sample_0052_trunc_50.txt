@@ -1,0 +1,33 @@
+{
+  "patient": {
+    "id": "PT-83921",
+    "age": 54,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-14",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "controlled"
+    },
+    {
+      "code": "K21.0",
+      "name": "Gastro-esophageal reflux disease with esophagitis",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosag

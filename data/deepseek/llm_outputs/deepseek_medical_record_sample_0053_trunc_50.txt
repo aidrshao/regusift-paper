@@ -1,0 +1,38 @@
+{
+  "patient": {
+    "id": "PT-84921",
+    "age": 58,
+    "gender": "male"
+  },
+  "visitDate": "2025-04-10",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "controlled"
+    },
+    {
+      "code": "G43.909",
+      "name": "Migraine, unspecified, not intractable",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily with meals"
+    },
+    {
+      "name": "Sumatriptan",
+      "dosage": "50 mg",

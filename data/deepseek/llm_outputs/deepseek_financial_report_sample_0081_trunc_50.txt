@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NMBT"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 780000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 320000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance Contracts",
+      "amount": 150000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods 

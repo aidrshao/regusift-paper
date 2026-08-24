@@ -1,0 +1,50 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 62,
+    "gender": "Female"
+  },
+  "visitDate": "2024-10-27",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia",
+      "severity": "Moderate"
+    },
+    {
+      "code": "Z79.899",
+      "name": "Long-term (current) use of medication",
+      "severity": "N/A"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "At bedtime"
+    },
+    {
+      "name": "Aspirin",
+      "dosage": "81 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "6.1",
+      "unit": "%",
+      "flag": "Normal"
+    },
+    {
+      "test": "Total Choleste

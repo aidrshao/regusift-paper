@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NBD"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 4825000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 2310000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Royalties",
+      "amount": 875000,
+      "currency": "USD"
+    },
+    {
+      "category": "Other Income",
+      "amount": 143000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 2180000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 965000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 742000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 610000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 285000,
+      "currency": "USD"

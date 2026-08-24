@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance Contracts",
+      "amount": 1400000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 4800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 3200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 2600000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 1800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 700000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 19700000,
+    "totalExpenses": 13100000,
+    "netIncome": 6600000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient": {
+    "id": "PT-100284",
+    "age": 67,
+    "gender": "Male"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Stage 2"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity"

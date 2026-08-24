@@ -1,0 +1,31 @@
+{
+  "catalogId": "ECOMMERCE-WINTER-2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "JCK001",
+      "name": "Classic Wool Blend Peacoat",
+      "price": 129.99,
+      "category": "Apparel",
+      "stock": 45
+    },
+    {
+      "id": "TSH015",
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "price": 24.50,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "PNK003",
+      "name": "Slim-Fit Denim Jeans (Dark Wash)",
+      "price": 79.99,
+      "category": "Apparel",
+      "stock": 88
+    },
+    {
+      "id": "SRE005",
+      "name": "Merino Wool Knit Scarf",
+      "price": 49.95,
+      "category": "Accessories",
+      "stock": 62

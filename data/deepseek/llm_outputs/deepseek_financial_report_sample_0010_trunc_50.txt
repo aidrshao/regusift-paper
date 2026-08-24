@@ -1,0 +1,34 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 12730000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Implementation",
+      "amount": 8450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 5920000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3480000,
+      "currency": "USD"
+    }
+  ],
+  "expenses

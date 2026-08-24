@@ -1,0 +1,21 @@
+{
+  "patient": {
+    "id": "P-78412",
+    "age": 58,
+    "gender": "Female"
+  },
+  "visitDate": "2023-11-15",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Mild"
+    },
+    {
+      "code": "K21.0",
+  

@@ -1,0 +1,109 @@
+{
+  "catalogId": "CC-20240729-A",
+  "lastUpdated": "2024-07-29T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Ultra HD 55-inch Smart TV",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Power Bank 20000mAh",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 300
+    },
+    {
+      "id": "BK010",
+      "name": "The Midnight Library",
+      "price": 12.50,
+      "category": "Books",
+      "stock": 210
+    },
+    {
+      "id": "BK011",
+      "name": "Sapiens: A Brief History of Humankind",
+      "price": 18.99,
+      "category": "Books",
+      "stock": 85
+    },
+    {
+      "id": "CL005",
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 450
+    },
+    {
+      "id": "CL006",
+      "name": "Slim Fit Denim Jeans (Black)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "CL007",
+      "name": "Waterproof Hiking Jacket",
+      "price": 119.99,
+      "category": "Apparel",
+      "stock": 75
+    },
+    {
+      "id": "HM015",
+      "name": "Aroma Diffuser with Essential Oils",
+      "price": 35.00,
+      "category": "Home Goods",
+      "stock": 90
+    },
+    {
+      "id": "HM016",
+      "name": "Bamboo Fiber Bed Sheets (Queen)",
+      "price": 79.99,
+      "category": "Home Goods",
+      "stock": 60
+    },
+    {
+      "id": "HM022",
+      "name": "Smart Coffee Maker with Timer",
+      "price": 89.99,
+      "category": "Home Goods",
+      "stock": 30
+    },
+    {
+      "id": "BT001",
+      "name": "Ergonomic Wireless Mouse",
+      "price": 25.99,
+      "category": "Accessories",
+      "stock": 250
+    },
+    {
+      "id": "BT002",
+      "name": "Mechanical Keyboard (TKL)",
+      "price": 89.99,
+      "category": "Accessories",
+      "stock": 110
+    },
+    {
+      "id": "BT003",
+      "name": "USB-C Multiport Hub",
+      "price": 45.00,
+      "category": "Accessories",
+      "stock": 180
+    },
+    {
+      "id": "SP005",
+      "name": "Stainless Steel Water Bottle (32oz)",
+      "price": 19.99,
+      "category": "Sports & Outdoors",
+      "stock": 350
+    },

@@ -1,0 +1,91 @@
+{
+  "patient": {
+    "id": "PT-88472",
+    "age": 58,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "mild"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "once daily at bedtime"
+    },
+    {
+      "name": "Aspirin",
+      "dosage": "81 mg",
+      "frequency": "once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.8",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Fasting Blood Glucose",
+      "value": "146",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "132",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "HDL Cholesterol",
+      "value": "48",
+      "unit": "mg/dL",
+      "flag": "normal"
+    },
+    {
+      "test": "Triglycerides",
+      "value": "178",
+      "unit": "mg/dL",
+      "flag": "borderline high"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": "0.9",
+      "unit": "mg/dL",
+      "flag": "normal"
+    },
+    {
+      "test": "eGFR",
+      "value": "72",
+      "unit": "mL/min/1.73m2",
+      "flag": "normal"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NBT"
+  },
+  "quarter": "Q1 2024",
+  "revenue": [
+    {"category": "Product Sales", "amount": 2450000, "currency": "USD"},
+    {"category": "Subscription Services", "amount": 1890000, "currency": "USD"},
+    {"category": "Consulting", "amount": 620000, "currency": "USD"},
+    {"category": "Licensing", "amount": 410000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Cost of Goods Sold", 

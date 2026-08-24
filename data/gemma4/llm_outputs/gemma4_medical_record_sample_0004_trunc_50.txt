@@ -1,0 +1,10 @@
+{
+  "patient": {"id": "P98765", "age": 68, "gender": "Female"},
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Moderate"},
+    {"code": "E11.9", "name": "Type 2 diabetes mellitus without complications", "severity": "Controlled"},
+    {"code": "I50.9", "name": "Heart failure, unspecified", "severity": "Stable"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dosage": "

@@ -1,0 +1,43 @@
+{
+  "catalogId": "cat-2025-001",
+  "lastUpdated": "2025-04-08T10:30:00Z",
+  "products": [
+    {
+      "id": "ELEC-001",
+      "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "price": 399.99,
+      "category": "Electronics",
+      "stock": 25
+    },
+    {
+      "id": "ELEC-002",
+      "name": "Samsung 32-inch M8 Smart Monitor (2024)",
+      "price": 549.99,
+      "category": "Electronics",
+      "stock": 12
+    },
+    {
+      "id": "ELEC-003",
+      "name": "Apple Watch Series 9 GPS 45mm",
+      "price": 429.0,
+      "category": "Electronics",
+      "stock": 40
+    },
+    {
+      "id": "ELEC-004",
+      "name": "Anker 737 Power Bank (PowerCore 24K)",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 60
+    },
+    {
+      "id": "HOME-001",
+      "name": "Dyson V15 Detect Cordless Vacuum",
+      "price": 699.99,
+      "category": "Home & Kitchen",
+      "stock": 8
+    },
+    {
+      "id": "HOME-002",
+      "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 6 Qt",
+      "price": 99.95

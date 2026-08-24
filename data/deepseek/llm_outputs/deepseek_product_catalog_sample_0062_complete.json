@@ -1,0 +1,181 @@
+{
+  "catalogId": "cat_2025_spring_001",
+  "lastUpdated": "2025-06-15T14:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Bluetooth Earbuds Pro",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 250
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Stainless Steel Water Bottle 1L",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 500
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 1200
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Smart 4K Action Camera",
+      "price": 199.0,
+      "category": "Electronics",
+      "stock": 85
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ceramic Coffee Mug Set (4 pcs)",
+      "price": 32.75,
+      "category": "Home & Kitchen",
+      "stock": 340
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Yoga Mat with Alignment Lines",
+      "price": 45.0,
+      "category": "Sports & Outdoors",
+      "stock": 210
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Mechanical Gaming Keyboard RGB",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 60
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Leather Crossbody Bag",
+      "price": 89.5,
+      "category": "Accessories",
+      "stock": 140
+    },
+    {
+      "id": "SKU-1009",
+      "name": "Natural Lavender Essential Oil 10ml",
+      "price": 12.99,
+      "category": "Beauty & Health",
+      "stock": 800
+    },
+    {
+      "id": "SKU-1010",
+      "name": "Foldable Laptop Stand (Aluminum)",
+      "price": 39.99,
+      "category": "Office Supplies",
+      "stock": 275
+    },
+    {
+      "id": "SKU-1011",
+      "name": "Running Shoes (Men's, Size 10)",
+      "price": 110.0,
+      "category": "Footwear",
+      "stock": 95
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Garden Tool Set (9 Piece)",
+      "price": 54.25,
+      "category": "Home & Garden",
+      "stock": 130
+    },
+    {
+      "id": "SKU-1013",
+      "name": "Portable Power Bank 20000mAh",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 420
+    },
+    {
+      "id": "SKU-1014",
+      "name": "Scented Candle - Vanilla & Sandalwood",
+      "price": 18.5,
+      "category": "Home & Kitchen",
+      "stock": 650
+    },
+    {
+      "id": "SKU-1015",
+      "name": "Professional Chef's Knife 8-inch",
+      "price": 67.0,
+      "category": "Kitchenware",
+      "stock": 110
+    },
+    {
+      "id": "SKU-1016",
+      "name": "Resistance Bands Set (5 levels)",
+      "price": 29.99,
+      "category": "Sports & Outdoors",
+      "stock": 380
+    },
+    {
+      "id": "SKU-1017",
+      "name": "Classic Aviator Sunglasses",
+      "price": 75.0,
+      "category": "Accessories",
+      "stock": 200
+    },
+    {
+      "id": "SKU-1018",
+      "name": "Memory Foam Pillow (Queen)",
+      "price": 42.99,
+      "category": "Home & Furniture",
+      "stock": 160
+    },
+    {
+      "id": "SKU-1019",
+      "name": "Digital Kitchen Scale (500g/0.1g)",
+      "price": 22.5,
+      "category": "Kitchenware",
+      "stock": 300
+    },
+    {
+      "id": "SKU-1020",
+      "name": "Insulated Lunch Bag (Leak-proof)",
+      "price": 27.99,
+      "category": "Food Storage",
+      "stock": 240
+    },
+    {
+      "id": "SKU-1021",
+      "name": "Wireless Mouse - Silent Click",
+      "price": 34.99,
+      "category": "Electronics",
+      "stock": 520
+    },
+    {
+      "id": "SKU-1022",
+      "name": "Canvas Backpack with USB Port",
+      "price": 58.0,
+      "category": "Bags & Luggage",
+      "stock": 180
+    },
+    {
+      "id": "SKU-1023",
+      "name": "LED Desk Lamp with Wireless Charger",
+      "price": 64.99,
+      "category": "Office Supplies",
+      "stock": 90
+    },
+    {
+      "id": "SKU-1024",
+      "name": "Kids' Building Blocks Set (200 pcs)",
+      "price": 35.0,
+      "category": "Toys & Games",
+      "stock": 450
+    },
+    {
+      "id": "SKU-1025",
+      "name": "Reusable Grocery Bags (5 pack)",
+      "price": 14.99,
+      "category": "Eco-Friendly",
+      "stock": 1000
+    }
+  ]
+}

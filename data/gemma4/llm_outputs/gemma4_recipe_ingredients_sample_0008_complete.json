@@ -1,0 +1,48 @@
+{
+  "recipeName": "Classic Margherita Pizza",
+  "servings": 4,
+  "ingredients": [
+    {
+      "name": "Pizza Dough",
+      "quantity": "1",
+      "unit": "ball",
+      "notes": "Store-bought or homemade"
+    },
+    {
+      "name": "Canned Whole Peeled Tomatoes",
+      "quantity": "28",
+      "unit": "oz",
+      "notes": "San Marzano recommended"
+    },
+    {
+      "name": "Fresh Mozzarella Cheese",
+      "quantity": "12",
+      "unit": "oz",
+      "notes": "Drained and torn into pieces"
+    },
+    {
+      "name": "Fresh Basil Leaves",
+      "quantity": "1",
+      "unit": "cup",
+      "notes": "Roughly torn"
+    },
+    {
+      "name": "Extra Virgin Olive Oil",
+      "quantity": "3",
+      "unit": "tbsp",
+      "notes": "For drizzling"
+    },
+    {
+      "name": "Salt",
+      "quantity": "0.5",
+      "unit": "tsp",
+      "notes": "Kosher salt"
+    },
+    {
+      "name": "Black Pepper",
+      "quantity": "0.33",
+      "unit": "tsp",
+      "notes": "Freshly ground"
+    }
+  ]
+}

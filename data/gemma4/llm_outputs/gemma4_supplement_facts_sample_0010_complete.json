@@ -1,0 +1,67 @@
+{
+  "productName": "Ultimate Daily Multivitamin & Mineral Complex",
+  "servingSize": "2 tablets",
+  "servingsPerContainer": 60,
+  "ingredients": [
+    {
+      "name": "Vitamin C",
+      "amount": "500",
+      "unit": "mg",
+      "dailyValue": "55% DV"
+    },
+    {
+      "name": "Vitamin D3",
+      "amount": "2000",
+      "unit": "IU",
+      "dailyValue": "111% DV"
+    },
+    {
+      "name": "Vitamin E",
+      "amount": "30",
+      "unit": "mg",
+      "dailyValue": "20% DV"
+    },
+    {
+      "name": "Vitamin B12",
+      "amount": "1000",
+      "unit": "mcg",
+      "dailyValue": "500% DV"
+    },
+    {
+      "name": "Folic Acid",
+      "amount": "600",
+      "unit": "mcg",
+      "dailyValue": "150% DV"
+    },
+    {
+      "name": "Calcium Carbonate",
+      "amount": "500",
+      "unit": "mg",
+      "dailyValue": "45% DV"
+    },
+    {
+      "name": "Magnesium Oxide",
+      "amount": "200",
+      "unit": "mg",
+      "dailyValue": "30% DV"
+    },
+    {
+      "name": "Zinc Oxide",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "136% DV"
+    },
+    {
+      "name": "Potassium Iodide",
+      "amount": "50",
+      "unit": "mcg",
+      "dailyValue": "8% DV"
+    },
+    {
+      "name": "Selenium",
+      "amount": "200",
+      "unit": "mcg",
+      "dailyValue": "36% DV"
+    }
+  ]
+}

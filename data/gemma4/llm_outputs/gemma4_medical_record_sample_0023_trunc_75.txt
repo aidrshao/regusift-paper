@@ -1,0 +1,42 @@
+{
+  "patient": {
+    "id": "P10023",
+    "age": 55,
+    "gender": "Female"
+  },
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Moderate"
+    },
+    {
+      "code": "K21.9",
+      "name": "Gastro-esophageal reflux disease (GERD)",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "5.6",
+      "unit": "%",
+      "flag": "Normal"
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": "215",
+      "unit": "m

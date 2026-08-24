@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NBT"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 7230000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 1480000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Royalties",
+      "amount": 960000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold

@@ -1,0 +1,73 @@
+{
+  "productName": "Daily Total Wellness Multivitamin",
+  "servingSize": "2 tablets",
+  "servingsPerContainer": 60,
+  "ingredients": [
+    {
+      "name": "Vitamin C",
+      "amount": "150",
+      "unit": "mg",
+      "dailyValue": "16%DV"
+    },
+    {
+      "name": "Vitamin D3",
+      "amount": "1000",
+      "unit": "IU",
+      "dailyValue": "56%DV"
+    },
+    {
+      "name": "Vitamin E",
+      "amount": "20",
+      "unit": "mg",
+      "dailyValue": "14%DV"
+    },
+    {
+      "name": "Vitamin B12",
+      "amount": "1000",
+      "unit": "mcg",
+      "dailyValue": "500%DV"
+    },
+    {
+      "name": "Folate Acid",
+      "amount": "400",
+      "unit": "mcg",
+      "dailyValue": "400%DV"
+    },
+    {
+      "name": "Calcium Carbonate",
+      "amount": "500",
+      "unit": "mg",
+      "dailyValue": "42%DV"
+    },
+    {
+      "name": "Magnesium Oxide",
+      "amount": "200",
+      "unit": "mg",
+      "dailyValue": "20%DV"
+    },
+    {
+      "name": "Zinc Oxide",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "136%DV"
+    },
+    {
+      "name": "Iron",
+      "amount": "18",
+      "unit": "mg",
+      "dailyValue": "100%DV"
+    },
+    {
+      "name": "Vitamin A",
+      "amount": "500",
+      "unit": "IU",
+      "dailyValue": "25%DV"
+    },
+    {
+      "name": "Copper",
+      "amount": "2",
+      "unit": "mg",
+      "dailyValue": "200%DV"
+    }
+  ]
+}

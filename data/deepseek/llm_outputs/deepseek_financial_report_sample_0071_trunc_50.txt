@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Nimbus Analytics Inc.",
+    "ticker": "NMBL"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 4820000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Data Licensing",
+      "amount": 780000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 340000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenu

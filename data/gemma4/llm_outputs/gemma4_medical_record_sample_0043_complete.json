@@ -1,0 +1,68 @@
+{
+  "patient": {
+    "id": "P109472",
+    "age": 58,
+    "gender": "Female"
+  },
+  "visitDate": "2023-10-25",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia",
+      "severity": "Moderate"
+    },
+    {
+      "code": "Z79.899",
+      "name": "Long-term (Type 2) anti-diabetic drug use",
+      "severity": "Stable"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "6.8",
+      "unit": "%",
+      "flag": "High"
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": "215",
+      "unit": "mg/dL",
+      "flag": "High"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "125",
+      "unit": "mg/dL",
+      "flag": "Borderline"
+    },
+    {
+      "test": "Creatinine",
+      "value": "0.9",
+      "unit": "mg/dL",
+      "flag": "Normal"
+    }
+  ]
+}

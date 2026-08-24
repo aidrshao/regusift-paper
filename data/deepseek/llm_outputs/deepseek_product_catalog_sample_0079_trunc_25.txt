@@ -1,0 +1,41 @@
+{
+  "catalogId": "cat_2024_oct_001",
+  "lastUpdated": "2024-10-23T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Classic Cotton T-Shirt (Navy)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Classic Cotton T-Shirt (White)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Slim Fit Jeans - Dark Wash (32x32)",
+      "price": 49.95,
+      "category": "Apparel",
+      "stock": 45
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Wool Blend Overcoat (Black, Medium)",
+      "price": 189.00,
+      "category": "Apparel",
+      "stock": 12
+    },
+    {
+      "id": "SKU-2001",
+      "name": "Stainless Steel Water Bottle (750ml)",
+      "price": 24.50,
+      "category": "Kitchen & Dining",
+      "stock": 200
+    },
+    {
+      "id": "SKU-2002",

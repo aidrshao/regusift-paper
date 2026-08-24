@@ -1,0 +1,118 @@
+{
+  "catalogId": "ECOMM-20240715",
+  "lastUpdated": "2024-07-15T10:30:00Z",
+  "products": [
+    {
+      "id": "ELEC001",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "ELEC002",
+      "name": "Portable Power Bank 20000mAh",
+      "price": 45.50,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "HOME010",
+      "name": "Aroma Diffuser with LED Lights",
+      "price": 35.99,
+      "category": "Home Goods",
+      "stock": 78
+    },
+    {
+      "id": "HOME011",
+      "name": "Egyptian Cotton Bath Towel Set",
+      "price": 69.99,
+      "category": "Home Goods",
+      "stock": 30
+    },
+    {
+      "id": "BEAUT005",
+      "name": "Hydrating Vitamin C Serum",
+      "price": 24.99,
+      "category": "Beauty",
+      "stock": 95
+    },
+    {
+      "id": "BEAUT006",
+      "name": "Natural Bamboo Toothbrush Set (4pk)",
+      "price": 12.50,
+      "category": "Beauty",
+      "stock": 210
+    },
+    {
+      "id": "KITCH003",
+      "name": "Stainless Steel French Press (1L)",
+      "price": 39.95,
+      "category": "Kitchen & Dining",
+      "stock": 60
+    },
+    {
+      "id": "KITCH004",
+      "name": "Non-Stick Ceramic Cookware Set (3-piece)",
+      "price": 89.99,
+      "category": "Kitchen & Dining",
+      "stock": 22
+    },
+    {
+      "id": "SPORT001",
+      "name": "Adjustable Dumbbell Set (Pair)",
+      "price": 149.00,
+      "category": "Sports & Outdoors",
+      "stock": 15
+    },
+    {
+      "id": "SPORT002",
+      "name": "Yoga Mat with Carrying Strap",
+      "price": 25.99,
+      "category": "Sports & Outdoors",
+      "stock": 150
+    },
+    {
+      "id": "BOOK015",
+      "name": "The Midnight Library Novel",
+      "price": 15.99,
+      "category": "Books",
+      "stock": 110
+    },
+    {
+      "id": "BOOK016",
+      "name": "Advanced Python Programming Guide",
+      "price": 49.99,
+      "category": "Books",
+      "stock": 55
+    },
+    {
+      "id": "PET007",
+      "name": "Orthopedic Pet Bed XL",
+      "price": 59.99,
+      "category": "Pet Supplies",
+      "stock": 70
+    },
+    {
+      "id": "PET008",
+      "name": "Interactive Treat Dispensing Toy",
+      "price": 18.75,
+      "category": "Pet Supplies",
+      "stock": 200
+    },
+    {
+      "id": "OFFICE001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 299.99,
+      "category": "Office Supplies",
+      "stock": 18
+    },
+    {
+      "id": "OFFICE002",
+      "name": "Bamboo Desk Organizer Set",
+      "price": 32.00,
+      "category": "Office Supplies",
+      "stock": 85
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions Inc.",
+    "ticker": "ITSI"
+  },
+  "quarter": "Q3 2023",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 12500000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 8750000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 4200000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Licensing",
+      "amount": 1500000.00,
+      "currency": "USD"
+    }
+  ],
+  "expe

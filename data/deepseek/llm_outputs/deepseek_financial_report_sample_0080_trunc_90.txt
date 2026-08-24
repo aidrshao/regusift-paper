@@ -1,0 +1,20 @@
+{
+  "company": {
+    "name": "Nimbus Analytics Inc.",
+    "ticker": "NBUS"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {"category": "Software Subscriptions", "amount": 4580000, "currency": "USD"},
+    {"category": "Professional Services", "amount": 1230000, "currency": "USD"},
+    {"category": "Data Licensing", "amount": 875000, "currency": "USD"},
+    {"category": "Hardware Sales", "amount": 342000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Cost of Goods Sold", "amount": 1110000, "currency": "USD"},
+    {"category": "Research & Development", "amount": 980000, "currency": "USD"},
+    {"category": "Sales & Marketing", "amount": 1420000, "currency": "USD"},
+    {"category": "General & Administrative", "amount": 730000, "currency": "USD"},
+    {"category": "Depreciation & Amortization", "amount": 210000, "currency": "USD"}
+  ],
+  "summ

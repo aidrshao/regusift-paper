@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "NovaTech Solutions Inc.",
+    "ticker": "NVTS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales (One-time)",
+      "amount": 9800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Managed Services",
+      "amount": 6100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries & Wages",
+      "amount": 25300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure (AWS/Azure)",
+      "amount": 7800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing & Advertising",
+      "amount": 4500000,
+      "currency": "USD"
+    },
+    {
+      "category": "

@@ -1,0 +1,16 @@
+{
+  "patient": {
+    "id": "P78392A",
+    "age": 54,
+    "gender": "Female"
+  },
+  "visitDate": "2024-10-27",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Controlled"
+    },
+    {
+      "code": "E78.5",
+ 

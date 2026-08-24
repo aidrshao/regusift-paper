@@ -1,0 +1,33 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 62,
+    "gender": "Female"
+  },
+  "visitDate": "2024-07-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (Primary) Hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "Moderate"
+    },
+    {
+      "code": "Z79.899",
+      "name": "History of chronic kidney disease",
+      "severity": "Stable"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dos

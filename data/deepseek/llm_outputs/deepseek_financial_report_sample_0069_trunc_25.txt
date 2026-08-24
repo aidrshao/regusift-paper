@@ -1,0 +1,18 @@
+{
+  "company": {
+    "name": "Acme Corporation",
+    "ticker": "ACM"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Service Revenue",
+      "amount": 750000,
+      "currency": "USD"
+    },
+   

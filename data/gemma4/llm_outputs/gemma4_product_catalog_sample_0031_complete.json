@@ -1,0 +1,146 @@
+{
+  "catalogId": "ECOMMERCE-SPRING-2024-A",
+  "lastUpdated": "2024-03-15T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "AP005",
+      "name": "Smart Coffee Maker with Timer",
+      "price": 89.99,
+      "category": "Home Appliances",
+      "stock": 72
+    },
+    {
+      "id": "CL012",
+      "name": "Organic Cotton Crewneck T-Shirt (Blue)",
+      "price": 24.50,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "HW003",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 45.99,
+      "category": "Electronics",
+      "stock": 98
+    },
+    {
+      "id": "BK008",
+      "name": "The Midnight Library Novel",
+      "price": 12.99,
+      "category": "Books",
+      "stock": 210
+    },
+    {
+      "id": "BH022",
+      "name": "Bamboo Fiber Bath Towel Set",
+      "price": 39.99,
+      "category": "Home Goods",
+      "stock": 65
+    },
+    {
+      "id": "SK007",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Furniture",
+      "stock": 15
+    },
+    {
+      "id": "CO001",
+      "name": "Premium Espresso Blend Coffee Beans",
+      "price": 18.75,
+      "category": "Groceries",
+      "stock": 300
+    },
+    {
+      "id": "CL005",
+      "name": "Lightweight Jogger Pants (Black)",
+      "price": 55.00,
+      "category": "Apparel",
+      "stock": 110
+    },
+    {
+      "id": "EL015",
+      "name": "Ultra HD 4K Web Camera",
+      "price": 69.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "BH030",
+      "name": "Scented Soy Candle Set (3 Pack)",
+      "price": 29.99,
+      "category": "Home Goods",
+      "stock": 180
+    },
+    {
+      "id": "AP002",
+      "name": "Digital Air Fryer XL",
+      "price": 119.99,
+      "category": "Home Appliances",
+      "stock": 35
+    },
+    {
+      "id": "SK011",
+      "name": "Adjustable Standing Desk Converter",
+      "price": 179.99,
+      "category": "Furniture",
+      "stock": 22
+    },
+    {
+      "id": "CL025",
+      "name": "Waterproof Hiking Jacket (Men's)",
+      "price": 99.99,
+      "category": "Apparel",
+      "stock": 70
+    },
+    {
+      "id": "CO010",
+      "name": "Artisan Chocolate Bar Collection",
+      "price": 14.50,
+      "category": "Groceries",
+      "stock": 450
+    },
+    {
+      "id": "EL009",
+      "name": "Mini Bluetooth Speaker",
+      "price": 35.00,
+      "category": "Electronics",
+      "stock": 130
+    },
+    {
+      "id": "HW008",
+      "name": "Bamboo Cutting Board Set",
+      "price": 32.99,
+      "category": "Home Goods",
+      "stock": 195
+    },
+    {
+      "id": "BK003",
+      "name": "Mastering Python for Data Science",
+      "price": 49.99,
+      "category": "Books",
+      "stock": 55
+    },
+    {
+      "id": "AP015",
+      "name": "Electric Kettle with Temperature Control",
+      "price": 59.99,
+      "category": "Home Appliances",
+      "stock": 40
+    },
+    {
+      "id": "CL033",
+      "name": "Sweater Cardigan (Neutral Tone)",
+      "price": 79.99,
+      "category": "Apparel",
+      "stock": 90
+    }
+  ]
+}

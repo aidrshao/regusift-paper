@@ -1,0 +1,92 @@
+{
+  "catalogId": "ECOMM-20240610",
+  "lastUpdated": "2024-06-10T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker X3",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "EL003",
+      "name": "Ultra HD 4K Web Camera",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 85
+    },
+    {
+      "id": "AP001",
+      "name": "Ergonomic Mechanical Keyboard",
+      "price": 119.99,
+      "category": "Accessories",
+      "stock": 210
+    },
+    {
+      "id": "AP002",
+      "name": "Wireless Vertical Mouse",
+      "price": 35.50,
+      "category": "Accessories",
+      "stock": 550
+    },
+    {
+      "id": "AP003",
+      "name": "USB-C Multi-Port Hub",
+      "price": 49.99,
+      "category": "Accessories",
+      "stock": 400
+    },
+    {
+      "id": "CL101",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 800
+    },
+    {
+      "id": "CL102",
+      "name": "Slim Fit Chinos (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "CL103",
+      "name": "Waterproof Hiking Jacket",
+      "price": 129.99,
+      "category": "Apparel",
+      "stock": 120
+    },
+    {
+      "id": "HO201",
+      "name": "Smart Coffee Maker Deluxe",
+      "price": 99.99,
+      "category": "Home Goods",
+      "stock": 180
+    },
+    {
+      "id": "HO202",
+      "name": "Aroma Diffuser with Oils",
+      "price": 35.00,
+      "category": "Home Goods",
+      "stock": 600
+    },
+    {
+      "id": "HO203",
+      "name": "Bamboo Cutting Board Set",
+      "price": 45.99,
+      "category": "Home Goods",
+      "stock": 750
+    },
+    {
+      "id": "BK301",
+      "name": "The Midnight Library Novel",
+      "price": 14.99

@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 8200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 5400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure",
+      "amount": 12300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods So

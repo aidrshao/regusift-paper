@@ -1,0 +1,64 @@
+{
+  "patient": {
+    "id": "PT-100293",
+    "age": 58,
+    "gender": "female"
+  },
+  "visitDate": "2024-11-15",
+  "diagnoses": [
+    {
+      "code": "J45.909",
+      "name": "Unspecified asthma",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "controlled"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "uncontrolled"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Albuterol HFA",
+      "dosage": "90 mcg",
+      "frequency": "2 puffs every 4-6 hours as needed"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "Twice daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "Once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "HbA1c",
+      "value": "8.7",
+      "unit": "%",
+      "flag": "HIGH"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "132",
+      "unit": "mg/dL",
+      "flag": "HIGH"
+    },
+    {
+      "test": "Creatinine",
+      "value": "1.1",
+      "unit": "mg/dL",
+    

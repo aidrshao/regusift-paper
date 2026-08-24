@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "InnovateSoft Solutions Inc.",
+    "ticker": "ISOL"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 3500000,
+      "currency": "USD"
+    },
+    {
+      "category": "One-Time Licensing",
+      "amount": 1500000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages

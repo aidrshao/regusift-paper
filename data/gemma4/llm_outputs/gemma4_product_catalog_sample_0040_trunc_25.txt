@@ -1,0 +1,34 @@
+{
+  "catalogId": "SPRING2024-TECH-HOME",
+  "lastUpdated": "2024-03-15T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Smart LED Desk Lamp",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "HM001",
+      "name": "Bamboo Memory Foam Pillow",
+      "price": 59.99,
+      "category": "Home Goods",
+      "stock": 75
+    },
+    {
+     

@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Meridian Technologies",
+    "ticker": "MRD"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 8900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 4300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 2600000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 6200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 2700000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 1800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 900000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 28200000,
+    "totalExpenses": 14700000,
+    "netIncome": 13500000
+  }
+}

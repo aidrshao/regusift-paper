@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Nimbus Analytics Inc.",
+    "ticker": "NAI"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 4500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 1800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Data Licensing",
+      "amount": 950000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 620000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Research & D

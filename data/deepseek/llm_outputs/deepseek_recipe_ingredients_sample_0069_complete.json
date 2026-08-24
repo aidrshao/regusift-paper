@@ -1,0 +1,18 @@
+{
+  "recipeName": "Hearty Beef and Vegetable Stew",
+  "servings": 6,
+  "ingredients": [
+    {"name": "beef chuck", "quantity": "2", "unit": "lb", "notes": "cut into 1-inch cubes"},
+    {"name": "olive oil", "quantity": "2", "unit": "tbsp", "notes": "for browning"},
+    {"name": "yellow onion", "quantity": "1", "unit": "large", "notes": "diced"},
+    {"name": "garlic", "quantity": "3", "unit": "cloves", "notes": "minced"},
+    {"name": "carrots", "quantity": "3", "unit": "medium", "notes": "peeled and sliced into 1/2-inch rounds"},
+    {"name": "celery stalks", "quantity": "2", "unit": "stalks", "notes": "sliced"},
+    {"name": "Yukon Gold potatoes", "quantity": "1.5", "unit": "lb", "notes": "cut into 1-inch chunks"},
+    {"name": "beef broth", "quantity": "4", "unit": "cups", "notes": "low sodium"},
+    {"name": "tomato paste", "quantity": "2", "unit": "tbsp", "notes": "double-concentrated if available"},
+    {"name": "dried thyme", "quantity": "1", "unit": "tsp", "notes": "or 3 sprigs fresh"},
+    {"name": "bay leaf", "quantity": "1", "unit": "leaf", "notes": "remove before serving"},
+    {"name": "frozen peas", "quantity": "1", "unit": "cup", "notes": "add in last 10 minutes"}
+  ]
+}

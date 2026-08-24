@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Innovatech Solutions Group",
+    "ticker": "ISG"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services Subscriptions",
+      "amount": 28750000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 15100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 8950000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 32500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Hosting & Infrastructure",
+      "amount": 9800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 6200000,
+      "currency": "USD"
+    },
+    {
+      "category": "R&D Expenditures",
+      "amount": 7150000,
+      "currency": "USD"
+    },
+    {
+      "category": "G&A (General & Admin)",
+      "amount": 3450000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 97000000,
+    "totalExpenses": 59100000,
+    "netIncome": 37900000
+  }
+}

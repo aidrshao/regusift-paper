@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Nimbus Analytics Inc.",
+    "ticker": "NMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 1450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 320000,
+      "currency": "USD"
+    },
+    {
+      "category": "Data Licensing",
+      "amount": 185000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 45000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 480000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 275000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 310000,
+      "currency": "USD"
+    },
+    {
+      "category": "Gener

@@ -1,0 +1,33 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 62,
+    "gender": "Female"
+  },
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Controlled"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Managed"
+    },
+    {
+      "code": "L20.9",
+      "name": "Dermatitis, unspecified",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "d

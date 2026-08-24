@@ -1,0 +1,146 @@
+{
+  "catalogId": "ECOMM-20231115-A",
+  "lastUpdated": "2023-11-15T10:00:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker (Waterproof)",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Smart Digital Watch with Heart Rate Monitor",
+      "price": 129.50,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "CL001",
+      "name": "Organic Cotton Crewneck T-Shirt (Navy)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "CL002",
+      "name": "Slim Fit Chino Trousers (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 210
+    },
+    {
+      "id": "CL003",
+      "name": "Rainproof Lightweight Windbreaker Jacket",
+      "price": 89.99,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "HS001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.00,
+      "category": "Home & Office",
+      "stock": 30
+    },
+    {
+      "id": "HS002",
+      "name": "Aroma Diffuser with Wood Grain Base",
+      "price": 45.99,
+      "category": "Home & Office",
+      "stock": 150
+    },
+    {
+      "id": "HS003",
+      "name": "Bamboo Fiber Bath Mat Set (Set of 2)",
+      "price": 35.00,
+      "category": "Home & Office",
+      "stock": 220
+    },
+    {
+      "id": "BK001",
+      "name": "The Midnight Library Novel Paperback",
+      "price": 14.99,
+      "category": "Books",
+      "stock": 550
+    },
+    {
+      "id": "BK002",
+      "name": "Advanced JavaScript Programming Guide",
+      "price": 49.95,
+      "category": "Books",
+      "stock": 110
+    },
+    {
+      "id": "BK003",
+      "name": "History of Ancient Rome Textbook",
+      "price": 75.00,
+      "category": "Books",
+      "stock": 55
+    },
+    {
+      "id": "HP001",
+      "name": "Stainless Steel Coffee Maker (12 Cup)",
+      "price": 65.50,
+      "category": "Kitchen & Dining",
+      "stock": 75
+    },
+    {
+      "id": "HP002",
+      "name": "Non-Stick Ceramic Cookware Set (5 Piece)",
+      "price": 119.99,
+      "category": "Kitchen & Dining",
+      "stock": 40
+    },
+    {
+      "id": "HP003",
+      "name": "Bamboo Cutting Board Set (3 Pack)",
+      "price": 29.99,
+      "category": "Kitchen & Dining",
+      "stock": 300
+    },
+    {
+      "id": "BE001",
+      "name": "Electric Toothbrush Sonic Cleaner",
+      "price": 89.99,
+      "category": "Beauty & Health",
+      "stock": 90
+    },
+    {
+      "id": "BE002",
+      "name": "Vitamin C Serum Brightening Face Oil",
+      "price": 39.99,
+      "category": "Beauty & Health",
+      "stock": 180
+    },
+    {
+      "id": "BE003",
+      "name": "Natural Deodorant Stick (Lavender)",
+      "price": 12.50,
+      "category": "Beauty & Health",
+      "stock": 600
+    },
+    {
+      "id": "TO001",
+      "name": "Premium Espresso Blend Coffee Beans (1lb)",
+      "price": 18.75,
+      "category": "Groceries",
+      "stock": 250
+    },
+    {
+      "id": "TO002",
+      "name": "Artisan Whole Wheat Bread Loaf",
+      "price": 5.99,
+      "category": "Groceries",
+      "stock": 15
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "catalogId": "cat_2025_spring_001",
+  "lastUpdated": "2025-04-07T10:30:00Z",
+  "products": [
+    {
+      "id": "p1001",
+      "name": "Wireless Noise-Cancelling Headphones Pro",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "p1002",
+      "name": "Stainless Steel Insulated Water Bottle 32oz",
+      "price": 29.95,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "p1003",
+      "name": "Organic Cotton T-Shirt (Classic Fit)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 200
+    },
+    {
+      "id": "p1004",
+      "name": "Mechanical Gaming Keyboard RGB",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 32
+    },
+    {
+      "id": "p1005",
+      "name": "Cast Iron Skillet 10-inch",
+      "price": 39.50,
+      "category": "Home & Kitchen",
+      "stock": 75
+    },
+    {
+      "id": "p1006",
+      "name": "Trail Running Shoes (Men's 9)",
+      "price": 120.00,
+      "category": "Footwear

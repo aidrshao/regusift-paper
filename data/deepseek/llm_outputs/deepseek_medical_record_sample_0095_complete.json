@@ -1,0 +1,85 @@
+{
+  "patient": {
+    "id": "PT-78421",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-14",
+  "diagnoses": [
+    {
+      "code": "J45.909",
+      "name": "Unspecified asthma, uncomplicated",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "controlled"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "uncontrolled"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Albuterol HFA",
+      "dosage": "90 mcg",
+      "frequency": "2 puffs every 4-6 hours as needed"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "8.7",
+      "unit": "%",
+      "flag": "HIGH"
+    },
+    {
+      "test": "Fasting Blood Glucose",
+      "value": "168",
+      "unit": "mg/dL",
+      "flag": "HIGH"
+    },
+    {
+      "test": "Blood Pressure (Systolic)",
+      "value": "142",
+      "unit": "mmHg",
+      "flag": "HIGH"
+    },
+    {
+      "test": "Blood Pressure (Diastolic)",
+      "value": "88",
+      "unit": "mmHg",
+      "flag": "NORMAL"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "112",
+      "unit": "mg/dL",
+      "flag": "HIGH"
+    },
+    {
+      "test": "Peak Expiratory Flow",
+      "value": "310",
+      "unit": "L/min",
+      "flag": "LOW"
+    }
+  ]
+}

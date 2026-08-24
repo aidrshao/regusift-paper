@@ -1,0 +1,160 @@
+{
+  "catalogId": "ECOMM-FALL2024-A",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "P002",
+      "name": "Slim Fit Dark Wash Denim Jeans",
+      "price": 79.50,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "P003",
+      "name": "Merino Wool Knit Scarf",
+      "price": 45.00,
+      "category": "Accessories",
+      "stock": 210
+    },
+    {
+      "id": "P004",
+      "name": "Leather Belt - Classic Brown",
+      "price": 39.99,
+      "category": "Accessories",
+      "stock": 120
+    },
+    {
+      "id": "P005",
+      "name": "Noise-Canceling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 65
+    },
+    {
+      "id": "P006",
+      "name": "Portable Bluetooth Speaker",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 180
+    },
+    {
+      "id": "P007",
+      "name": "Stainless Steel Water Bottle (32oz)",
+      "price": 24.95,
+      "category": "Home Goods",
+      "stock": 300
+    },
+    {
+      "id": "P008",
+      "name": "Aromatherapy Essential Oil Diffuser",
+      "price": 35.00,
+      "category": "Home Goods",
+      "stock": 110
+    },
+    {
+      "id": "P009",
+      "name": "Bamboo Cutting Board Set (3 pcs)",
+      "price": 49.99,
+      "category": "Kitchenware",
+      "stock": 95
+    },
+    {
+      "id": "P010",
+      "name": "Premium Coffee Blend Beans (12oz)",
+      "price": 18.50,
+      "category": "Groceries",
+      "stock": 250
+    },
+    {
+      "id": "P011",
+      "name": "Yoga Mat - Eco-Friendly TPE",
+      "price": 32.99,
+      "category": "Sports & Outdoors",
+      "stock": 140
+    },
+    {
+      "id": "P012",
+      "name": "Adjustable Dumbbell Set (Pair)",
+      "price": 129.99,
+      "category": "Sports & Outdoors",
+      "stock": 55
+    },
+    {
+      "id": "P013",
+      "name": "Wool Blend Throw Blanket",
+      "price": 65.00,
+      "category": "Home Goods",
+      "stock": 70
+    },
+    {
+      "id": "P014",
+      "name": "Over-The-Door Storage Organizer",
+      "price": 29.99,
+      "category": "Home Goods",
+      "stock": 220
+    },
+    {
+      "id": "P015",
+      "name": "Smart LED Desk Lamp",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 130
+    },
+    {
+      "id": "P016",
+      "name": "Waterproof Hiking Backpack (40L)",
+      "price": 99.00,
+      "category": "Apparel",
+      "stock": 75
+    },
+    {
+      "id": "P017",
+      "name": "Silk Pillowcase Set (2 count)",
+      "price": 55.99,
+      "category": "Home Goods",
+      "stock": 105
+    },
+    {
+      "id": "P018",
+      "name": "Portable Charger Power Bank (20000mAh)",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 160
+    },
+    {
+      "id": "P019",
+      "name": "Electric Kettle - Stainless Steel",
+      "price": 59.99,
+      "category": "Kitchenware",
+      "stock": 190
+    },
+    {
+      "id": "P020",
+      "name": "Organic Green Tea Bags (50 count)",
+      "price": 14.99,
+      "category": "Groceries",
+      "stock": 310
+    },
+    {
+      "id": "P021",
+      "name": "Compression Socks (3-pack)",
+      "price": 22.00,
+      "category": "Apparel",
+      "stock": 250
+    },
+    {
+      "id": "P022",
+      "name": "Gardening Tool Set - Hand Tools",
+      "price": 59.99,
+      "category": "Sports & Outdoors",
+      "stock": 80
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 68,
+    "gender": "Female"
+  },
+  "visitDate": "2023-11-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Stable"
+    },
+    {
+      "code": "L20.9",
+      "name": "Exocrine manifestation of gastroesophageal reflux disease",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily with meals"
+    },
+    {
+      "name": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "Once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+ 

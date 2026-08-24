@@ -1,0 +1,36 @@
+{
+  "catalogId": "ACME_ELECTRONICS_FURNITURE_FALL2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Ultra HD 4K Smart TV (65 inch)",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 249.50,
+      "category": "Electronics",
+      "stock": 112
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 45.99,
+      "category": "Electronics",
+      "stock": 305
+    },
+    {
+      "id": "EL004",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 199.00,
+      "category": "Furniture",
+      "stock": 60
+    },
+    {
+      "id": "EL005",
+      "name": "Solid Oak Executive Desk",
+  

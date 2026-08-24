@@ -1,0 +1,70 @@
+{
+  "patient": {
+    "id": "PT-88231",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "mild"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease stage 3",
+      "severity": "moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.8",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "eGFR",
+      "value": "52",
+      "unit": "mL/min/1.73m²",
+      "flag": "low"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": "1.3",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "Blood Urea Nitrogen (BUN)",
+      "value": "24",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "Potassium",
+      "value": "4.6",
+      "unit": "mmol

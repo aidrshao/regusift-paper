@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Quantum Dynamics Inc.",
+    "ticker": "QDY"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 4300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 1800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription",
+      "amount": 2700000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 5100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 3200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 1400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 800000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 21200000,
+    "totalExpenses": 12600000,
+    "netIncome": 8600000
+  }
+}

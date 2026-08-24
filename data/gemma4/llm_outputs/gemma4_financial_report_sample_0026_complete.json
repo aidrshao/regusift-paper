@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "InnovateSoft Solutions Inc.",
+    "ticker": "ISOL"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Subscription Services",
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 3500000,
+      "currency": "USD"
+    },
+    {
+      "category": "One-Time Licensing",
+      "amount": 1500000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 7200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 2800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Hosting and Infrastructure",
+      "amount": 1100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 1900000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 20000000,
+    "totalExpenses": 13000000,
+    "netIncome": 7000000
+  }
+}

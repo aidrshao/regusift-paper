@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "ticker": "NTS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 12000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 8500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 3200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 1500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 2100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 4800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 3500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 2900000,
+      "currency": "USD"
+    },
+    {
+     

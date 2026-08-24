@@ -1,0 +1,72 @@
+{
+  "catalogId": "ACME-STORE-20240725",
+  "lastUpdated": "2024-07-25T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Ultra HD 27-inch Monitor",
+      "price": 349.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Power Bank (20,000mAh)",
+      "price": 45.50,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "EL004",
+      "name": "Mechanical RGB Keyboard",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 78
+    },
+    {
+      "id": "HM001",
+      "name": "Aroma Diffuser with LED Lights",
+      "price": 39.99,
+      "category": "Home Goods",
+      "stock": 155
+    },
+    {
+      "id": "HM002",
+      "name": "Bamboo Fiber Bath Towel Set",
+      "price": 59.95,
+      "category": "Home Goods",
+      "stock": 65
+    },
+    {
+      "id": "HM003",
+      "name": "Smart Coffee Maker (Programmable)",
+      "price": 129.99,
+      "category": "Home Goods",
+      "stock": 32
+    },
+    {
+      "id": "HM004",
+      "name": "Memory Foam Pillow",
+      "price": 75.00,
+      "category": "Home Goods",
+      "stock": 90
+    },
+    {
+      "id": "AP001",
+      "name": "Organic Cotton T-Shirt (Medium)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "AP002",
+      "name": "Slim Fit Denim Jeans",
+      "price": 69.99,
+      

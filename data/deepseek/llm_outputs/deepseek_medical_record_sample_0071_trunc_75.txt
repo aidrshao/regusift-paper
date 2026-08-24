@@ -1,0 +1,58 @@
+{
+  "patient": {
+    "id": "PT-78421",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "mild"
+    },
+    {
+      "code": "K21.0",
+      "name": "Gastro-esophageal reflux disease with esophagitis",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "once daily before breakfast"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.8",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Fasting Blood Glucose",
+      "value": "142",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "Blood Pressure (Systolic)",
+      "value": "138",
+      "unit": "mm

@@ -1,0 +1,10 @@
+{
+  "patient": {"id": "P987654", "age": 52, "gender": "Female"},
+  "visitDate": "2024-05-20",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Controlled"},
+    {"code": "E11.9", "name": "Type 2 diabetes mellitus without complications", "severity": "Stable"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dosage": "10 mg", "frequency": "Once daily"},
+    {"name": "Metformin", "dosage": "500 mg", "

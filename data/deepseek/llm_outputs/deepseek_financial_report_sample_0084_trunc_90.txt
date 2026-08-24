@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "Innovatech Solutions",
+    "ticker": "INVT"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 1875000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 430000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 1120000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 890000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 760000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 540000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 210000,
+      "currency": "USD

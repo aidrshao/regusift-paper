@@ -1,0 +1,33 @@
+{
+  "catalogId": "HOME_GOODS_FURNITURE_WINTER2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "F001",
+      "name": "Mid-Century Walnut Coffee Table",
+      "price": 499.99,
+      "category": "Furniture",
+      "stock": 12
+    },
+    {
+      "id": "F002",
+      "name": "Velvet Accent Armchair (Forest Green)",
+      "price": 349.50,
+      "category": "Furniture",
+      "stock": 25
+    },
+    {
+      "id": "F003",
+      "name": "Scandinavian Bookshelf (3 Tier)",
+      "price": 199.00,
+      "category": "Furniture",
+      "stock": 40
+    },
+    {
+      "id": "F004",
+      "name": "Adjustable Standing Desk",
+      "price": 799.99,
+      "category": "Office Furniture",
+      "stock": 8
+    },
+    

@@ -1,0 +1,16 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 68,
+    "gender": "Female"
+  },
+  "visitDate": "2023-11-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes me

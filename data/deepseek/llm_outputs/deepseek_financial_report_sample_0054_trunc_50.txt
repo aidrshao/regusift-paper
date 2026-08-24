@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "TechNova Solutions",
+    "ticker": "TNS"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 320000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold"

@@ -1,0 +1,70 @@
+{
+  "patient": {
+    "id": "PT-88421",
+    "age": 58,
+    "gender": "male"
+  },
+  "visitDate": "2025-03-14",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "mild"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "once daily at bedtime"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.8",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Fasting Blood Glucose",
+      "value": "142",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "Blood Pressure (systolic)",
+      "value": "138",
+      "unit": "mmHg",
+      "flag": "elevated"
+    },
+    {
+      "test": "Blood Pressure (diastolic)",
+      "value": "86",
+      "unit": "mmHg",
+      "flag": "elevated"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "118",
+      "unit": "mg/dL",

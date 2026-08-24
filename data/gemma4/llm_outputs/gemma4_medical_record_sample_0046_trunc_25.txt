@@ -1,0 +1,6 @@
+{
+  "patient": {"id": "P90125", "age": 68, "gender": "Female"},
+  "visitDate": "2024-05-15",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Moderate"},
+    

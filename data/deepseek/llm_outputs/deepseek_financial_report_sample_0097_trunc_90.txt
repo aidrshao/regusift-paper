@@ -1,0 +1,20 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics Inc.",
+    "ticker": "NBI"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {"category": "Cloud Services", "amount": 4850000, "currency": "USD"},
+    {"category": "Hardware Sales", "amount": 2100000, "currency": "USD"},
+    {"category": "Consulting", "amount": 950000, "currency": "USD"},
+    {"category": "Maintenance Contracts", "amount": 720000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Cost of Goods Sold", "amount": 1320000, "currency": "USD"},
+    {"category": "Research & Development", "amount": 1100000, "currency": "USD"},
+    {"category": "Sales & Marketing", "amount": 890000, "currency": "USD"},
+    {"category": "General & Administrative", "amount": 640000, "currency": "USD"},
+    {"category": "Depreciation & Amortization", "amount": 210000, "currency": "USD"}
+  ],
+  "summar

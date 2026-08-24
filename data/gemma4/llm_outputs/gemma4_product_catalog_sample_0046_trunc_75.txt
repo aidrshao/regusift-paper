@@ -1,0 +1,108 @@
+{
+  "catalogId": "ACME-ELECTRONICS-CAT-20240725",
+  "lastUpdated": "2024-07-25T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Canceling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 55
+    },
+    {
+      "id": "EL002",
+      "name": "Ultra HD 4K Smart TV (55 inch)",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 21
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL004",
+      "name": "Ergonomic Wireless Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 300
+    },
+    {
+      "id": "EL005",
+      "name": "High-Speed USB-C Charging Cable (3-pack)",
+      "price": 19.99,
+      "category": "Accessories",
+      "stock": 550
+    },
+    {
+      "id": "EL006",
+      "name": "Laptop Backpack (Waterproof)",
+      "price": 45.00,
+      "category": "Accessories",
+      "stock": 85
+    },
+    {
+      "id": "EL007",
+      "name": "Mechanical Gaming Keyboard",
+      "price": 119.99,
+      "category": "Electronics",
+      "stock": 70
+    },
+    {
+      "id": "EL008",
+      "name": "Smartphone Tripod with Self-Timer",
+      "price": 35.99,
+      "category": "Accessories",
+      "stock": 150
+    },
+    {
+      "id": "HO001",
+      "name": "Smart Coffee Maker",
+      "price": 99.95,
+      "category": "Home Goods",
+      "stock": 60
+    },
+    {
+      "id": "HO002",
+      "name": "Aroma Diffuser with Essential Oils",
+      "price": 49.99,
+      "category": "Home Goods",
+      "stock": 180
+    },
+    {
+      "id": "HO003",
+      "name": "Bamboo Bedding Set (Queen Size)",
+      "price": 89.99,
+      "category": "Home Goods",
+      "stock": 30
+    },
+    {
+      "id": "HO004",
+      "name": "Air Fryer XL",
+      "price": 149.99,
+      "category": "Home Goods",
+      "stock": 45
+    },
+    {
+      "id": "BE001",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 24.50,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "BE002",
+      "name": "Slim Fit Denim Jeans",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 210
+    },
+    {
+      "id": "BE003",
+      "name": "Lightweight Winter Jacket",
+      "price": 89.00,
+      "category": "Apparel",
+      "st

@@ -1,0 +1,16 @@
+{
+  "patient": {"id": "P90125", "age": 68, "gender": "Female"},
+  "visitDate": "2024-05-15",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Moderate"},
+    {"code": "E78.5", "name": "Hyperlipidemia, unspecified", "severity": "Controlled"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dosage": "10 mg", "frequency": "Once daily"},
+    {"name": "Atorvastatin", "dosage": "20 mg", "frequency": "Once daily"}
+  ],
+  "labResults": [
+    {"test": "Hemoglobin A1c", "value": "6.2", "unit": "%", "flag": "Normal"},
+    {"test": "Total Cholesterol", "value": "195", "unit": "mg/dL", "flag": "Normal"},
+    {"test": "LDL Cholesterol", "value": "105", "unit": "mg/dL", "flag": "Normal"},
+ 

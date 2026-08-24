@@ -1,0 +1,35 @@
+{
+  "company": {
+    "name": "Acme Corporation",
+    "ticker": "ACM"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Service Revenue",
+      "amount": 750000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Fees",
+      "amount": 300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 150000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 680000,
+      "currency": "USD"
+    },
+  

@@ -1,0 +1,71 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NBT"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 18450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 12730000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Implementation",
+      "amount": 8900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 6100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Resale",
+      "amount": 2400000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 7200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 5100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 4600000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 1800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Interest Expense",
+      "amount": 450000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 48580000,
+    "totalExpenses": 22250000,
+    "netIncome": 26330000
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions Inc.",
+    "ticker": "ITS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 7200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 4300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 2500000,
+      "currency": "USD"
+    }
+  ],
+  "e

@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "GlobalTech Solutions Inc.",
+    "ticker": "GTS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 31500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 12800000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries 

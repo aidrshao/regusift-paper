@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Aether Dynamics Corp.",
+    "ticker": "ADYN"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 12800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 9150000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Licensing",
+      "amount": 3500000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+   

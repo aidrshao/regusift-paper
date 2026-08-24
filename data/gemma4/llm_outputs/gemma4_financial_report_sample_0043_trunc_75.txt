@@ -1,0 +1,38 @@
+{
+  "company": {
+    "name": "TechGlobal Innovations Inc.",
+    "ticker": "TGI"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 32100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 18900000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 28500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 9200000,
+      "currency": "USD"
+    },
+    {
+      "category": "R&D Costs",
+      "amount": 7500000,
+  

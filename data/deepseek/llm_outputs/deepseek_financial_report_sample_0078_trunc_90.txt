@@ -1,0 +1,50 @@
+{
+  "company": {
+    "name": "Quantum Dynamics Inc.",
+    "ticker": "QDY"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 18200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Implementation",
+      "amount": 9800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 7300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 14700000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 8900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 7200000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 4300000,
+      "currency": "USD"
+    }
+  ]

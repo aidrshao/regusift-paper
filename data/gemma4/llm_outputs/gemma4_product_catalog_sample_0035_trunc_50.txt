@@ -1,0 +1,70 @@
+{
+  "catalogId": "SPRING2024_ELECTRONICS_HOME",
+  "lastUpdated": "2024-04-15T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Ultra HD 55-inch Smart TV",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 12
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL004",
+      "name": "Smart Digital Camera (v2)",
+      "price": 349.00,
+      "category": "Electronics",
+      "stock": 30
+    },
+    {
+      "id": "HO001",
+      "name": "Air Fryer Digital Cooking Appliance",
+      "price": 89.95,
+      "category": "Home Goods",
+      "stock": 65
+    },
+    {
+      "id": "HO002",
+      "name": "Robotic Vacuum Cleaner X9",
+      "price": 299.99,
+      "category": "Home Goods",
+      "stock": 22
+    },
+    {
+      "id": "HO003",
+      "name": "Bamboo Fiber Bath Towel Set (4pk)",
+      "price": 45.00,
+      "category": "Home Goods",
+      "stock": 88
+    },
+    {
+      "id": "AP001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Apparel",
+      "stock": 55
+    },
+    {
+      "id": "AP002",
+      "name": "Lightweight Running Jacket",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "AP003",
+      "name"

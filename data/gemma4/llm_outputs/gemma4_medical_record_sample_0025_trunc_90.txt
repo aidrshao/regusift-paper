@@ -1,0 +1,55 @@
+{
+  "patient": {
+    "id": "P927384",
+    "age": 58,
+    "gender": "Female"
+  },
+  "visitDate": "2024-07-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Controlled"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "Stable"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily at bedtime"
+    },
+    {
+      "name": "Aspirin",
+      "dosage": "81 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Total Cholesterol",
+      "value": "195",
+      "unit": "mg/dL",
+      "flag": "WNL"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "125",
+      "unit": "mg/dL",
+      "flag": "High"
+    },
+    {
+      "test": "HDL Cholesterol",
+      "value": "52",
+      "unit": "mg/dL",
+      "flag": "WNL"
+   

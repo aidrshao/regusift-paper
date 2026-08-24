@@ -1,0 +1,70 @@
+{
+  "patient": {
+    "id": "P-78492",
+    "age": 67,
+    "gender": "Male"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Stage 2"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Uncontrolled"
+    },
+    {
+      "code": "K21.0",
+      "name": "Gastro-esophageal reflux disease with esophagitis",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "Twice daily"
+    },
+    {
+      "name": "Omeprazole",
+      "dosage": "40 mg",
+      "frequency": "Once daily before breakfast"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "8.2",
+      "unit": "%",
+      "flag": "High"
+    },
+    {
+      "test": "Fasting Blood Glucose",
+      "value": "168",
+      "unit": "mg/dL",
+      "flag": "High"
+    },
+    {
+      "test": "Blood Pressure (Systolic)",
+      "value": "152",
+      "unit": "mmHg",
+      "flag": "High"
+    },
+    {
+      "test": "Blood Pressure (Diastolic)",
+      "value": "96",
+      "unit": "mmHg",
+      "flag": "High"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": "1.1",
+      "unit":

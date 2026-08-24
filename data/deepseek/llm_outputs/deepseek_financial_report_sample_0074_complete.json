@@ -1,0 +1,66 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 8300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 4200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Other",
+      "amount": 650000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 9200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 4800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 2200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 1100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Interest Expense",
+      "amount": 350000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 37650000,
+    "totalExpenses": 20750000,
+    "netIncome": 16900000
+  }
+}

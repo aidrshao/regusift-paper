@@ -1,0 +1,15 @@
+{
+  "company": {
+    "name": "Vertex Dynamics",
+    "ticker": "VDYN"
+  },
+  "quarter": "Q4 2025",
+  "revenue": [
+    {"category": "Product Sales", "amount": 12500000, "currency": "USD"},
+    {"category": "Service Contracts", "amount": 3400000, "currency": "USD"},
+    {"category": "Licensing & Royalties", "amount": 1800000, "currency": "USD"},
+    {"category": "Consulting", "amount": 950000, "currency": "USD"},
+    {"category": "Other Income", "amount": 250000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Cost of Goods Sold", "amount": 6800000, "currency": "USD"

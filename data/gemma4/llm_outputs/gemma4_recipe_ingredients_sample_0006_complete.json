@@ -1,0 +1,15 @@
+{
+  "recipeName": "Creamy Tomato Pasta",
+  "servings": 4,
+  "ingredients": [
+    {"name": "Spaghetti", "quantity": "300", "unit": "g", "notes": "Or preferred pasta shape"},
+    {"name": "Crushed Tomatoes", "quantity": "2", "unit": "cans", "notes": "28 oz size"},
+    {"name": "Heavy Cream", "quantity": "200", "unit": "ml"},
+    {"name": "Yellow Onion", "quantity": "1", "unit": "medium", "notes": "Finely chopped"},
+    {"name": "Garlic", "quantity": "4", "unit": "cloves", "notes": "Minced"},
+    {"name": "Olive Oil", "quantity": "3", "unit": "tbsp"},
+    {"name": "Dried Oregano", "quantity": "1", "unit": "tsp", "notes": "For seasoning"},
+    {"name": "Red Pepper Flakes", "quantity": "0.5", "unit": "tsp", "notes": "Adjust to taste"},
+    {"name": "Parmesan Cheese", "quantity": "100", "unit": "g", "notes": "Freshly grated, plus extra for topping"}
+  ]
+}

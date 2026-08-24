@@ -1,0 +1,29 @@
+{
+  "productName": "Daily Wellness Super Blend",
+  "servingSize": "2 Capsules",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    {
+      "name": "Vitamin C",
+      "amount": "500",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Vitamin D3",
+      "amount": "2000",
+      "unit": "IU",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Zinc Oxide",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Magnesium Citrate",
+      "amount": "200",
+      "unit": "mg",
+      "dailyValue": "%DV"
+  

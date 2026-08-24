@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Nimbus Technologies",
+    "ticker": "NMB"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 830000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 420000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 650000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing & Sales",
+      "amount": 310000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 270000,
+      "currency": "USD"
+    }
+  ],
+  "summary

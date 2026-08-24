@@ -1,0 +1,72 @@
+{
+  "catalogId": "ACME_ELECTRONICS_FURNITURE_FALL2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Ultra HD 4K Smart TV (65 inch)",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 249.50,
+      "category": "Electronics",
+      "stock": 112
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 45.99,
+      "category": "Electronics",
+      "stock": 305
+    },
+    {
+      "id": "EL004",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 199.00,
+      "category": "Furniture",
+      "stock": 60
+    },
+    {
+      "id": "EL005",
+      "name": "Solid Oak Executive Desk",
+      "price": 599.99,
+      "category": "Furniture",
+      "stock": 22
+    },
+    {
+      "id": "EL006",
+      "name": "Bamboo Fiber Bath Mat Set",
+      "price": 35.75,
+      "category": "Home Goods",
+      "stock": 150
+    },
+    {
+      "id": "EL007",
+      "name": "Smart Coffee Maker with Wi-Fi",
+      "price": 129.99,
+      "category": "Home Goods",
+      "stock": 95
+    },
+    {
+      "id": "EL008",
+      "name": "Minimalist Throw Blanket (Grey)",
+      "price": 49.99,
+      "category": "Home Goods",
+      "stock": 210
+    },
+    {
+      "id": "EL009",
+      "name": "High-Speed USB-C Charging Cable (3-pack)",
+      "price": 19.99,
+      "category": "Electronics",
+      "stock": 500
+    },
+    {
+      "id": "EL010",
+      "name": "Velvet Accent Pillow Covers (Set of 2)",
+      "price": 55.00,
+   

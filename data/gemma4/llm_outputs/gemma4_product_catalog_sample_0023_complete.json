@@ -1,0 +1,167 @@
+{
+  "catalogId": "ECOMM-WINTER-2024",
+  "lastUpdated": "2024-11-20T10:30:00Z",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Ultra-Soft Merino Wool Sweater",
+      "price": 79.99,
+      "category": "Apparel",
+      "stock": 45
+    },
+    {
+      "id": "P002",
+      "name": "Slim Fit Denim Jeans (Black)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 62
+    },
+    {
+      "id": "P003",
+      "name": "Waterproof Hiking Boots (Men's)",
+      "price": 129.95,
+      "category": "Footwear",
+      "stock": 30
+    },
+    {
+      "id": "P004",
+      "name": "Cashmere Blend Scarf",
+      "price": 45.00,
+      "category": "Accessories",
+      "stock": 88
+    },
+    {
+      "id": "P005",
+      "name": "Electric Kettle with Temperature Control",
+      "price": 65.50,
+      "category": "Home Goods",
+      "stock": 110
+    },
+    {
+      "id": "P006",
+      "name": "Aroma Diffuser and Essential Oil Set",
+      "price": 35.99,
+      "category": "Home Goods",
+      "stock": 75
+    },
+    {
+      "id": "P007",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 55
+    },
+    {
+      "id": "P008",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "P009",
+      "name": "Leather Belt (Brown)",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 95
+    },
+    {
+      "id": "P010",
+      "name": "Bamboo Fiber Pajama Set",
+      "price": 75.00,
+      "category": "Apparel",
+      "stock": 38
+    },
+    {
+      "id": "P011",
+      "name": "Stainless Steel Coffee Maker",
+      "price": 89.99,
+      "category": "Kitchenware",
+      "stock": 60
+    },
+    {
+      "id": "P012",
+      "name": "Yoga Mat with Carrying Strap",
+      "price": 22.50,
+      "category": "Fitness",
+      "stock": 180
+    },
+    {
+      "id": "P013",
+      "name": "High-Performance Running Shorts",
+      "price": 35.99,
+      "category": "Apparel",
+      "stock": 72
+    },
+    {
+      "id": "P014",
+      "name": "Ergonomic Office Chair",
+      "price": 299.99,
+      "category": "Home Goods",
+      "stock": 15
+    },
+    {
+      "id": "P015",
+      "name": "Natural Fiber Throw Blanket",
+      "price": 55.00,
+      "category": "Home Goods",
+      "stock": 120
+    },
+    {
+      "id": "P016",
+      "name": "Wireless Mechanical Keyboard",
+      "price": 119.99,
+      "category": "Electronics",
+      "stock": 40
+    },
+    {
+      "id": "P017",
+      "name": "Silk Pillowcase Set",
+      "price": 40.00,
+      "category": "Home Goods",
+      "stock": 90
+    },
+    {
+      "id": "P018",
+      "name": "Multivitamin Daily Supplement (60 count)",
+      "price": 24.99,
+      "category": "Health & Beauty",
+      "stock": 200
+    },
+    {
+      "id": "P019",
+      "name": "Deep Conditioning Hair Mask",
+      "price": 18.99,
+      "category": "Health & Beauty",
+      "stock": 135
+    },
+    {
+      "id": "P020",
+      "name": "Adjustable Dumbbell Set",
+      "price": 159.99,
+      "category": "Fitness",
+      "stock": 25
+    },
+    {
+      "id": "P021",
+      "name": "Travel Toiletry Bag Set",
+      "price": 39.99,
+      "category": "Accessories",
+      "stock": 170
+    },
+    {
+      "id": "P022",
+      "name": "Solar Powered Garden Lights (Pack of 10)",
+      "price": 59.99,
+      "category": "Home Goods",
+      "stock": 80
+    },
+    {
+      "id": "P023",
+      "name": "Bamboo Cutting Board Set",
+      "price": 32.50,
+      "category": "Kitchenware",
+      "stock": 105
+    }
+  ]
+}

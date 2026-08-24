@@ -4,7 +4,7 @@
  * 构造 50 个极端样本: 外层 JSON 结构崩塌, 但内层数组仍可提取
  * 验证 Layer 2 失效而 Layer 3 兜底成功
  */
-import { parsePartialJson } from '../../src_new/domains/extraction/parsers/partial-json-parser'
+import { parsePartialJson } from '../src/partial-json-parser'
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 
@@ -29,7 +29,7 @@ interface StressResult {
   gt_length: number
 }
 
-const DATA_DIR = '/Users/shao/Github/yqgate/apps/ReguSift/paper_streaming_json/data/llm_outputs'
+const DATA_DIR = join(__dirname, '..', 'data', 'llm_outputs')
 
 // 读取 ground truth
 const gt = JSON.parse(readFileSync(join(DATA_DIR, '..', 'ground_truth.json'), 'utf-8'))
@@ -182,7 +182,7 @@ for (const t of types) {
 }
 
 // 保存结果
-const outputPath = '/Users/shao/Github/yqgate/apps/ReguSift/paper_streaming_json/results/stress_test_layer3.json'
+const outputPath = join(__dirname, '..', 'results', 'stress_test_layer3.json')
 writeFileSync(outputPath, JSON.stringify({
   total,
   layer1_pass: l1Pass,

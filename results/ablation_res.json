@@ -1,0 +1,31 @@
+{
+  "summaries": [
+    {
+      "config": "full",
+      "n": 4965,
+      "recovery_rate": 0.9556898288016112,
+      "field_f1": 0.6286411055094119,
+      "value_accuracy": 0.5474606558620345,
+      "avg_latency_ms": 0.027915970594159914
+    },
+    {
+      "config": "no_layer3",
+      "n": 4965,
+      "recovery_rate": 0.9556898288016112,
+      "field_f1": 0.6290698477764607,
+      "value_accuracy": 0.5474606558620345,
+      "avg_latency_ms": 0.014430174622357697
+    },
+    {
+      "config": "no_icover",
+      "n": 993,
+      "recovery_rate": 1.0,
+      "field_f1": 0.16642575198705425,
+      "value_accuracy": 0.09633825755174451,
+      "avg_latency_ms": 0.017392207452165995
+    }
+  ],
+  "layer3_contribution": 0.0,
+  "icover_f1_gain": 0.46221535352235765,
+  "icover_value_accuracy_gain": 0.45112239831029
+}

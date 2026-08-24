@@ -1,0 +1,36 @@
+{
+  "catalogId": "ELECTRONICS_HOME_GOODS_2024Q3",
+  "lastUpdated": "2024-09-10T10:30:00Z",
+  "products": [
+    {
+      "id": "ELEC001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Audio",
+      "stock": 150
+    },
+    {
+      "id": "ELEC002",
+      "name": "Ultra HD 4K Smart TV (55-inch)",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "ELEC003",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.50,
+      "category": "Audio",
+      "stock": 320
+    },
+    {
+      "id": "ELEC004",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Furniture",
+      "stock": 85
+    },
+    {
+      "id": "ELEC005",
+      "name": "Smart Coffee Maker with WiFi",
+      "price": 12

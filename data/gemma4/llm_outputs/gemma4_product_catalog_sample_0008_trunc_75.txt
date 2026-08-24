@@ -1,0 +1,93 @@
+{
+  "catalogId": "EL-AP-20240724",
+  "lastUpdated": "2024-07-24T10:30:00Z",
+  "products": [
+    {
+      "id": "ELEC001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "ELEC002",
+      "name": "Ultra HD 4K Smart TV (55 inch)",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "ELEC003",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "ELEC004",
+      "name": "Ergonomic Wireless Mouse",
+      "price": 35.99,
+      "category": "Computer Peripherals",
+      "stock": 550
+    },
+    {
+      "id": "ELEC005",
+      "name": "Mechanical Gaming Keyboard",
+      "price": 129.99,
+      "category": "Computer Peripherals",
+      "stock": 180
+    },
+    {
+      "id": "HOME010",
+      "name": "Bamboo Fiber Towel Set (6 pcs)",
+      "price": 45.00,
+      "category": "Home Goods",
+      "stock": 210
+    },
+    {
+      "id": "HOME011",
+      "name": "Aroma Diffuser with Essential Oils",
+      "price": 59.99,
+      "category": "Home Goods",
+      "stock": 90
+    },
+    {
+      "id": "HOME012",
+      "name": "Weighted Blanket (Queen Size)",
+      "price": 89.95,
+      "category": "Home Goods",
+      "stock": 75
+    },
+    {
+      "id": "BEAU001",
+      "name": "Hydrating Vitamin C Serum",
+      "price": 34.99,
+      "category": "Beauty & Wellness",
+      "stock": 400
+    },
+    {
+      "id": "BEAU002",
+      "name": "SPF 50 Mineral Sunscreen Lotion",
+      "price": 22.50,
+      "category": "Beauty & Wellness",
+      "stock": 610
+    },
+    {
+      "id": "BEAU003",
+      "name": "Electric Toothbrush Starter Kit",
+      "price": 69.99,
+      "category": "Beauty & Wellness",
+      "stock": 120
+    },
+    {
+      "id": "SPORT001",
+      "name": "Adjustable Yoga Mat (6mm)",
+      "price": 25.99,
+      "category": "Sports & Outdoors",
+      "stock": 350
+    },
+    {
+      "id": "SPORT002",
+      "name": "Dumbbell Set (5 lbs - 30 lbs)",
+      "price": 99.99,
+  

@@ -1,0 +1,38 @@
+{
+  "catalogId": "EC-20240815-A",
+  "lastUpdated": "2024-08-15T10:30:00Z",
+  "products": [
+    {
+      "id": "EL-1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "EL-1002",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "EL-1003",
+      "name": "Smartwatch Fitness Tracker",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 85
+    },
+    {
+      "id": "AP-2001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Home & Office",
+      "stock": 55
+    },
+    {
+      "id": "AP-2002",
+      "name": "Bamboo Fiber Desk Lamp",
+      "price": 45.00,
+      "category": "Home & Office",
+ 

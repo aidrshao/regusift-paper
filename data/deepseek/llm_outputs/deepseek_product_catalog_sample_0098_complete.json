@@ -1,0 +1,174 @@
+{
+  "catalogId": "catalog_2025_04_11_001",
+  "lastUpdated": "2025-04-11T09:30:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Ergonomic Office Chair",
+      "price": 249.99,
+      "category": "Furniture",
+      "stock": 12
+    },
+    {
+      "id": "P1002",
+      "name": "Standing Desk Converter",
+      "price": 189.5,
+      "category": "Furniture",
+      "stock": 8
+    },
+    {
+      "id": "P1003",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 199.0,
+      "category": "Electronics",
+      "stock": 25
+    },
+    {
+      "id": "P1004",
+      "name": "4K Ultra HD Smart TV 55\"",
+      "price": 549.99,
+      "category": "Electronics",
+      "stock": 6
+    },
+    {
+      "id": "P1005",
+      "name": "Stainless Steel Water Bottle (1L)",
+      "price": 24.95,
+      "category": "Kitchen",
+      "stock": 50
+    },
+    {
+      "id": "P1006",
+      "name": "Ceramic Non-Stick Cookware Set (10 pcs)",
+      "price": 129.0,
+      "category": "Kitchen",
+      "stock": 15
+    },
+    {
+      "id": "P1007",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 40
+    },
+    {
+      "id": "P1008",
+      "name": "Slim Fit Denim Jeans",
+      "price": 59.5,
+      "category": "Apparel",
+      "stock": 22
+    },
+    {
+      "id": "P1009",
+      "name": "Running Shoes (Men's)",
+      "price": 84.99,
+      "category": "Footwear",
+      "stock": 18
+    },
+    {
+      "id": "P1010",
+      "name": "Leather Ankle Boots (Women's)",
+      "price": 119.0,
+      "category": "Footwear",
+      "stock": 7
+    },
+    {
+      "id": "P1011",
+      "name": "Yoga Mat (Eco-Friendly, 6mm)",
+      "price": 32.0,
+      "category": "Fitness",
+      "stock": 35
+    },
+    {
+      "id": "P1012",
+      "name": "Adjustable Dumbbell Set (5-25 lbs)",
+      "price": 149.99,
+      "category": "Fitness",
+      "stock": 10
+    },
+    {
+      "id": "P1013",
+      "name": "Smartphone 128GB (Unlocked)",
+      "price": 699.0,
+      "category": "Electronics",
+      "stock": 3
+    },
+    {
+      "id": "P1014",
+      "name": "Bluetooth Portable Speaker",
+      "price": 49.95,
+      "category": "Electronics",
+      "stock": 30
+    },
+    {
+      "id": "P1015",
+      "name": "Coffee Maker (12-Cup Programmable)",
+      "price": 79.99,
+      "category": "Kitchen",
+      "stock": 14
+    },
+    {
+      "id": "P1016",
+      "name": "Desk Lamp with USB Charging Port",
+      "price": 39.5,
+      "category": "Furniture",
+      "stock": 20
+    },
+    {
+      "id": "P1017",
+      "name": "Backpack for Laptop (15.6\")",
+      "price": 45.0,
+      "category": "Accessories",
+      "stock": 26
+    },
+    {
+      "id": "P1018",
+      "name": "Leather Wallet (RFID Blocking)",
+      "price": 35.0,
+      "category": "Accessories",
+      "stock": 33
+    },
+    {
+      "id": "P1019",
+      "name": "Sunglasses (Polarized, UV400)",
+      "price": 89.99,
+      "category": "Accessories",
+      "stock": 11
+    },
+    {
+      "id": "P1020",
+      "name": "Electric Kettle (1.7L, Stainless Steel)",
+      "price": 42.75,
+      "category": "Kitchen",
+      "stock": 19
+    },
+    {
+      "id": "P1021",
+      "name": "Resistance Bands Set (5 Levels)",
+      "price": 19.99,
+      "category": "Fitness",
+      "stock": 60
+    },
+    {
+      "id": "P1022",
+      "name": "Memory Foam Pillow (Queen Size)",
+      "price": 54.99,
+      "category": "Bedding",
+      "stock": 16
+    },
+    {
+      "id": "P1023",
+      "name": "Cotton Bed Sheets Set (Queen, 4 pcs)",
+      "price": 69.0,
+      "category": "Bedding",
+      "stock": 13
+    },
+    {
+      "id": "P1024",
+      "name": "Waterproof Hiking Jacket",
+      "price": 129.99,
+      "category": "Apparel",
+      "stock": 5
+    }
+  ]
+}

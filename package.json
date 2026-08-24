@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "partial-json": "^0.1.7",
-    "jsonrepair": "^3.12.0"
+    "jsonrepair": "^3.12.0",
+    "best-effort-json-parser": "^1.5.1",
+    "llm-json-repair": "^0.1.11",
+    "yjs": "^13.6.32",
+    "fast-json-patch": "^3.1.1"
   },
   "devDependencies": {
     "tsx": "^4.21.0",

@@ -1,0 +1,131 @@
+{
+  "catalogId": "ECOMMERCE-FALL2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU001",
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "price": 29.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "SKU002",
+      "name": "Slim-Fit Denim Jeans (Dark Wash)",
+      "price": 79.99,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "SKU003",
+      "name": "Merino Wool Blend Scarf",
+      "price": 45.00,
+      "category": "Accessories",
+      "stock": 120
+    },
+    {
+      "id": "SKU004",
+      "name": "Waterproof Hiking Backpack (30L)",
+      "price": 119.99,
+      "category": "Outdoor Gear",
+      "stock": 60
+    },
+    {
+      "id": "SKU005",
+      "name": "Stainless Steel Insulated Water Bottle",
+      "price": 24.99,
+      "category": "Home Goods",
+      "stock": 300
+    },
+    {
+      "id": "SKU006",
+      "name": "Adjustable LED Desk Lamp",
+      "price": 59.99,
+      "category": "Home Goods",
+      "stock": 95
+    },
+    {
+      "id": "SKU007",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 75
+    },
+    {
+      "id": "SKU008",
+      "name": "Portable Bluetooth Speaker",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 130
+    },
+    {
+      "id": "SKU009",
+      "name": "Yoga Mat (Extra Thick)",
+      "price": 34.99,
+      "category": "Sports & Fitness",
+      "stock": 210
+    },
+    {
+      "id": "SKU010",
+      "name": "Dumbbell Set (5 lbs to 25 lbs)",
+      "price": 89.99,
+      "category": "Sports & Fitness",
+      "stock": 55
+    },
+    {
+      "id": "SKU011",
+      "name": "Rain-Resistant Trench Coat",
+      "price": 129.99,
+      "category": "Apparel",
+      "stock": 70
+    },
+    {
+      "id": "SKU012",
+      "name": "Cashmere Blend Beanie",
+      "price": 55.00,
+      "category": "Accessories",
+      "stock": 180
+    },
+    {
+      "id": "SKU013",
+      "name": "Coffee Aroma Diffuser",
+      "price": 39.99,
+      "category": "Home Goods",
+      "stock": 110
+    },
+    {
+      "id": "SKU014",
+      "name": "Electric Kettle (1.7L)",
+      "price": 49.99,
+      "category": "Home Goods",
+      "stock": 165
+    },
+    {
+      "id": "SKU015",
+      "name": "Travel Adapter Kit (Universal)",
+      "price": 35.50,
+      "category": "Electronics",
+      "stock": 250
+    },
+    {
+      "id": "SKU016",
+      "name": "Camping Hammock with Straps",
+      "price": 65.00,
+      "category": "Outdoor Gear",
+      "stock": 90
+    },
+    {
+      "id": "SKU017",
+      "name": "High-Performance Running Socks (3-Pack)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 400
+    },
+    {
+      "id": "SKU018",
+      "name": "Bamboo Cutting Board Set",
+      "price": 29.99,
+      "category": "Kitchenware",
+      "stock": 140
+    },
+   

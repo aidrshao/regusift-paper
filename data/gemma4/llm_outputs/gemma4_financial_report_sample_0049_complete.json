@@ -1,0 +1,56 @@
+{
+  "company": {
+    "name": "GlobalTech Solutions Inc.",
+    "ticker": "GTS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 45000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 32000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Support & Maintenance",
+      "amount": 15000000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries & Wages",
+      "amount": 65000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing & Advertising",
+      "amount": 12000000,
+      "currency": "USD"
+    },
+    {
+      "category": "R&D Costs",
+      "amount": 28000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Operational Overhead",
+      "amount": 7500000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 110500000,
+    "totalExpenses": 112500000,
+    "netIncome": -20000000
+  }
+}

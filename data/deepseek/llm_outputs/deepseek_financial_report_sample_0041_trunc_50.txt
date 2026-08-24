@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "ticker": "NTS"
+  },
+  "quarter": "Q3 2023",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 12450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 6800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 2300000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 5200000,
+      "currency": "USD"
+    },
+    {
+ 

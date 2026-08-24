@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Aurora Tech Solutions",
+    "ticker": "ARTS"
+  },
+  "quarter": "Q2 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 12500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services Subscriptions",
+      "amount": 8900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 4100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salari

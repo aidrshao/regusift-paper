@@ -1,0 +1,77 @@
+{
+  "catalogId": "ECOMM-20231027-A",
+  "lastUpdated": "2023-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 78
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 154
+    },
+    {
+      "id": "EL003",
+      "name": "Smart Watch X9 Pro",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 112
+    },
+    {
+      "id": "AP010",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 349.00,
+      "category": "Home & Office",
+      "stock": 45
+    },
+    {
+      "id": "AP011",
+      "name": "Standing Desk Converter (Adjustable)",
+      "price": 189.50,
+      "category": "Home & Office",
+      "stock": 92
+    },
+    {
+      "id": "AP012",
+      "name": "Bamboo Storage Drawer Unit (3 Tier)",
+      "price": 59.99,
+      "category": "Home & Office",
+      "stock": 210
+    },
+    {
+      "id": "BK005",
+      "name": "The Midnight Forest Mystery Novel",
+      "price": 14.99,
+      "category": "Books",
+      "stock": 350
+    },
+    {
+      "id": "BK012",
+      "name": "Advanced Python Programming Guide",
+      "price": 45.99,
+      "category": "Books",
+      "stock": 88
+    },
+    {
+      "id": "BK020",
+      "name": "History of Rome (Hardcover)",
+      "price": 32.50,
+      "category": "Books",
+      "stock": 120
+    },
+    {
+      "id": "CL001",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 400
+    },
+    {
+      "id": "CL002",
+      "name": 

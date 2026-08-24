@@ -1,0 +1,67 @@
+{
+  "productName": "OptiBloom Daily Wellness Complex",
+  "servingSize": "2 capsules",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    {
+      "name": "Vitamin C",
+      "amount": "500",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Vitamin D3",
+      "amount": "2000",
+      "unit": "IU",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Vitamin B12",
+      "amount": "1000",
+      "unit": "mcg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Folic Acid",
+      "amount": "400",
+      "unit": "mcg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Magnesium Citrate",
+      "amount": "200",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Zinc Oxide",
+      "amount": "15",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Coenzyme Q10",
+      "amount": "100",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Curcumin Extract",
+      "amount": "50",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "L-Theanine",
+      "amount": "200",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    },
+    {
+      "name": "Vitamin E",
+      "amount": "20",
+      "unit": "mg",
+      "dailyValue": "%DV"
+    }
+  ]
+}

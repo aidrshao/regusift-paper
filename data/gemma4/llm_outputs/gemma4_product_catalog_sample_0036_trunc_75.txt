@@ -1,0 +1,113 @@
+{
+  "catalogId": "ACC-WINTER-2024-B",
+  "lastUpdated": "2024-07-25T10:30:00Z",
+  "products": [
+    {
+      "id": "TSHIRT-001",
+      "name": "Classic Crewneck T-Shirt",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "JEANS-012",
+      "name": "Slim-Fit Dark Wash Jeans",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "SWEATER-005",
+      "name": "Merino Wool Crewneck Sweater",
+      "price": 79.99,
+      "category": "Apparel",
+      "stock": 60
+    },
+    {
+      "id": "JACKET-003",
+      "name": "Waterproof Commuter Jacket",
+      "price": 129.99,
+      "category": "Outerwear",
+      "stock": 45
+    },
+    {
+      "id": "SWEATER-010",
+      "name": "Chunky Knit Cardigan",
+      "price": 89.99,
+      "category": "Apparel",
+      "stock": 30
+    },
+    {
+      "id": "PANTS-020",
+      "name": "Travel Trousers (Olive)",
+      "price": 65.00,
+      "category": "Apparel",
+      "stock": 110
+    },
+    {
+      "id": "SOCKS-007",
+      "name": "Bamboo Athletic Socks (3-Pack)",
+      "price": 14.99,
+      "category": "Accessories",
+      "stock": 300
+    },
+    {
+      "id": "BELT-002",
+      "name": "Premium Leather Belt",
+      "price": 35.50,
+      "category": "Accessories",
+      "stock": 90
+    },
+    {
+      "id": "HAT-004",
+      "name": "Adjustable Baseball Cap",
+      "price": 24.99,
+      "category": "Accessories",
+      "stock": 220
+    },
+    {
+      "id": "SHOES-008",
+      "name": "Leather Oxford Sneakers",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 75
+    },
+    {
+      "id": "SHOES-015",
+      "name": "Waterproof Chelsea Boots",
+      "price": 139.99,
+      "category": "Footwear",
+      "stock": 55
+    },
+    {
+      "id": "SCARF-001",
+      "name": "Cashmere Blend Neck Scarf",
+      "price": 55.00,
+      "category": "Accessories",
+      "stock": 70
+    },
+    {
+      "id": "JACKET-007",
+      "name": "Puffer Parka Jacket",
+      "price": 159.99,
+      "category": "Outerwear",
+      "stock": 35
+    },
+    {
+      "id": "SHIRT-003",
+      "name": "Oxford Button-Down Shirt",
+      "price": 45.00,
+      "category": "Apparel",
+      "stock": 180
+    },
+    {
+      "id": "PANTS-030",
+      "name": "Chino Khaki Shorts",
+      "price": 39.99,
+      "category": "Apparel",
+      "stock": 130
+    },
+    {
+      "id": "SHOES-002",
+      "name": "Minimalist Runner Sneakers",
+      "

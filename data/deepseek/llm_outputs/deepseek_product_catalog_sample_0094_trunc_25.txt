@@ -1,0 +1,45 @@
+{
+  "catalogId": "cat_2025_spring",
+  "lastUpdated": "2025-04-08T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Stainless Steel Water Bottle 1L",
+      "price": 24.95,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Organic Cotton T-Shirt (White)",
+      "price": 18.50,
+      "category": "Apparel",
+      "stock": 200
+    },
+    {
+      "id": "SKU-1004",
+      "name": "4K Action Camera with Accessories",
+      "price": 299.00,
+      "category": "Electronics",
+      "stock": 18
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ceramic Non-Stick Cookware Set (10 pc)",
+      "price": 149.99,
+      "category": "Home & Kitchen",
+      "stock": 32
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Men's Running Shoes (Size 9)",
+      "price": 79.99,
+      "category": "Footwear",
+    

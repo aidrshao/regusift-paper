@@ -1,0 +1,156 @@
+{
+  "catalogId": "catalog_001",
+  "lastUpdated": "2025-04-10T14:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Bluetooth Headphones",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Stainless Steel Water Bottle",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 200
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Yoga Mat (Non-Slip)",
+      "price": 32.0,
+      "category": "Sports & Outdoors",
+      "stock": 85
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Mechanical Keyboard (RGB)",
+      "price": 119.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Organic Green Tea (100 bags)",
+      "price": 15.75,
+      "category": "Grocery",
+      "stock": 300
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Running Shoes (Men's Size 10)",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 60
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Desk Lamp with USB Port",
+      "price": 42.3,
+      "category": "Home & Kitchen",
+      "stock": 95
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Backpack (Waterproof, 25L)",
+      "price": 54.0,
+      "category": "Bags & Luggage",
+      "stock": 110
+    },
+    {
+      "id": "SKU-1009",
+      "name": "Smart Watch (Fitness Tracker)",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 32
+    },
+    {
+      "id": "SKU-1010",
+      "name": "Ceramic Coffee Mug (12oz)",
+      "price": 12.25,
+      "category": "Home & Kitchen",
+      "stock": 250
+    },
+    {
+      "id": "SKU-1011",
+      "name": "Noise-Cancelling Earbuds",
+      "price": 99.0,
+      "category": "Electronics",
+      "stock": 70
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Resistance Bands Set (5-pack)",
+      "price": 28.5,
+      "category": "Sports & Outdoors",
+      "stock": 150
+    },
+    {
+      "id": "SKU-1013",
+      "name": "LED Strip Lights (16ft)",
+      "price": 19.99,
+      "category": "Home & Kitchen",
+      "stock": 180
+    },
+    {
+      "id": "SKU-1014",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 39.95,
+      "category": "Electronics",
+      "stock": 140
+    },
+    {
+      "id": "SKU-1015",
+      "name": "Leather Wallet (RFID Blocking)",
+      "price": 35.0,
+      "category": "Accessories",
+      "stock": 75
+    },
+    {
+      "id": "SKU-1016",
+      "name": "Non-Stick Frying Pan (10 inch)",
+      "price": 49.99,
+      "category": "Home & Kitchen",
+      "stock": 55
+    },
+    {
+      "id": "SKU-1017",
+      "name": "Sunglasses (Polarized)",
+      "price": 65.0,
+      "category": "Accessories",
+      "stock": 40
+    },
+    {
+      "id": "SKU-1018",
+      "name": "Protein Powder (Chocolate, 2lb)",
+      "price": 45.75,
+      "category": "Health & Fitness",
+      "stock": 90
+    },
+    {
+      "id": "SKU-1019",
+      "name": "USB-C Hub (7-in-1)",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 65
+    },
+    {
+      "id": "SKU-1020",
+      "name": "Cotton T-Shirt (Unisex, Grey)",
+      "price": 18.5,
+      "category": "Clothing",
+      "stock": 220
+    },
+    {
+      "id": "SKU-1021",
+      "name": "Board Game (Strategy)",
+      "price": 34.99,
+      "category": "Toys & Games",
+      "stock": 30
+    },
+    {
+      "id": "SKU-1022",
+      "name": "Electric Kettle (1.7L)",
+      "price": 29.99,
+      "cate

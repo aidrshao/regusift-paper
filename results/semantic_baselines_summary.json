@@ -1,0 +1,26 @@
+{
+  "icover": {
+    "n": 999,
+    "field_f1": 1.0,
+    "value_accuracy": 1.0,
+    "converged_rate": 1.0
+  },
+  "jsonpatch": {
+    "n": 999,
+    "field_f1": 1.0,
+    "value_accuracy": 1.0,
+    "converged_rate": 1.0
+  },
+  "crdt_lww": {
+    "n": 999,
+    "field_f1": 1.0,
+    "value_accuracy": 1.0,
+    "converged_rate": 1.0
+  },
+  "buffered": {
+    "n": 999,
+    "field_f1": 1.0,
+    "value_accuracy": 1.0,
+    "converged_rate": 1.0
+  }
+}

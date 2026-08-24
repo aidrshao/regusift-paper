@@ -1,0 +1,58 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NMBT"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 5600000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 3200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Hosting",
+      "amount": 4800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 2100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold (COGS)",
+      "amount": 7800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 4200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 5100000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 2900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 1100000,
+      "curr

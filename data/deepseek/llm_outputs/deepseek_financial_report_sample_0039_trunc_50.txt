@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Northwind Technologies",
+    "ticker": "NWT"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 2400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 3800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 950000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 450000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+ 

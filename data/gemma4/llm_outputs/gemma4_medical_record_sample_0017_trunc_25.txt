@@ -1,0 +1,6 @@
+{
+  "patient": {"id": "P987654", "age": 52, "gender": "Female"},
+  "visitDate": "2024-05-20",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Controlled"},
+    {"code": "E11.9", 

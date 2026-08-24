@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "ticker": "NVTS"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 6400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 7200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 4800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 5600000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & 

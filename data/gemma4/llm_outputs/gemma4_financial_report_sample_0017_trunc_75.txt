@@ -1,0 +1,37 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions Inc.",
+    "ticker": "ITSI"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 7100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries & Wages",
+      "amount": 22300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing & Advertising",
+      "amount": 9100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 15500000,

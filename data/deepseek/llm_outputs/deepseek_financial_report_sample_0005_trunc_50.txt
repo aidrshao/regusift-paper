@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NBT"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Cloud Services",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Software Licenses",
+      "amount": 9200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 5300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 2100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+  

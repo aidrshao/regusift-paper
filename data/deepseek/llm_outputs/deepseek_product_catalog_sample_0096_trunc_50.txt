@@ -1,0 +1,86 @@
+{
+  "catalogId": "catalog_001",
+  "lastUpdated": "2025-04-10T14:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Bluetooth Headphones",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Stainless Steel Water Bottle",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 200
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Yoga Mat (Non-Slip)",
+      "price": 32.0,
+      "category": "Sports & Outdoors",
+      "stock": 85
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Mechanical Keyboard (RGB)",
+      "price": 119.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Organic Green Tea (100 bags)",
+      "price": 15.75,
+      "category": "Grocery",
+      "stock": 300
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Running Shoes (Men's Size 10)",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 60
+    },
+    {
+      "id": "SKU-1007",
+      "name": "Desk Lamp with USB Port",
+      "price": 42.3,
+      "category": "Home & Kitchen",
+      "stock": 95
+    },
+    {
+      "id": "SKU-1008",
+      "name": "Backpack (Waterproof, 25L)",
+      "price": 54.0,
+      "category": "Bags & Luggage",
+      "stock": 110
+    },
+    {
+      "id": "SKU-1009",
+      "name": "Smart Watch (Fitness Tracker)",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 32
+    },
+    {
+      "id": "SKU-1010",
+      "name": "Ceramic Coffee Mug (12oz)",
+      "price": 12.25,
+      "category": "Home & Kitchen",
+      "stock": 250
+    },
+    {
+      "id": "SKU-1011",
+      "name": "Noise-Cancelling Earbuds",
+      "price": 99.0,
+      "category": "Electronics",
+      "stock": 70
+    },
+    {
+      "id": "SKU-1012",
+      "name": "Resistance Bands Set (5-pack)",
+      "price": 28.5,
+      "category": "Sports &

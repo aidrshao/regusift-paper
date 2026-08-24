@@ -1,0 +1,14 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q2 FY2024",
+  "revenue": [
+    {"category": "Software Licenses", "amount": 12500000, "currency": "USD"},
+    {"category": "Cloud Subscriptions", "amount": 8750000, "currency": "USD"},
+    {"category": "Professional Services", "amount": 3200000, "currency": "USD"},
+    {"category": "Hardware Sales", "amount": 1450000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Cost of Revenue"

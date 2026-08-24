@@ -1,0 +1,36 @@
+{
+  "catalogId": "SPRING_2024_HOME_GOODS",
+  "lastUpdated": "2024-05-15T10:30:00Z",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Bamboo Fiber Sheet Set (Queen)",
+      "price": 79.99,
+      "category": "Bedding",
+      "stock": 45
+    },
+    {
+      "id": "P002",
+      "name": "Aura Diffuser with Essential Oils",
+      "price": 34.50,
+      "category": "Home Fragrance",
+      "stock": 120
+    },
+    {
+      "id": "P003",
+      "name": "Hand-Woven Jute Area Rug (5x7 ft)",
+      "price": 149.99,
+      "category": "Decor",
+      "stock": 22
+    },
+    {
+      "id": "P004",
+      "name": "Minimalist Throw Blanket (Oatmeal)",
+      "price": 45.00,
+      "category": "Linens",
+      "stock": 88
+    },
+    {
+      "id": "P005",
+      "name": "Smart Programmable Coffee Maker",
+      "pr

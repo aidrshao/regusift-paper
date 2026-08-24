@@ -1,0 +1,11 @@
+{
+  "patient": {
+    "id": "PT78901",
+    "age": 54,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabet

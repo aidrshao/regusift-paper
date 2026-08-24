@@ -1,0 +1,36 @@
+{
+  "catalogId": "CC-20240729-A",
+  "lastUpdated": "2024-07-29T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Ultra HD 55-inch Smart TV",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Portable Power Bank 20000mAh",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 300
+    },
+    {
+      "id": "BK010",
+      "name": "The Midnight Library",
+      "price": 12.50,
+      "category": "Books",
+      "stock": 210
+    },
+    {
+      "id": "BK011",
+      "name": "Sapiens: A Brief History of Humankind",
+      "price"

@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Aurora Tech Solutions",
+    "ticker": "ATS"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 720000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 410000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold"

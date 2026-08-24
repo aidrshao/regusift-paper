@@ -1,0 +1,18 @@
+{
+  "catalogId": "cat_001_2025",
+  "lastUpdated": "2025-04-08T10:30:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Wireless Bluetooth Over-Ear Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "P1002",
+      "name": "Stainless Steel Water Bottle 1L",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 120
+    }

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek-v4-flash",
+  "raw_file": "deepseek_v4_flash_2026-08-21T09-22-10-594Z_raw.json",
+  "per_mode": {
+    "mode1a_buffered": {
+      "mean_ms": 9196.9,
+      "n": 20
+    },
+    "mode1b_stream_buffered": {
+      "mean_ms": 8977.4,
+      "n": 20
+    },
+    "mode2_partialjson": {
+      "mean_ms": 7325.3,
+      "n": 20
+    },
+    "mode3_ours": {
+      "mean_ms": 5727.9,
+      "n": 20
+    }
+  },
+  "paired_tests": {
+    "mode2_vs_mode3": {
+      "mean_delta_ms": 1597.4,
+      "paired_t_p": 0.2053771747130726,
+      "wilcoxon_p": 0.2305126190185547,
+      "n": 20
+    },
+    "mode1a_vs_mode3": {
+      "mean_delta_ms": 3469.0,
+      "paired_t_p": 0.004837468145389506,
+      "wilcoxon_p": 0.0042209625244140625,
+      "n": 20
+    },
+    "mode1a_vs_mode1b": {
+      "mean_delta_ms": 219.6,
+      "paired_t_p": 0.8460044069586521,
+      "wilcoxon_p": 0.8408222198486328,
+      "n": 20
+    },
+    "mode1b_vs_mode2": {
+      "mean_delta_ms": 1652.0,
+      "paired_t_p": 0.2081944002529084,
+      "wilcoxon_p": 0.3299827575683594,
+      "n": 20
+    }
+  }
+}

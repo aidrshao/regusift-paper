@@ -1,0 +1,146 @@
+{
+  "catalogId": "SPRING_2024_HOME_GOODS",
+  "lastUpdated": "2024-05-15T10:30:00Z",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Bamboo Fiber Sheet Set (Queen)",
+      "price": 79.99,
+      "category": "Bedding",
+      "stock": 45
+    },
+    {
+      "id": "P002",
+      "name": "Aura Diffuser with Essential Oils",
+      "price": 34.50,
+      "category": "Home Fragrance",
+      "stock": 120
+    },
+    {
+      "id": "P003",
+      "name": "Hand-Woven Jute Area Rug (5x7 ft)",
+      "price": 149.99,
+      "category": "Decor",
+      "stock": 22
+    },
+    {
+      "id": "P004",
+      "name": "Minimalist Throw Blanket (Oatmeal)",
+      "price": 45.00,
+      "category": "Linens",
+      "stock": 88
+    },
+    {
+      "id": "P005",
+      "name": "Smart Programmable Coffee Maker",
+      "price": 99.99,
+      "category": "Kitchen Appliances",
+      "stock": 55
+    },
+    {
+      "id": "P006",
+      "name": "Stainless Steel French Press",
+      "price": 29.95,
+      "category": "Kitchen Gadgets",
+      "stock": 150
+    },
+    {
+      "id": "P007",
+      "name": "Ergonomic Memory Foam Pillow",
+      "price": 65.99,
+      "category": "Bedding",
+      "stock": 70
+    },
+    {
+      "id": "P008",
+      "name": "Solar Powered Garden Lantern Set (4pk)",
+      "price": 55.00,
+      "category": "Outdoor",
+      "stock": 95
+    },
+    {
+      "id": "P009",
+      "name": "Geometric Wall Mirror (Large)",
+      "price": 110.50,
+      "category": "Decor",
+      "stock": 30
+    },
+    {
+      "id": "P010",
+      "name": "Bamboo Utensil Set (6-Piece)",
+      "price": 22.99,
+      "category": "Kitchen Gadgets",
+      "stock": 210
+    },
+    {
+      "id": "P011",
+      "name": "Organic Cotton Bath Towel Set (4-Piece)",
+      "price": 59.99,
+      "category": "Bathroom",
+      "stock": 180
+    },
+    {
+      "id": "P012",
+      "name": "Aroma Soy Candle (Lavender Blend)",
+      "price": 18.75,
+      "category": "Home Fragrance",
+      "stock": 350
+    },
+    {
+      "id": "P013",
+      "name": "Adjustable Standing Desk Converter",
+      "price": 199.99,
+      "category": "Office Furniture",
+      "stock": 25
+    },
+    {
+      "id": "P014",
+      "name": "Indoor Herb Garden Kit",
+      "price": 49.99,
+      "category": "Gardening",
+      "stock": 60
+    },
+    {
+      "id": "P015",
+      "name": "Waterproof Outdoor Picnic Blanket",
+      "price": 39.99,
+      "category": "Outdoor",
+      "stock": 115
+    },
+    {
+      "id": "P016",
+      "name": "Bamboo Toilet Paper Holder",
+      "price": 19.99,
+      "category": "Bathroom",
+      "stock": 250
+    },
+    {
+      "id": "P017",
+      "name": "Digital Photo Frame (10-inch)",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 75
+    },
+    {
+      "id": "P018",
+      "name": "Premium Matcha Green Tea Set",
+      "price": 32.50,
+      "category": "Kitchen Accessories",
+      "stock": 130
+    },
+    {
+      "id": "P019",
+      "name": "Silk Pillowcase (Queen)",
+      "price": 55.00,
+      "category": "Bedding",
+      "stock": 90
+    },
+    {
+      "id": "P020",
+      "name": "Portable Bluetooth Speaker (Waterproof)",
+      "price": 75.00,
+      "category": "Electronics",
+      "stock": 160
+    }
+  ]
+}

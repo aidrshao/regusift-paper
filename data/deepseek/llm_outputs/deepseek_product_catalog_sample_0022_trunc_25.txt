@@ -1,0 +1,43 @@
+{
+  "catalogId": "cat_2025_spring_001",
+  "lastUpdated": "2025-05-12T09:30:00Z",
+  "products": [
+    {
+      "id": "p_1001",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "p_1002",
+      "name": "4K Ultra HD Smart TV - 55 inch",
+      "price": 549.99,
+      "category": "Electronics",
+      "stock": 12
+    },
+    {
+      "id": "p_1003",
+      "name": "Stainless Steel Water Bottle (32 oz)",
+      "price": 24.95,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "p_1004",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 29.5,
+      "category": "Apparel",
+      "stock": 200
+    },
+    {
+      "id": "p_1005",
+      "name": "Running Shoes - Men's Size 10",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 30
+    },
+    {
+      "id": "p_1006",
+      "name": "Yoga Mat (Non-Slip, 6mm)",
+      "price": 39.9

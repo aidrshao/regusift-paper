@@ -1,0 +1,11 @@
+{
+  "patient": {
+    "id": "P123456789",
+    "age": 67,
+    "gender": "male"
+  },
+  "visitDate": "2025-04-08",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "

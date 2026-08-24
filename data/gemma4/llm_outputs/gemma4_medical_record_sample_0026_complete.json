@@ -1,0 +1,68 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 68,
+    "gender": "Female"
+  },
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Moderate"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "severity": "Stable"
+    },
+    {
+      "code": "I12.9",
+      "name": "Hypertensive heart disease without heart failure",
+      "severity": "Controlled"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "dosage": "12.5 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "6.3",
+      "unit": "%",
+      "flag": "Normal"
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": "225",
+      "unit": "mg/dL",
+      "flag": "Elevated"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "135",
+      "unit": "mg/dL",
+      "flag": "Elevated"
+    },
+    {
+      "test": "Creatinine",
+      "value": "1.0",
+      "unit": "mg/dL",
+      "flag": "Normal"
+    }
+  ]
+}

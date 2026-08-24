@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "TechNova Solutions",
+    "ticker": "TNVS"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 12500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 8300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 4100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 2700000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "a

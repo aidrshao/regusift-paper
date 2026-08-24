@@ -1,0 +1,57 @@
+{
+  "patient": {
+    "id": "PT-88421",
+    "age": 67,
+    "gender": "male"
+  },
+  "visitDate": "2025-04-12",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "uncontrolled"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease stage 3",
+      "severity": "stable"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "once daily at bedtime"
+    },
+    {
+      "name": "Amlodipine",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "8.7",
+      "unit": "%",
+      "flag": "HIGH"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": "1.6",
+      "unit": 

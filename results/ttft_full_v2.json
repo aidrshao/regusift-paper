@@ -1,0 +1,90 @@
+{
+  "summary": {
+    "mode1a_buffered": {
+      "mean": 9258.0,
+      "ci": [
+        7827.2,
+        10688.8
+      ],
+      "p50": 9480,
+      "p95": 13665,
+      "n": 20
+    },
+    "mode1b_stream_buffered": {
+      "mean": 11245.3,
+      "ci": [
+        9389.1,
+        13101.5
+      ],
+      "p50": 10760,
+      "p95": 17933,
+      "n": 20
+    },
+    "mode2_partialjson": {
+      "mean": 7976.4,
+      "ci": [
+        6035.9,
+        9916.8
+      ],
+      "p50": 6663,
+      "p95": 16861,
+      "n": 20
+    },
+    "mode2b_best_effort": {
+      "mean": 8104.2,
+      "ci": [
+        6325.2,
+        9883.3
+      ],
+      "p50": 7630,
+      "p95": 15695,
+      "n": 20
+    },
+    "mode2c_llmjsonrepair": {
+      "mean": 8518.5,
+      "ci": [
+        6737.7,
+        10299.4
+      ],
+      "p50": 8611,
+      "p95": 14473,
+      "n": 20
+    },
+    "mode3_ours": {
+      "mean": 7260.1,
+      "ci": [
+        5831.3,
+        8688.8
+      ],
+      "p50": 6899,
+      "p95": 11569,
+      "n": 20
+    }
+  },
+  "ratios": {
+    "mode1a_buffered": 1.0,
+    "mode1b_stream_buffered": 1.21,
+    "mode2_partialjson": 0.86,
+    "mode2b_best_effort": 0.88,
+    "mode2c_llmjsonrepair": 0.92,
+    "mode3_ours": 0.78
+  },
+  "paired_vs_ours": {
+    "mode2_partialjson": {
+      "mean_delta_ms": -716.3,
+      "paired_t_p": 0.45887913608763176,
+      "wilcoxon_p": 0.4304332733154297
+    },
+    "mode2b_best_effort": {
+      "mean_delta_ms": -844.2,
+      "paired_t_p": 0.4660803799953016,
+      "wilcoxon_p": 0.7011814117431641
+    },
+    "mode2c_llmjsonrepair": {
+      "mean_delta_ms": -1258.5,
+      "paired_t_p": 0.14543612204992293,
+      "wilcoxon_p": 0.17685317993164062
+    }
+  },
+  "mode3_vs_mode1a_ratio": 1.28
+}

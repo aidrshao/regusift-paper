@@ -1,0 +1,15 @@
+{
+  "patient": {
+    "id": "P987654",
+    "age": 45,
+    "gender": "Female"
+  },
+  "visitDate": "2023-10-27",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "

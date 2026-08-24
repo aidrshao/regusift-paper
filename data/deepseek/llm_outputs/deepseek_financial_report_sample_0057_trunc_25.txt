@@ -1,0 +1,16 @@
+{
+  "company": {
+    "name": "Acme Technology Solutions",
+    "ticker": "ATS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 1780000,
+     

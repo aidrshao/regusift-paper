@@ -1,0 +1,35 @@
+{
+  "catalogId": "ECP-20231128-A",
+  "lastUpdated": "2023-11-28T10:00:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 249.99,
+      "category": "Electronics",
+      "stock": 75
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker X5",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "EL003",
+      "name": "Ultra HD 4K Webcam",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "AP001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 199.99,
+      "category": "Home & Office",
+      "stock": 45
+    },
+    {
+      "id": "AP002",
+      "name": "Adjustable Stand

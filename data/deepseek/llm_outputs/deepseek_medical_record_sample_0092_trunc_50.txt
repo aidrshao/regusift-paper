@@ -1,0 +1,36 @@
+{
+  "patient": {
+    "id": "PT-82913",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "severe"
+    },
+    {
+      "code": "N18.3",
+      "name": "Chronic kidney disease, stage 3",
+      "severity": "moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "once daily"
+    },
+    {

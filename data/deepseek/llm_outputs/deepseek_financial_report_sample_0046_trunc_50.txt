@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Nimbus Dynamics",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Service Contracts",
+      "amount": 880000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 310000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amoun

@@ -1,0 +1,45 @@
+{
+  "catalogId": "cat_2024_001",
+  "lastUpdated": "2024-07-15T14:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Bluetooth Over-Ear Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Stainless Steel Water Bottle 1L",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 78
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Mechanical Gaming Keyboard RGB",
+      "price": 129.0,
+      "category": "Electronics",
+      "stock": 22
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Ceramic Coffee Mug 350ml",
+      "price": 12.75,
+      "category": "Home & Kitchen",
+      "stock": 200
+    },
+    {
+      "id": "SKU-1006",
+      "name": "Running Shoes - Men's Size 10",
+      "price": 74.99,
+      "category": "Footwear",
+   

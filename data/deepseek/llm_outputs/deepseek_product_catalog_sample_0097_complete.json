@@ -1,0 +1,31 @@
+{
+  "catalogId": "cat_2025_spring_001",
+  "lastUpdated": "2025-04-07T09:30:00Z",
+  "products": [
+    {"id": "P1001", "name": "Wireless Bluetooth Earbuds Pro", "price": 59.99, "category": "Electronics", "stock": 120},
+    {"id": "P1002", "name": "Stainless Steel Water Bottle 32oz", "price": 24.50, "category": "Home & Kitchen", "stock": 200},
+    {"id": "P1003", "name": "Organic Cotton T-Shirt (Unisex)", "price": 19.99, "category": "Apparel", "stock": 350},
+    {"id": "P1004", "name": "Mechanical Keyboard RGB (TKL)", "price": 89.99, "category": "Electronics", "stock": 75},
+    {"id": "P1005", "name": "Espresso Machine 15-Bar", "price": 199.00, "category": "Home & Kitchen", "stock": 40},
+    {"id": "P1006", "name": "Yoga Mat Non-Slip (6mm)", "price": 29.95, "category": "Fitness", "stock": 180},
+    {"id": "P1007", "name": "Desk Organizer Bamboo", "price": 34.20, "category": "Office Supplies", "stock": 95},
+    {"id": "P1008", "name": "LED Strip Lights 16.4ft", "price": 18.75, "category": "Electronics", "stock": 260},
+    {"id": "P1009", "name": "Running Shoes (Men's Size 10)", "price": 74.99, "category": "Footwear", "stock": 65},
+    {"id": "P1010", "name": "Ceramic Coffee Mug 12oz", "price": 12.00, "category": "Home & Kitchen", "stock": 500},
+    {"id": "P1011", "name": "Smart Watch Fitness Tracker", "price": 49.99, "category": "Electronics", "stock": 110},
+    {"id": "P1012", "name": "Backpack Laptop 15.6\" Waterproof", "price": 45.50, "category": "Accessories", "stock": 88},
+    {"id": "P1013", "name": "Bluetooth Speaker Portable", "price": 39.99, "category": "Electronics", "stock": 150},
+    {"id": "P1014", "name": "Insulated Lunch Bag", "price": 16.25, "category": "Home & Kitchen", "stock": 210},
+    {"id": "P1015", "name": "Dumbbell Set (2x5kg)", "price": 55.00, "category": "Fitness", "stock": 45},
+    {"id": "P1016", "name": "Sticky Notes 3x3\" (Pack of 12)", "price": 9.99, "category": "Office Supplies", "stock": 400},
+    {"id": "P1017", "name": "Sunglasses Polarized (Classic Aviator)", "price": 32.00, "category": "Accessories", "stock": 130},
+    {"id": "P1018", "name": "Electric Kettle 1.7L", "price": 27.80, "category": "Home & Kitchen", "stock": 90},
+    {"id": "P1019", "name": "Resistance Bands Set (5 levels)", "price": 22.99, "category": "Fitness", "stock": 170},
+    {"id": "P1020", "name": "Wireless Mouse Ergonomic", "price": 21.49, "category": "Electronics", "stock": 220},
+    {"id": "P1021", "name": "Denim Jacket (Classic Blue)", "price": 64.99, "category": "Apparel", "stock": 55},
+    {"id": "P1022", "name": "Cast Iron Skillet 10\"", "price": 38.50, "category": "Home & Kitchen", "stock": 60},
+    {"id": "P1023", "name": "Phone Stand Adjustable Aluminum", "price": 14.75, "category": "Accessories", "stock": 300},
+    {"id": "P1024", "name": "Yoga Block (Set of 2)", "price": 15.99, "category": "Fitness", "stock": 140},
+    {"id": "P1025", "name": "Gaming Headset with Mic", "price": 42.00, "category": "Electronics", "stock": 85}
+  ]
+}

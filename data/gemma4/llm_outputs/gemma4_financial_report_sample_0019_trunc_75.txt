@@ -1,0 +1,38 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions",
+    "ticker": "ITCS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Subscription Fees",
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 3500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing and Support",
+      "amount": 1200000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 7800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development (R&D)",
+      "amount": 2500000,
+      

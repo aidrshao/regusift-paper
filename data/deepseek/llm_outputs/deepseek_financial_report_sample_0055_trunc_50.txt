@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NBT"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 1890000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Implementation",
+      "amount": 780000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 540000,
+      "currency": "USD"
+    }
+  ],

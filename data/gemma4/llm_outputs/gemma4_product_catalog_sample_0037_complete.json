@@ -1,0 +1,146 @@
+{
+  "catalogId": "ECOM-CAT-20231027",
+  "lastUpdated": "2023-10-27T10:00:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Ultra HD 4K Smart TV (55 inch)",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "AP005",
+      "name": "Noise Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "LP012",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "CL003",
+      "name": "Organic Cotton Crew Neck T-Shirt",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "CL015",
+      "name": "Slim Fit Denim Jeans (Dark Wash)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "CL022",
+      "name": "Wool Blend Overcoat (Charcoal)",
+      "price": 149.00,
+      "category": "Apparel",
+      "stock": 30
+    },
+    {
+      "id": "BK007",
+      "name": "The Midnight Library Novel",
+      "price": 12.99,
+      "category": "Books",
+      "stock": 400
+    },
+    {
+      "id": "BK011",
+      "name": "History of Rome Comprehensive Guide",
+      "price": 35.50,
+      "category": "Books",
+      "stock": 150
+    },
+    {
+      "id": "HO001",
+      "name": "Aroma Diffuser with Essential Oil Set",
+      "price": 45.00,
+      "category": "Home Goods",
+      "stock": 95
+    },
+    {
+      "id": "HO009",
+      "name": "Luxury Egyptian Cotton Bath Towel Set",
+      "price": 65.99,
+      "category": "Home Goods",
+      "stock": 70
+    },
+    {
+      "id": "BT002",
+      "name": "Electric Coffee Grinder",
+      "price": 39.99,
+      "category": "Kitchen Appliances",
+      "stock": 180
+    },
+    {
+      "id": "BT005",
+      "name": "Air Fryer Digital Model",
+      "price": 89.99,
+      "category": "Kitchen Appliances",
+      "stock": 60
+    },
+    {
+      "id": "SC001",
+      "name": "Stainless Steel Chef Knife Set (8 pc)",
+      "price": 129.99,
+      "category": "Kitchenware",
+      "stock": 55
+    },
+    {
+      "id": "SC010",
+      "name": "Bamboo Cutting Board Set",
+      "price": 29.99,
+      "category": "Kitchenware",
+      "stock": 250
+    },
+    {
+      "id": "BE003",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Furniture",
+      "stock": 40
+    },
+    {
+      "id": "BE008",
+      "name": "Minimalist Wooden Desk (60 inch)",
+      "price": 399.00,
+      "category": "Furniture",
+      "stock": 25
+    },
+    {
+      "id": "HP001",
+      "name": "Rechargeable LED Desk Lamp",
+      "price": 32.50,
+      "category": "Home Decor",
+      "stock": 150
+    },
+    {
+      "id": "HP004",
+      "name": "Velvet Throw Pillow (Emerald)",
+      "price": 29.95,
+      "category": "Home Decor",
+      "stock": 300
+    },
+    {
+      "id": "SM001",
+      "name": "Wireless Vertical Mouse",
+      "price": 25.00,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "SM003",
+      "name": "USB-C Fast Charging Cable (3 pack)",
+      "price": 14.99,
+      "category": "Electronics",
+      "stock": 500
+    }
+  ]
+}

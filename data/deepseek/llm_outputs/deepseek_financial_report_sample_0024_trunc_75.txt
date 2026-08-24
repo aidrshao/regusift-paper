@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Nimbus Technologies",
+    "ticker": "NMB"
+  },
+  "quarter": "Q3 FY2025",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 18900000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 7300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance & Support",
+      "amount": 5200000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenue",
+      "amount": 9800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 6200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 7400000,
+      "currency": "USD"
+    },
+    {
+      "category": "General 

@@ -1,0 +1,45 @@
+{
+  "catalogId": "cat_001_2025",
+  "lastUpdated": "2025-04-08T10:30:00Z",
+  "products": [
+    {
+      "id": "P1001",
+      "name": "Wireless Bluetooth Over-Ear Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "P1002",
+      "name": "Stainless Steel Water Bottle 1L",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "P1003",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 200
+    },
+    {
+      "id": "P1004",
+      "name": "Smart LED Desk Lamp with USB Port",
+      "price": 35.0,
+      "category": "Home & Kitchen",
+      "stock": 60
+    },
+    {
+      "id": "P1005",
+      "name": "Classic Leather Wallet",
+      "price": 45.0,
+      "category": "Accessories",
+      "stock": 32
+    },
+    {
+      "id": "P1006",
+      "name": "4K Action Camera with Waterproof Case",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 1

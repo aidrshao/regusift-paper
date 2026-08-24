@@ -1,0 +1,80 @@
+{
+  "patient": {
+    "id": "P-78412",
+    "age": 58,
+    "gender": "Female"
+  },
+  "visitDate": "2023-11-15",
+  "diagnoses": [
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Moderate"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Mild"
+    },
+    {
+      "code": "K21.0",
+      "name": "Gastro-esophageal reflux disease with esophagitis",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "Once daily before breakfast"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Hemoglobin A1c",
+      "value": "7.8",
+      "unit": "%",
+      "flag": "High"
+    },
+    {
+      "test": "Fasting Plasma Glucose",
+      "value": "142",
+      "unit": "mg/dL",
+      "flag": "High"
+    },
+    {
+      "test": "Blood Pressure (Systolic)",
+      "value": "138",
+      "unit": "mmHg",
+      "flag": "High"
+    },
+    {
+      "test": "Blood Pressure (Diastolic)",
+      "value": "86",
+      "unit": "mmHg",
+      "flag": "Normal"
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": "110",
+      "unit": "mg/dL",
+      "flag": "Borderline"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": "0.9",
+      "unit": "mg/dL",
+      "flag": "Normal"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "recipeName": "Creamy Tomato Pasta",
+  "servings": 4,
+  "ingredients": [
+    {"name": "pasta (penne or rigatoni)", "quantity": "300", "unit": "g", "notes": "Cooked according to package instructions"},
+    {"name": "canned crushed tomatoes", "quantity": "2", "unit": "400g cans", "notes": "Use good quality tomatoes"},
+    {"name": "heavy cream", "quantity": "150", "unit": "ml"},
+    {"name": "yellow onion", "quantity": "1", "unit": "medium", "notes": "Finely chopped"},
+    {"name": "garlic cloves", "quantity": "4", "unit": "cloves", "notes": "Minced"},
+    {"name": "vegetable broth", "quantity": "200", "unit": "ml"},
+    {"name": "Parmesan cheese", "quantity": "80", "unit": "g", "notes": "Freshly grated for best flavor"},
+    {"name": "olive oil", "quantity": "3", "unit": "tbsp"},
+    {"name": "dried oregano", "quantity": "1", "unit": "tsp"},
+    {"name": "red pepper flakes", "quantity": "1/2", "unit": "tsp", "notes": "Adjust to desired spice level"}
+  ]
+}

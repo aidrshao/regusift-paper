@@ -1,0 +1,79 @@
+{
+  "patient": {
+    "id": "P-78492",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "controlled"
+    },
+    {
+      "code": "N18.4",
+      "name": "Chronic kidney disease stage 4",
+      "severity": "severe"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "20 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "40 mg",
+      "frequency": "once daily at bedtime"
+    },
+    {
+      "name": "Furosemide",
+      "dosage": "40 mg",
+      "frequency": "once daily"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "HbA1c",
+      "value": "7.4",
+      "unit": "%",
+      "flag": "high"
+    },
+    {
+      "test": "Serum creatinine",
+      "value": "2.8",
+      "unit": "mg/dL",
+      "flag": "high"
+    },
+    {
+      "test": "eGFR",
+      "value": "22",
+      "unit": "mL/min/1.73m2",
+      "flag": "low"
+    },
+    {
+      "test": "Potassium",
+      "value": "5.6",
+      "unit": "mmol/L",
+      "flag": "high"
+    },
+    {
+      "test": "LDL cholesterol",
+      "value": "98",
+      "unit": "mg/dL",
+      "flag": "normal"
+    }
+  ]
+}

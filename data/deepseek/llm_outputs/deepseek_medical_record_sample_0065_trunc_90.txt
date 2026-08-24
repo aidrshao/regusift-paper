@@ -1,0 +1,65 @@
+{
+  "patient": {
+    "id": "PT-78321",
+    "age": 54,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-18",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "controlled"
+    },
+    {
+      "code": "N39.0",
+      "name": "Urinary tract infection, site not specified",
+      "severity": "acute"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Nitrofurantoin",
+      "dosage": "100 mg",
+      "frequency": "every 12 hours for 5 days"
+    }
+  ],
+  "labResults": [
+    {
+      "test": "Blood Pressure",
+      "value": "142/88",
+      "unit": "mmHg",
+      "flag": "high"
+    },
+    {
+      "test": "HbA1c",
+      "value": "7.1",
+      "unit": "%",
+      "flag": "normal"
+    },
+    {
+      "test": "Urinalysis - leukocyte esterase",
+      "value": "positive",
+      "unit": "N/A",
+      "flag": "abnormal"
+    },
+    {
+      "test": "Urinalysis - nitrite",
+      "value": "positive",
+      "unit": "N/A",
+      "

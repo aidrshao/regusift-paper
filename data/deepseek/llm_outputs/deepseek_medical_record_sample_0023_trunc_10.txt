@@ -1,0 +1,10 @@
+{
+  "patient": {
+    "id": "PT-84721",
+    "age": 58,
+    "gender": "female"
+  },
+  "visitDate": "2023-10-15",
+  "diagnoses": [
+    {
+      "code": "E11.9

@@ -1,0 +1,39 @@
+{
+  "catalogId": "cat_2025_001",
+  "lastUpdated": "2025-04-08T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU-1001",
+      "name": "Wireless Bluetooth Headphones",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "SKU-1002",
+      "name": "Stainless Steel Water Bottle 1L",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 120
+    },
+    {
+      "id": "SKU-1003",
+      "name": "Yoga Mat with Carrying Strap",
+      "price": 32.0,
+      "category": "Sports & Outdoors",
+      "stock": 78
+    },
+    {
+      "id": "SKU-1004",
+      "name": "Organic Cotton T-Shirt (M)",
+      "price": 19.95,
+      "category": "Clothing",
+      "stock": 200
+    },
+    {
+      "id": "SKU-1005",
+      "name": "Mechanical Keyboard RGB",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 30
+    

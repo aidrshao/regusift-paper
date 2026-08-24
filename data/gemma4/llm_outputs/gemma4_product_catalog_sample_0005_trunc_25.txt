@@ -1,0 +1,35 @@
+{
+  "catalogId": "HOME_TECH_SPRING_2024",
+  "lastUpdated": "2024-07-25T10:30:00Z",
+  "products": [
+    {
+      "id": "A001",
+      "name": "Smart Aroma Diffuser",
+      "price": 49.99,
+      "category": "Home Decor",
+      "stock": 150
+    },
+    {
+      "id": "A002",
+      "name": "Bamboo Fiber Sheet Set (Queen)",
+      "price": 89.99,
+      "category": "Bedding",
+      "stock": 45
+    },
+    {
+      "id": "B101",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 78
+    },
+    {
+      "id": "B102",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "C201",
+      "name": "Ergonomic Mesh Office Cha

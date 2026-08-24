@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions Inc.",
+    "ticker": "ITS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 18500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Services",
+      "amount": 7200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 4100000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 11500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Hosting & Infrastructure",
+      "amount": 3100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 2500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 4500000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 30000000,
+    "totalExpenses": 21600000,
+    "netIncome": 8400000
+  }
+}

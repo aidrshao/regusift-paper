@@ -1,0 +1,53 @@
+{
+  "company": {
+    "name": "TechNova Solutions Inc.",
+    "ticker": "TNS"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 45200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services Hosting",
+      "amount": 31500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Professional Consulting",
+      "amount": 12800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 4500000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 28500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Infrastructure Costs (AWS/Azure)",
+      "amount": 6200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 8900000,
+      "currency": "USD"
+    },
+    {
+      "category": "R&D Investment",
+      "amount": 11500000,
+      "currency": "USD"
+    },
+    {
+      "category": "General Operating Expenses",
+      "amount": 3100000,
+      "currency": "U

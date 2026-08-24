@@ -1,0 +1,6 @@
+{
+  "patient": {"id": "P90123", "age": 68, "gender": "Male"},
+  "visitDate": "2024-07-25",
+  "diagnoses": [
+    {"code": "I10", "name": "Essential (primary) hypertension", "severity": "Chronic"},
+    {"code": "E11.9", "name": "Type 2 diabetes mellitus wi

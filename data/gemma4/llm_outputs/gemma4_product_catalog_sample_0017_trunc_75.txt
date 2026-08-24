@@ -1,0 +1,105 @@
+{
+  "catalogId": "ECOMM-20240725-A",
+  "lastUpdated": "2024-07-25T10:00:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "EL002",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.50,
+      "category": "Electronics",
+      "stock": 120
+    },
+    {
+      "id": "EL003",
+      "name": "Smart Fitness Tracker Watch",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 88
+    },
+    {
+      "id": "HM004",
+      "name": "Egyptian Cotton Bath Towel Set",
+      "price": 45.00,
+      "category": "Home Goods",
+      "stock": 150
+    },
+    {
+      "id": "HM005",
+      "name": "Aromatherapy Essential Oil Diffuser",
+      "price": 35.99,
+      "category": "Home Goods",
+      "stock": 210
+    },
+    {
+      "id": "HM006",
+      "name": "Bamboo Fiber Bed Sheets (Queen)",
+      "price": 89.99,
+      "category": "Home Goods",
+      "stock": 60
+    },
+    {
+      "id": "BE007",
+      "name": "Men's Slim Fit Denim Jeans",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 180
+    },
+    {
+      "id": "BE008",
+      "name": "Women's Summer Maxi Dress",
+      "price": 49.99,
+      "category": "Apparel",
+      "stock": 250
+    },
+    {
+      "id": "BE009",
+      "name": "Lightweight Running Jacket",
+      "price": 65.00,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "BE010",
+      "name": "Yoga Mat with Carrying Strap",
+      "price": 29.95,
+      "category": "Sports & Outdoors",
+      "stock": 300
+    },
+    {
+      "id": "SP011",
+      "name": "Adjustable Dumbbell Set (Pair)",
+      "price": 149.99,
+      "category": "Sports & Outdoors",
+      "stock": 30
+    },
+    {
+      "id": "SP012",
+      "name": "Resistance Band Set (Full Kit)",
+      "price": 24.99,
+      "category": "Sports & Outdoors",
+      "stock": 550
+    },
+    {
+      "id": "BK013",
+      "name": "The Midnight Library Novel",
+      "price": 15.50,
+      "category": "Books",
+      "stock": 320
+    },
+    {
+      "id": "BK014",
+      "name": "Advanced Python Programming Guide",
+      "price": 45.99,
+      "category": "Books",
+      "stock": 110
+    },
+    {
+      "id": "SC015",
+      "name": 

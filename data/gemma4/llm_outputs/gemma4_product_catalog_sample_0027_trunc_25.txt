@@ -1,0 +1,39 @@
+{
+  "catalogId": "ECOMM-20240725-A",
+  "lastUpdated": "2024-07-25T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU001",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "SKU002",
+      "name": "Slim Fit Chinos (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "SKU003",
+      "name": "Noise-Canceling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "SKU004",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 350
+    },
+    {
+      "id": "SKU005",
+      "name": "Stainless Steel Water Bottle (32oz)",
+      "price": 19.99,
+      "category": "Home Goods",
+      "stock": 500
+    

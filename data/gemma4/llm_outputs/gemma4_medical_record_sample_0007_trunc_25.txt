@@ -1,0 +1,17 @@
+{
+  "patient": {
+    "id": "P78392A",
+    "age": 54,
+    "gender": "Female"
+  },
+  "visitDate": "2024-06-21",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "Chronic"
+    },
+    {
+      "code": "E78.5",
+      "name": "Hyperlipidemia, unspecified",
+      "

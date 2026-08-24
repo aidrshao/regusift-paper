@@ -1,0 +1,22 @@
+{
+  "productName": "UltraVital Daily Multi + Energy Complex",
+  "servingSize": "2 capsules",
+  "servingsPerContainer": 30,
+  "ingredients": [
+    { "name": "Vitamin A (as beta-carotene)", "amount": "900", "unit": "mcg", "dailyValue": "100%" },
+    { "name": "Vitamin C (as ascorbic acid)", "amount": "250", "unit": "mg", "dailyValue": "278%" },
+    { "name": "Vitamin D3 (as cholecalciferol)", "amount": "25", "unit": "mcg", "dailyValue": "125%" },
+    { "name": "Vitamin E (as d-alpha tocopheryl acetate)", "amount": "15", "unit": "mg", "dailyValue": "100%" },
+    { "name": "Vitamin K2 (as menaquinone-7)", "amount": "90", "unit": "mcg", "dailyValue": "75%" },
+    { "name": "Thiamine (Vitamin B1 as thiamine mononitrate)", "amount": "50", "unit": "mg", "dailyValue": "4167%" },
+    { "name": "Riboflavin (Vitamin B2)", "amount": "50", "unit": "mg", "dailyValue": "3846%" },
+    { "name": "Niacin (as niacinamide)", "amount": "50", "unit": "mg", "dailyValue": "313%" },
+    { "name": "Vitamin B6 (as pyridoxine HCl)", "amount": "50", "unit": "mg", "dailyValue": "2941%" },
+    { "name": "Folate (as folic acid)", "amount": "667", "unit": "mcg", "dailyValue": "167%" },
+    { "name": "Vitamin B12 (as methylcobalamin)", "amount": "250", "unit": "mcg", "dailyValue": "10417%" },
+    { "name": "Biotin", "amount": "300", "unit": "mcg", "dailyValue": "1000%" },
+    { "name": "Pantothenic Acid (as d-calcium pantothenate)", "amount": "50", "unit": "mg", "dailyValue": "1000%" },
+    { "name": "Magnesium (as magnesium oxide)", "amount": "100", "unit": "mg", "dailyValue": "24%" },
+    { "name": "Zinc (as zinc citrate)", "amount": "15", "unit": "mg", "dailyValue": "136%" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "company": {"name": "Innovatech Solutions Corp", "ticker": "INVS"},
+  "quarter": "Q3 2024",
+  "revenue": [
+    {"category": "Software Subscriptions", "amount": 12500000, "currency": "USD"},
+    {"category": "Hardware Sales", "amount": 4500000, "currency": "USD"},
+    {"category": "Consulting Services", "amount": 3200000, "currency": "USD"}
+  ],
+  "expenses": [
+    {"category": "Salaries and Wages", "amount": 8900000, "currency": "USD"},
+    {"category": "Marketing and Advertising", "amount": 2100000, "currency": "USD"},
+    {"category": "Cloud Infrastructure", "amount": 75

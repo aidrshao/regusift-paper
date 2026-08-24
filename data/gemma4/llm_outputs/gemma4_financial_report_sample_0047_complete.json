@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "InnovateTech Solutions Inc.",
+    "ticker": "ITSI"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licensing",
+      "amount": 15400000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services Subscription",
+      "amount": 8250000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 3100000.00,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Salaries and Wages",
+      "amount": 6500000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Marketing and Advertising",
+      "amount": 2150000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Research and Development",
+      "amount": 3800000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "Operational Overhead (Rent, Utilities)",
+      "amount": 950000.00,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 26750000.00,
+    "totalExpenses": 13400000.00,
+    "netIncome": 13350000.00
+  }
+}

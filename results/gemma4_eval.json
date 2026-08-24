@@ -1,0 +1,37 @@
+{
+  "naive": {
+    "recovery": 0.0,
+    "field_f1": 0.0,
+    "n": 1250
+  },
+  "partial_json": {
+    "recovery": 0.888,
+    "field_f1": 0.6243308632567861,
+    "n": 1250
+  },
+  "json_repair": {
+    "recovery": 0.8856,
+    "field_f1": 0.6229709079642605,
+    "n": 1250
+  },
+  "json_completer": {
+    "recovery": 0.5816,
+    "field_f1": 0.41420271537285236,
+    "n": 1250
+  },
+  "best_effort": {
+    "recovery": 0.888,
+    "field_f1": 0.6243362403235962,
+    "n": 1250
+  },
+  "tolerant_repair": {
+    "recovery": 0.888,
+    "field_f1": 0.6250288027011025,
+    "n": 1250
+  },
+  "ours": {
+    "recovery": 0.888,
+    "field_f1": 0.6253553175560064,
+    "n": 1250
+  }
+}

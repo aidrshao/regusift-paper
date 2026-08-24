@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Nimbus Technologies Inc.",
+    "ticker": "NIMB"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Subscriptions",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 3800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting Services",
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Maintenance Contracts",
+      "amount": 1400000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Revenu

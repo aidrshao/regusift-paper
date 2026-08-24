@@ -1,0 +1,146 @@
+{
+  "catalogId": "ECOM-SPRING2024",
+  "lastUpdated": "2024-05-20T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU001",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "SKU002",
+      "name": "Slim Fit Chino Pants (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "SKU003",
+      "name": "Noise-Canceling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "SKU004",
+      "name": "Portable Bluetooth Speaker (Waterproof)",
+      "price": 79.95,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "SKU005",
+      "name": "Stainless Steel Water Bottle (32oz)",
+      "price": 19.99,
+      "category": "Home Goods",
+      "stock": 550
+    },
+    {
+      "id": "SKU006",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.00,
+      "category": "Home Goods",
+      "stock": 45
+    },
+    {
+      "id": "SKU007",
+      "name": "Premium Bamboo Sheet Set (Queen)",
+      "price": 129.99,
+      "category": "Home Goods",
+      "stock": 80
+    },
+    {
+      "id": "SKU008",
+      "name": "Leather Minimalist Wallet",
+      "price": 45.50,
+      "category": "Accessories",
+      "stock": 280
+    },
+    {
+      "id": "SKU009",
+      "name": "Running Shorts (Black)",
+      "price": 35.00,
+      "category": "Apparel",
+      "stock": 310
+    },
+    {
+      "id": "SKU010",
+      "name": "Ultra HD 4K Webcam",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 175
+    },
+    {
+      "id": "SKU011",
+      "name": "Essential Oil Diffuser Set",
+      "price": 39.95,
+      "category": "Health & Beauty",
+      "stock": 400
+    },
+    {
+      "id": "SKU012",
+      "name": "Yoga Mat (Extra Thick)",
+      "price": 29.99,
+      "category": "Sports & Outdoors",
+      "stock": 600
+    },
+    {
+      "id": "SKU013",
+      "name": "Lightweight Travel Backpack",
+      "price": 65.00,
+      "category": "Accessories",
+      "stock": 190
+    },
+    {
+      "id": "SKU014",
+      "name": "Electric Coffee Grinder",
+      "price": 55.99,
+      "category": "Kitchen & Dining",
+      "stock": 130
+    },
+    {
+      "id": "SKU015",
+      "name": "Smart LED Desk Lamp",
+      "price": 75.00,
+      "category": "Home Goods",
+      "stock": 220
+    },
+    {
+      "id": "SKU016",
+      "name": "Noise Isolating Earbuds",
+      "price": 69.99,
+      "category": "Electronics",
+      "stock": 450
+    },
+    {
+      "id": "SKU017",
+      "name": "Bamboo Fiber Pajama Set",
+      "price": 79.99,
+      "category": "Apparel",
+      "stock": 110
+    },
+    {
+      "id": "SKU018",
+      "name": "Gourmet Coffee Blend (1lb)",
+      "price": 18.50,
+      "category": "Kitchen & Dining",
+      "stock": 500
+    },
+    {
+      "id": "SKU019",
+      "name": "Digital Kitchen Scale",
+      "price": 24.95,
+      "category": "Kitchen & Dining",
+      "stock": 350
+    },
+    {
+      "id": "SKU020",
+      "name": "Anti-Glare Reading Glasses",
+      "price": 14.99,
+      "category": "Health & Beauty",
+      "stock": 750
+    }
+  ]
+}

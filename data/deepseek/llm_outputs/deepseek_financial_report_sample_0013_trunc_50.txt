@@ -1,0 +1,31 @@
+{
+  "company": {
+    "name": "Apex Technologies Inc.",
+    "ticker": "APXT"
+  },
+  "quarter": "Q3 FY2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 24500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services & Support",
+      "amount": 8200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Subscriptions",
+      "amount": 4300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Other Revenue",
+      "amount": 950000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",

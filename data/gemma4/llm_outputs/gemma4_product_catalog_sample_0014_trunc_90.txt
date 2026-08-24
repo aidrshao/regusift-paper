@@ -1,0 +1,118 @@
+{
+  "catalogId": "FASHION_TECH_HOME_FALL2024",
+  "lastUpdated": "2024-10-27T10:30:00Z",
+  "products": [
+    {
+      "id": "AP001",
+      "name": "Slim Fit Denim Jeans",
+      "price": 59.99,
+      "category": "Apparel/Bottoms",
+      "stock": 150
+    },
+    {
+      "id": "AP002",
+      "name": "Cashmere Blend Turtleneck Sweater",
+      "price": 119.99,
+      "category": "Apparel/Tops",
+      "stock": 85
+    },
+    {
+      "id": "AP003",
+      "name": "Waterproof Trench Coat",
+      "price": 199.99,
+      "category": "Apparel/Outerwear",
+      "stock": 60
+    },
+    {
+      "id": "AP004",
+      "name": "High-Waisted Midi Skirt",
+      "price": 79.50,
+      "category": "Apparel/Bottoms",
+      "stock": 120
+    },
+    {
+      "id": "AP005",
+      "name": "Organic Cotton Crewneck Tee",
+      "price": 24.99,
+      "category": "Apparel/Tops",
+      "stock": 300
+    },
+    {
+      "id": "EL010",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 249.99,
+      "category": "Electronics/Audio",
+      "stock": 210
+    },
+    {
+      "id": "EL011",
+      "name": "Portable Power Bank (20,000mAh)",
+      "price": 49.99,
+      "category": "Electronics/Accessories",
+      "stock": 450
+    },
+    {
+      "id": "EL012",
+      "name": "Smart LED Desk Lamp",
+      "price": 89.99,
+      "category": "Electronics/Home Tech",
+      "stock": 180
+    },
+    {
+      "id": "EL013",
+      "name": "Ultra HD Webcam (1080p)",
+      "price": 59.99,
+      "category": "Electronics/Peripherals",
+      "stock": 320
+    },
+    {
+      "id": "HL020",
+      "name": "Egyptian Cotton Bath Towel Set",
+      "price": 65.00,
+      "category": "Home Goods/Bath",
+      "stock": 130
+    },
+    {
+      "id": "HL021",
+      "name": "Aroma Diffuser with Essential Oils",
+      "price": 39.99,
+      "category": "Home Goods/Wellness",
+      "stock": 250
+    },
+    {
+      "id": "HL022",
+      "name": "Bamboo Fiber Sheet Set (Queen)",
+      "price": 129.99,
+      "category": "Home Goods/Bedding",
+      "stock": 90
+    },
+    {
+      "id": "HL023",
+      "name": "Minimalist Ceramic Coffee Mug Set",
+      "price": 29.99,
+      "category": "Home Goods/Kitchen",
+      "stock": 400
+    },
+    {
+      "id": "BE030",
+      "name": "Leather Crossbody Wallet",
+      "price": 89.99,
+      "category": "Accessories/Leather",
+      "stock": 175
+    },
+    {
+      "id": "BE031",
+      "name": "Silk Scarf Print",
+      "price": 45.00,
+      "category": "Accessories/Textile",
+      "stock": 280
+    },
+    {
+      "id": "BE032",
+      "name": "Running Socks (3-Pack)",
+      "price": 19.99,
+      "category": "Apparel/Essentials",
+      "stock": 600
+    },
+    {
+      "id": "A

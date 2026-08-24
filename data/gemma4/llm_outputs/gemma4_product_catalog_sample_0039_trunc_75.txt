@@ -1,0 +1,114 @@
+{
+  "catalogId": "EC-20240815-A",
+  "lastUpdated": "2024-08-15T10:30:00Z",
+  "products": [
+    {
+      "id": "EL-1001",
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "EL-1002",
+      "name": "Portable Bluetooth Speaker",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "EL-1003",
+      "name": "Smartwatch Fitness Tracker",
+      "price": 129.99,
+      "category": "Electronics",
+      "stock": 85
+    },
+    {
+      "id": "AP-2001",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.99,
+      "category": "Home & Office",
+      "stock": 55
+    },
+    {
+      "id": "AP-2002",
+      "name": "Bamboo Fiber Desk Lamp",
+      "price": 45.00,
+      "category": "Home & Office",
+      "stock": 410
+    },
+    {
+      "id": "AP-2003",
+      "name": "Adjustable Standing Desk",
+      "price": 399.99,
+      "category": "Home & Office",
+      "stock": 30
+    },
+    {
+      "id": "BK-3001",
+      "name": "The Midnight Library Novel",
+      "price": 15.99,
+      "category": "Books",
+      "stock": 780
+    },
+    {
+      "id": "BK-3002",
+      "name": "Advanced Python Programming Guide",
+      "price": 49.99,
+      "category": "Books",
+      "stock": 120
+    },
+    {
+      "id": "BK-3003",
+      "name": "History of Rome Textbook",
+      "price": 65.50,
+      "category": "Books",
+      "stock": 95
+    },
+    {
+      "id": "CL-4001",
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "price": 25.00,
+      "category": "Apparel",
+      "stock": 600
+    },
+    {
+      "id": "CL-4002",
+      "name": "Waterproof Running Jacket (Men's)",
+      "price": 89.99,
+      "category": "Apparel",
+      "stock": 180
+    },
+    {
+      "id": "CL-4003",
+      "name": "High-Waisted Denim Jeans (Women's)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 350
+    },
+    {
+      "id": "HS-5001",
+      "name": "Stainless Steel Coffee Maker",
+      "price": 89.99,
+      "category": "Kitchen & Home Goods",
+      "stock": 210
+    },
+    {
+      "id": "HS-5002",
+      "name": "Bamboo Cutting Board Set (3-piece)",
+      "price": 35.00,
+      "category": "Kitchen & Home Goods",
+      "stock": 450
+    },
+    {
+      "id": "HS-5003",
+      "name": "Air Fryer XL Model",
+      "price": 149.99,
+      "category": "Kitchen & Home Goods",
+      "stock": 90
+    },
+    {
+      "id": "BE-6001",
+      "name": "Premium Leather Wallet",
+      "price": 45.00,
+      "category

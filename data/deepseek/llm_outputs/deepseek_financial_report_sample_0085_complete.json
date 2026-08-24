@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "ticker": "NVTK"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Software Licenses",
+      "amount": 12500000,
+      "currency": "USD"
+    },
+    {
+      "category": "Cloud Services",
+      "amount": 8400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Support",
+      "amount": 4200000,
+      "currency": "USD"
+    },
+    {
+      "category": "Hardware Sales",
+      "amount": 1900000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 5100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 3700000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 4200000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 2300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 1100000,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "totalRevenue": 27000000,
+    "totalExpenses": 16400000,
+    "netIncome": 10600000
+  }
+}

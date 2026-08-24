@@ -1,0 +1,19 @@
+{
+  "company": {
+    "name": "Northwind Dynamics",
+    "ticker": "NWD"
+  },
+  "quarter": "Q3 2024",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 12450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 4380000,
+      "currency": "USD"
+    },
+    {
+     

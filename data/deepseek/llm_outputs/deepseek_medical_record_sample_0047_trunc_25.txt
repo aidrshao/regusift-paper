@@ -1,0 +1,20 @@
+{
+  "patient": {
+    "id": "P-10293847",
+    "age": 67,
+    "gender": "Female"
+  },
+  "visitDate": "2025-03-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "Stage 2, poorly controlled"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity": "Moderate, uncontrolled"
+    },
+    {
+      "co

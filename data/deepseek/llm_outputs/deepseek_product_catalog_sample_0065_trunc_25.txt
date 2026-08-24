@@ -1,0 +1,45 @@
+{
+  "catalogId": "cat_001",
+  "lastUpdated": "2025-04-08T14:30:00Z",
+  "products": [
+    {
+      "id": "p001",
+      "name": "Wireless Bluetooth Earbuds Pro",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 150
+    },
+    {
+      "id": "p002",
+      "name": "Stainless Steel Water Bottle 32oz",
+      "price": 24.5,
+      "category": "Home & Kitchen",
+      "stock": 300
+    },
+    {
+      "id": "p003",
+      "name": "Organic Cotton T-Shirt (Unisex)",
+      "price": 19.99,
+      "category": "Apparel",
+      "stock": 500
+    },
+    {
+      "id": "p004",
+      "name": "Mechanical Gaming Keyboard RGB",
+      "price": 129.0,
+      "category": "Electronics",
+      "stock": 80
+    },
+    {
+      "id": "p005",
+      "name": "Yoga Mat Non-Slip 6mm",
+      "price": 32.75,
+      "category": "Sports & Outdoors",
+      "stock": 210
+    },
+    {
+      "id": "p006",
+      "name": "Ceramic Coffee Mug 12oz",
+      "price": 12.99,
+      "category": "Home & Kitchen",
+   

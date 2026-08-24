@@ -1,0 +1,10 @@
+{
+  "patient": {
+    "id": "PT-88421",
+    "age": 58,
+    "gender": "male"
+  },
+  "visitDate": "2025-03-14",
+  "diagnoses": [
+    {
+      "code": "E11.9

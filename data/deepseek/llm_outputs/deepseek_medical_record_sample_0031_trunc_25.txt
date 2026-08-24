@@ -1,0 +1,17 @@
+{
+  "patient": {
+    "id": "PT100293",
+    "age": 67,
+    "gender": "female"
+  },
+  "visitDate": "2025-03-15",
+  "diagnoses": [
+    {
+      "code": "I10",
+      "name": "Essential (primary) hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name": "Type 2 diabetes mellitus without complications",
+      "severity":

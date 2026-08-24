@@ -1,0 +1,58 @@
+{
+  "company": {
+    "name": "Aurora Innovations Inc.",
+    "ticker": "AURI"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 830000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting & Training",
+      "amount": 420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Royalties",
+      "amount": 150000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 310000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & Administrative",
+      "amount": 275000,
+      "currency": "USD"
+    },
+    {
+      "category": "Depreciation & Amortization",
+      "amount": 85000,
+      "currency": "USD"
+    },
+    {
+      "category": "Interest Expense",
+      "amount": 22000,
+      "curr

@@ -1,0 +1,21 @@
+{
+  "patient": {
+    "id": "MRN-884213",
+    "age": 67,
+    "gender": "male"
+  },
+  "visitDate": "2025-03-04",
+  "diagnoses": [
+    {
+      "code": "J45.51",
+      "name": "Severe persistent asthma with (acute) exacerbation",
+      "severity": "severe"
+    },
+    {
+      "code": "I10",
+      "name": "Essential hypertension",
+      "severity": "moderate"
+    },
+    {
+      "code": "E11.9",
+      "name":

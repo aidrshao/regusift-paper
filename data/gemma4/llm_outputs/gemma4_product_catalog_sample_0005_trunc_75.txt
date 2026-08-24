@@ -1,0 +1,108 @@
+{
+  "catalogId": "HOME_TECH_SPRING_2024",
+  "lastUpdated": "2024-07-25T10:30:00Z",
+  "products": [
+    {
+      "id": "A001",
+      "name": "Smart Aroma Diffuser",
+      "price": 49.99,
+      "category": "Home Decor",
+      "stock": 150
+    },
+    {
+      "id": "A002",
+      "name": "Bamboo Fiber Sheet Set (Queen)",
+      "price": 89.99,
+      "category": "Bedding",
+      "stock": 45
+    },
+    {
+      "id": "B101",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 78
+    },
+    {
+      "id": "B102",
+      "name": "Portable Power Bank (20000mAh)",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "C201",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 299.00,
+      "category": "Furniture",
+      "stock": 32
+    },
+    {
+      "id": "C202",
+      "name": "Minimalist Oak Bookcase (4-Shelf)",
+      "price": 179.50,
+      "category": "Furniture",
+      "stock": 55
+    },
+    {
+      "id": "D301",
+      "name": "Stainless Steel French Press (34 oz)",
+      "price": 35.99,
+      "category": "Kitchenware",
+      "stock": 90
+    },
+    {
+      "id": "D302",
+      "name": "Non-Stick Wok Pan",
+      "price": 79.99,
+      "category": "Kitchenware",
+      "stock": 120
+    },
+    {
+      "id": "E401",
+      "name": "UV LED Desk Lamp",
+      "price": 65.00,
+      "category": "Lighting",
+      "stock": 180
+    },
+    {
+      "id": "E402",
+      "name": "Smart WiFi Thermostat",
+      "price": 149.99,
+      "category": "Smart Home",
+      "stock": 60
+    },
+    {
+      "id": "F501",
+      "name": "Men's Slim Fit Denim Jeans",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 250
+    },
+    {
+      "id": "F502",
+      "name": "Women's Lightweight Cardigan",
+      "price": 45.00,
+      "category": "Apparel",
+      "stock": 310
+    },
+    {
+      "id": "G601",
+      "name": "Yoga Mat (Extra Thick)",
+      "price": 29.99,
+      "category": "Fitness",
+      "stock": 190
+    },
+    {
+      "id": "G602",
+      "name": "Resistance Band Set (5-Pack)",
+      "price": 22.50,
+      "category": "Fitness",
+      "stock": 400
+    },
+    {
+      "id": "H701",
+      "name": "Rainproof Hiking Backpack (40L)",
+      "price": 99.99,
+      "category": "Outdoor Gear",
+      "s

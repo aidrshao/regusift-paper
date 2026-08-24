@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Quantum Dynamics Inc.",
+    "ticker": "QDY"
+  },
+  "quarter": "Q3 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    {
+      "category": "Services",
+      "amount": 4300000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 1800000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription",
+      "amount": 2700000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount"

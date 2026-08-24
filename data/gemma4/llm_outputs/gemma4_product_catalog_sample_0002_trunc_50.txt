@@ -1,0 +1,72 @@
+{
+  "catalogId": "ECOM-SPRING2024",
+  "lastUpdated": "2024-05-20T10:30:00Z",
+  "products": [
+    {
+      "id": "SKU001",
+      "name": "Organic Cotton T-Shirt (Navy)",
+      "price": 24.99,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "SKU002",
+      "name": "Slim Fit Chino Pants (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 95
+    },
+    {
+      "id": "SKU003",
+      "name": "Noise-Canceling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 210
+    },
+    {
+      "id": "SKU004",
+      "name": "Portable Bluetooth Speaker (Waterproof)",
+      "price": 79.95,
+      "category": "Electronics",
+      "stock": 320
+    },
+    {
+      "id": "SKU005",
+      "name": "Stainless Steel Water Bottle (32oz)",
+      "price": 19.99,
+      "category": "Home Goods",
+      "stock": 550
+    },
+    {
+      "id": "SKU006",
+      "name": "Ergonomic Mesh Office Chair",
+      "price": 249.00,
+      "category": "Home Goods",
+      "stock": 45
+    },
+    {
+      "id": "SKU007",
+      "name": "Premium Bamboo Sheet Set (Queen)",
+      "price": 129.99,
+      "category": "Home Goods",
+      "stock": 80
+    },
+    {
+      "id": "SKU008",
+      "name": "Leather Minimalist Wallet",
+      "price": 45.50,
+      "category": "Accessories",
+      "stock": 280
+    },
+    {
+      "id": "SKU009",
+      "name": "Running Shorts (Black)",
+      "price": 35.00,
+      "category": "Apparel",
+      "stock": 310
+    },
+    {
+      "id": "SKU010",
+      "name": "Ultra HD 4K Webcam",
+      "price": 89.99,
+      "

@@ -1,0 +1,36 @@
+{
+  "catalogId": "ECOMM-SPRING2024-V2",
+  "lastUpdated": "2024-05-20T10:30:00Z",
+  "products": [
+    {
+      "id": "EL001",
+      "name": "Noise-Cancelling Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 45
+    },
+    {
+      "id": "AP005",
+      "name": "Smart Coffee Maker with Grinder",
+      "price": 129.99,
+      "category": "Home Appliances",
+      "stock": 22
+    },
+    {
+      "id": "CL012",
+      "name": "Organic Cotton Crewneck T-Shirt (Blue)",
+      "price": 24.50,
+      "category": "Apparel",
+      "stock": 150
+    },
+    {
+      "id": "CL025",
+      "name": "Slim-Fit Chinos (Khaki)",
+      "price": 59.99,
+      "category": "Apparel",
+      "stock": 85
+    },
+    {
+      "id": "BK003",
+      "name": "The Midnight Library Novel",
+   

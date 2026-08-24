@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "Quantum Manufacturing Inc.",
+    "ticker": "QMI"
+  },
+  "quarter": "Q3 2023",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 5230000,
+      "currency": "USD"
+    },
+    {
+      "category": "Service Contracts",
+      "amount": 1240000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing & Royalties",
+      "amount": 480000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 3150000,
+      "curren

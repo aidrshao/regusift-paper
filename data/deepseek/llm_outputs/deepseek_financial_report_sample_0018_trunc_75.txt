@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Northwind Dynamics",
+    "ticker": "NWD"
+  },
+  "quarter": "Q1 2025",
+  "revenue": [
+    {
+      "category": "Product Sales",
+      "amount": 2450000,
+      "currency": "USD"
+    },
+    {
+      "category": "Subscription Services",
+      "amount": 980000,
+      "currency": "USD"
+    },
+    {
+      "category": "Consulting",
+      "amount": 420000,
+      "currency": "USD"
+    },
+    {
+      "category": "Licensing",
+      "amount": 150000,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "category": "Cost of Goods Sold",
+      "amount": 1100000,
+      "currency": "USD"
+    },
+    {
+      "category": "Research & Development",
+      "amount": 540000,
+      "currency": "USD"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount": 380000,
+      "currency": "USD"
+    },
+    {
+      "category": "General & A
