@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "evaluate": "tsx baselines/evaluate_all.ts",
-    "measure-ttft": "tsx baselines/measure_ttft.ts",
+    "measure-ttpf": "tsx baselines/measure_ttpf.ts",
     "collect": "python3 baselines/collect_llm_outputs.py",
     "test": "tsx tests/smoke.test.ts"
   },

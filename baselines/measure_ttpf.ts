@@ -12,8 +12,8 @@
  * 每种模式跑 N=20 次, 输出 P50/P95/均值, 对应论文表 11。
  *
  * 用法 (从本仓库根目录执行):
- *   npx tsx baselines/measure_ttft.ts                    # 默认 20 次
- *   npx tsx baselines/measure_ttft.ts --iterations 10    # 10 次
+ *   npx tsx baselines/measure_ttpf.ts                    # 默认 20 次
+ *   npx tsx baselines/measure_ttpf.ts --iterations 10    # 10 次
  *
  * 环境变量:
  *   OPENAI_API_KEY=sk-xxx  (或你的 LLM 代理 key)
@@ -294,7 +294,7 @@ async function main() {
     raw_results: { before: beforeResults, after: afterResults },
   }
 
-  const outputPath = './results/ttft_measurement.json'
+  const outputPath = './results/ttpf_measurement.json'
   const { writeFileSync, mkdirSync } = await import('fs')
   try { mkdirSync('./results', { recursive: true }) } catch { /* ignore */ }
   writeFileSync(outputPath, JSON.stringify(output, null, 2))

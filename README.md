@@ -68,8 +68,8 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3.ts`](baselines/stress_test_layer3.ts) + `results/stress_test_layer3.json`, `results/stress_test_layer3_v2.json` | Layer 3 stress test (200/250 兜底) |
 | §4.6 | Table 6 (temporal) | [`baselines/run_temporal_metrics.py`](baselines/run_temporal_metrics.py) + `baselines/temporal_metrics.ts` + `baselines/summarize_temporal.py` + `results/temporal_summary.json` | tc / stale metrics across GPT/DeepSeek/gemma4 |
 | §4.7 | Table 7 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
-| §4.8 | Table 8 (TTPF prod.) | [`baselines/measure_ttft.ts`](baselines/measure_ttft.ts) + `results/ttft_measurement.json` | Production TTPF before/after (20 runs) |
-| §4.8 | Table 9 (TTPF attribution) | [`baselines/run_ttft_experiment.py`](baselines/run_ttft_experiment.py) + `results/ttft_full_v2.json`, `results/ttft_dual_contrast.json`, `results/ttft_paired_tests.json` | 6-mode TTPF attribution + 95% CI + paired tests |
+| §4.8 | Table 8 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (20 runs) |
+| §4.8 | Table 9 (TTPF attribution) | [`baselines/run_ttft_experiment.py`](baselines/run_ttft_experiment.py) + `results/ttpf_full_v2.json`, `results/ttft_dual_contrast.json`, `results/ttft_paired_tests.json` | 6-mode TTPF attribution + 95% CI + paired tests |
 
 All `results/*.json` files are the **exact artifacts that produced the paper's tables** — every number
 in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 9's
@@ -113,9 +113,9 @@ python3 baselines/run_gemma4_eval.py
 
 ### Tables 8 & 9 (TTPF, requires API access; results already included)
 ```bash
-npx tsx baselines/measure_ttft.ts --iterations 20   # production before/after
+npx tsx baselines/measure_ttpf.ts --iterations 20   # production before/after
 npx tsx baselines/measure_ttft_extra.ts             # 6-mode attribution
-python3 baselines/run_ttft_experiment.py            # -> results/ttft_full_v2.json, ttft_dual_contrast.json
+python3 baselines/run_ttft_experiment.py            # -> results/ttpf_full_v2.json, ttft_dual_contrast.json
 ```
 
 ---

@@ -3,7 +3,7 @@
 T8 TTPF 双对照实验 — 记录 + 汇总 + 回填 (可复现管道)
 ====================================================
 职责:
-  1. 找到 measure_ttft.ts 生成的最新 raw/slim 结果文件
+  1. 找到 measure_ttpf.ts 生成的最新 raw/slim 结果文件
   2. 调用 reproducibility.log_experiment.record() 记录完整元数据:
      - env 快照 / 工具版本 / 参数 / 输入(代码+parser+env)哈希 / 输出(结果文件)哈希 / 时间戳
   3. 汇总每模式 均值/标准差/95%CI 并打印
@@ -25,7 +25,7 @@ def main():
     resdir = Path(a.results_dir)
     raw_files = sorted(resdir.glob("*_raw.json"))
     if not raw_files:
-        print("ERROR: 未找到 *_raw.json (确认 measure_ttft.ts 已跑完)")
+        print("ERROR: 未找到 *_raw.json (确认 measure_ttpf.ts 已跑完)")
         sys.exit(1)
     raw_path = raw_files[-1]  # 最新一次
     slim_path = Path(str(raw_path).replace("_raw.json", "_slim.json"))
@@ -69,7 +69,7 @@ def main():
         params={"model": model, "iterations": iterations, "modes": list(labels.keys()),
                 "prompt_schema": "supplement_facts"},
         inputs={
-            "measure_ttft.ts": file_sha256(str(ROOT/"baselines"/"measure_ttft.ts")),
+            "measure_ttpf.ts": file_sha256(str(ROOT/"baselines"/"measure_ttpf.ts")),
             "partial_json_parser_fixed.ts": file_sha256(str(ROOT/"code"/"partial-json-parser.fixed.ts")),
         },
         outputs={
