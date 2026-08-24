@@ -47,8 +47,9 @@ cd regusift-paper
 npm install          # installs TS deps (partial-json, jsonrepair, best-effort-json-parser, ...)
 npm test             # 8 smoke tests: L1/L2/L3 recovery + ICover convergence (should all pass)
 
-# Replicate the MAIN recovery tables (Table 3/4) from pre-collected GPT outputs:
-python3 baselines/run_evaluation.py
+# Replicate the FULL 7-method recovery table (Table 3) from pre-collected GPT outputs:
+npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation.json
+# (4-method pipeline + ablation: python3 baselines/run_evaluation.py -> results/*_res.json -> run_ablation.py)
 ```
 
 ---
