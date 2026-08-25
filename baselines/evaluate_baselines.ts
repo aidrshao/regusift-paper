@@ -5,8 +5,8 @@
  *   B1 naive (JSON.parse)
  *   B2 partial-json (npm)
  *   B3 json-repair (npm)
- *   B4 JsonCompleter (按文献[9]语义复现的有状态增量解析器, 见 method_json_completer 实现:
- *      字符串感知单遍扫描 + 上下文栈, 按栈顶闭合最小必要结构且不补造幽灵键; 非原作者原始代码)
+ *   B4 JsonCompleter (忠实移植 Kuzmenko 原算法 aha-app/json_completer, 见 method_json_completer 实现:
+ *      按上下文栈补全未闭合结构, 对不完整键名/缺值补造 :null — 以补造幽灵键换取高恢复率)
  *   B5 best-effort-json-parser (npm)
  *   B6 llm-json-repair tolerantParse (npm)
  *   Ours (V2 修复版 parsePartialJson)

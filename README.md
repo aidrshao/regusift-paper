@@ -62,7 +62,7 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §3.3 | — | [`src/icover-protocol.ts`](src/icover-protocol.ts) | ICover (Incremental Cover) protocol |
 | §3.5 | — | [`src/stream-ticker.ts`](src/stream-ticker.ts) | Frontend row-by-row rendering (50 ms ticker) |
 | §4.2 | Table 2 (schemas) | `data/ground_truth.json` + `config.py` | 5 JSON schemas & ground truth |
-| §4.5 | Table 3 (recovery, 7 methods) | [`baselines/evaluate_baselines.ts`](baselines/evaluate_baselines.ts) + [`baselines/run_baseline_compare.py`](baselines/run_baseline_compare.py) + `results/{naive,partial_json,json_repair,json_completer,best_effort,tolerant_repair}.baseline.v2.json` + `results/ours_fixed.v2.json` + `results/baseline_compare_summary.v2.json` | Recovery rate / field F1 / value accuracy for B1–B6 + Ours (ours_fixed.v2.json = paper's "修复版", F1 0.6300; 表3 的"单次延迟/ms"列由 `baseline_compare_summary.v2.json` 的 latency_ms 均值支撑; **B4 JsonCompleter 为忠实移植 Kuzmenko 原算法** (`aha-app/json_completer`), 见 `evaluate_baselines.ts` 的 `method_json_completer`, 其以补造 `:null` 幽灵键换取高恢复率) |
+| §4.5 | Table 3 (recovery, 7 methods) | [`baselines/evaluate_baselines.ts`](baselines/evaluate_baselines.ts) + [`baselines/run_baseline_compare.py`](baselines/run_baseline_compare.py) + `results/{naive,partial_json,json_repair,json_completer,best_effort,tolerant_repair}.baseline.v2.json` + `results/ours_fixed.v2.json` + `results/baseline_compare_summary.v2.json` | Recovery rate / field F1 / value accuracy for B1–B6 + Ours (ours_fixed.v2.json = paper's "修复版", F1 0.6300; 表3 的"单次延迟/ms"列由 `baseline_compare_summary.v2.json` 的 latency_ms 均值支撑; **B4 JsonCompleter 为忠实移植 Kuzmenko 原算法** (`aha-app/json_completer`), 见 `evaluate_baselines.ts` 的 `method_json_completer`, 其以补造 `:null` 幽灵键换取高恢复率; **表3 的"幽灵键/元素"列由 [`baselines/measure_ghost_keys.py`](baselines/measure_ghost_keys.py)` + `results/ghost_key_count.json` 支撑** — 真实 4965 用例实测, 修复/补全类各 ~0.03/元素, 本文与 partial-json/best-effort 为 0) |
 | §4.5 | Table 3 (statistics) | [`baselines/run_stat_tests.py`](baselines/run_stat_tests.py) + `results/stat_tests_v2.json` | Bootstrap 95% CI, paired t-test, McNemar (p=1.0) |
 | §4.6 | Table 4 (ablation) | [`baselines/run_ablation.py`](baselines/run_ablation.py) + `results/ablation_res.json`, `results/ablation_v2_semantics.json`, `results/semantic_baselines_summary.json` | Semantic-layer sync/update ablation (表4 以 ablation_v2_semantics + semantic_baselines 为准) |
 | §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3_v2.ts`](baselines/stress_test_layer3_v2.ts) + `results/stress_test_layer3_v2.json` | Layer 3 stress test (250 样本, 200/250 兜底) |
@@ -90,6 +90,10 @@ python3 baselines/run_baseline_compare.py
 # (b) Statistical significance (bootstrap CI, paired t, McNemar):
 python3 baselines/run_stat_tests.py
 #    -> results/stat_tests_v2.json
+
+# (c) Ghost-key count per method on the 4965 real cases (表3 "幽灵键/元素"列):
+python3 baselines/measure_ghost_keys.py
+#    -> results/ghost_key_count.json
 ```
 
 ### Tables 4 & 6 (Ablation & temporal)
