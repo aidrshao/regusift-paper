@@ -6,35 +6,48 @@
     "ghost_fields": 0,
     "ghost_per_element": 0,
     "empty_or_null_elem": 0,
+    "n_samples_with_ghost": 0,
+    "pollution_sample_rate": 0,
+    "ghost_ratio_of_fields": 0,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 0,
         "n_elements": 0,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 0,
         "empty_or_null_elem": 0
       },
       "medical_record": {
         "n_recovered": 0,
         "n_elements": 0,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 0,
         "empty_or_null_elem": 0
       },
       "product_catalog": {
         "n_recovered": 0,
         "n_elements": 0,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 0,
         "empty_or_null_elem": 0
       },
       "financial_report": {
         "n_recovered": 0,
         "n_elements": 0,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 0,
         "empty_or_null_elem": 0
       },
       "recipe_ingredients": {
         "n_recovered": 0,
         "n_elements": 0,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 0,
         "empty_or_null_elem": 0
       }
     }
@@ -46,35 +59,48 @@
     "ghost_fields": 0,
     "ghost_per_element": 0.0,
     "empty_or_null_elem": 22390,
+    "n_samples_with_ghost": 0,
+    "pollution_sample_rate": 0.0,
+    "ghost_ratio_of_fields": 0.0,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 983,
         "n_elements": 6521,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 23783,
         "empty_or_null_elem": 6697
       },
       "medical_record": {
         "n_recovered": 979,
         "n_elements": 2380,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 6433,
         "empty_or_null_elem": 736
       },
       "product_catalog": {
         "n_recovered": 1000,
         "n_elements": 9608,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 45585,
         "empty_or_null_elem": 9583
       },
       "financial_report": {
         "n_recovered": 803,
         "n_elements": 2467,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 7003,
         "empty_or_null_elem": 368
       },
       "recipe_ingredients": {
         "n_recovered": 980,
         "n_elements": 5009,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 18227,
         "empty_or_null_elem": 5006
       }
     }
@@ -86,35 +112,48 @@
     "ghost_fields": 759,
     "ghost_per_element": 0.0292,
     "empty_or_null_elem": 22193,
+    "n_samples_with_ghost": 759,
+    "pollution_sample_rate": 0.16,
+    "ghost_ratio_of_fields": 0.0074,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 983,
         "n_elements": 6521,
         "ghost_fields": 208,
+        "n_samples_with_ghost": 208,
+        "total_fields": 24106,
         "empty_or_null_elem": 6641
       },
       "medical_record": {
         "n_recovered": 979,
         "n_elements": 2380,
         "ghost_fields": 118,
+        "n_samples_with_ghost": 118,
+        "total_fields": 6580,
         "empty_or_null_elem": 735
       },
       "product_catalog": {
         "n_recovered": 1000,
         "n_elements": 9608,
         "ghost_fields": 190,
+        "n_samples_with_ghost": 190,
+        "total_fields": 45920,
         "empty_or_null_elem": 9544
       },
       "financial_report": {
         "n_recovered": 803,
         "n_elements": 2467,
         "ghost_fields": 70,
+        "n_samples_with_ghost": 70,
+        "total_fields": 7079,
         "empty_or_null_elem": 299
       },
       "recipe_ingredients": {
         "n_recovered": 980,
         "n_elements": 5009,
         "ghost_fields": 173,
+        "n_samples_with_ghost": 173,
+        "total_fields": 18522,
         "empty_or_null_elem": 4974
       }
     }
@@ -126,35 +165,48 @@
     "ghost_fields": 759,
     "ghost_per_element": 0.0293,
     "empty_or_null_elem": 22122,
+    "n_samples_with_ghost": 759,
+    "pollution_sample_rate": 0.1602,
+    "ghost_ratio_of_fields": 0.0075,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 983,
         "n_elements": 6521,
         "ghost_fields": 208,
+        "n_samples_with_ghost": 208,
+        "total_fields": 24106,
         "empty_or_null_elem": 6641
       },
       "medical_record": {
         "n_recovered": 979,
         "n_elements": 2380,
         "ghost_fields": 118,
+        "n_samples_with_ghost": 118,
+        "total_fields": 6580,
         "empty_or_null_elem": 735
       },
       "product_catalog": {
         "n_recovered": 992,
         "n_elements": 9525,
         "ghost_fields": 190,
+        "n_samples_with_ghost": 190,
+        "total_fields": 45521,
         "empty_or_null_elem": 9473
       },
       "financial_report": {
         "n_recovered": 803,
         "n_elements": 2467,
         "ghost_fields": 70,
+        "n_samples_with_ghost": 70,
+        "total_fields": 7079,
         "empty_or_null_elem": 299
       },
       "recipe_ingredients": {
         "n_recovered": 980,
         "n_elements": 5009,
         "ghost_fields": 173,
+        "n_samples_with_ghost": 173,
+        "total_fields": 18522,
         "empty_or_null_elem": 4974
       }
     }
@@ -166,35 +218,48 @@
     "ghost_fields": 0,
     "ghost_per_element": 0.0,
     "empty_or_null_elem": 22390,
+    "n_samples_with_ghost": 0,
+    "pollution_sample_rate": 0.0,
+    "ghost_ratio_of_fields": 0.0,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 983,
         "n_elements": 6521,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 23783,
         "empty_or_null_elem": 6697
       },
       "medical_record": {
         "n_recovered": 979,
         "n_elements": 2380,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 6433,
         "empty_or_null_elem": 736
       },
       "product_catalog": {
         "n_recovered": 1000,
         "n_elements": 9608,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 45593,
         "empty_or_null_elem": 9583
       },
       "financial_report": {
         "n_recovered": 803,
         "n_elements": 2467,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 7003,
         "empty_or_null_elem": 368
       },
       "recipe_ingredients": {
         "n_recovered": 980,
         "n_elements": 5009,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 18227,
         "empty_or_null_elem": 5006
       }
     }
@@ -206,35 +271,48 @@
     "ghost_fields": 759,
     "ghost_per_element": 0.0292,
     "empty_or_null_elem": 22193,
+    "n_samples_with_ghost": 759,
+    "pollution_sample_rate": 0.16,
+    "ghost_ratio_of_fields": 0.0074,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 983,
         "n_elements": 6521,
         "ghost_fields": 208,
+        "n_samples_with_ghost": 208,
+        "total_fields": 24106,
         "empty_or_null_elem": 6641
       },
       "medical_record": {
         "n_recovered": 979,
         "n_elements": 2380,
         "ghost_fields": 118,
+        "n_samples_with_ghost": 118,
+        "total_fields": 6580,
         "empty_or_null_elem": 735
       },
       "product_catalog": {
         "n_recovered": 1000,
         "n_elements": 9608,
         "ghost_fields": 190,
+        "n_samples_with_ghost": 190,
+        "total_fields": 45920,
         "empty_or_null_elem": 9544
       },
       "financial_report": {
         "n_recovered": 803,
         "n_elements": 2467,
         "ghost_fields": 70,
+        "n_samples_with_ghost": 70,
+        "total_fields": 7079,
         "empty_or_null_elem": 299
       },
       "recipe_ingredients": {
         "n_recovered": 980,
         "n_elements": 5009,
         "ghost_fields": 173,
+        "n_samples_with_ghost": 173,
+        "total_fields": 18522,
         "empty_or_null_elem": 4974
       }
     }
@@ -246,35 +324,48 @@
     "ghost_fields": 0,
     "ghost_per_element": 0.0,
     "empty_or_null_elem": 22356,
+    "n_samples_with_ghost": 0,
+    "pollution_sample_rate": 0.0,
+    "ghost_ratio_of_fields": 0.0,
     "by_schema": {
       "supplement_facts": {
         "n_recovered": 983,
         "n_elements": 6521,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 23841,
         "empty_or_null_elem": 6681
       },
       "medical_record": {
         "n_recovered": 979,
         "n_elements": 2380,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 6447,
         "empty_or_null_elem": 736
       },
       "product_catalog": {
         "n_recovered": 1000,
         "n_elements": 9608,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 45667,
         "empty_or_null_elem": 9567
       },
       "financial_report": {
         "n_recovered": 803,
         "n_elements": 2467,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 7004,
         "empty_or_null_elem": 368
       },
       "recipe_ingredients": {
         "n_recovered": 980,
         "n_elements": 5009,
         "ghost_fields": 0,
+        "n_samples_with_ghost": 0,
+        "total_fields": 18290,
         "empty_or_null_elem": 5004
       }
     }

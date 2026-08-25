@@ -53,6 +53,7 @@ def main():
 
     # 逐方法累计
     stat = {m: {"n_samples": 0, "n_recovered": 0, "n_elements": 0, "ghost_fields": 0,
+                "n_samples_with_ghost": 0, "total_fields": 0,
                 "empty_or_null_elem": 0, "by_schema": {}} for m in METHODS}
     for r in nr:
         m = "ours" if r["method"] == "ours" else r["method"]
@@ -69,11 +70,13 @@ def main():
         rec = p[ak] if (p and ak and isinstance(p, dict) and isinstance(p.get(ak), list)) else []
         sid = g["schema"]
         if sid not in stat[m]["by_schema"]:
-            stat[m]["by_schema"][sid] = {"n_recovered": 0, "n_elements": 0, "ghost_fields": 0, "empty_or_null_elem": 0}
+            stat[m]["by_schema"][sid] = {"n_recovered": 0, "n_elements": 0, "ghost_fields": 0,
+                                         "n_samples_with_ghost": 0, "total_fields": 0, "empty_or_null_elem": 0}
         if not rec:
             continue
         stat[m]["n_recovered"] += 1
         stat[m]["by_schema"][sid]["n_recovered"] += 1
+        sample_has_ghost = False
         for i, go in enumerate(gt_arr):
             ro = rec[i] if i < len(rec) else None
             if ro is None:
@@ -91,21 +94,32 @@ def main():
             ghost = set(ro.keys()) - set(go.keys())
             stat[m]["ghost_fields"] += len(ghost)
             stat[m]["by_schema"][sid]["ghost_fields"] += len(ghost)
+            stat[m]["total_fields"] += len(ro)
+            stat[m]["by_schema"][sid]["total_fields"] += len(ro)
+            if len(ghost) > 0:
+                sample_has_ghost = True
             # 空对象元素 (有 GT 键但恢复为空对象) — partial-json 的部分补造现象
             if len(ro) == 0 and len(go) > 0:
                 stat[m]["empty_or_null_elem"] += 1
                 stat[m]["by_schema"][sid]["empty_or_null_elem"] += 1
+        if sample_has_ghost:
+            stat[m]["n_samples_with_ghost"] += 1
+            stat[m]["by_schema"][sid]["n_samples_with_ghost"] += 1
 
-    print(f"\n{'Method':<18}{'N':>7}{'Recovered':>10}{'GhostFields':>12}{'Ghost/Elem':>11}{'EmptyOrNull':>12}")
+    print(f"\n{'Method':<18}{'N':>7}{'Recovered':>10}{'GhostFields':>12}{'Ghost/Elem':>11}{'污染样本率':>10}{'Ghost/Fields':>12}")
     summary = {}
     for m in METHODS:
         s = stat[m]
         gpe = s["ghost_fields"] / s["n_elements"] if s["n_elements"] else 0
+        poll = s["n_samples_with_ghost"] / s["n_recovered"] if s["n_recovered"] else 0
+        gr = s["ghost_fields"] / s["total_fields"] if s["total_fields"] else 0
         summary[m] = {"n_samples": s["n_samples"], "n_recovered": s["n_recovered"],
                       "n_elements": s["n_elements"], "ghost_fields": s["ghost_fields"],
                       "ghost_per_element": round(gpe, 4), "empty_or_null_elem": s["empty_or_null_elem"],
+                      "n_samples_with_ghost": s["n_samples_with_ghost"],
+                      "pollution_sample_rate": round(poll, 4), "ghost_ratio_of_fields": round(gr, 4),
                       "by_schema": s["by_schema"]}
-        print(f"{m:<18}{s['n_samples']:>7}{s['n_recovered']:>10}{s['ghost_fields']:>12}{gpe:>11.4f}{s['empty_or_null_elem']:>12}")
+        print(f"{m:<18}{s['n_samples']:>7}{s['n_recovered']:>10}{s['ghost_fields']:>12}{gpe:>11.4f}{poll:>10.2%}{gr:>12.4f}")
 
     print("\nBy Schema (Ghost/Elem):")
     for m in METHODS:
