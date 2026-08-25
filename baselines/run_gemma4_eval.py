@@ -39,6 +39,8 @@ def ff1(rec, gt):
     tp=fp=fn=0
     for i,go in enumerate(gt):
         ro=rec[i] if i<len(rec) else {}
+        if go is None: go={}
+        if ro is None: ro={}
         gk=set(go.keys()); rk=set(ro.keys())
         tp+=len(gk&rk); fp+=len(rk-gk); fn+=len(gk-rk)
     p=tp/(tp+fp) if tp+fp else 0; r=tp/(tp+fn) if tp+fn else 0
@@ -48,6 +50,8 @@ def vacc(rec, gt):
     tot=0; c=0
     for i,go in enumerate(gt):
         ro=rec[i] if i<len(rec) else {}
+        if go is None: continue
+        if ro is None: ro={}
         for k,gv in go.items():
             tot+=1
             if k in ro and str(ro[k])==str(gv): c+=1

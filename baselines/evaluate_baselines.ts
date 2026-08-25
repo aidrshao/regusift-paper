@@ -14,7 +14,7 @@
  * 输出 stdin->JSON array of samples, stdout->results。
  */
 import { parsePartialJson } from '../src/partial-json-parser'
-import { parse as parsePartialJsonLib } from 'partial-json'
+import { parse as parsePartialJsonLib, Allow as AllowPartial } from 'partial-json'
 import { parse as parseBestEffort } from 'best-effort-json-parser'
 import { tolerantParse } from 'llm-json-repair'
 import { jsonrepair as repairJSON } from 'jsonrepair'
@@ -26,7 +26,7 @@ function method_naive(buffer: string): { parsed: any; latency_ms: number } {
 }
 function method_partial_json(buffer: string): { parsed: any; latency_ms: number } {
   const t0 = performance.now(); let parsed: any = null
-  try { const A = { STR:1,NUM:2,OBJ:4,ARR:8,BOOL:16,NULL:32 }; parsed = parsePartialJsonLib(buffer, A.STR|A.NUM|A.OBJ|A.ARR|A.BOOL|A.NULL) } catch { parsed = null }
+  try { parsed = parsePartialJsonLib(buffer, AllowPartial.ALL) } catch { parsed = null }
   return { parsed, latency_ms: performance.now() - t0 }
 }
 function method_json_repair(buffer: string): { parsed: any; latency_ms: number } {
@@ -47,11 +47,128 @@ function method_tolerant_repair(buffer: string): { parsed: any; latency_ms: numb
 }
 
 /**
- * B4 JsonCompleter 语义复现（有状态增量解析）
- * 核心: 单遍扫描维护 <inString, escape, 深度栈>, 遇截断时基于栈顶闭合最小必要结构。
- * 本质是 O(n) 状态机式最佳努力，返回 {objSoFar} 或 null。
- * 这里实现为优雅的"有状态单遍补全"，反映该路线的恢复能力上限。
+ * B4 JsonCompleter — 忠实移植 aha-app/json_completer (Kuzmenko 原算法)
+ * =====================================================================
+ * 依据: github.com/aha-app/json_completer 的 completion_engine.rb + scanners.rb。
+ * 关键语义 (与原实现一致):
+ *   - 不完整键名 -> 补造 ":null" (例: '{"foo' -> '{"foo":null}')
+ *   - 缺值 (末尾 ':') -> 补 'null'
+ *   - 数组尾逗号 -> 补 'null'
+ *   - 不完整字符串 -> 关闭引号; 不完整关键字 -> 补全 true/false/null
+ *   - 按上下文栈闭合未闭合容器
+ * 该算法以补造幽灵键换取高恢复率, 与本文"无幽灵键"保证形成诚实对照。
  */
+function jsonCompleterParse(text: string): any {
+  const input = text.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '').trim()
+  // 先尝试完整解析
+  try { return JSON.parse(input) } catch { /* fallthrough */ }
+
+  const STRUCTURE = new Set(['[', '{', ',', ':'])
+  const KEYWORD: Record<string, string> = { t: 'true', f: 'false', n: 'null' }
+  const getLast = (t: string[]): string | null => {
+    for (let i = t.length - 1; i >= 0; i--) { const s = t[i].trim(); if (s.length) return s[s.length - 1] }
+    return null
+  }
+  const getPrev = (t: string[]): string | null => {
+    let c = 0
+    for (let i = t.length - 1; i >= 0; i--) { const s = t[i].trim(); if (!s.length) continue; c++; if (c >= 2) return s[s.length - 1] }
+    return null
+  }
+  const rmComma = (t: string[]) => {
+    let idx = -1
+    for (let i = t.length - 1; i >= 0; i--) { if (t[i].trim().length) { idx = i; break } }
+    if (idx !== -1 && t[idx].trim() === ',') { t.splice(idx, 1); while (idx > 0 && t[idx - 1].trim() === '') { t.splice(idx - 1, 1); idx-- } }
+  }
+  const commaBefore = (t: string[], st: string[], last: string | null) => {
+    if (!t.length || !st.length || last == null) return
+    if (STRUCTURE.has(last)) return
+    const top = st[st.length - 1]
+    if (top === '[' || (top === '{' && last !== ':')) t.push(',')
+  }
+  const colonIf = (t: string[], st: string[], last: string | null) => {
+    if (!t.length || !st.length || last == null) return
+    if (st[st.length - 1] === '{' && last === '"') t.push(':')
+  }
+  const scanStr = (s: string, start: number): { tok: string; consumed: number; ok: boolean } => {
+    let buf = '"', esc = false, uni = false, digits = '', i = start
+    for (; i < s.length; i++) {
+      const ch = s[i]
+      if (uni) { if (/[0-9a-fA-F]/.test(ch)) { digits += ch; if (digits.length === 4) uni = false } else uni = false; buf += ch; continue }
+      if (esc) { if (ch === 'u') { uni = true; digits = '' } buf += ch; esc = false; continue }
+      if (ch === '\\') { buf += ch; esc = true; continue }
+      if (ch === '"') { buf += ch; i++; return { tok: buf, consumed: i - start, ok: true } }
+      buf += ch
+    }
+    return { tok: buf, consumed: i - start, ok: false }
+  }
+  const finalizeStr = (buf: string): string => {
+    let v = buf, tr = 0, i = v.length - 1
+    while (i >= 0 && v[i] === '\\') { tr++; i-- }
+    if (tr % 2 === 1) v = v.slice(0, -1)
+    v = v.replace(/\\u[0-9a-fA-F]{0,3}$/, '')
+    return v + '"'
+  }
+  const scanNum = (s: string, start: number): { num: string; consumed: number } => {
+    let i = start
+    while (i < s.length && (/[0-9\-+.]/.test(s[i]) || /[eE]/.test(s[i]))) i++
+    return { num: s.slice(start, i), consumed: i - start }
+  }
+  const scanKw = (s: string, start: number, word: string): number => {
+    let c = 0; while (c < word.length && s[start + c] === word[c]) c++; return Math.max(c, 1)
+  }
+
+  const tokens: string[] = []
+  const stack: string[] = []
+  let incomplete: string | null = null
+  let index = 0
+  while (index < input.length) {
+    const ch = input[index]
+    const last = getLast(tokens)
+    if (ch === ' ' || ch === '\t' || ch === '\n' || ch === '\r') { tokens.push(ch); index++; continue }
+    if (ch === '"') {
+      commaBefore(tokens, stack, last); colonIf(tokens, stack, last)
+      const r = scanStr(input, index + 1)
+      if (r.ok) tokens.push(r.tok); else incomplete = r.tok
+      index += r.consumed + 1; continue
+    }
+    if (ch === ',') { rmComma(tokens); tokens.push(','); index++; continue }
+    if (ch === ':') { rmComma(tokens); tokens.push(':'); index++; continue }
+    if (ch === '{' || ch === '[') {
+      commaBefore(tokens, stack, last); colonIf(tokens, stack, last)
+      tokens.push(ch); stack.push(ch); index++; continue
+    }
+    if (ch === '}' || ch === ']') {
+      rmComma(tokens); tokens.push(ch)
+      if (stack.length && stack[stack.length - 1] === (ch === '}' ? '{' : '[')) stack.pop()
+      index++; continue
+    }
+    if ((ch >= '0' && ch <= '9') || ch === '-') {
+      commaBefore(tokens, stack, last); colonIf(tokens, stack, last)
+      const nr = scanNum(input, index); tokens.push(nr.num); index += nr.consumed; continue
+    }
+    if (ch === 't' || ch === 'f' || ch === 'n') {
+      commaBefore(tokens, stack, last); colonIf(tokens, stack, last)
+      const w = KEYWORD[ch]; index += scanKw(input, index, w); tokens.push(w); continue
+    }
+    index++
+  }
+  // finalize_completion
+  if (incomplete) tokens.push(finalizeStr(incomplete))
+  let lf = getLast(tokens)
+  if (stack.length) {
+    const ctx = stack[stack.length - 1]
+    if (ctx === '{') {
+      if (lf === '"') { const prev = getPrev(tokens); if (prev === '{' || prev === ',') tokens.push(':', 'null') }
+      else if (lf === ':') tokens.push('null')
+    } else if (ctx === '[') {
+      if (lf === ',') tokens.push('null')
+    }
+  }
+  while (stack.length) { const op = stack.pop(); rmComma(tokens); tokens.push(op === '{' ? '}' : ']') }
+  const out = tokens.join('')
+  if (/^\s*[,:]\s*$/.test(out)) return null
+  try { return JSON.parse(out) } catch { return null }
+}
 function method_json_completer(buffer: string): { parsed: any; latency_ms: number } {
   const t0 = performance.now()
   let parsed: any = null
@@ -59,29 +176,6 @@ function method_json_completer(buffer: string): { parsed: any; latency_ms: numbe
     parsed = jsonCompleterParse(buffer)
   } catch { parsed = null }
   return { parsed, latency_ms: performance.now() - t0 }
-}
-function jsonCompleterParse(text: string): any {
-  const stripped = text.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '').trim()
-  // 先尝试完整解析
-  try { return JSON.parse(stripped) } catch { /* fallthrough */ }
-  // 有状态: 关闭未闭合字符串 + 按字符串感知闭合未闭合容器
-  let inString = false, escape = false
-  const stack: string[] = []
-  for (const ch of stripped) {
-    if (escape) { escape = false; continue }
-    if (ch === '\\' && inString) { escape = true; continue }
-    if (ch === '"') { inString = !inString; continue }
-    if (inString) continue
-    if (ch === '{') stack.push('}')
-    else if (ch === '[') stack.push(']')
-    else if (ch === '}' || ch === ']') { if (stack.length && stack[stack.length-1] === ch) stack.pop() }
-  }
-  let base = inString ? stripped + '"' : stripped
-  // 处理尾部: 若以逗号结尾移除
-  if (base.endsWith(',')) base = base.slice(0, -1).trimEnd()
-  // 若以 " 结尾且是键名上下文(前是 { 或, 或:) 视情况: 这里只闭合结构, 不造幽灵键
-  const close = stack.reverse().join('')
-  try { return JSON.parse(base + close) } catch { return null }
 }
 
 function method_ours_fixed(buffer: string, arrayKey: string | null): { parsed: any; latency_ms: number } {

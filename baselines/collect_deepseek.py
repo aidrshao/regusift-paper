@@ -16,7 +16,7 @@ OUT = BASE / "llm_outputs"
 OUT.mkdir(parents=True, exist_ok=True)
 API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 BASE_URL = "https://api.deepseek.com"
-MODEL = "deepseek-chat"
+MODEL = "deepseek-v4-flash"  # 固定版本 ID (deepseek-chat 为滚动别名, 不可复现)
 
 def truncate_at_position(text, position):
     return text[:int(len(text)*position)]
