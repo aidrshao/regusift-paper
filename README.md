@@ -70,11 +70,11 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §4.6 | Table 7 (ghost-key robustness) | [`baselines/nonmonotonic_robustness.ts`](baselines/nonmonotonic_robustness.ts) + `results/nonmonotonic_robustness.json` | Ghost-key injection: ICover / no-delete diff / delete-handling diff (993 样本; ICover 与含删除 diff 残留 0、收敛 100%, 无删除 diff 残留约 567%、收敛 0%) |
 | §4.7 | Table 8 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
 | §4.8 | Table 9 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (100 runs each, 配对 t p=1.4e-18) |
-| §4.8 | Table 10 (TTPF attribution) | [`baselines/measure_ttpf_gpt.ts`](baselines/measure_ttpf_gpt.ts) + `results/ttft/gpt_5_4_mini_attribution_*_raw.json` | 表10 数据源: GPT-5.4-mini 经中转 4 模式各 40 次归因 (模式3 vs 模式1b 逐块解析 1.85×, 配对 t p=3.3e-8); 早期 DeepSeek 归因会话仍存于 `results/ttft/` 与 `results/ttpf_full_v2.json` 供对照 |
+| §4.8 | Table 10 (TTPF attribution) | [`baselines/measure_ttpf_kimi.ts`](baselines/measure_ttpf_kimi.ts) + `results/ttft/moonshot_v1_32k_attribution_*_raw.json` | 表10 数据源: Kimi moonshot-v1-32k 官方直连 4 模式各 40 次归因 (模式3 vs 模式1b 逐块解析 12.1×, 配对 t p=2.8e-23); 早期 GPT 中转/DeepSeek 归因会话仍存于 `results/ttft/` 供对照 |
 
 All `results/*.json` files are the **exact artifacts that produced the paper's tables** — every number
 in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 10's
-模式3 4679 ms / 1.85×, Table 6's 0.113 s / 23.8% stale).
+模式3 1528 ms / 12.1×, Table 6's 0.113 s / 23.8% stale).
 
 ---
 
@@ -123,9 +123,10 @@ python3 baselines/run_gemma4_eval.py
 ### Tables 9 & 10 (TTPF, requires API access; raw results already included)
 ```bash
 npx tsx baselines/measure_ttpf.ts --iterations 20   # production before/after -> results/ttpf_measurement.json (表9)
+npx tsx baselines/measure_ttpf_kimi.ts --iter=40     # Kimi official attribution -> results/ttft/moonshot_v1_32k_attribution_*_raw.json (表10)
 npx tsx baselines/measure_ttpf_ref.ts               # mode1a/1b 参考模式 -> results/ttft/*_ref_*_raw.json
 npx tsx baselines/measure_ttpf_extra.ts             # mode2/2b/2c/3 逐块模式 -> results/ttft/*_extra_*_raw.json
-python3 baselines/aggregate_ttpf_full.py            # 聚合 ref+extra -> results/ttpf_full_v2.json (论文表10 权威数据源)
+python3 baselines/aggregate_ttpf_full.py            # 聚合 ref+extra -> results/ttpf_full_v2.json (早期 GPT 归因权威数据源, 供对照)
 python3 baselines/run_ttft_experiment.py            # 早期四模式会话 -> results/ttft_dual_contrast.json (补充对照)
 ```
 
