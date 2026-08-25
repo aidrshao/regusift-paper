@@ -2,10 +2,9 @@
  * 统一 Node.js 评估脚本 — V2 修复版
  * ==================================
  * ⊞ 与原 evaluate_all.ts 的区别:
- *   - 解析器取 V2 内修复版 `code/partial-json-parser.fixed.ts`
- *     (消除幽灵键 + Layer3 字符串感知化), 而非 src_new 生产版。
+ *   - 解析器取 V2 修复版 `src/partial-json-parser.ts`
+ *     (消除幽灵键 + Layer3 字符串感知化)。
  *   - B1/B2/B3 基线保持不变, 同 V8 沙箱运行。
- *   - 不改 src_new 业务代码。
  *
  * 用法 (从 V2 目录执行):
  *   npx tsx baselines/evaluate_fixed.ts < input.json > output.json

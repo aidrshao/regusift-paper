@@ -5,9 +5,10 @@
  *   B1 naive (JSON.parse)
  *   B2 partial-json (npm)
  *   B3 json-repair (npm)
- *   B4 JsonCompleter (按论文语义复现有状态增量)
- *   B6 best-effort-json-parser (npm)
- *   B7 llm-json-repair tolerantParse (npm)
+ *   B4 JsonCompleter (按文献[9]语义复现的有状态增量解析器, 见 method_json_completer 实现:
+ *      字符串感知单遍扫描 + 上下文栈, 按栈顶闭合最小必要结构且不补造幽灵键; 非原作者原始代码)
+ *   B5 best-effort-json-parser (npm)
+ *   B6 llm-json-repair tolerantParse (npm)
  *   Ours (V2 修复版 parsePartialJson)
  * 全部在同一 V8 沙箱运行，保证等值可复现。
  * 输出 stdin->JSON array of samples, stdout->results。
@@ -102,8 +103,6 @@ async function main() {
   const chunks: Buffer[] = []
   for await (const chunk of process.stdin) chunks.push(chunk)
   const samples: Sample[] = JSON.parse(Buffer.concat(chunks).toString('utf-8'))
-
-  try { const m: any = require('jsonrepair'); repairJSON = m.jsonrepair || m.default?.jsonrepair || m.default } catch {}
 
   const out: R[] = []
   const warm = (m: any) => m('{"test":1}' as string)

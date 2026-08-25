@@ -14,6 +14,18 @@
         "stale_ratio": 0.2381,
         "never_correct_pct": 0.0
       },
+      "jsonPatch": {
+        "n": 999,
+        "ttct_s": 0.1133,
+        "stale_ratio": 0.2381,
+        "never_correct_pct": 0.0
+      },
+      "crdt": {
+        "n": 999,
+        "ttct_s": 0.1133,
+        "stale_ratio": 0.2381,
+        "never_correct_pct": 0.0
+      },
       "deltaF": {
         "n": 999,
         "ttct_s": 0.0,
@@ -29,6 +41,16 @@
           "stale_ratio": 0.3455
         },
         "deltaR": {
+          "n": 200,
+          "ttct_s": 0.0851,
+          "stale_ratio": 0.3455
+        },
+        "jsonPatch": {
+          "n": 200,
+          "ttct_s": 0.0851,
+          "stale_ratio": 0.3455
+        },
+        "crdt": {
           "n": 200,
           "ttct_s": 0.0851,
           "stale_ratio": 0.3455
@@ -50,6 +72,16 @@
           "ttct_s": 0.1016,
           "stale_ratio": 0.3749
         },
+        "jsonPatch": {
+          "n": 200,
+          "ttct_s": 0.1016,
+          "stale_ratio": 0.3749
+        },
+        "crdt": {
+          "n": 200,
+          "ttct_s": 0.1016,
+          "stale_ratio": 0.3749
+        },
         "deltaF": {
           "n": 200,
           "ttct_s": 0.0,
@@ -63,6 +95,16 @@
           "stale_ratio": 0.1267
         },
         "deltaR": {
+          "n": 200,
+          "ttct_s": 0.1471,
+          "stale_ratio": 0.1267
+        },
+        "jsonPatch": {
+          "n": 200,
+          "ttct_s": 0.1471,
+          "stale_ratio": 0.1267
+        },
+        "crdt": {
           "n": 200,
           "ttct_s": 0.1471,
           "stale_ratio": 0.1267
@@ -84,6 +126,16 @@
           "ttct_s": 0.108,
           "stale_ratio": 0.1774
         },
+        "jsonPatch": {
+          "n": 200,
+          "ttct_s": 0.108,
+          "stale_ratio": 0.1774
+        },
+        "crdt": {
+          "n": 200,
+          "ttct_s": 0.108,
+          "stale_ratio": 0.1774
+        },
         "deltaF": {
           "n": 200,
           "ttct_s": 0.0,
@@ -97,6 +149,16 @@
           "stale_ratio": 0.1655
         },
         "deltaR": {
+          "n": 199,
+          "ttct_s": 0.1249,
+          "stale_ratio": 0.1655
+        },
+        "jsonPatch": {
+          "n": 199,
+          "ttct_s": 0.1249,
+          "stale_ratio": 0.1655
+        },
+        "crdt": {
           "n": 199,
           "ttct_s": 0.1249,
           "stale_ratio": 0.1655
@@ -124,6 +186,18 @@
         "stale_ratio": 0.1893,
         "never_correct_pct": 0.0
       },
+      "jsonPatch": {
+        "n": 500,
+        "ttct_s": 0.1677,
+        "stale_ratio": 0.1893,
+        "never_correct_pct": 0.0
+      },
+      "crdt": {
+        "n": 500,
+        "ttct_s": 0.1677,
+        "stale_ratio": 0.1893,
+        "never_correct_pct": 0.0
+      },
       "deltaF": {
         "n": 500,
         "ttct_s": 0.0,
@@ -139,6 +213,16 @@
           "stale_ratio": 0.3
         },
         "deltaR": {
+          "n": 100,
+          "ttct_s": 0.1083,
+          "stale_ratio": 0.3
+        },
+        "jsonPatch": {
+          "n": 100,
+          "ttct_s": 0.1083,
+          "stale_ratio": 0.3
+        },
+        "crdt": {
           "n": 100,
           "ttct_s": 0.1083,
           "stale_ratio": 0.3
@@ -160,6 +244,16 @@
           "ttct_s": 0.1518,
           "stale_ratio": 0.2558
         },
+        "jsonPatch": {
+          "n": 100,
+          "ttct_s": 0.1518,
+          "stale_ratio": 0.2558
+        },
+        "crdt": {
+          "n": 100,
+          "ttct_s": 0.1518,
+          "stale_ratio": 0.2558
+        },
         "deltaF": {
           "n": 100,
           "ttct_s": 0.0,
@@ -173,6 +267,16 @@
           "stale_ratio": 0.1118
         },
         "deltaR": {
+          "n": 100,
+          "ttct_s": 0.2641,
+          "stale_ratio": 0.1118
+        },
+        "jsonPatch": {
+          "n": 100,
+          "ttct_s": 0.2641,
+          "stale_ratio": 0.1118
+        },
+        "crdt": {
           "n": 100,
           "ttct_s": 0.2641,
           "stale_ratio": 0.1118
@@ -194,6 +298,16 @@
           "ttct_s": 0.172,
           "stale_ratio": 0.144
         },
+        "jsonPatch": {
+          "n": 100,
+          "ttct_s": 0.172,
+          "stale_ratio": 0.144
+        },
+        "crdt": {
+          "n": 100,
+          "ttct_s": 0.172,
+          "stale_ratio": 0.144
+        },
         "deltaF": {
           "n": 100,
           "ttct_s": 0.0,
@@ -207,6 +321,16 @@
           "stale_ratio": 0.1348
         },
         "deltaR": {
+          "n": 100,
+          "ttct_s": 0.1422,
+          "stale_ratio": 0.1348
+        },
+        "jsonPatch": {
+          "n": 100,
+          "ttct_s": 0.1422,
+          "stale_ratio": 0.1348
+        },
+        "crdt": {
           "n": 100,
           "ttct_s": 0.1422,
           "stale_ratio": 0.1348
@@ -234,6 +358,18 @@
         "stale_ratio": 0.2689,
         "never_correct_pct": 0.0
       },
+      "jsonPatch": {
+        "n": 250,
+        "ttct_s": 1.0988,
+        "stale_ratio": 0.2689,
+        "never_correct_pct": 0.0
+      },
+      "crdt": {
+        "n": 250,
+        "ttct_s": 1.0988,
+        "stale_ratio": 0.2689,
+        "never_correct_pct": 0.0
+      },
       "deltaF": {
         "n": 250,
         "ttct_s": 0.0,
@@ -249,6 +385,16 @@
           "stale_ratio": 0.28
         },
         "deltaR": {
+          "n": 50,
+          "ttct_s": 0.8877,
+          "stale_ratio": 0.28
+        },
+        "jsonPatch": {
+          "n": 50,
+          "ttct_s": 0.8877,
+          "stale_ratio": 0.28
+        },
+        "crdt": {
           "n": 50,
           "ttct_s": 0.8877,
           "stale_ratio": 0.28
@@ -270,6 +416,16 @@
           "ttct_s": 0.8106,
           "stale_ratio": 0.3211
         },
+        "jsonPatch": {
+          "n": 50,
+          "ttct_s": 0.8106,
+          "stale_ratio": 0.3211
+        },
+        "crdt": {
+          "n": 50,
+          "ttct_s": 0.8106,
+          "stale_ratio": 0.3211
+        },
         "deltaF": {
           "n": 50,
           "ttct_s": 0.0,
@@ -283,6 +439,16 @@
           "stale_ratio": 0.1695
         },
         "deltaR": {
+          "n": 50,
+          "ttct_s": 1.6787,
+          "stale_ratio": 0.1695
+        },
+        "jsonPatch": {
+          "n": 50,
+          "ttct_s": 1.6787,
+          "stale_ratio": 0.1695
+        },
+        "crdt": {
           "n": 50,
           "ttct_s": 1.6787,
           "stale_ratio": 0.1695
@@ -304,6 +470,16 @@
           "ttct_s": 1.0787,
           "stale_ratio": 0.2744
         },
+        "jsonPatch": {
+          "n": 50,
+          "ttct_s": 1.0787,
+          "stale_ratio": 0.2744
+        },
+        "crdt": {
+          "n": 50,
+          "ttct_s": 1.0787,
+          "stale_ratio": 0.2744
+        },
         "deltaF": {
           "n": 50,
           "ttct_s": 0.0,
@@ -317,6 +493,16 @@
           "stale_ratio": 0.2995
         },
         "deltaR": {
+          "n": 50,
+          "ttct_s": 1.0382,
+          "stale_ratio": 0.2995
+        },
+        "jsonPatch": {
+          "n": 50,
+          "ttct_s": 1.0382,
+          "stale_ratio": 0.2995
+        },
+        "crdt": {
           "n": 50,
           "ttct_s": 1.0382,
           "stale_ratio": 0.2995

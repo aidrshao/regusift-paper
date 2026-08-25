@@ -14,7 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from config import RESULTS_DIR
 
-GT = Path(__file__).parent.parent/"data"/"ground_truth.v2.json"
+GT = Path(__file__).parent.parent/"data"/"ground_truth.json"
 SCRIPT = Path(__file__).parent/"evaluate_baselines.ts"
 random.seed(42)
 
@@ -99,7 +99,7 @@ def main():
 
     # 配对: Ours vs 各基线 (按 key 配对)
     print(f"\n配对显著性 (Ours修复版 vs 基线, 同 sample 配对):")
-    print(f"{'Pair':<30}{'ΔF1':>8}{'p(t)':>8}{'DiffCI90':>14}{'p(wilc)':>8}{'McNemar p(recovery)':>20}")
+    print(f"{'Pair':<30}{'ΔF1':>8}{'p(t)':>8}{'DiffCI95':>14}{'p(sign)':>8}{'McNemar p(recovery)':>20}")
     pairs={}
     for base in ["partial_json","json_repair","json_completer","best_effort","tolerant_repair"]:
         diffs=[]; rec_pairs=[]
@@ -117,15 +117,13 @@ def main():
         t_stat=dmean/se if se else 0
         # p(t) 近似正态双尾
         p_t=2*(1-normal_cdf(abs(t_stat)))
-        # bootstrap Diff CI (90%)
+        # bootstrap Diff CI (95%: 2.5%~97.5% 分位)
         diff_means=[]
         for _ in range(2000):
             ds=random.choices(diffs,k=len(diffs)); diff_means.append(statistics.mean(ds))
         diff_means.sort()
-        ci90=(diff_means[50],diff_means[-51])
-        # wilcoxon 符号秩近似 (用 z = (W+ - npairs(n+1)/4)/sqrt(n(n+1)(2n+1)/24))
-        from itertools import combinations
-        # 简化: 用符号检验 (二项)
+        ci95=(diff_means[50],diff_means[-51])
+        # 符号检验 (二项, 非 Wilcoxon 符号秩)
         npos=sum(1 for d in diffs if d>0); nneg=sum(1 for d in diffs if d<0)
         p_sym=2*binom_tail(npos,nneg)
         # McNemar recovery
@@ -134,9 +132,9 @@ def main():
             if o and not p: c+=1
             elif (not o) and p: b+=1
         p_mcnemar=mcnemar(b,c)
-        pairs[base]={"mean_delta_f1":dmean,"p_t":p_t,"ci90_f1":ci90,"p_sign":p_sym,"p_mcnemar":p_mcnemar,"n":len(diffs)}
+        pairs[base]={"mean_delta_f1":dmean,"p_t":p_t,"ci95_f1":ci95,"p_sign":p_sym,"p_mcnemar":p_mcnemar,"n":len(diffs)}
         pm = f"{p_mcnemar:.4f}" if isinstance(p_mcnemar,float) else "NaN"
-        print(f"Ours vs {base:<15}{dmean:>8.4f}{p_t:>8.4f}{ci90[0]:>7.4f}~{ci90[1]:<6.4f}{p_sym:>8.4f}{pm:>20}")
+        print(f"Ours vs {base:<15}{dmean:>8.4f}{p_t:>8.4f}{ci95[0]:>7.4f}~{ci95[1]:<6.4f}{p_sym:>8.4f}{pm:>20}")
 
     # 保存
     out={"bootstrap_f1_ci":cis,"paired_tests":pairs}

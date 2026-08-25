@@ -8,7 +8,7 @@
  *   buffered    : 只在整个流结束后一次性解析 (无流式收益下界)
  * 终点(完整 buffer)处对比 字段 F1 / 值精确率 / 任意时刻键集保序率 / 收敛率。
  */
-import { parsePartialJson } from '../code/partial-json-parser.fixed'
+import { parsePartialJson } from '../src/partial-json-parser'
 import { compare as jsonPatchCompare, applyPatch } from 'fast-json-patch'
 import * as Y from 'yjs'
 import { readFileSync } from 'fs'

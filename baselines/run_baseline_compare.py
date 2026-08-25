@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from config import SCHEMAS, RESULTS_DIR
 
-GT = Path(__file__).parent.parent / "data" / "ground_truth.v2.json"
+GT = Path(__file__).parent.parent / "data" / "ground_truth.json"
 SCRIPT = Path(__file__).parent / "evaluate_baselines.ts"
 
 def prepare(gt_index):
@@ -49,7 +49,7 @@ def vacc(rec, gt):
     return c/tot if tot else 0
 
 METHOD_LABEL = {"naive":"B1 naive","partial_json":"B2 partial-json","json_repair":"B3 json-repair",
-                "json_completer":"B4 JsonCompleter","best_effort":"B6 best-effort","tolerant_repair":"B7 tolerant-repair","ours":"Ours(修复版)"}
+                "json_completer":"B4 JsonCompleter","best_effort":"B5 best-effort","tolerant_repair":"B6 tolerant-repair","ours":"Ours(修复版)"}
 ORDER = ["naive","partial_json","json_repair","json_completer","best_effort","tolerant_repair","ours"]
 
 def main():

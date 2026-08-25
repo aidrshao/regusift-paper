@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-定理 3 完备性穷举验证 (T9)
-===========================
+定理 1 完备性穷举验证 (三层恢复可恢复性)
+==========================================
 枚举 d<=3 的所有未闭合括号栈形态 (JSON 根必为 '{'), 计算每种形态的唯一 LIFO 闭合反序,
-检查它是否被五种括号闭合策略之一 (实现同 partial-json-parser.fixed.ts 的 alt1-5) 覆盖。
-结论: d<=3 的 8 种形态全部被覆盖 (0 失败), 支撑定理 3。
+检查它是否被五种括号闭合策略之一 (实现同 src/partial-json-parser.ts 的 alt1-5) 覆盖。
+结论: d<=3 的 8 种形态全部被覆盖 (0 失败), 支撑论文定理 1。
 """
 import itertools
 
@@ -56,8 +56,8 @@ def main():
                 fails.append(st)
     print()
     print(f'穷举结构数={total}, 未被覆盖={len(fails)}')
-    assert not fails, f'定理3反例: {fails}'
-    print('结论: d<=3 的 8 种未闭合栈形态均被五种策略之一覆盖, 定理3完备性获穷举支撑。')
+    assert not fails, f'定理1反例: {fails}'
+    print('结论: d<=3 的 8 种未闭合栈形态均被五种策略之一覆盖, 定理1完备性获穷举支撑。')
     return mapping
 
 if __name__ == '__main__':

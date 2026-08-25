@@ -5,7 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from config import RESULTS_DIR, SCHEMAS
 
-GT = Path(__file__).parent.parent / "data" / "ground_truth.v2.json"
+GT = Path(__file__).parent.parent / "data" / "ground_truth.json"
 SCRIPT = Path(__file__).parent / "semantic_baselines.ts"
 
 def main():

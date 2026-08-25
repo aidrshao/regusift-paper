@@ -1,16 +1,16 @@
 {
   "model": "deepseek-v4-flash",
   "iterations": 20,
-  "recorded_at": "2026-08-21 17:22:30 +0800",
-  "exp_id": "396f97c7ccef",
+  "recorded_at": "2026-08-24 22:18:38 +0800",
+  "exp_id": "4e782a7b8041",
   "table": {
     "mode1a_buffered": {
       "label": "非流式（缓冲到结束解析）",
       "ttft_mean_ms": 9196.9,
       "ttft_std_ms": 3733.7,
       "ttft_ci95": [
-        7560.5,
-        10833.3
+        7449.5,
+        10944.3
       ],
       "ttft_p50_ms": 8662,
       "ttft_p95_ms": 13906,
@@ -22,8 +22,8 @@
       "ttft_mean_ms": 8977.4,
       "ttft_std_ms": 3127.8,
       "ttft_ci95": [
-        7606.5,
-        10348.2
+        7513.5,
+        10441.2
       ],
       "ttft_p50_ms": 8511,
       "ttft_p95_ms": 13466,
@@ -35,8 +35,8 @@
       "ttft_mean_ms": 7325.3,
       "ttft_std_ms": 4462.1,
       "ttft_ci95": [
-        5369.7,
-        9280.9
+        5237.0,
+        9413.6
       ],
       "ttft_p50_ms": 6526,
       "ttft_p95_ms": 14887,
@@ -48,8 +48,8 @@
       "ttft_mean_ms": 5727.9,
       "ttft_std_ms": 3342.9,
       "ttft_ci95": [
-        4262.8,
-        7193
+        4163.4,
+        7292.4
       ],
       "ttft_p50_ms": 5267,
       "ttft_p95_ms": 10635,
@@ -63,5 +63,6 @@
     "ours_speedup_rel_partialjson": "faster"
   },
   "raw_file": "deepseek_v4_flash_2026-08-21T09-22-10-594Z_raw.json",
-  "raw_sha256": "50ff699c08c447a3741b9e8259d727f306feee554ee16a7b4b44ec850cc35496"
+  "raw_sha256": "50ff699c08c447a3741b9e8259d727f306feee554ee16a7b4b44ec850cc35496",
+  "ci_method": "Student t (df=19, t=2.093)"
 }

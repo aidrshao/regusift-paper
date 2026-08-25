@@ -28,11 +28,18 @@ from config import RESULTS_DIR, SCHEMAS
 
 
 def load_results() -> dict:
-    """加载主评估结果"""
+    """加载主评估结果 — 优先 V2 结果 (ours_fixed.v2.json / *.baseline.v2.json), 与论文表3口径一致"""
     results = {}
-    for path in RESULTS_DIR.glob("*_res.json"):
-        key = path.stem.replace("_res", "")
+    v2_paths = list(RESULTS_DIR.glob("ours_fixed.v2.json")) + \
+        sorted(RESULTS_DIR.glob("*.baseline.v2.json"))
+    for path in v2_paths:
+        key = "ours" if path.stem == "ours_fixed.v2" else path.stem.replace(".baseline.v2", "")
         results[key] = json.loads(path.read_text(encoding="utf-8"))
+    if "ours" not in results:
+        # 回退到 V1 *_res.json (旧解析器产物, 仅当 V2 结果缺失时)
+        for path in RESULTS_DIR.glob("*_res.json"):
+            key = path.stem.replace("_res", "")
+            results[key] = json.loads(path.read_text(encoding="utf-8"))
     return results
 
 
@@ -86,7 +93,7 @@ def compute_summary(results: list[dict]) -> dict:
         "recovery_rate": sum(1 for r in results if r.get("recovered")) / n,
         "field_f1": sum(r.get("field_f1", 0) for r in results) / n,
         "value_accuracy": sum(r.get("value_accuracy", 0) for r in results) / n,
-        "avg_latency_ms": sum(r.get("parse_latency_ms", 0) for r in results) / n,
+        "avg_latency_ms": sum(r.get("parse_latency_ms") or r.get("latency_ms") or 0 for r in results) / n,
     }
 
 

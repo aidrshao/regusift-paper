@@ -16,7 +16,7 @@ RESULTS = ROOT / "results"
 
 # (输入GT, 输出名, 模型标签)
 DATASETS = [
-    ("data/ground_truth.v2.json", "temporal_metrics_gpt.json", "GPT-5.4-mini"),
+    ("data/ground_truth.json", "temporal_metrics_gpt.json", "GPT-5.4-mini"),
     ("data/deepseek/ground_truth.json", "temporal_metrics_deepseek.json", "DeepSeek"),
     ("data/gemma4/ground_truth.json", "temporal_metrics_gemma4.json", "gemma4"),
 ]

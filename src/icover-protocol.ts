@@ -81,7 +81,8 @@ export async function reduceStream<T = unknown>(
  * Delta 模式 (对照组 — 用于消融实验)
  *
  * 仅 emit 新增切片, 不更新已显示对象。
- * 论文表 9 消融实验显示: Delta 模式 F1 从 0.6286 骤降至 0.1833。
+ * 论文表 4 消融实验显示: 仅追加 (append-only, 即 Delta 只发新增不更新) 模式下
+ * 字段 F1 骤降至 ≈0、终态收敛率 0%, stale 值占比升至 68.6%–99.8% (表 6)。
  */
 export async function reduceStreamDelta<T = unknown>(
   chunks: AsyncIterable<string>,

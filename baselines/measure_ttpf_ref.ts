@@ -1,5 +1,5 @@
 /**
- * TTPF 参考模式补充: mode1a(非流式) / mode1b(流式缓冲) — 与 measure_ttft_extra 同日同模型
+ * TTPF 参考模式补充: mode1a(非流式) / mode1b(流式缓冲) — 与 measure_ttpf_extra 同日同模型
  * 二者与解析器无关, 作为非流式参考基线。
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'fs'

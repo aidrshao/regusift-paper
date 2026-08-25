@@ -21,13 +21,84 @@ PAPER_DIR = ROOT / "paper"
 for d in [DATA_DIR, LLM_OUTPUTS_DIR, TEST_SCHEMAS_DIR, RESULTS_DIR, LOG_DIR, PAPER_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
-# ── JSON Schema 集合 (5 种) ──
+# ── JSON Schema 集合 (5 种, 对应论文表 2) ──
 SCHEMAS = {
-    "supplement_facts": {"description": "FDA Supplement Facts 标签", "nesting_depth": 3, "array_length_range": (5, 30)},
-    "medical_record": {"description": "电子病历摘要", "nesting_depth": 4, "array_length_range": (3, 10)},
-    "product_catalog": {"description": "电商产品目录", "nesting_depth": 3, "array_length_range": (10, 50)},
-    "financial_report": {"description": "季度财务报表", "nesting_depth": 4, "array_length_range": (5, 20)},
-    "recipe_ingredients": {"description": "食谱配料表", "nesting_depth": 2, "array_length_range": (5, 15)},
+    "supplement_facts": {
+        "description": "FDA Supplement Facts 标签", "nesting_depth": 3, "array_length_range": (5, 30),
+        "prompt": """You are a nutrition label generator. Generate a realistic FDA Supplement Facts label as JSON.
+Include 8-15 supplement ingredients with name, amount, unit, and %DV.
+Also include meta fields: productName, servingSize, servingsPerContainer.
+Return ONLY valid JSON, no markdown fences.
+
+Schema:
+{
+  "productName": string,
+  "servingSize": string,
+  "servingsPerContainer": number,
+  "ingredients": [
+    {"name": string, "amount": string, "unit": string, "dailyValue": string}
+  ]
+}""",
+    },
+    "medical_record": {
+        "description": "电子病历摘要", "nesting_depth": 4, "array_length_range": (3, 10),
+        "prompt": """Generate a realistic electronic medical record summary as JSON.
+Include patient info, diagnoses array, medications array, and lab results array.
+Return ONLY valid JSON, no markdown fences.
+
+Schema:
+{
+  "patient": {"name": string, "age": number, "gender": string},
+  "diagnoses": [{"code": string, "description": string}],
+  "medications": [{"name": string, "dosage": string, "frequency": string}],
+  "labResults": [{"test": string, "value": string, "unit": string, "referenceRange": string}]
+}""",
+    },
+    "product_catalog": {
+        "description": "电商产品目录", "nesting_depth": 3, "array_length_range": (10, 50),
+        "prompt": """Generate a realistic e-commerce product catalog as JSON.
+Include 15-30 products with name, price, category, and stock.
+Return ONLY valid JSON, no markdown fences.
+
+Schema:
+{
+  "catalogId": string,
+  "lastUpdated": string,
+  "products": [
+    {"id": string, "name": string, "price": number, "category": string, "stock": number}
+  ]
+}""",
+    },
+    "financial_report": {
+        "description": "季度财务报表", "nesting_depth": 4, "array_length_range": (5, 20),
+        "prompt": """Generate a realistic quarterly financial report as JSON.
+Include company info, quarter, revenue breakdown, and expenses breakdown.
+Return ONLY valid JSON, no markdown fences.
+
+Schema:
+{
+  "company": string,
+  "quarter": string,
+  "revenue": [{"category": string, "amount": number, "yoyChange": number}],
+  "expenses": [{"category": string, "amount": number, "budgetVariance": number}]
+}""",
+    },
+    "recipe_ingredients": {
+        "description": "食谱配料表", "nesting_depth": 2, "array_length_range": (5, 15),
+        "prompt": """Generate a realistic recipe with ingredients list as JSON.
+Include recipe name, servings, prep time, and ingredients.
+Return ONLY valid JSON, no markdown fences.
+
+Schema:
+{
+  "recipeName": string,
+  "servings": number,
+  "prepTimeMinutes": number,
+  "ingredients": [
+    {"name": string, "amount": string, "unit": string}
+  ]
+}""",
+    },
 }
 
 # ── 截断位置 ──

@@ -4,7 +4,7 @@
  * 运行: npx tsx baselines/test_fix_regression.ts
  * 从 V2 目录或以其导入相对路径为准。
  */
-import { parsePartialJson } from '../code/partial-json-parser.fixed'
+import { parsePartialJson } from '../src/partial-json-parser'
 
 let pass = 0
 let fail = 0
@@ -68,20 +68,16 @@ function valueStringCase() {
 
 /** 字符串内伪数组 (§3.7 #3): Layer3 字符串感知, 命中真 ingredients 而非字符串里的假数组 */
 function fakeArrayCase() {
-  const input = `{"note":"He said \\"ingredients\\": [1, 2, 3]", "ingredients":[{"name":"A","amount":"1"}]}`
-  // 制造外层结构被破坏, 迫使走 Layer 3 (去掉外层花括号, 且尾部截断)
-  const broken = input.slice(0, input.indexOf(']}}') + 2) // 截到假的 [1,2,3] 附近, 破坏后缀
-  const r = parsePartialJson(broken, 'ingredients')
-  let arrLen = 0
-  if (r.parsed && Array.isArray((r.parsed as any).ingredients)) {
-    arrLen = (r.parsed as any).ingredients.length
-  }
-  // 若命中假数组 [1,2,3] 数字数组, ingredients 会是 length 3; 若正确命中真数组或失败,
-  // 至少不应返回数字 [1,2,3]
-  const isFakeNumericArray = arrLen === 3 && Array.isArray((r.parsed as any).ingredients) &&
-    typeof (r.parsed as any).ingredients[0] === 'number'
-  assert('Layer3 伪数组: 未命中字符串内假数组 [1,2,3]', isFakeNumericArray === false,
-    `arrLen=${arrLen} parsed=${JSON.stringify(r.parsed).slice(0, 120)}`)
+  // 字符串值内包含伪 "ingredients": [1, 2, 3] (数字数组), 顶层真实 ingredients 数组在后。
+  // 截断使外层未闭合, 迫使恢复器定位目标数组 —— 若用旧的非字符串感知锚点会误命中假数组。
+  const input = `{"note":"He said \\"ingredients\\": [1, 2, 3]", "ingredients":[{"name":"A","amount":"1"}`
+  const r = parsePartialJson(input, 'ingredients')
+  const arr = r.parsed && Array.isArray((r.parsed as any).ingredients) ? (r.parsed as any).ingredients : []
+  // 若误命中字符串内假数组 [1,2,3], 首元素应为数字; 正确行为应命中真实数组 (对象元素) 或为空
+  const firstIsNumber = arr.length > 0 && typeof arr[0] === 'number'
+  const firstIsObject = arr.length > 0 && typeof arr[0] === 'object' && arr[0] !== null
+  assert('Layer3 伪数组: 未误命中字符串内假数组 [1,2,3]', firstIsNumber === false && firstIsObject,
+    `arrLen=${arr.length} first=${JSON.stringify(arr[0])} parsed=${JSON.stringify(r.parsed).slice(0, 100)}`)
 }
 
 /** 闭合唯一性/嵌套(§3.7 #5) */

@@ -13,7 +13,7 @@
  * 输入 stdin: JSON array of { sample_id, schema, complete_path, timeline_path, array_key }
  * 输出 stdout: per-sample per-semantics 时序结果 array
  */
-import { parsePartialJson } from '../code/partial-json-parser.fixed'
+import { parsePartialJson } from '../src/partial-json-parser'
 import { readFileSync } from 'fs'
 
 interface Input { sample_id:string; schema:string; complete_path:string; timeline_path:string; array_key:string }

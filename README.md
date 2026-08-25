@@ -62,14 +62,14 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §3.3 | — | [`src/icover-protocol.ts`](src/icover-protocol.ts) | ICover (Incremental Cover) protocol |
 | §3.5 | — | [`src/stream-ticker.ts`](src/stream-ticker.ts) | Frontend row-by-row rendering (50 ms ticker) |
 | §4.2 | Table 2 (schemas) | `data/ground_truth.json` + `config.py` | 5 JSON schemas & ground truth |
-| §4.5 | Table 3 (recovery, 7 methods) | [`baselines/evaluate_baselines.ts`](baselines/evaluate_baselines.ts) + [`baselines/run_evaluation.py`](baselines/run_evaluation.py) + `results/{naive,partial_json,json_repair,json_completer,best_effort,tolerant_repair}.baseline.v2.json` + `results/ours_fixed.v2.json` | Recovery rate / field F1 / value accuracy for B1–B6 + Ours (ours_fixed.v2.json = paper's "修复版", F1 0.6300) |
+| §4.5 | Table 3 (recovery, 7 methods) | [`baselines/evaluate_baselines.ts`](baselines/evaluate_baselines.ts) + [`baselines/run_baseline_compare.py`](baselines/run_baseline_compare.py) + `results/{naive,partial_json,json_repair,json_completer,best_effort,tolerant_repair}.baseline.v2.json` + `results/ours_fixed.v2.json` + `results/baseline_compare_summary.v2.json` | Recovery rate / field F1 / value accuracy for B1–B6 + Ours (ours_fixed.v2.json = paper's "修复版", F1 0.6300; 表3 的"单次延迟/ms"列由 `baseline_compare_summary.v2.json` 的 latency_ms 均值支撑; **B4 JsonCompleter 为按文献[9]语义复现的参考实现**, 见 `evaluate_baselines.ts` 的 `method_json_completer`) |
 | §4.5 | Table 3 (statistics) | [`baselines/run_stat_tests.py`](baselines/run_stat_tests.py) + `results/stat_tests_v2.json` | Bootstrap 95% CI, paired t-test, McNemar (p=1.0) |
-| §4.6 | Table 4 (ablation) | [`baselines/run_ablation.py`](baselines/run_ablation.py) + `results/ablation_res.json`, `results/ablation_v2_semantics.json` | Semantic-layer sync/update ablation |
-| §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3.ts`](baselines/stress_test_layer3.ts) + `results/stress_test_layer3.json`, `results/stress_test_layer3_v2.json` | Layer 3 stress test (200/250 兜底) |
-| §4.6 | Table 6 (temporal) | [`baselines/run_temporal_metrics.py`](baselines/run_temporal_metrics.py) + `baselines/temporal_metrics.ts` + `baselines/summarize_temporal.py` + `results/temporal_summary.json` | tc / stale metrics across GPT/DeepSeek/gemma4 |
+| §4.6 | Table 4 (ablation) | [`baselines/run_ablation.py`](baselines/run_ablation.py) + `results/ablation_res.json`, `results/ablation_v2_semantics.json`, `results/semantic_baselines_summary.json` | Semantic-layer sync/update ablation (表4 以 ablation_v2_semantics + semantic_baselines 为准) |
+| §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3_v2.ts`](baselines/stress_test_layer3_v2.ts) + `results/stress_test_layer3_v2.json` | Layer 3 stress test (250 样本, 200/250 兜底) |
+| §4.6 | Table 6 (temporal) | [`baselines/run_temporal_metrics.py`](baselines/run_temporal_metrics.py) + `baselines/temporal_metrics.ts` + `baselines/summarize_temporal.py` + `results/temporal_metrics_{gpt,deepseek,gemma4}.json` + `results/temporal_summary.json` | tc / stale metrics across GPT/DeepSeek/gemma4 (5 种语义) |
 | §4.7 | Table 7 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
 | §4.8 | Table 8 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (20 runs) |
-| §4.8 | Table 9 (TTPF attribution) | [`baselines/run_ttft_experiment.py`](baselines/run_ttft_experiment.py) + `results/ttpf_full_v2.json`, `results/ttft_dual_contrast.json`, `results/ttft_paired_tests.json` | 6-mode TTPF attribution + 95% CI + paired tests |
+| §4.8 | Table 9 (TTPF attribution) | [`baselines/aggregate_ttpf_full.py`](baselines/aggregate_ttpf_full.py) + `results/ttft/*_raw.json` + `results/ttpf_full_v2.json` | 表9 权威数据源: ttf_full_v2.json (聚合 ref+extra 会话, Student t CI + 配对检验); 另 `run_ttft_experiment.py` 产出早期四模式会话的 `ttft_dual_contrast.json` (支撑论文 1.61×) |
 
 All `results/*.json` files are the **exact artifacts that produced the paper's tables** — every number
 in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 9's
@@ -82,8 +82,9 @@ in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Ta
 ### Table 3 (Recovery / F1 / value accuracy, 7 methods)
 ```bash
 # (a) Full offline evaluation on the 4965 valid cases — 7 methods, same V8 engine:
-npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation.json
-#    (or the 4-method baseline script: npx tsx baselines/evaluate_all.ts < data/samples.json)
+#     生成 results/*.baseline.v2.json 与 results/baseline_compare_summary.v2.json:
+python3 baselines/run_baseline_compare.py
+#     (或直接看标准输入管道: npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation.json)
 
 # (b) Statistical significance (bootstrap CI, paired t, McNemar):
 python3 baselines/run_stat_tests.py
@@ -92,15 +93,16 @@ python3 baselines/run_stat_tests.py
 
 ### Tables 4 & 6 (Ablation & temporal)
 ```bash
-python3 baselines/run_ablation.py            # -> results/ablation_res.json
-python3 baselines/run_semantic_baselines.py  # -> results/semantic_baselines.json
-python3 baselines/run_temporal_metrics.py    # -> results/temporal_metrics_{gpt,deepseek,gemma4}.json
-python3 baselines/summarize_temporal.py      # -> results/temporal_summary.json
+python3 baselines/run_ablation.py            # -> results/ablation_res.json (组件消融, 表4 语义消融以 ablation_v2 为准)
+python3 baselines/run_ablation_v2.py         # -> results/ablation_v2_semantics*.json (表4)
+python3 baselines/run_semantic_baselines.py  # -> results/semantic_baselines*.json (表4)
+python3 baselines/run_temporal_metrics.py    # -> results/temporal_metrics_{gpt,deepseek,gemma4}.json (表6)
+python3 baselines/summarize_temporal.py      # -> results/temporal_summary.json (表6, 5 种语义)
 ```
 
 ### Table 5 (Layer 3 stress test)
 ```bash
-npx tsx baselines/stress_test_layer3.ts      # -> results/stress_test_layer3.json
+npx tsx baselines/stress_test_layer3_v2.ts   # -> results/stress_test_layer3_v2.json (250 样本, 对应论文表5)
 ```
 
 ### Table 7 (Cross-model, requires API access to re-collect; results already included)
@@ -111,11 +113,13 @@ python3 baselines/run_deepseek_eval.py
 python3 baselines/run_gemma4_eval.py
 ```
 
-### Tables 8 & 9 (TTPF, requires API access; results already included)
+### Tables 8 & 9 (TTPF, requires API access; raw results already included)
 ```bash
-npx tsx baselines/measure_ttpf.ts --iterations 20   # production before/after
-npx tsx baselines/measure_ttft_extra.ts             # 6-mode attribution
-python3 baselines/run_ttft_experiment.py            # -> results/ttpf_full_v2.json, ttft_dual_contrast.json
+npx tsx baselines/measure_ttpf.ts --iterations 20   # production before/after -> results/ttpf_measurement.json (表8)
+npx tsx baselines/measure_ttpf_ref.ts               # mode1a/1b 参考模式 -> results/ttft/*_ref_*_raw.json
+npx tsx baselines/measure_ttpf_extra.ts             # mode2/2b/2c/3 逐块模式 -> results/ttft/*_extra_*_raw.json
+python3 baselines/aggregate_ttpf_full.py            # 聚合 ref+extra -> results/ttpf_full_v2.json (论文表9 权威数据源)
+python3 baselines/run_ttft_experiment.py            # 早期四模式会话 -> results/ttft_dual_contrast.json (补充对照)
 ```
 
 ---
@@ -159,17 +163,20 @@ regusift-paper/
 │   ├── icover-protocol.ts       # Core: ICover protocol (§3.3)
 │   └── stream-ticker.ts         # Frontend rendering (§3.5)
 ├── baselines/                   # All evaluation / collection / stat-test scripts
+├── figures/                     # 论文图 1/2 (fig1_architecture, fig3_f1_curve) — generate_figures.py 可重新生成
 ├── data/
 │   ├── llm_outputs/             # GPT-5.4-mini: 7000 files (main experiment)
 │   ├── deepseek/llm_outputs/    # DeepSeek: 3500 files (§4.7)
 │   ├── gemma4/llm_outputs/      # gemma4: 1750 files (§4.7)
-│   ├── ground_truth.json        # GPT ground truth
+│   ├── ground_truth.json        # GPT ground truth (相对路径, 自包含)
 │   ├── deepseek/ground_truth.json
 │   └── gemma4/ground_truth.json
 ├── results/                     # Pre-computed logs for EVERY paper table (auditable)
+│   └── ttft/                    # TTPF 归因实验原始逐块时间线 (*_raw.json)
 ├── reproducibility/             # Experiment logging helpers
-├── tests/smoke.test.ts          # 8 smoke tests
+├── tests/smoke.test.ts          # 8 smoke tests (L1/L2/L3 + ICover)
 ├── config.py
+├── generate_figures.py          # 重新生成论文图表
 ├── package.json
 └── tsconfig.json
 ```
@@ -185,6 +192,26 @@ regusift-paper/
 4. **Cross-model data**: DeepSeek and gemma4 samples are included under `data/deepseek/` and
    `data/gemma4/`; re-collection requires API/ollama access (see Table 7 section), but the paper's
    Table 7 numbers are already contained in `results/deepseek_eval.json` / `results/gemma4_eval.json`.
+5. **统计口径**: 表3 的"单次延迟/ms"列来自 `results/baseline_compare_summary.v2.json` 的 `latency_ms`
+   均值 (如 Ours 0.0489≈0.049); 恢复率/字段 F1/值精确率来自 `*.baseline.v2.json` 与
+   `ours_fixed.v2.json` (其中 `ours_fixed.v2.json` 与 `ours_res.json` 均为 V2 修复版结果, 内容相同)。
+6. **表6 时序等效是构造性保证**: 单生产者流式下, icover/deltaR/jsonPatch/crdt 均按"最新已解析数组"
+   更新 store, 故其 tc/stale 逐样本一致 (差异 <1e-6); 论文表6 所列"诚实增量(重发/JSON Patch/CRDT)"
+   的等效正是这一构造的实证结果, 真正有区分度的是 append-only (deltaF)。
+7. **表5 "恢复成功"口径**: 指成功提取到目标数组的**非空前缀** (实测恢复长度 5–7 / 完整长度 10–15,
+   约半长), 并非全长重建 (论文表5注已披露)。
+8. **TTPF 命名**: 本仓库 `measure_ttpf*.ts` 与 `aggregate_ttpf_full.py` 实测/统计的均为 TTPF
+   (Time To First **Parsable** Field, 首个 `ingredients[0].name` 可解析时刻), 与论文表8/9 一致;
+   raw 数据内的 `ttft_ms` 字段名仅为历史命名, 含义同为 TTPF。
+9. **figures**: 论文图 1/2 对应 `figures/fig1_architecture.*` 与 `figures/fig3_f1_curve.pdf`;
+   运行 `python3 generate_figures.py` 可重新生成图 2 (fig3_f1_curve) 等全部图表。
+10. **表8 脚本与 API 通道**: `baselines/measure_ttpf.ts` 即论文表 8 的 before/after 生产实测脚本
+   (N=100, 输出 `results/ttpf_measurement.json`); 该文件 `base_url` 为第三方兼容中转通道
+   `dmxapi.cn` (gpt-5.4-mini), 论文已如实标注。after 模式的 `final_ingredient_count` 由
+   `parsePartialJson` 真实恢复管线 (stripMarkdownJsonFence + 三层恢复) 统计, 与生产行为一致;
+   实测终态成功 93/100 (93\%), 与论文静态截断恢复率 95.57\% 同量级。
+11. **定理1 穷举验证**: `baselines/verify_theorem1.py` 为论文定理 1 的 8 种栈形态穷举验证脚本
+   (d≤3, 0 失败), 与论文 §3.1 证明一一对应。
 
 ---
 

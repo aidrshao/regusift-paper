@@ -50,9 +50,9 @@ async function main() {
     assert.deepEqual(r.parsed, { ingredients: [{ name: 'Vit D3', amount: '1000' }] })
   })
 
-  // ── Layer 3: 动态 arrayKey 定向提取 ──
-  await ok('L3 动态 arrayKey 定向提取', () => {
-    const r = parsePartialJson('{"products":[{"id":1},{"id":2', 'products')
+  // ── Layer 3: 动态 arrayKey 定向提取 (外层结构破坏, Layer1/2 均失败) ──
+  await ok('L3 动态 arrayKey 定向提取 (外层结构破坏)', () => {
+    const r = parsePartialJson('some prefix text {"products":[{"id":1},{"id":2', 'products')
     assert.equal(r.recovered, true)
     assert.deepEqual(r.parsed, { products: [{ id: 1 }, { id: 2 }] })
   })

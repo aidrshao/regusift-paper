@@ -2,16 +2,16 @@
  * Layer 3 破坏性压力测试 — V2 扩样版 (对应 P13)
  * ===============================================
  * 每破坏类型 n=50 (5 schema × 各样本 × 各类型), 共 250 样本。
- * 解析器用 V2 修复版, 数据路径指向 V2 data/ground_truth.v2.json。
+ * 解析器用 V2 修复版 (src/partial-json-parser.ts), 数据路径指向 data/ground_truth.json。
  * 覆盖 Layer 1/2/3 成功率 + 每破坏类型统计 + bootstrap CI。
  */
-import { parsePartialJson } from '../code/partial-json-parser.fixed'
+import { parsePartialJson } from '../src/partial-json-parser'
 import { readFileSync, writeFileSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const GT_PATH = join(__dirname, '..', 'data', 'ground_truth.v2.json')
+const GT_PATH = join(__dirname, '..', 'data', 'ground_truth.json')
 
 interface Case { sample_id:string; schema:string; corruption_type:string; buffer:string; array_key:string; gt_length:number }
 interface SR { sample_id:string; schema:string; corruption_type:string; layer1:boolean; layer2:boolean; layer3:boolean; full:boolean; recovered_length:number; gt_length:number }

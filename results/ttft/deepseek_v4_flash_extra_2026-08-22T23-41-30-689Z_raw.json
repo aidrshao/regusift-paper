@@ -1,0 +1,863 @@
+{
+  "model": "deepseek-v4-flash",
+  "base_url": "https://api.deepseek.com",
+  "iterations": 20,
+  "modes": [
+    "mode2_partialjson",
+    "mode2b_best_effort",
+    "mode2c_llmjsonrepair",
+    "mode3_ours"
+  ],
+  "results": {
+    "mode2_partialjson": [
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 0,
+        "ttft_ms": 10106,
+        "total_ms": 12339,
+        "first": "Vitamin A (as beta-carotene)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1645
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 1,
+        "ttft_ms": 5649,
+        "total_ms": 7908,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1551
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 2,
+        "ttft_ms": 8385,
+        "total_ms": 10047,
+        "first": "Vitamin D3 (as Cholecalciferol)",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1408
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 3,
+        "ttft_ms": 3307,
+        "total_ms": 5419,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1657
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 4,
+        "ttft_ms": 11571,
+        "total_ms": 13734,
+        "first": "Vitamin A (as Beta-Carotene and Retinyl Acetate)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1633
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 5,
+        "ttft_ms": 18462,
+        "total_ms": 20967,
+        "first": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2103
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 6,
+        "ttft_ms": 8629,
+        "total_ms": 10472,
+        "first": "Vitamin C (as ascorbic acid)",
+        "cnt_at": 1,
+        "fin": 11,
+        "len": 1664
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 7,
+        "ttft_ms": 16861,
+        "total_ms": 19524,
+        "first": "Vitamin A (as Beta-Carotene and Vitamin A Acetate)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2084
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 8,
+        "ttft_ms": 5925,
+        "total_ms": 7565,
+        "first": "Vitamin A",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1284
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 9,
+        "ttft_ms": 6663,
+        "total_ms": 9346,
+        "first": "Vitamin A (as beta carotene)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2045
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 10,
+        "ttft_ms": 6430,
+        "total_ms": 9010,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2071
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 11,
+        "ttft_ms": 7551,
+        "total_ms": 9192,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 11,
+        "len": 1562
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 12,
+        "ttft_ms": 12284,
+        "total_ms": 13860,
+        "first": "Vitamin A",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1328
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 13,
+        "ttft_ms": 3109,
+        "total_ms": 4926,
+        "first": "Vitamin D3 (as Cholecalciferol)",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1727
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 14,
+        "ttft_ms": 7027,
+        "total_ms": 9316,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2062
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 15,
+        "ttft_ms": 5446,
+        "total_ms": 7732,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1986
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 16,
+        "ttft_ms": 6575,
+        "total_ms": 7981,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 10,
+        "len": 1124
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 17,
+        "ttft_ms": 5058,
+        "total_ms": 7525,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2066
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 18,
+        "ttft_ms": 7367,
+        "total_ms": 9115,
+        "first": "Vitamin A",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1401
+      },
+      {
+        "mode": "mode2_partialjson",
+        "iteration": 19,
+        "ttft_ms": 3122,
+        "total_ms": 5276,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1672
+      }
+    ],
+    "mode2b_best_effort": [
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 0,
+        "ttft_ms": 3506,
+        "total_ms": 5856,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1528
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 1,
+        "ttft_ms": 8448,
+        "total_ms": 10943,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2051
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 2,
+        "ttft_ms": 15695,
+        "total_ms": 18098,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2092
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 3,
+        "ttft_ms": 9035,
+        "total_ms": 11148,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 13,
+        "len": 1814
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 4,
+        "ttft_ms": 6085,
+        "total_ms": 8574,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 13,
+        "len": 1810
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 5,
+        "ttft_ms": 7383,
+        "total_ms": 9599,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1623
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 6,
+        "ttft_ms": 16003,
+        "total_ms": 18106,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1612
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 7,
+        "ttft_ms": 7630,
+        "total_ms": 10367,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2081
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 8,
+        "ttft_ms": 3927,
+        "total_ms": 7002,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2089
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 9,
+        "ttft_ms": 1554,
+        "total_ms": 4556,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2082
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 10,
+        "ttft_ms": 8468,
+        "total_ms": 10558,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1558
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 11,
+        "ttft_ms": 7403,
+        "total_ms": 9140,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 10,
+        "len": 1154
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 12,
+        "ttft_ms": 12134,
+        "total_ms": 14275,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2083
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 13,
+        "ttft_ms": 9014,
+        "total_ms": 11036,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1956
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 14,
+        "ttft_ms": 6754,
+        "total_ms": 9045,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2094
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 15,
+        "ttft_ms": 11051,
+        "total_ms": 13032,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1699
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 16,
+        "ttft_ms": 5642,
+        "total_ms": 7931,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1651
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 17,
+        "ttft_ms": 9265,
+        "total_ms": 11666,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2080
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 18,
+        "ttft_ms": 2887,
+        "total_ms": 5980,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2095
+      },
+      {
+        "mode": "mode2b_best_effort",
+        "iteration": 19,
+        "ttft_ms": 10201,
+        "total_ms": 12498,
+        "first": "",
+        "cnt_at": 1,
+        "fin": 13,
+        "len": 1786
+      }
+    ],
+    "mode2c_llmjsonrepair": [
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 0,
+        "ttft_ms": 7575,
+        "total_ms": 9629,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1481
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 1,
+        "ttft_ms": 14473,
+        "total_ms": 16984,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2077
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 2,
+        "ttft_ms": 9642,
+        "total_ms": 11838,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2112
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 3,
+        "ttft_ms": 14060,
+        "total_ms": 16041,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 13,
+        "len": 1452
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 4,
+        "ttft_ms": 2512,
+        "total_ms": 5176,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1672
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 5,
+        "ttft_ms": 11819,
+        "total_ms": 14159,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1654
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 6,
+        "ttft_ms": 2601,
+        "total_ms": 5631,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1997
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 7,
+        "ttft_ms": 15638,
+        "total_ms": 18285,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2080
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 8,
+        "ttft_ms": 10013,
+        "total_ms": 12344,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1628
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 9,
+        "ttft_ms": 5953,
+        "total_ms": 7986,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1663
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 10,
+        "ttft_ms": 1995,
+        "total_ms": 3752,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1287
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 11,
+        "ttft_ms": 8678,
+        "total_ms": 11131,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2067
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 12,
+        "ttft_ms": 5735,
+        "total_ms": 7974,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2065
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 13,
+        "ttft_ms": 8611,
+        "total_ms": 10434,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1634
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 14,
+        "ttft_ms": 9114,
+        "total_ms": 11022,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1599
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 15,
+        "ttft_ms": 6416,
+        "total_ms": 8379,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1326
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 16,
+        "ttft_ms": 7761,
+        "total_ms": 9474,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1358
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 17,
+        "ttft_ms": 7379,
+        "total_ms": 9220,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1351
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 18,
+        "ttft_ms": 9039,
+        "total_ms": 11089,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1669
+      },
+      {
+        "mode": "mode2c_llmjsonrepair",
+        "iteration": 19,
+        "ttft_ms": 11357,
+        "total_ms": 13449,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1688
+      }
+    ],
+    "mode3_ours": [
+      {
+        "mode": "mode3_ours",
+        "iteration": 0,
+        "ttft_ms": 4067,
+        "total_ms": 6571,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 13,
+        "len": 1816
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 1,
+        "ttft_ms": 11140,
+        "total_ms": 13602,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2086
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 2,
+        "ttft_ms": 9635,
+        "total_ms": 11549,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1638
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 3,
+        "ttft_ms": 8961,
+        "total_ms": 11525,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2059
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 4,
+        "ttft_ms": 8840,
+        "total_ms": 11190,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1674
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 5,
+        "ttft_ms": 12133,
+        "total_ms": 14694,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2061
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 6,
+        "ttft_ms": 5430,
+        "total_ms": 7540,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 12,
+        "len": 1748
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 7,
+        "ttft_ms": 8550,
+        "total_ms": 10794,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1582
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 8,
+        "ttft_ms": 11569,
+        "total_ms": 13840,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1614
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 9,
+        "ttft_ms": 3306,
+        "total_ms": 5990,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2089
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 10,
+        "ttft_ms": 4114,
+        "total_ms": 6001,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 14,
+        "len": 1521
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 11,
+        "ttft_ms": 7811,
+        "total_ms": 10508,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2101
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 12,
+        "ttft_ms": 6153,
+        "total_ms": 8676,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2066
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 13,
+        "ttft_ms": 6661,
+        "total_ms": 8952,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2045
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 14,
+        "ttft_ms": 6899,
+        "total_ms": 9213,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2058
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 15,
+        "ttft_ms": 7494,
+        "total_ms": 9669,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1628
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 16,
+        "ttft_ms": 6250,
+        "total_ms": 8790,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2074
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 17,
+        "ttft_ms": 3300,
+        "total_ms": 5689,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 1611
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 18,
+        "ttft_ms": 11334,
+        "total_ms": 13833,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2126
+      },
+      {
+        "mode": "mode3_ours",
+        "iteration": 19,
+        "ttft_ms": 1554,
+        "total_ms": 4493,
+        "first": "null",
+        "cnt_at": 1,
+        "fin": 15,
+        "len": 2086
+      }
+    ]
+  },
+  "summary": {
+    "mode2_partialjson": {
+      "n": 20,
+      "mean": 7976.4,
+      "ci": [
+        6035.9,
+        9916.8
+      ],
+      "p50": 6663,
+      "p95": 16861
+    },
+    "mode2b_best_effort": {
+      "n": 20,
+      "mean": 8104.3,
+      "ci": [
+        6325.2,
+        9883.3
+      ],
+      "p50": 7630,
+      "p95": 15695
+    },
+    "mode2c_llmjsonrepair": {
+      "n": 20,
+      "mean": 8518.5,
+      "ci": [
+        6737.7,
+        10299.4
+      ],
+      "p50": 8611,
+      "p95": 14473
+    },
+    "mode3_ours": {
+      "n": 20,
+      "mean": 7260.1,
+      "ci": [
+        5831.3,
+        8688.8
+      ],
+      "p50": 6899,
+      "p95": 11569
+    }
+  }
+}

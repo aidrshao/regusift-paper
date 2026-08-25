@@ -16,6 +16,8 @@ build/
 # Logs
 *.log
 logs/
+# 实验运行时日志 (每次运行都会追加, 不入库)
+reproducibility/experiments.ndjson
 
 # OS files
 .DS_Store

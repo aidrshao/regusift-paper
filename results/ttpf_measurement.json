@@ -1,45 +1,45 @@
 {
   "model": "gpt-5.4-mini",
   "base_url": "https://www.dmxapi.cn/v1",
-  "iterations": 20,
-  "timestamp": "2026-08-09T23:31:29.444Z",
+  "iterations": 100,
+  "timestamp": "2026-08-25T00:31:08.963Z",
   "summary": {
     "before": {
       "ttft": {
-        "mean": 4743,
-        "p50": 4703,
-        "p95": 5561,
-        "min": 3764,
-        "max": 5684
+        "mean": 3549,
+        "p50": 3446,
+        "p95": 4419,
+        "min": 2239,
+        "max": 7377
       },
       "total": {
-        "mean": 4743,
-        "p50": 4703,
-        "p95": 5561,
-        "min": 3764,
-        "max": 5684
+        "mean": 3549,
+        "p50": 3446,
+        "p95": 4419,
+        "min": 2239,
+        "max": 7377
       }
     },
     "after": {
       "ttft": {
-        "mean": 2595,
-        "p50": 2495,
-        "p95": 3112,
-        "min": 2133,
-        "max": 3607
+        "mean": 2226,
+        "p50": 1893,
+        "p95": 5253,
+        "min": 1430,
+        "max": 7192
       },
       "total": {
-        "mean": 4771,
-        "p50": 4473,
-        "p95": 5430,
-        "min": 3668,
-        "max": 10114
+        "mean": 3851,
+        "p50": 3567,
+        "p95": 5841,
+        "min": 2654,
+        "max": 7739
       }
     },
     "improvement": {
-      "ttft_speedup_mean": 1.83,
-      "ttft_speedup_p50": 1.88,
-      "ttft_reduction_ms": 2148
+      "ttft_speedup_mean": 1.59,
+      "ttft_speedup_p50": 1.82,
+      "ttft_reduction_ms": 1323
     }
   },
   "raw_results": {
@@ -47,158 +47,288 @@
       {
         "mode": "before",
         "iteration": 0,
-        "ttft_ms": 4554,
-        "total_ms": 4554,
-        "first_ingredient_name": "Vitamin C (as Ascorbic Acid)",
-        "ingredient_count_at_ttft": 10,
-        "final_ingredient_count": 10,
-        "response_length": 1461
+        "ttft_ms": 4071,
+        "total_ms": 4071,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2120
       },
       {
         "mode": "before",
         "iteration": 1,
-        "ttft_ms": 5561,
-        "total_ms": 5561,
+        "ttft_ms": 4057,
+        "total_ms": 4057,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 12,
-        "final_ingredient_count": 12,
-        "response_length": 1702
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2110
       },
       {
         "mode": "before",
         "iteration": 2,
-        "ttft_ms": 4460,
-        "total_ms": 4460,
-        "first_ingredient_name": "Vitamin C (as ascorbic acid)",
-        "ingredient_count_at_ttft": 10,
-        "final_ingredient_count": 10,
-        "response_length": 1505
+        "ttft_ms": 2886,
+        "total_ms": 2886,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2096
       },
       {
         "mode": "before",
         "iteration": 3,
-        "ttft_ms": 4234,
-        "total_ms": 4234,
-        "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 15,
-        "final_ingredient_count": 15,
-        "response_length": 2099
+        "ttft_ms": 3214,
+        "total_ms": 3214,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1584
       },
       {
         "mode": "before",
         "iteration": 4,
-        "ttft_ms": 5510,
-        "total_ms": 5510,
+        "ttft_ms": 2450,
+        "total_ms": 2450,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 15,
-        "final_ingredient_count": 15,
-        "response_length": 2059
+        "ingredient_count_at_ttft": 10,
+        "final_ingredient_count": 10,
+        "response_length": 1130
       },
       {
         "mode": "before",
         "iteration": 5,
-        "ttft_ms": 4609,
-        "total_ms": 4609,
-        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
-        "ingredient_count_at_ttft": 12,
-        "final_ingredient_count": 12,
-        "response_length": 1747
+        "ttft_ms": 2812,
+        "total_ms": 2812,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1653
       },
       {
         "mode": "before",
         "iteration": 6,
-        "ttft_ms": 5684,
-        "total_ms": 5684,
+        "ttft_ms": 3083,
+        "total_ms": 3083,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 14,
-        "final_ingredient_count": 14,
-        "response_length": 1969
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1714
       },
       {
         "mode": "before",
         "iteration": 7,
-        "ttft_ms": 3764,
-        "total_ms": 3764,
+        "ttft_ms": 2902,
+        "total_ms": 2902,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 14,
-        "final_ingredient_count": 14,
-        "response_length": 1523
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1810
       },
       {
         "mode": "before",
         "iteration": 8,
-        "ttft_ms": 4202,
-        "total_ms": 4202,
-        "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 15,
-        "final_ingredient_count": 15,
-        "response_length": 2091
+        "ttft_ms": 5230,
+        "total_ms": 5230,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1979
       },
       {
         "mode": "before",
         "iteration": 9,
-        "ttft_ms": 4793,
-        "total_ms": 4793,
+        "ttft_ms": 3115,
+        "total_ms": 3115,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 14,
-        "final_ingredient_count": 14,
-        "response_length": 1521
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2109
       },
       {
         "mode": "before",
         "iteration": 10,
-        "ttft_ms": 4941,
-        "total_ms": 4941,
+        "ttft_ms": 3628,
+        "total_ms": 3628,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
         "ingredient_count_at_ttft": 12,
         "final_ingredient_count": 12,
-        "response_length": 1692
+        "response_length": 1698
       },
       {
         "mode": "before",
         "iteration": 11,
-        "ttft_ms": 4998,
-        "total_ms": 4998,
+        "ttft_ms": 3801,
+        "total_ms": 3801,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 14,
-        "final_ingredient_count": 14,
-        "response_length": 1984
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2056
       },
       {
         "mode": "before",
         "iteration": 12,
-        "ttft_ms": 4725,
-        "total_ms": 4725,
+        "ttft_ms": 3040,
+        "total_ms": 3040,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 12,
-        "final_ingredient_count": 12,
-        "response_length": 1702
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2083
       },
       {
         "mode": "before",
         "iteration": 13,
-        "ttft_ms": 4793,
-        "total_ms": 4793,
+        "ttft_ms": 3308,
+        "total_ms": 3308,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
         "ingredient_count_at_ttft": 15,
         "final_ingredient_count": 15,
-        "response_length": 2104
+        "response_length": 2078
       },
       {
         "mode": "before",
         "iteration": 14,
-        "ttft_ms": 4540,
-        "total_ms": 4540,
+        "ttft_ms": 3266,
+        "total_ms": 3266,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 14,
-        "final_ingredient_count": 14,
-        "response_length": 1521
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2092
       },
       {
         "mode": "before",
         "iteration": 15,
-        "ttft_ms": 5421,
-        "total_ms": 5421,
+        "ttft_ms": 2239,
+        "total_ms": 2239,
+        "first_ingredient_name": "Vitamin C (as ascorbic acid)",
+        "ingredient_count_at_ttft": 10,
+        "final_ingredient_count": 10,
+        "response_length": 1134
+      },
+      {
+        "mode": "before",
+        "iteration": 16,
+        "ttft_ms": 3037,
+        "total_ms": 3037,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1584
+      },
+      {
+        "mode": "before",
+        "iteration": 17,
+        "ttft_ms": 3431,
+        "total_ms": 3431,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1877
+      },
+      {
+        "mode": "before",
+        "iteration": 18,
+        "ttft_ms": 3155,
+        "total_ms": 3155,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1993
+      },
+      {
+        "mode": "before",
+        "iteration": 19,
+        "ttft_ms": 3457,
+        "total_ms": 3457,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2067
+      },
+      {
+        "mode": "before",
+        "iteration": 20,
+        "ttft_ms": 3864,
+        "total_ms": 3864,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1943
+      },
+      {
+        "mode": "before",
+        "iteration": 21,
+        "ttft_ms": 3404,
+        "total_ms": 3404,
+        "first_ingredient_name": "Vitamin A (as Beta-Carotene and Retinyl Acetate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 2011
+      },
+      {
+        "mode": "before",
+        "iteration": 22,
+        "ttft_ms": 2607,
+        "total_ms": 2607,
+        "first_ingredient_name": "Vitamin A (as retinyl palmitate)",
+        "ingredient_count_at_ttft": 10,
+        "final_ingredient_count": 10,
+        "response_length": 1439
+      },
+      {
+        "mode": "before",
+        "iteration": 23,
+        "ttft_ms": 3884,
+        "total_ms": 3884,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1687
+      },
+      {
+        "mode": "before",
+        "iteration": 24,
+        "ttft_ms": 3507,
+        "total_ms": 3507,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2081
+      },
+      {
+        "mode": "before",
+        "iteration": 25,
+        "ttft_ms": 3971,
+        "total_ms": 3971,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2086
+      },
+      {
+        "mode": "before",
+        "iteration": 26,
+        "ttft_ms": 3724,
+        "total_ms": 3724,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2067
+      },
+      {
+        "mode": "before",
+        "iteration": 27,
+        "ttft_ms": 3306,
+        "total_ms": 3306,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1817
+      },
+      {
+        "mode": "before",
+        "iteration": 28,
+        "ttft_ms": 3028,
+        "total_ms": 3028,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
         "ingredient_count_at_ttft": 14,
         "final_ingredient_count": 14,
@@ -206,171 +336,1091 @@
       },
       {
         "mode": "before",
-        "iteration": 16,
-        "ttft_ms": 4080,
-        "total_ms": 4080,
+        "iteration": 29,
+        "ttft_ms": 3865,
+        "total_ms": 3865,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 14,
-        "final_ingredient_count": 14,
-        "response_length": 1984
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1627
       },
       {
         "mode": "before",
-        "iteration": 17,
-        "ttft_ms": 4352,
-        "total_ms": 4352,
+        "iteration": 30,
+        "ttft_ms": 3257,
+        "total_ms": 3257,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1727
+      },
+      {
+        "mode": "before",
+        "iteration": 31,
+        "ttft_ms": 3312,
+        "total_ms": 3312,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1667
+      },
+      {
+        "mode": "before",
+        "iteration": 32,
+        "ttft_ms": 3035,
+        "total_ms": 3035,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1724
+      },
+      {
+        "mode": "before",
+        "iteration": 33,
+        "ttft_ms": 3631,
+        "total_ms": 3631,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1328
+      },
+      {
+        "mode": "before",
+        "iteration": 34,
+        "ttft_ms": 3598,
+        "total_ms": 3598,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1970
+      },
+      {
+        "mode": "before",
+        "iteration": 35,
+        "ttft_ms": 3329,
+        "total_ms": 3329,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1746
+      },
+      {
+        "mode": "before",
+        "iteration": 36,
+        "ttft_ms": 3741,
+        "total_ms": 3741,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2041
+      },
+      {
+        "mode": "before",
+        "iteration": 37,
+        "ttft_ms": 2814,
+        "total_ms": 2814,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1515
+      },
+      {
+        "mode": "before",
+        "iteration": 38,
+        "ttft_ms": 3157,
+        "total_ms": 3157,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1957
+      },
+      {
+        "mode": "before",
+        "iteration": 39,
+        "ttft_ms": 3584,
+        "total_ms": 3584,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2072
+      },
+      {
+        "mode": "before",
+        "iteration": 40,
+        "ttft_ms": 3459,
+        "total_ms": 3459,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1529
+      },
+      {
+        "mode": "before",
+        "iteration": 41,
+        "ttft_ms": 3347,
+        "total_ms": 3347,
+        "first_ingredient_name": "Vitamin C (as ascorbic acid)",
+        "ingredient_count_at_ttft": 10,
+        "final_ingredient_count": 10,
+        "response_length": 1467
+      },
+      {
+        "mode": "before",
+        "iteration": 42,
+        "ttft_ms": 3167,
+        "total_ms": 3167,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1638
+      },
+      {
+        "mode": "before",
+        "iteration": 43,
+        "ttft_ms": 3384,
+        "total_ms": 3384,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1611
+      },
+      {
+        "mode": "before",
+        "iteration": 44,
+        "ttft_ms": 6696,
+        "total_ms": 6696,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1610
+      },
+      {
+        "mode": "before",
+        "iteration": 45,
+        "ttft_ms": 4175,
+        "total_ms": 4175,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1806
+      },
+      {
+        "mode": "before",
+        "iteration": 46,
+        "ttft_ms": 3711,
+        "total_ms": 3711,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1541
+      },
+      {
+        "mode": "before",
+        "iteration": 47,
+        "ttft_ms": 3230,
+        "total_ms": 3230,
         "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
         "ingredient_count_at_ttft": 14,
         "final_ingredient_count": 14,
-        "response_length": 1569
+        "response_length": 2003
       },
       {
         "mode": "before",
-        "iteration": 18,
-        "ttft_ms": 4703,
-        "total_ms": 4703,
+        "iteration": 48,
+        "ttft_ms": 3712,
+        "total_ms": 3712,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
-        "ingredient_count_at_ttft": 11,
-        "final_ingredient_count": 11,
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2047
+      },
+      {
+        "mode": "before",
+        "iteration": 49,
+        "ttft_ms": 2965,
+        "total_ms": 2965,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
         "response_length": 1544
       },
       {
         "mode": "before",
-        "iteration": 19,
-        "ttft_ms": 4942,
-        "total_ms": 4942,
+        "iteration": 50,
+        "ttft_ms": 3349,
+        "total_ms": 3349,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1659
+      },
+      {
+        "mode": "before",
+        "iteration": 51,
+        "ttft_ms": 4101,
+        "total_ms": 4101,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2073
+      },
+      {
+        "mode": "before",
+        "iteration": 52,
+        "ttft_ms": 3173,
+        "total_ms": 3173,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1946
+      },
+      {
+        "mode": "before",
+        "iteration": 53,
+        "ttft_ms": 3244,
+        "total_ms": 3244,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1709
+      },
+      {
+        "mode": "before",
+        "iteration": 54,
+        "ttft_ms": 3830,
+        "total_ms": 3830,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2085
+      },
+      {
+        "mode": "before",
+        "iteration": 55,
+        "ttft_ms": 3385,
+        "total_ms": 3385,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1964
+      },
+      {
+        "mode": "before",
+        "iteration": 56,
+        "ttft_ms": 3786,
+        "total_ms": 3786,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1730
+      },
+      {
+        "mode": "before",
+        "iteration": 57,
+        "ttft_ms": 3493,
+        "total_ms": 3493,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1527
+      },
+      {
+        "mode": "before",
+        "iteration": 58,
+        "ttft_ms": 3887,
+        "total_ms": 3887,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1497
+      },
+      {
+        "mode": "before",
+        "iteration": 59,
+        "ttft_ms": 3481,
+        "total_ms": 3481,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1874
+      },
+      {
+        "mode": "before",
+        "iteration": 60,
+        "ttft_ms": 3737,
+        "total_ms": 3737,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1940
+      },
+      {
+        "mode": "before",
+        "iteration": 61,
+        "ttft_ms": 4419,
+        "total_ms": 4419,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1706
+      },
+      {
+        "mode": "before",
+        "iteration": 62,
+        "ttft_ms": 3548,
+        "total_ms": 3548,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1701
+      },
+      {
+        "mode": "before",
+        "iteration": 63,
+        "ttft_ms": 4271,
+        "total_ms": 4271,
+        "first_ingredient_name": "Vitamin C (as ascorbic acid)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1761
+      },
+      {
+        "mode": "before",
+        "iteration": 64,
+        "ttft_ms": 3128,
+        "total_ms": 3128,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1676
+      },
+      {
+        "mode": "before",
+        "iteration": 65,
+        "ttft_ms": 7377,
+        "total_ms": 7377,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1699
+      },
+      {
+        "mode": "before",
+        "iteration": 66,
+        "ttft_ms": 3446,
+        "total_ms": 3446,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1726
+      },
+      {
+        "mode": "before",
+        "iteration": 67,
+        "ttft_ms": 3384,
+        "total_ms": 3384,
+        "first_ingredient_name": "Vitamin C (as ascorbic acid)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1748
+      },
+      {
+        "mode": "before",
+        "iteration": 68,
+        "ttft_ms": 3364,
+        "total_ms": 3364,
         "first_ingredient_name": "Vitamin A (as beta-carotene)",
         "ingredient_count_at_ttft": 13,
         "final_ingredient_count": 13,
-        "response_length": 1843
+        "response_length": 1822
+      },
+      {
+        "mode": "before",
+        "iteration": 69,
+        "ttft_ms": 3490,
+        "total_ms": 3490,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1982
+      },
+      {
+        "mode": "before",
+        "iteration": 70,
+        "ttft_ms": 4421,
+        "total_ms": 4421,
+        "first_ingredient_name": "Vitamin A (as Beta-Carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1533
+      },
+      {
+        "mode": "before",
+        "iteration": 71,
+        "ttft_ms": 4261,
+        "total_ms": 4261,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1946
+      },
+      {
+        "mode": "before",
+        "iteration": 72,
+        "ttft_ms": 3194,
+        "total_ms": 3194,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1524
+      },
+      {
+        "mode": "before",
+        "iteration": 73,
+        "ttft_ms": 4426,
+        "total_ms": 4426,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1995
+      },
+      {
+        "mode": "before",
+        "iteration": 74,
+        "ttft_ms": 3684,
+        "total_ms": 3684,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2114
+      },
+      {
+        "mode": "before",
+        "iteration": 75,
+        "ttft_ms": 3579,
+        "total_ms": 3579,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1692
+      },
+      {
+        "mode": "before",
+        "iteration": 76,
+        "ttft_ms": 3344,
+        "total_ms": 3344,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1514
+      },
+      {
+        "mode": "before",
+        "iteration": 77,
+        "ttft_ms": 3318,
+        "total_ms": 3318,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1554
+      },
+      {
+        "mode": "before",
+        "iteration": 78,
+        "ttft_ms": 3399,
+        "total_ms": 3399,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl palmitate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 2006
+      },
+      {
+        "mode": "before",
+        "iteration": 79,
+        "ttft_ms": 3618,
+        "total_ms": 3618,
+        "first_ingredient_name": "Vitamin A (as Beta-Carotene and Retinyl Acetate)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1737
+      },
+      {
+        "mode": "before",
+        "iteration": 80,
+        "ttft_ms": 3568,
+        "total_ms": 3568,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1875
+      },
+      {
+        "mode": "before",
+        "iteration": 81,
+        "ttft_ms": 2970,
+        "total_ms": 2970,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1598
+      },
+      {
+        "mode": "before",
+        "iteration": 82,
+        "ttft_ms": 3608,
+        "total_ms": 3608,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1989
+      },
+      {
+        "mode": "before",
+        "iteration": 83,
+        "ttft_ms": 3433,
+        "total_ms": 3433,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl palmitate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1992
+      },
+      {
+        "mode": "before",
+        "iteration": 84,
+        "ttft_ms": 3820,
+        "total_ms": 3820,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 13,
+        "final_ingredient_count": 13,
+        "response_length": 1854
+      },
+      {
+        "mode": "before",
+        "iteration": 85,
+        "ttft_ms": 3536,
+        "total_ms": 3536,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1693
+      },
+      {
+        "mode": "before",
+        "iteration": 86,
+        "ttft_ms": 3593,
+        "total_ms": 3593,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2102
+      },
+      {
+        "mode": "before",
+        "iteration": 87,
+        "ttft_ms": 3633,
+        "total_ms": 3633,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1966
+      },
+      {
+        "mode": "before",
+        "iteration": 88,
+        "ttft_ms": 3123,
+        "total_ms": 3123,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1717
+      },
+      {
+        "mode": "before",
+        "iteration": 89,
+        "ttft_ms": 3670,
+        "total_ms": 3670,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2128
+      },
+      {
+        "mode": "before",
+        "iteration": 90,
+        "ttft_ms": 3218,
+        "total_ms": 3218,
+        "first_ingredient_name": "Vitamin C (as ascorbic acid)",
+        "ingredient_count_at_ttft": 11,
+        "final_ingredient_count": 11,
+        "response_length": 1621
+      },
+      {
+        "mode": "before",
+        "iteration": 91,
+        "ttft_ms": 3638,
+        "total_ms": 3638,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1942
+      },
+      {
+        "mode": "before",
+        "iteration": 92,
+        "ttft_ms": 3254,
+        "total_ms": 3254,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1542
+      },
+      {
+        "mode": "before",
+        "iteration": 93,
+        "ttft_ms": 3058,
+        "total_ms": 3058,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 12,
+        "final_ingredient_count": 12,
+        "response_length": 1734
+      },
+      {
+        "mode": "before",
+        "iteration": 94,
+        "ttft_ms": 3619,
+        "total_ms": 3619,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1991
+      },
+      {
+        "mode": "before",
+        "iteration": 95,
+        "ttft_ms": 3421,
+        "total_ms": 3421,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 1637
+      },
+      {
+        "mode": "before",
+        "iteration": 96,
+        "ttft_ms": 3689,
+        "total_ms": 3689,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1937
+      },
+      {
+        "mode": "before",
+        "iteration": 97,
+        "ttft_ms": 3203,
+        "total_ms": 3203,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 14,
+        "final_ingredient_count": 14,
+        "response_length": 1950
+      },
+      {
+        "mode": "before",
+        "iteration": 98,
+        "ttft_ms": 3738,
+        "total_ms": 3738,
+        "first_ingredient_name": "Vitamin A (as beta-carotene and retinyl acetate)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2114
+      },
+      {
+        "mode": "before",
+        "iteration": 99,
+        "ttft_ms": 3327,
+        "total_ms": 3327,
+        "first_ingredient_name": "Vitamin A (as beta-carotene)",
+        "ingredient_count_at_ttft": 15,
+        "final_ingredient_count": 15,
+        "response_length": 2106
       }
     ],
     "after": [
       {
         "mode": "after",
         "iteration": 0,
-        "ttft_ms": 2290,
-        "total_ms": 4518,
+        "ttft_ms": 2012,
+        "total_ms": 3670,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 2090
+        "final_ingredient_count": 15,
+        "response_length": 2157
       },
       {
         "mode": "after",
         "iteration": 1,
-        "ttft_ms": 2196,
-        "total_ms": 4160,
+        "ttft_ms": 1787,
+        "total_ms": 3307,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 2115
+        "final_ingredient_count": 14,
+        "response_length": 1952
       },
       {
         "mode": "after",
         "iteration": 2,
-        "ttft_ms": 2296,
-        "total_ms": 4289,
+        "ttft_ms": 5263,
+        "total_ms": 6128,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1967
-      },
-      {
-        "mode": "after",
-        "iteration": 3,
-        "ttft_ms": 2831,
-        "total_ms": 4666,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1638
-      },
-      {
-        "mode": "after",
-        "iteration": 4,
-        "ttft_ms": 2886,
-        "total_ms": 5119,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1957
-      },
-      {
-        "mode": "after",
-        "iteration": 5,
-        "ttft_ms": 2429,
-        "total_ms": 4887,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 2082
-      },
-      {
-        "mode": "after",
-        "iteration": 6,
-        "ttft_ms": 2242,
-        "total_ms": 3936,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
+        "final_ingredient_count": 12,
         "response_length": 1715
       },
       {
         "mode": "after",
-        "iteration": 7,
-        "ttft_ms": 2690,
-        "total_ms": 4484,
+        "iteration": 3,
+        "ttft_ms": 1820,
+        "total_ms": 3031,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1361
+      },
+      {
+        "mode": "after",
+        "iteration": 4,
+        "ttft_ms": 1822,
+        "total_ms": 2930,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 14,
-        "response_length": 1965
+        "response_length": 1529
+      },
+      {
+        "mode": "after",
+        "iteration": 5,
+        "ttft_ms": 2376,
+        "total_ms": 5364,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 13,
+        "response_length": 1848
+      },
+      {
+        "mode": "after",
+        "iteration": 6,
+        "ttft_ms": 2782,
+        "total_ms": 4951,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 2005
+      },
+      {
+        "mode": "after",
+        "iteration": 7,
+        "ttft_ms": 2254,
+        "total_ms": 5228,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2068
       },
       {
         "mode": "after",
         "iteration": 8,
-        "ttft_ms": 2585,
-        "total_ms": 3772,
+        "ttft_ms": 2341,
+        "total_ms": 3739,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 12,
-        "response_length": 1326
+        "final_ingredient_count": 14,
+        "response_length": 1993
       },
       {
         "mode": "after",
         "iteration": 9,
-        "ttft_ms": 3607,
-        "total_ms": 5430,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1654
-      },
-      {
-        "mode": "after",
-        "iteration": 10,
-        "ttft_ms": 2940,
-        "total_ms": 5392,
+        "ttft_ms": 1701,
+        "total_ms": 3289,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 14,
-        "response_length": 1931
-      },
-      {
-        "mode": "after",
-        "iteration": 11,
-        "ttft_ms": 2495,
-        "total_ms": 4374,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
         "response_length": 1942
       },
       {
         "mode": "after",
+        "iteration": 10,
+        "ttft_ms": 2223,
+        "total_ms": 3536,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1953
+      },
+      {
+        "mode": "after",
+        "iteration": 11,
+        "ttft_ms": 2264,
+        "total_ms": 3672,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1991
+      },
+      {
+        "mode": "after",
         "iteration": 12,
-        "ttft_ms": 2601,
-        "total_ms": 10114,
+        "ttft_ms": 1927,
+        "total_ms": 3156,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1566
+      },
+      {
+        "mode": "after",
+        "iteration": 13,
+        "ttft_ms": 1932,
+        "total_ms": 4729,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2090
+      },
+      {
+        "mode": "after",
+        "iteration": 14,
+        "ttft_ms": 1854,
+        "total_ms": 4515,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1748
+      },
+      {
+        "mode": "after",
+        "iteration": 15,
+        "ttft_ms": 2781,
+        "total_ms": 4337,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 1628
+      },
+      {
+        "mode": "after",
+        "iteration": 16,
+        "ttft_ms": 2880,
+        "total_ms": 5401,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 0,
+        "response_length": 1994
+      },
+      {
+        "mode": "after",
+        "iteration": 17,
+        "ttft_ms": 1487,
+        "total_ms": 2654,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1697
+      },
+      {
+        "mode": "after",
+        "iteration": 18,
+        "ttft_ms": 2216,
+        "total_ms": 3817,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1722
+      },
+      {
+        "mode": "after",
+        "iteration": 19,
+        "ttft_ms": 1583,
+        "total_ms": 2902,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 1640
+      },
+      {
+        "mode": "after",
+        "iteration": 20,
+        "ttft_ms": 1630,
+        "total_ms": 2866,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1717
+      },
+      {
+        "mode": "after",
+        "iteration": 21,
+        "ttft_ms": 1609,
+        "total_ms": 3554,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1655
+      },
+      {
+        "mode": "after",
+        "iteration": 22,
+        "ttft_ms": 1688,
+        "total_ms": 3002,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1966
+      },
+      {
+        "mode": "after",
+        "iteration": 23,
+        "ttft_ms": 2175,
+        "total_ms": 4267,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 1621
+      },
+      {
+        "mode": "after",
+        "iteration": 24,
+        "ttft_ms": 1785,
+        "total_ms": 4420,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1923
+      },
+      {
+        "mode": "after",
+        "iteration": 25,
+        "ttft_ms": 1586,
+        "total_ms": 2968,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 13,
+        "response_length": 1861
+      },
+      {
+        "mode": "after",
+        "iteration": 26,
+        "ttft_ms": 1430,
+        "total_ms": 2849,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1557
+      },
+      {
+        "mode": "after",
+        "iteration": 27,
+        "ttft_ms": 2616,
+        "total_ms": 3567,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 13,
+        "response_length": 1844
+      },
+      {
+        "mode": "after",
+        "iteration": 28,
+        "ttft_ms": 1789,
+        "total_ms": 3179,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2072
+      },
+      {
+        "mode": "after",
+        "iteration": 29,
+        "ttft_ms": 1873,
+        "total_ms": 3172,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1969
+      },
+      {
+        "mode": "after",
+        "iteration": 30,
+        "ttft_ms": 1509,
+        "total_ms": 2922,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1560
+      },
+      {
+        "mode": "after",
+        "iteration": 31,
+        "ttft_ms": 1677,
+        "total_ms": 3211,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1680
+      },
+      {
+        "mode": "after",
+        "iteration": 32,
+        "ttft_ms": 1815,
+        "total_ms": 3420,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1970
+      },
+      {
+        "mode": "after",
+        "iteration": 33,
+        "ttft_ms": 2100,
+        "total_ms": 3667,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 1651
+      },
+      {
+        "mode": "after",
+        "iteration": 34,
+        "ttft_ms": 5413,
+        "total_ms": 5841,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1738
+      },
+      {
+        "mode": "after",
+        "iteration": 35,
+        "ttft_ms": 1774,
+        "total_ms": 4243,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1576
+      },
+      {
+        "mode": "after",
+        "iteration": 36,
+        "ttft_ms": 2122,
+        "total_ms": 3516,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 13,
+        "response_length": 1843
+      },
+      {
+        "mode": "after",
+        "iteration": 37,
+        "ttft_ms": 1534,
+        "total_ms": 3363,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 14,
@@ -378,73 +1428,623 @@
       },
       {
         "mode": "after",
-        "iteration": 13,
-        "ttft_ms": 2757,
-        "total_ms": 4473,
+        "iteration": 38,
+        "ttft_ms": 1603,
+        "total_ms": 3197,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1931
+        "final_ingredient_count": 14,
+        "response_length": 1532
       },
       {
         "mode": "after",
-        "iteration": 14,
-        "ttft_ms": 3112,
-        "total_ms": 5166,
+        "iteration": 39,
+        "ttft_ms": 1972,
+        "total_ms": 3498,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1543
+        "final_ingredient_count": 14,
+        "response_length": 1969
       },
       {
         "mode": "after",
-        "iteration": 15,
-        "ttft_ms": 2133,
-        "total_ms": 3668,
+        "iteration": 40,
+        "ttft_ms": 2318,
+        "total_ms": 3838,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 0,
-        "response_length": 1447
+        "response_length": 1568
       },
       {
         "mode": "after",
-        "iteration": 16,
-        "ttft_ms": 2469,
-        "total_ms": 4543,
+        "iteration": 41,
+        "ttft_ms": 2135,
+        "total_ms": 3833,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2071
+      },
+      {
+        "mode": "after",
+        "iteration": 42,
+        "ttft_ms": 1893,
+        "total_ms": 4023,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2108
+      },
+      {
+        "mode": "after",
+        "iteration": 43,
+        "ttft_ms": 1788,
+        "total_ms": 3030,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1965
+      },
+      {
+        "mode": "after",
+        "iteration": 44,
+        "ttft_ms": 1592,
+        "total_ms": 3229,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1751
+      },
+      {
+        "mode": "after",
+        "iteration": 45,
+        "ttft_ms": 2748,
+        "total_ms": 4167,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1538
+      },
+      {
+        "mode": "after",
+        "iteration": 46,
+        "ttft_ms": 1769,
+        "total_ms": 4849,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1539
+      },
+      {
+        "mode": "after",
+        "iteration": 47,
+        "ttft_ms": 1515,
+        "total_ms": 2943,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1728
+      },
+      {
+        "mode": "after",
+        "iteration": 48,
+        "ttft_ms": 2253,
+        "total_ms": 4791,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1995
+      },
+      {
+        "mode": "after",
+        "iteration": 49,
+        "ttft_ms": 1923,
+        "total_ms": 3774,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1990
+      },
+      {
+        "mode": "after",
+        "iteration": 50,
+        "ttft_ms": 1688,
+        "total_ms": 3452,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2126
+      },
+      {
+        "mode": "after",
+        "iteration": 51,
+        "ttft_ms": 2670,
+        "total_ms": 4377,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1523
+      },
+      {
+        "mode": "after",
+        "iteration": 52,
+        "ttft_ms": 2723,
+        "total_ms": 4559,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2110
+      },
+      {
+        "mode": "after",
+        "iteration": 53,
+        "ttft_ms": 1829,
+        "total_ms": 3646,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1957
+      },
+      {
+        "mode": "after",
+        "iteration": 54,
+        "ttft_ms": 1677,
+        "total_ms": 3378,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2087
+      },
+      {
+        "mode": "after",
+        "iteration": 55,
+        "ttft_ms": 7192,
+        "total_ms": 7739,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1966
+      },
+      {
+        "mode": "after",
+        "iteration": 56,
+        "ttft_ms": 2241,
+        "total_ms": 3931,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1528
+      },
+      {
+        "mode": "after",
+        "iteration": 57,
+        "ttft_ms": 2344,
+        "total_ms": 4364,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 0,
+        "response_length": 1971
+      },
+      {
+        "mode": "after",
+        "iteration": 58,
+        "ttft_ms": 1651,
+        "total_ms": 3412,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2098
+      },
+      {
+        "mode": "after",
+        "iteration": 59,
+        "ttft_ms": 1808,
+        "total_ms": 3430,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2046
+      },
+      {
+        "mode": "after",
+        "iteration": 60,
+        "ttft_ms": 2640,
+        "total_ms": 3685,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 0,
+        "response_length": 1861
+      },
+      {
+        "mode": "after",
+        "iteration": 61,
+        "ttft_ms": 2082,
+        "total_ms": 3566,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1737
+      },
+      {
+        "mode": "after",
+        "iteration": 62,
+        "ttft_ms": 2318,
+        "total_ms": 3755,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1701
+      },
+      {
+        "mode": "after",
+        "iteration": 63,
+        "ttft_ms": 2321,
+        "total_ms": 3936,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1946
+      },
+      {
+        "mode": "after",
+        "iteration": 64,
+        "ttft_ms": 2339,
+        "total_ms": 3941,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 1627
+      },
+      {
+        "mode": "after",
+        "iteration": 65,
+        "ttft_ms": 2346,
+        "total_ms": 3635,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1504
+      },
+      {
+        "mode": "after",
+        "iteration": 66,
+        "ttft_ms": 2232,
+        "total_ms": 3831,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2130
+      },
+      {
+        "mode": "after",
+        "iteration": 67,
+        "ttft_ms": 1774,
+        "total_ms": 4237,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2054
+      },
+      {
+        "mode": "after",
+        "iteration": 68,
+        "ttft_ms": 1616,
+        "total_ms": 3188,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1936
+      },
+      {
+        "mode": "after",
+        "iteration": 69,
+        "ttft_ms": 1582,
+        "total_ms": 2818,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 13,
+        "response_length": 1408
+      },
+      {
+        "mode": "after",
+        "iteration": 70,
+        "ttft_ms": 1791,
+        "total_ms": 3393,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1939
+      },
+      {
+        "mode": "after",
+        "iteration": 71,
+        "ttft_ms": 3752,
+        "total_ms": 5949,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1574
+      },
+      {
+        "mode": "after",
+        "iteration": 72,
+        "ttft_ms": 3345,
+        "total_ms": 5371,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1573
+      },
+      {
+        "mode": "after",
+        "iteration": 73,
+        "ttft_ms": 2054,
+        "total_ms": 3689,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1981
+      },
+      {
+        "mode": "after",
+        "iteration": 74,
+        "ttft_ms": 2092,
+        "total_ms": 3898,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1511
+      },
+      {
+        "mode": "after",
+        "iteration": 75,
+        "ttft_ms": 1946,
+        "total_ms": 3182,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1917
+      },
+      {
+        "mode": "after",
+        "iteration": 76,
+        "ttft_ms": 5394,
+        "total_ms": 6228,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1689
+      },
+      {
+        "mode": "after",
+        "iteration": 77,
+        "ttft_ms": 2018,
+        "total_ms": 3077,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 1619
+      },
+      {
+        "mode": "after",
+        "iteration": 78,
+        "ttft_ms": 1771,
+        "total_ms": 2994,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 13,
+        "response_length": 1796
+      },
+      {
+        "mode": "after",
+        "iteration": 79,
+        "ttft_ms": 1622,
+        "total_ms": 3396,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2102
+      },
+      {
+        "mode": "after",
+        "iteration": 80,
+        "ttft_ms": 1674,
+        "total_ms": 3361,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
         "response_length": 2120
       },
       {
         "mode": "after",
-        "iteration": 17,
-        "ttft_ms": 2355,
-        "total_ms": 3929,
-        "first_ingredient_name": "Vitamin",
-        "ingredient_count_at_ttft": 1,
-        "final_ingredient_count": 0,
-        "response_length": 1798
-      },
-      {
-        "mode": "after",
-        "iteration": 18,
-        "ttft_ms": 2422,
-        "total_ms": 4182,
+        "iteration": 81,
+        "ttft_ms": 2475,
+        "total_ms": 4060,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 12,
-        "response_length": 1740
+        "response_length": 1726
       },
       {
         "mode": "after",
-        "iteration": 19,
-        "ttft_ms": 2569,
-        "total_ms": 4326,
+        "iteration": 82,
+        "ttft_ms": 1839,
+        "total_ms": 3066,
         "first_ingredient_name": "Vitamin",
         "ingredient_count_at_ttft": 1,
         "final_ingredient_count": 0,
-        "response_length": 1967
+        "response_length": 1620
+      },
+      {
+        "mode": "after",
+        "iteration": 83,
+        "ttft_ms": 1964,
+        "total_ms": 3450,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1947
+      },
+      {
+        "mode": "after",
+        "iteration": 84,
+        "ttft_ms": 2218,
+        "total_ms": 3905,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2081
+      },
+      {
+        "mode": "after",
+        "iteration": 85,
+        "ttft_ms": 1578,
+        "total_ms": 2666,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 0,
+        "response_length": 1541
+      },
+      {
+        "mode": "after",
+        "iteration": 86,
+        "ttft_ms": 1707,
+        "total_ms": 2963,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1659
+      },
+      {
+        "mode": "after",
+        "iteration": 87,
+        "ttft_ms": 1791,
+        "total_ms": 2706,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1686
+      },
+      {
+        "mode": "after",
+        "iteration": 88,
+        "ttft_ms": 5253,
+        "total_ms": 5683,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1716
+      },
+      {
+        "mode": "after",
+        "iteration": 89,
+        "ttft_ms": 1865,
+        "total_ms": 3192,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1711
+      },
+      {
+        "mode": "after",
+        "iteration": 90,
+        "ttft_ms": 1667,
+        "total_ms": 2936,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1481
+      },
+      {
+        "mode": "after",
+        "iteration": 91,
+        "ttft_ms": 1679,
+        "total_ms": 4356,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2097
+      },
+      {
+        "mode": "after",
+        "iteration": 92,
+        "ttft_ms": 1868,
+        "total_ms": 3522,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2065
+      },
+      {
+        "mode": "after",
+        "iteration": 93,
+        "ttft_ms": 2481,
+        "total_ms": 5102,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1718
+      },
+      {
+        "mode": "after",
+        "iteration": 94,
+        "ttft_ms": 1799,
+        "total_ms": 3143,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 0,
+        "response_length": 1742
+      },
+      {
+        "mode": "after",
+        "iteration": 95,
+        "ttft_ms": 1689,
+        "total_ms": 4539,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 12,
+        "response_length": 1709
+      },
+      {
+        "mode": "after",
+        "iteration": 96,
+        "ttft_ms": 5733,
+        "total_ms": 6176,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 10,
+        "response_length": 1437
+      },
+      {
+        "mode": "after",
+        "iteration": 97,
+        "ttft_ms": 1667,
+        "total_ms": 3118,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1579
+      },
+      {
+        "mode": "after",
+        "iteration": 98,
+        "ttft_ms": 1615,
+        "total_ms": 3427,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 14,
+        "response_length": 1934
+      },
+      {
+        "mode": "after",
+        "iteration": 99,
+        "ttft_ms": 2211,
+        "total_ms": 4103,
+        "first_ingredient_name": "Vitamin",
+        "ingredient_count_at_ttft": 1,
+        "final_ingredient_count": 15,
+        "response_length": 2080
       }
     ]
   }

@@ -1,0 +1,392 @@
+{
+  "model": "deepseek-v4-flash",
+  "iterations": 20,
+  "results": {
+    "mode1a_buffered": [
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 0,
+        "ttft_ms": 8104,
+        "total_ms": 8104,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 12,
+        "len": 1360
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 1,
+        "ttft_ms": 10823,
+        "total_ms": 10823,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 12,
+        "len": 1354
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 2,
+        "ttft_ms": 9818,
+        "total_ms": 9818,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 15,
+        "len": 1624
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 3,
+        "ttft_ms": 8571,
+        "total_ms": 8571,
+        "first": "Vitamin A",
+        "fin": 12,
+        "len": 1130
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 4,
+        "ttft_ms": 15600,
+        "total_ms": 15600,
+        "first": "Vitamin A (as retinyl acetate and beta-carotene)",
+        "fin": 15,
+        "len": 2110
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 5,
+        "ttft_ms": 7631,
+        "total_ms": 7631,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 15,
+        "len": 1646
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 6,
+        "ttft_ms": 9940,
+        "total_ms": 9940,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 13,
+        "len": 1810
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 7,
+        "ttft_ms": 12247,
+        "total_ms": 12247,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 1606
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 8,
+        "ttft_ms": 9480,
+        "total_ms": 9480,
+        "first": "Vitamin A",
+        "fin": 15,
+        "len": 1340
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 9,
+        "ttft_ms": 6342,
+        "total_ms": 6342,
+        "first": "Vitamin A (as Retinyl Acetate)",
+        "fin": 15,
+        "len": 1648
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 10,
+        "ttft_ms": 11250,
+        "total_ms": 11250,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2072
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 11,
+        "ttft_ms": 10547,
+        "total_ms": 10547,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 1569
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 12,
+        "ttft_ms": 6609,
+        "total_ms": 6609,
+        "first": "Vitamin C (ascorbic acid)",
+        "fin": 12,
+        "len": 1357
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 13,
+        "ttft_ms": 12778,
+        "total_ms": 12778,
+        "first": "Vitamin A",
+        "fin": 15,
+        "len": 1769
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 14,
+        "ttft_ms": 5034,
+        "total_ms": 5034,
+        "first": "Vitamin A (as Beta-Carotene and Retinyl Palmitate)",
+        "fin": 15,
+        "len": 1641
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 15,
+        "ttft_ms": 6398,
+        "total_ms": 6398,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 15,
+        "len": 2075
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 16,
+        "ttft_ms": 13665,
+        "total_ms": 13665,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 1613
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 17,
+        "ttft_ms": 4102,
+        "total_ms": 4102,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 12,
+        "len": 1360
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 18,
+        "ttft_ms": 10611,
+        "total_ms": 10611,
+        "first": "Vitamin A (as retinyl acetate and beta-carotene)",
+        "fin": 15,
+        "len": 2096
+      },
+      {
+        "mode": "mode1a_buffered",
+        "iteration": 19,
+        "ttft_ms": 5610,
+        "total_ms": 5610,
+        "first": "Vitamin A (as Beta-Carotene and Retinyl Palmitate)",
+        "fin": 15,
+        "len": 2093
+      }
+    ],
+    "mode1b_stream_buffered": [
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 0,
+        "ttft_ms": 16321,
+        "total_ms": 16321,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2063
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 1,
+        "ttft_ms": 11334,
+        "total_ms": 11334,
+        "first": "Vitamin A (as Retinyl Palmitate)",
+        "fin": 15,
+        "len": 2088
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 2,
+        "ttft_ms": 13224,
+        "total_ms": 13224,
+        "first": "Vitamin A (as Beta Carotene)",
+        "fin": 15,
+        "len": 1628
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 3,
+        "ttft_ms": 10760,
+        "total_ms": 10760,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2078
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 4,
+        "ttft_ms": 9684,
+        "total_ms": 9684,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 12,
+        "len": 1659
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 5,
+        "ttft_ms": 14976,
+        "total_ms": 14976,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2061
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 6,
+        "ttft_ms": 17933,
+        "total_ms": 17933,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 15,
+        "len": 1645
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 7,
+        "ttft_ms": 7395,
+        "total_ms": 7395,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 15,
+        "len": 2065
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 8,
+        "ttft_ms": 6905,
+        "total_ms": 6905,
+        "first": "Vitamin A (as Beta-Carotene and Retinyl Palmitate)",
+        "fin": 13,
+        "len": 1846
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 9,
+        "ttft_ms": 4849,
+        "total_ms": 4849,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2076
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 10,
+        "ttft_ms": 11879,
+        "total_ms": 11879,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 14,
+        "len": 1524
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 11,
+        "ttft_ms": 7835,
+        "total_ms": 7835,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2075
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 12,
+        "ttft_ms": 6654,
+        "total_ms": 6654,
+        "first": "Vitamin A (as Beta-Carotene and Retinyl Acetate)",
+        "fin": 15,
+        "len": 2072
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 13,
+        "ttft_ms": 10913,
+        "total_ms": 10913,
+        "first": "Vitamin A (as Retinyl Acetate and Beta-Carotene)",
+        "fin": 15,
+        "len": 1653
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 14,
+        "ttft_ms": 14488,
+        "total_ms": 14488,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 1664
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 15,
+        "ttft_ms": 12632,
+        "total_ms": 12632,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 15,
+        "len": 1607
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 16,
+        "ttft_ms": 10116,
+        "total_ms": 10116,
+        "first": "Vitamin A (as beta-carotene)",
+        "fin": 13,
+        "len": 1803
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 17,
+        "ttft_ms": 7590,
+        "total_ms": 7590,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 14,
+        "len": 1945
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 18,
+        "ttft_ms": 9758,
+        "total_ms": 9758,
+        "first": "Vitamin A (as Beta-Carotene)",
+        "fin": 15,
+        "len": 2069
+      },
+      {
+        "mode": "mode1b_stream_buffered",
+        "iteration": 19,
+        "ttft_ms": 19660,
+        "total_ms": 19660,
+        "first": "Vitamin A (as Retinyl Acetate)",
+        "fin": 15,
+        "len": 2115
+      }
+    ]
+  },
+  "summary": {
+    "mode1a_buffered": {
+      "n": 20,
+      "mean": 9258,
+      "ci": [
+        7827.2,
+        10688.8
+      ],
+      "p50": 9480,
+      "p95": 13665
+    },
+    "mode1b_stream_buffered": {
+      "n": 20,
+      "mean": 11245.3,
+      "ci": [
+        9389.1,
+        13101.5
+      ],
+      "p50": 10760,
+      "p95": 17933
+    }
+  }
+}

@@ -56,4 +56,4 @@ for label in LABELS:
     o = summary[label]["overall"]
     i, d = o["icover"], o["deltaR"]
     print(f"{label}: ICover vs deltaR — Δttct={abs(i['ttct_s']-d['ttct_s']):.4f}s, Δstale={abs(i['stale_ratio']-d['stale_ratio']):.4f}  (等效?)")
-    print(f"     deltaF stale={100*d['stale_ratio'] if False else 100*o['deltaF']['stale_ratio']:.1f}%")
+    print(f"     deltaF stale={100*o['deltaF']['stale_ratio']:.1f}%")

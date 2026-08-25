@@ -1,15 +1,15 @@
 /**
- * TTFT (Time To First Token/Ingredient) 实测脚本
- * ================================================
+ * TTPF (Time To First Parsable Field) 实测脚本
+ * ==============================================
  *
- * 论文模块: §5.7 工业案例, 表 11
+ * 论文模块: §4.8 工业案例, 表 8
  *
  * 对 supplement_facts 场景实测两种模式的端到端延迟:
- *   - Before (stream: false): 等待完整响应后才解析, TTFT = 总生成时间
- *   - After  (stream: true  + parsePartialJson + ICover): 流式增量解析,
- *           TTFT = 首个 ingredient 可解析时刻
+ *   - Before (stream: false): 等待完整响应后才解析, TTPF = 总生成时间
+ *   - After  (stream: true + parsePartialJson + ICover): 流式增量解析,
+ *           TTPF = 首个 ingredient 可解析时刻
  *
- * 每种模式跑 N=20 次, 输出 P50/P95/均值, 对应论文表 11。
+ * 每种模式跑 N=20 次, 输出 P50/P95/均值, 对应论文表 8。
  *
  * 用法 (从本仓库根目录执行):
  *   npx tsx baselines/measure_ttpf.ts                    # 默认 20 次
@@ -39,7 +39,7 @@ Schema:
   ]
 }`
 
-interface TTFTResult {
+interface TTPFResult {
   mode: 'before' | 'after'
   iteration: number
   ttft_ms: number        // 首个 ingredient 可解析时刻 (before 模式 = 完成时间)
@@ -51,7 +51,7 @@ interface TTFTResult {
 }
 
 // ── 非流式调用 (Before 模式) ──
-async function measureNonStreaming(iteration: number): Promise<TTFTResult> {
+async function measureNonStreaming(iteration: number): Promise<TTPFResult> {
   const url = `${BASE_URL}/chat/completions`
   const headers = { 'Authorization': `Bearer ${API_KEY}`, 'Content-Type': 'application/json' }
   const body = {
@@ -69,15 +69,15 @@ async function measureNonStreaming(iteration: number): Promise<TTFTResult> {
   const content = data?.choices?.[0]?.message?.content || ''
   let firstIngredientName: string | null = null
   let ingredientCount = 0
-  try {
-    const parsed = JSON.parse(content) as { ingredients?: Array<{ name?: string }> }
-    if (Array.isArray(parsed.ingredients) && parsed.ingredients.length > 0) {
-      firstIngredientName = parsed.ingredients[0]?.name || null
-      ingredientCount = parsed.ingredients.length
-    }
-  } catch { /* ignore */ }
+  // 走真实恢复管线 (stripMarkdownJsonFence + 三层恢复) 统计, 与生产行为一致
+  const res = parsePartialJson(content, 'ingredients')
+  const parsed = res.parsed as { ingredients?: Array<{ name?: string }> } | null
+  if (parsed && Array.isArray(parsed.ingredients) && parsed.ingredients.length > 0) {
+    firstIngredientName = parsed.ingredients[0]?.name || null
+    ingredientCount = parsed.ingredients.length
+  }
 
-  // Before 模式: TTFT = 完成时间 (用户必须等待全部生成)
+  // Before 模式: TTPF = 完成时间 (用户必须等待全部生成)
   return {
     mode: 'before',
     iteration,
@@ -91,7 +91,7 @@ async function measureNonStreaming(iteration: number): Promise<TTFTResult> {
 }
 
 // ── 流式调用 + parsePartialJson (After 模式) ──
-async function measureStreaming(iteration: number): Promise<TTFTResult> {
+async function measureStreaming(iteration: number): Promise<TTPFResult> {
   const url = `${BASE_URL}/chat/completions`
   const headers = { 'Authorization': `Bearer ${API_KEY}`, 'Content-Type': 'application/json' }
   const body = {
@@ -152,16 +152,16 @@ async function measureStreaming(iteration: number): Promise<TTFTResult> {
 
   const total_ms = Date.now() - start
 
-  // 统计最终 ingredient 数量
+  // 统计最终 ingredient 数量: 走真实恢复管线 (stripMarkdownJsonFence + 三层恢复 + ICover 终态),
+  // 与生产行为一致; 不用严格 JSON.parse(全量响应) (后者遇 markdown 围栏/尾随文本即抛错计 0)
   let finalIngredientCount = 0
-  try {
-    const finalParsed = JSON.parse(buffer) as { ingredients?: unknown[] }
-    if (Array.isArray(finalParsed.ingredients)) {
-      finalIngredientCount = finalParsed.ingredients.length
-    }
-  } catch { /* ignore */ }
+  const finalResult = parsePartialJson(buffer, 'ingredients')
+  const finalParsed = finalResult.parsed as { ingredients?: unknown[] } | null
+  if (finalParsed && Array.isArray(finalParsed.ingredients)) {
+    finalIngredientCount = finalParsed.ingredients.length
+  }
 
-  // 如果整个流式过程都没解析出首个 ingredient, TTFT = 总时间 (fallback)
+  // 如果整个流式过程都没解析出首个 ingredient, TTPF = 总时间 (fallback)
   if (!foundFirst) {
     ttft_ms = total_ms
   }
@@ -212,12 +212,12 @@ async function main() {
   }
 
   console.log(`\n${'='.repeat(60)}`)
-  console.log(`TTFT Measurement — ${MODEL} via ${BASE_URL}`)
+  console.log(`TTPF Measurement — ${MODEL} via ${BASE_URL}`)
   console.log(`Iterations: ${iterations} per mode`)
   console.log(`${'='.repeat(60)}\n`)
 
-  const beforeResults: TTFTResult[] = []
-  const afterResults: TTFTResult[] = []
+  const beforeResults: TTPFResult[] = []
+  const afterResults: TTPFResult[] = []
 
   // 交替运行 before/after 以平衡网络波动
   for (let i = 0; i < iterations; i++) {
@@ -225,7 +225,7 @@ async function main() {
     try {
       const r = await measureNonStreaming(i)
       beforeResults.push(r)
-      console.log(`  TTFT=${r.ttft_ms}ms, total=${r.total_ms}ms, ings=${r.final_ingredient_count}`)
+      console.log(`  TTPF=${r.ttft_ms}ms, total=${r.total_ms}ms, ings=${r.final_ingredient_count}`)
     } catch (e) {
       console.error(`  FAILED: ${(e as Error).message}`)
     }
@@ -234,20 +234,20 @@ async function main() {
     try {
       const r = await measureStreaming(i)
       afterResults.push(r)
-      console.log(`  TTFT=${r.ttft_ms}ms, total=${r.total_ms}ms, firstIng="${r.first_ingredient_name}", ingsAtTTFT=${r.ingredient_count_at_ttft}/${r.final_ingredient_count}`)
+      console.log(`  TTPF=${r.ttft_ms}ms, total=${r.total_ms}ms, firstIng="${r.first_ingredient_name}", ingsAtTTPF=${r.ingredient_count_at_ttft}/${r.final_ingredient_count}`)
     } catch (e) {
       console.error(`  FAILED: ${(e as Error).message}`)
     }
   }
 
   // 统计
-  const beforeTTFT = beforeResults.map(r => r.ttft_ms)
-  const afterTTFT = afterResults.map(r => r.ttft_ms)
+  const beforeTTPF = beforeResults.map(r => r.ttft_ms)
+  const afterTTPF = afterResults.map(r => r.ttft_ms)
   const beforeTotal = beforeResults.map(r => r.total_ms)
   const afterTotal = afterResults.map(r => r.total_ms)
 
-  const beforeStats = stats(beforeTTFT)
-  const afterStats = stats(afterTTFT)
+  const beforeStats = stats(beforeTTPF)
+  const afterStats = stats(afterTTPF)
   const beforeTotalStats = stats(beforeTotal)
   const afterTotalStats = stats(afterTotal)
 
@@ -256,7 +256,7 @@ async function main() {
   console.log(`${'='.repeat(60)}\n`)
 
   console.log('┌─────────────────────────────────────────────────────────┐')
-  console.log('│ TTFT (Time To First Ingredient)                         │')
+  console.log('│ TTPF (Time To First Ingredient)                         │')
   console.log('├──────────────────┬──────────┬──────────┬──────────────────┤')
   console.log('│ Mode             │    P50   │    P95   │   Mean           │')
   console.log('├──────────────────┼──────────┼──────────┼──────────────────┤')
@@ -265,7 +265,7 @@ async function main() {
   console.log('└──────────────────┴──────────┴──────────┴──────────────────┘')
 
   const speedup = beforeStats.mean / afterStats.mean
-  console.log(`\nTTFT Improvement: ${speedup.toFixed(2)}x (mean), ${(beforeStats.p50 / afterStats.p50).toFixed(2)}x (P50)`)
+  console.log(`\nTTPF Improvement: ${speedup.toFixed(2)}x (mean), ${(beforeStats.p50 / afterStats.p50).toFixed(2)}x (P50)`)
 
   console.log(`\n┌─────────────────────────────────────────────────────────┐`)
   console.log('│ Total Generation Time                                   │')
