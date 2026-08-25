@@ -1,0 +1,133 @@
+{
+  "total": 250,
+  "methods": {
+    "partial_json": {
+      "n": 250,
+      "recovered": 50,
+      "rate": 20,
+      "by_type": {
+        "prefix_text": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "suffix_text": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "markdown_wrap": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "broken_braces": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "missing_outer": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        }
+      }
+    },
+    "best_effort": {
+      "n": 250,
+      "recovered": 150,
+      "rate": 60,
+      "by_type": {
+        "prefix_text": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "suffix_text": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "markdown_wrap": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "broken_braces": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "missing_outer": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        }
+      }
+    },
+    "json_repair": {
+      "n": 250,
+      "recovered": 50,
+      "rate": 20,
+      "by_type": {
+        "prefix_text": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "suffix_text": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "markdown_wrap": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "broken_braces": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        },
+        "missing_outer": {
+          "n": 50,
+          "recovered": 0,
+          "rate": 0
+        }
+      }
+    },
+    "ours": {
+      "n": 250,
+      "recovered": 207,
+      "rate": 82.8,
+      "by_type": {
+        "prefix_text": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "suffix_text": {
+          "n": 50,
+          "recovered": 7,
+          "rate": 14
+        },
+        "markdown_wrap": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "broken_braces": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        },
+        "missing_outer": {
+          "n": 50,
+          "recovered": 50,
+          "rate": 100
+        }
+      }
+    }
+  }
+}

@@ -65,7 +65,7 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §4.5 | Table 3 (recovery, 7 methods) | [`baselines/evaluate_baselines.ts`](baselines/evaluate_baselines.ts) + [`baselines/run_baseline_compare.py`](baselines/run_baseline_compare.py) + `results/{naive,partial_json,json_repair,json_completer,best_effort,tolerant_repair}.baseline.v2.json` + `results/ours_fixed.v2.json` + `results/baseline_compare_summary.v2.json` | Recovery rate / field F1 / value accuracy for B1–B6 + Ours (ours_fixed.v2.json = paper's "修复版", F1 0.6300; 表3 的"单次延迟/ms"列由 `baseline_compare_summary.v2.json` 的 latency_ms 均值支撑; **B4 JsonCompleter 为忠实移植 Kuzmenko 原算法** (`aha-app/json_completer`), 见 `evaluate_baselines.ts` 的 `method_json_completer`, 其以补造 `:null` 幽灵键换取高恢复率; **表3 的"幽灵键/元素"列由 [`baselines/measure_ghost_keys.py`](baselines/measure_ghost_keys.py)` + `results/ghost_key_count.json` 支撑** — 真实 4965 用例实测, 修复/补全类各 ~0.03/元素, 本文与 partial-json/best-effort 为 0) |
 | §4.5 | Table 3 (statistics) | [`baselines/run_stat_tests.py`](baselines/run_stat_tests.py) + `results/stat_tests_v2.json` | Bootstrap 95% CI, paired t-test, McNemar (p=1.0) |
 | §4.6 | Table 4 (ablation) | [`baselines/run_ablation.py`](baselines/run_ablation.py) + `results/ablation_res.json`, `results/ablation_v2_semantics.json`, `results/semantic_baselines_summary.json` | Semantic-layer sync/update ablation (表4 以 ablation_v2_semantics + semantic_baselines 为准) |
-| §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3_v2.ts`](baselines/stress_test_layer3_v2.ts) + `results/stress_test_layer3_v2.json` | Layer 3 stress test (250 样本, 200/250 兜底) |
+| §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3_v2.ts`](baselines/stress_test_layer3_v2.ts) + [`baselines/stress_test_layer3_baselines.ts`](baselines/stress_test_layer3_baselines.ts) + `results/stress_test_layer3_v2.json`, `results/stress_test_layer3_baselines.json` | Layer 3 stress test (250 样本, 200/250 兜底); 基线对照 (partial-json 20.0%, json-repair 20.0%, best-effort 60.0%, 完整系统 82.8%) |
 | §4.6 | Table 6 (temporal) | [`baselines/run_temporal_metrics.py`](baselines/run_temporal_metrics.py) + `baselines/temporal_metrics.ts` + `baselines/summarize_temporal.py` + `results/temporal_metrics_{gpt,deepseek,gemma4}.json` + `results/temporal_summary.json` | tc / stale metrics across GPT/DeepSeek/gemma4 (5 种语义) |
 | §4.6 | Table 7 (ghost-key robustness) | [`baselines/nonmonotonic_robustness.ts`](baselines/nonmonotonic_robustness.ts) + `results/nonmonotonic_robustness.json` | Ghost-key injection: ICover / no-delete diff / delete-handling diff (993 样本; ICover 与含删除 diff 残留 0、收敛 100%, 无删除 diff 残留约 567%、收敛 0%) |
 | §4.7 | Table 8 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
@@ -108,6 +108,7 @@ python3 baselines/summarize_temporal.py      # -> results/temporal_summary.json 
 ### Table 5 (Layer 3 stress test)
 ```bash
 npx tsx baselines/stress_test_layer3_v2.ts   # -> results/stress_test_layer3_v2.json (250 样本, 对应论文表5)
+npx tsx baselines/stress_test_layer3_baselines.ts  # -> results/stress_test_layer3_baselines.json (同批对抗样本上基线恢复率对照)
 ```
 
 ### Table 7 (Ghost-key robustness)
