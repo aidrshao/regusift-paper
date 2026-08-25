@@ -67,12 +67,13 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §4.6 | Table 4 (ablation) | [`baselines/run_ablation.py`](baselines/run_ablation.py) + `results/ablation_res.json`, `results/ablation_v2_semantics.json`, `results/semantic_baselines_summary.json` | Semantic-layer sync/update ablation (表4 以 ablation_v2_semantics + semantic_baselines 为准) |
 | §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3_v2.ts`](baselines/stress_test_layer3_v2.ts) + `results/stress_test_layer3_v2.json` | Layer 3 stress test (250 样本, 200/250 兜底) |
 | §4.6 | Table 6 (temporal) | [`baselines/run_temporal_metrics.py`](baselines/run_temporal_metrics.py) + `baselines/temporal_metrics.ts` + `baselines/summarize_temporal.py` + `results/temporal_metrics_{gpt,deepseek,gemma4}.json` + `results/temporal_summary.json` | tc / stale metrics across GPT/DeepSeek/gemma4 (5 种语义) |
-| §4.7 | Table 7 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
-| §4.8 | Table 8 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (100 runs each, 配对 t p=1.4e-18) |
-| §4.8 | Table 9 (TTPF attribution) | [`baselines/measure_ttpf_gpt.ts`](baselines/measure_ttpf_gpt.ts) + `results/ttft/gpt_5_4_mini_attribution_*_raw.json` | 表9 数据源: GPT-5.4-mini 经中转 4 模式各 40 次归因 (模式3 vs 模式1b 逐块解析 1.85×, 配对 t p=3.3e-8); 早期 DeepSeek 归因会话仍存于 `results/ttft/` 与 `results/ttpf_full_v2.json` 供对照 |
+| §4.6 | Table 7 (ghost-key robustness) | [`baselines/nonmonotonic_robustness.ts`](baselines/nonmonotonic_robustness.ts) + `results/nonmonotonic_robustness.json` | Ghost-key injection: ICover / no-delete diff / delete-handling diff (993 样本; ICover 与含删除 diff 残留 0、收敛 100%, 无删除 diff 残留约 567%、收敛 0%) |
+| §4.7 | Table 8 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
+| §4.8 | Table 9 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (100 runs each, 配对 t p=1.4e-18) |
+| §4.8 | Table 10 (TTPF attribution) | [`baselines/measure_ttpf_gpt.ts`](baselines/measure_ttpf_gpt.ts) + `results/ttft/gpt_5_4_mini_attribution_*_raw.json` | 表10 数据源: GPT-5.4-mini 经中转 4 模式各 40 次归因 (模式3 vs 模式1b 逐块解析 1.85×, 配对 t p=3.3e-8); 早期 DeepSeek 归因会话仍存于 `results/ttft/` 与 `results/ttpf_full_v2.json` 供对照 |
 
 All `results/*.json` files are the **exact artifacts that produced the paper's tables** — every number
-in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 9's
+in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 10's
 模式3 4679 ms / 1.85×, Table 6's 0.113 s / 23.8% stale).
 
 ---
@@ -105,7 +106,13 @@ python3 baselines/summarize_temporal.py      # -> results/temporal_summary.json 
 npx tsx baselines/stress_test_layer3_v2.ts   # -> results/stress_test_layer3_v2.json (250 样本, 对应论文表5)
 ```
 
-### Table 7 (Cross-model, requires API access to re-collect; results already included)
+### Table 7 (Ghost-key robustness)
+```bash
+npx tsx baselines/nonmonotonic_robustness.ts --samples 200 --chunk 8
+# -> results/nonmonotonic_robustness.json (993 有效样本, 对应论文表7)
+```
+
+### Table 8 (Cross-model, requires API access to re-collect; results already included)
 ```bash
 python3 baselines/collect_deepseek.py        # DeepSeek samples (needs DEEPSEEK API key)
 python3 baselines/collect_gemma.py           # gemma4 samples (needs local ollama + gemma4)
@@ -113,12 +120,12 @@ python3 baselines/run_deepseek_eval.py
 python3 baselines/run_gemma4_eval.py
 ```
 
-### Tables 8 & 9 (TTPF, requires API access; raw results already included)
+### Tables 9 & 10 (TTPF, requires API access; raw results already included)
 ```bash
-npx tsx baselines/measure_ttpf.ts --iterations 20   # production before/after -> results/ttpf_measurement.json (表8)
+npx tsx baselines/measure_ttpf.ts --iterations 20   # production before/after -> results/ttpf_measurement.json (表9)
 npx tsx baselines/measure_ttpf_ref.ts               # mode1a/1b 参考模式 -> results/ttft/*_ref_*_raw.json
 npx tsx baselines/measure_ttpf_extra.ts             # mode2/2b/2c/3 逐块模式 -> results/ttft/*_extra_*_raw.json
-python3 baselines/aggregate_ttpf_full.py            # 聚合 ref+extra -> results/ttpf_full_v2.json (论文表9 权威数据源)
+python3 baselines/aggregate_ttpf_full.py            # 聚合 ref+extra -> results/ttpf_full_v2.json (论文表10 权威数据源)
 python3 baselines/run_ttft_experiment.py            # 早期四模式会话 -> results/ttft_dual_contrast.json (补充对照)
 ```
 
@@ -190,8 +197,8 @@ regusift-paper/
    via `tsx`; all 7 methods run in the same V8 engine, eliminating cross-language bias.
 3. **Node.js native bridge**: scripts import `src/partial-json-parser.ts` directly — no re-implementation.
 4. **Cross-model data**: DeepSeek and gemma4 samples are included under `data/deepseek/` and
-   `data/gemma4/`; re-collection requires API/ollama access (see Table 7 section), but the paper's
-   Table 7 numbers are already contained in `results/deepseek_eval.json` / `results/gemma4_eval.json`.
+   `data/gemma4/`; re-collection requires API/ollama access (see Table 8 section), but the paper's
+   Table 8 numbers are already contained in `results/deepseek_eval.json` / `results/gemma4_eval.json`.
 5. **统计口径**: 表3 的"单次延迟/ms"列来自 `results/baseline_compare_summary.v2.json` 的 `latency_ms`
    均值 (如 Ours 0.0489≈0.049); 恢复率/字段 F1/值精确率来自 `*.baseline.v2.json` 与
    `ours_fixed.v2.json` (其中 `ours_fixed.v2.json` 与 `ours_res.json` 均为 V2 修复版结果, 内容相同)。
@@ -201,11 +208,11 @@ regusift-paper/
 7. **表5 "恢复成功"口径**: 指成功提取到目标数组的**非空前缀** (实测恢复长度 5–7 / 完整长度 10–15,
    约半长), 并非全长重建 (论文表5注已披露)。
 8. **TTPF 命名**: 本仓库 `measure_ttpf*.ts` 与 `aggregate_ttpf_full.py` 实测/统计的均为 TTPF
-   (Time To First **Parsable** Field, 首个 `ingredients[0].name` 可解析时刻), 与论文表8/9 一致;
+   (Time To First **Parsable** Field, 首个 `ingredients[0].name` 可解析时刻), 与论文表9/10 一致;
    raw 数据内的 `ttft_ms` 字段名仅为历史命名, 含义同为 TTPF。
 9. **figures**: 论文图 1/2 对应 `figures/fig1_architecture.*` 与 `figures/fig3_f1_curve.pdf`;
    运行 `python3 generate_figures.py` 可重新生成图 2 (fig3_f1_curve) 等全部图表。
-10. **表8 脚本与 API 通道**: `baselines/measure_ttpf.ts` 即论文表 8 的 before/after 生产实测脚本
+10. **表9 脚本与 API 通道**: `baselines/measure_ttpf.ts` 即论文表 9 的 before/after 生产实测脚本
    (N=100, 输出 `results/ttpf_measurement.json`); 该文件 `base_url` 为第三方兼容中转通道
    `dmxapi.cn` (gpt-5.4-mini), 论文已如实标注。after 模式的 `final_ingredient_count` 由
    `parsePartialJson` 真实恢复管线 (stripMarkdownJsonFence + 三层恢复) 统计, 与生产行为一致;
