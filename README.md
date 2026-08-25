@@ -68,12 +68,12 @@ npx tsx baselines/evaluate_baselines.ts < data/samples.json > results/evaluation
 | §4.6 | Table 5 (Layer 3 stress) | [`baselines/stress_test_layer3_v2.ts`](baselines/stress_test_layer3_v2.ts) + `results/stress_test_layer3_v2.json` | Layer 3 stress test (250 样本, 200/250 兜底) |
 | §4.6 | Table 6 (temporal) | [`baselines/run_temporal_metrics.py`](baselines/run_temporal_metrics.py) + `baselines/temporal_metrics.ts` + `baselines/summarize_temporal.py` + `results/temporal_metrics_{gpt,deepseek,gemma4}.json` + `results/temporal_summary.json` | tc / stale metrics across GPT/DeepSeek/gemma4 (5 种语义) |
 | §4.7 | Table 7 (cross-model) | `data/deepseek/`, `data/gemma4/` + [`baselines/run_deepseek_eval.py`](baselines/run_deepseek_eval.py), [`baselines/run_gemma4_eval.py`](baselines/run_gemma4_eval.py) + `results/deepseek_eval.json`, `results/gemma4_eval.json` | Cross-model generalization |
-| §4.8 | Table 8 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (20 runs) |
-| §4.8 | Table 9 (TTPF attribution) | [`baselines/aggregate_ttpf_full.py`](baselines/aggregate_ttpf_full.py) + `results/ttft/*_raw.json` + `results/ttpf_full_v2.json` | 表9 权威数据源: ttf_full_v2.json (聚合 ref+extra 会话, Student t CI + 配对检验); 另 `run_ttft_experiment.py` 产出早期四模式会话的 `ttft_dual_contrast.json` (支撑论文 1.61×) |
+| §4.8 | Table 8 (TTPF prod.) | [`baselines/measure_ttpf.ts`](baselines/measure_ttpf.ts) + `results/ttpf_measurement.json` | Production TTPF before/after (100 runs each, 配对 t p=1.4e-18) |
+| §4.8 | Table 9 (TTPF attribution) | [`baselines/measure_ttpf_gpt.ts`](baselines/measure_ttpf_gpt.ts) + `results/ttft/gpt_5_4_mini_attribution_*_raw.json` | 表9 数据源: GPT-5.4-mini 经中转 4 模式各 40 次归因 (模式3 vs 模式1b 逐块解析 1.85×, 配对 t p=3.3e-8); 早期 DeepSeek 归因会话仍存于 `results/ttft/` 与 `results/ttpf_full_v2.json` 供对照 |
 
 All `results/*.json` files are the **exact artifacts that produced the paper's tables** — every number
 in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 9's
-7260.1 ms / CI, Table 6's 0.113 s / 23.8% stale).
+模式3 4679 ms / 1.85×, Table 6's 0.113 s / 23.8% stale).
 
 ---
 
