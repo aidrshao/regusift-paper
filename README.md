@@ -76,6 +76,28 @@ All `results/*.json` files are the **exact artifacts that produced the paper's t
 in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 10's
 模式3 1528 ms / 12.1×, Table 6's 0.113 s / 23.8% stale).
 
+### B4 JsonCompleter：忠实移植（Kuzmenko 原算法）对应表
+
+论文表3 的 B4 是**忠实移植** [aha-app/json_completer](https://github.com/aha-app/json_completer)（Kuzmenko,
+"Extract JSON from streaming responses"）原算法至 TypeScript，实现于
+`baselines/evaluate_baselines.ts` 的 `jsonCompleterParse()`。与原库逐条对应如下，供审稿人独立核验：
+
+| 原库（Ruby）行为 | 本仓库移植（TS） | 说明 |
+|---|---|---|
+| 剥离 \`\`\`json 围栏 | `input.replace(/^\`\`\`(?:json)?.../, '')` | 首行预处理 |
+| 先尝试完整解析 | `try { JSON.parse(input) }` | 成功即返回 |
+| `scanners.rb`：字符串/数字/关键字 token 扫描（含转义、`\uXXXX`） | `scanStr()` + 数字/关键字识别 + `KEYWORD`（t/f/n）映射 | 词法层 |
+| 结构字符集合 `[]{},:` | `STRUCTURE` 常量 | 判断 token 类型 |
+| 栈式结构补全（按 LIFO 闭合未闭合对象/数组/字符串） | 栈跟踪 + 尾补右括号/闭引号 | 结构层 |
+| 自动补逗号（数组/对象元素间）、对象键后补冒号 | `commaBefore()` / `colonIf()` | 语法补齐 |
+| **不完整键名补造 `:null`**（`"foo` → `"foo": null`） | 不完整键名分支追加 `": null"` | 幽灵键来源 |
+| 缺失值补 `null`（`"a":` → `"a": null`） | 缺值分支补 `null` | 幽灵键来源 |
+| 关键字补全（`t`/`f`/`n` → `true`/`false`/`null`） | `KEYWORD` 映射 | 关键字层 |
+
+**验证**：移植版对原文章全部 9 个示例逐一复现（9/9），且与原库行为一致地补造 `:null`（即幽灵键来源，
+论文表3 幽灵键列实测 0.0293/元素）；这是 95.41% 高恢复率的**忠实来源**，而非削弱基线（历史弱复现
+68.04% 已于 commit `5a1a45b` 修正并归档说明）。
+
 ---
 
 ## 🔧 Reproducing Each Table
