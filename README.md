@@ -76,6 +76,11 @@ All `results/*.json` files are the **exact artifacts that produced the paper's t
 in the paper is directly verifiable from them (e.g., Table 3's 95.57%/0.6300, Table 10's
 模式3 1528 ms / 12.1×, Table 6's 0.113 s / 23.8% stale).
 
+**数据通道与可复现性**：Kimi 归因（表10）与 DeepSeek 跨模型（表8）样本经**官方 API 直连**采集
+（`api.deepseek.com` / Moonshot 官方）；GPT 主数据经第三方中转 `dmxapi.cn` 采集，但其完整响应、
+截断样本与流式时间线已**逐样本归档**（`data/` 与 `results/`），可离线复核全部统计口径，不依赖中转
+通道在线。各模型采集/归因脚本与通道见下方各表对应项。
+
 ### B4 JsonCompleter：忠实移植（Kuzmenko 原算法）对应表
 
 论文表3 的 B4 是**忠实移植** [aha-app/json_completer](https://github.com/aha-app/json_completer)（Kuzmenko,

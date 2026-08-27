@@ -36,11 +36,11 @@ def save_sample(sample_id, full_text, timeline, schema_id):
         array_key = None
         for k in ["ingredients","products","diagnoses","medications","labResults","revenue","expenses"]:
             if k in gt and isinstance(gt[k], list): array_key=k; break
-        return {"sample_id":sample_id,"schema":schema_id,"model":"deepseek-chat","complete_path":str(complete),
+        return {"sample_id":sample_id,"schema":schema_id,"model":"deepseek-v4-flash","complete_path":str(complete),
                 "timeline_path":str(tl),"total_length":len(full_text),"array_key":array_key,
                 "array_length":len(gt.get(array_key,[])) if array_key else 0,"truncation_files":trunc_files}
     except json.JSONDecodeError:
-        return {"sample_id":sample_id,"schema":schema_id,"model":"deepseek-chat","complete_path":str(complete),
+        return {"sample_id":sample_id,"schema":schema_id,"model":"deepseek-v4-flash","complete_path":str(complete),
                 "timeline_path":str(tl),"total_length":len(full_text),"array_key":None,"array_length":0,"truncation_files":trunc_files}
 
 async def call_one(sem, prompt):
